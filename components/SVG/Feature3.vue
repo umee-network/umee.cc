@@ -1,0 +1,109 @@
+<template>
+  <svg
+    v-waypoint="{
+      active: true,
+      callback: onWaypoint,
+      options: intersectionOptions,
+    }"
+    width="65"
+    height="61"
+    viewBox="0 0 65 61"
+    fill="none"
+    class="animate"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g class="circles">
+      <circle
+        class="circle1"
+        cx="18.4848"
+        cy="42.5152"
+        r="18.4848"
+        fill="url(#paint0_linear_5084_89)"
+      />
+      <circle
+        class="circle2"
+        opacity="0.9"
+        cx="32.3481"
+        cy="18.4848"
+        r="18.4848"
+        fill="#92A9D6"
+      />
+      <circle
+        cx="46.2124"
+        cy="42.5152"
+        r="17.9848"
+        stroke="white"
+        class="circle3"
+      />
+    </g>
+    <path
+      d="M30.1189 14.0287L31.6054 11.454L32.0384 11.704L32.3487 11.1667L32.6589 11.704L33.0919 11.454L34.5784 14.0287L34.1454 14.2787L35.6319 16.8533L36.0649 16.6033L37.5514 19.178L37.1184 19.428L38.6049 22.0027L39.0379 21.7527L40.5244 24.3274L40.0913 24.5774L41.5778 27.152L42.0108 26.902L43.4973 29.4767L43.0643 29.7267L44.5508 32.3014L44.9838 32.0514L46.4703 34.6261L46.0373 34.8761L47.5238 37.4507L47.9568 37.2007L49.4433 39.7754L49.0103 40.0254L50.4968 42.6001L50.9298 42.3501L52.4163 44.9248L51.9833 45.1748L52.2935 45.7121H51.673V46.2121H48.7V45.7121H45.7271V46.2121H42.7541V45.7121H39.7811V46.2121H36.8081V45.7121H33.8352V46.2121H30.8622V45.7121H27.8892V46.2121H24.9162V45.7121H21.9432V46.2121H18.9703V45.7121H15.9973V46.2121H13.0243V45.7121H12.4038L12.7141 45.1748L12.2811 44.9248L13.7675 42.3501L14.2006 42.6001L15.687 40.0254L15.254 39.7754L16.7405 37.2007L17.1735 37.4507L18.66 34.8761L18.227 34.6261L19.7135 32.0514L20.1465 32.3014L21.633 29.7267L21.2 29.4767L22.6865 26.902L23.1195 27.152L24.606 24.5774L24.173 24.3274L25.6595 21.7527L26.0925 22.0027L27.579 19.428L27.146 19.178L28.6324 16.6033L29.0655 16.8533L30.5519 14.2787L30.1189 14.0287Z"
+      stroke="white"
+      stroke-dasharray="3 3"
+    />
+    <defs>
+      <linearGradient
+        id="paint0_linear_5084_89"
+        x1="0"
+        y1="42.4003"
+        x2="36.9697"
+        y2="42.4003"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#FDA9FF" />
+        <stop offset="0.272599" stop-color="#C9B8FF">
+          <animate
+            attributeName="offset"
+            dur="5s"
+            values="0;1;0"
+            repeatCount="indefinite"
+          />
+        </stop>
+        <stop offset="1" stop-color="#4DFFE5" />
+      </linearGradient>
+    </defs>
+  </svg>
+</template>
+
+<script>
+export default {
+  data: () => ({
+    intersectionOptions: {
+      root: null,
+      rootMargin: '0px 0px 0px 0px',
+      threshold: [0, 1],
+    },
+  }),
+  methods: {
+    onWaypoint({ going }) {
+      if (going === this.$waypointMap.GOING_IN) {
+        if (!this.entered) {
+          setTimeout(() => {
+            this.svgAnimation()
+          }, 1000)
+          this.entered = true
+        }
+      }
+    },
+    svgAnimation() {
+      const gsap = this.$gsap
+      const circle1 = this.$el.querySelector('.circle1')
+      const circle2 = this.$el.querySelector('.circle2')
+      const circle3 = this.$el.querySelector('.circle3')
+      const timeline = gsap.timeline({ repeat: -1, repeatDelay: 1 })
+
+      timeline.add(gsap.to(circle1, { x: '14px', y: '-24px', duration: 1 }), 0)
+      timeline.add(gsap.to(circle2, { x: '14px', y: '24px', duration: 1 }), 0)
+      timeline.add(gsap.to(circle3, { x: '-28px', y: '0', duration: 1 }), 0)
+
+      timeline.add(gsap.to(circle1, { x: '28px', y: '0', duration: 1 }), 1)
+      timeline.add(gsap.to(circle2, { x: '-14px', y: '24px', duration: 1 }), 1)
+      timeline.add(gsap.to(circle3, { x: '-14px', y: '-24px', duration: 1 }), 1)
+
+      timeline.add(gsap.to(circle1, { x: '0', y: '0', duration: 1 }), 2)
+      timeline.add(gsap.to(circle2, { x: '0', y: '0', duration: 1 }), 2)
+      timeline.add(gsap.to(circle3, { x: '0', y: '0', duration: 1 }), 2)
+    },
+  },
+}
+</script>

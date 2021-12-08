@@ -1,0 +1,41 @@
+local_backend: true
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+  publish_mode: editorial_workflow
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - label: 'Pages'
+    name: 'pages'
+    files:
+      - label: 'Home Page'
+        name: 'home'
+        file: 'content/pages/home.yml'
+        fields:
+          - { label: Intro text, name: intro_text, widget: string }
+          - { label: Intro text CTA, name: intro_text_cta, widget: string }
+          - { label: About pre title, name: about_pre_title, widget: string }
+          - { label: About title, name: about_title, widget: string }
+          - {
+              label: About block 1 text,
+              name: about_block_1_text,
+              widget: string
+            }
+          - {
+              label: About block 2 text,
+              name: about_block_2_text,
+              widget: string
+            }
+          - {
+              label: About block 3 text,
+              name: about_block_3_text,
+              widget: string
+            }
+      - label: 'FAQs'
+        name: 'faq'
+        file: 'content/pages/faq.md'
+        fields:
+          - { label: FAQs, name: faqs, widget: markdown }

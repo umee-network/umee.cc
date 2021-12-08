@@ -1,0 +1,49 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+    font-family: 'Moret';
+    font-weight: 600;
+    font-display: swap;
+    src:
+        url('~assets/fonts/MoretSemibold/font.woff2') format('woff2'),
+        url('~assets/fonts/MoretSemibold/font.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Moret';
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+    src:
+        url('~assets/fonts/MoretSemiboldOblique/font.woff2') format('woff2'),
+        url('~assets/fonts/MoretSemiboldOblique/font.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SuisseInternational';
+    font-weight: 300;
+    font-display: swap;
+    src:
+        url('~assets/fonts/SuisseInternationalLightXL/font.woff2') format('woff2'),
+        url('~assets/fonts/SuisseInternationalLightXL/font.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SuisseInternational';
+    font-weight: 400;
+    font-display: swap;
+    src:
+        url('~assets/fonts/SuisseInternationalLightXL/font.woff2') format('woff2'),
+        url('~assets/fonts/SuisseInternationalLightXL/font.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SuisseInternational';
+    font-weight: 600;
+    font-display: swap;
+    src:
+        url('~assets/fonts/SuisseInternationalSemiboldXL/font.woff2') format('woff2'),
+        url('~assets/fonts/SuisseInternationalSemiboldXL/font.woff') format('woff');
+}

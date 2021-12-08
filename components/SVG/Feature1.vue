@@ -1,0 +1,94 @@
+<template>
+  <svg
+    v-waypoint="{
+      active: true,
+      callback: onWaypoint,
+      options: intersectionOptions,
+    }"
+    width="76"
+    height="52"
+    viewBox="0 0 76 52"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    class="animate"
+  >
+    <path
+      d="M34.8889 26.4409C36.6071 25.853 39.3929 25.853 41.1111 26.4409L74.7113 37.9357C76.4296 38.5235 76.4296 39.4765 74.7113 40.0643L41.1111 51.5591C39.3929 52.147 36.6071 52.147 34.8889 51.5591L1.28867 40.0643C-0.429557 39.4765 -0.429557 38.5235 1.28867 37.9357L34.8889 26.4409Z"
+      fill="url(#paint0_linear_5084_110)"
+      class="layer1"
+    />
+    <path
+      opacity="0.9"
+      d="M34.8889 13.4409C36.6071 12.853 39.3929 12.853 41.1111 13.4409L74.7113 24.9357C76.4296 25.5235 76.4296 26.4765 74.7113 27.0643L41.1111 38.5591C39.3929 39.147 36.6071 39.147 34.8889 38.5591L1.28867 27.0643C-0.429557 26.4765 -0.429557 25.5235 1.28867 24.9357L34.8889 13.4409Z"
+      fill="#92A9D6"
+      class="layer2"
+    />
+    <path
+      opacity="0.8"
+      d="M35.0507 0.913943C35.8419 0.643278 36.9094 0.5 38 0.5C39.0906 0.5 40.1581 0.643278 40.9493 0.913944L74.5495 12.4087C74.9465 12.5446 75.2054 12.6892 75.3554 12.8158C75.4288 12.8777 75.4664 12.9271 75.4843 12.9588C75.493 12.9741 75.4967 12.9847 75.4984 12.9905C75.4999 12.996 75.5 12.9989 75.5 13C75.5 13.0011 75.4999 13.004 75.4984 13.0095C75.4967 13.0153 75.493 13.0259 75.4843 13.0412C75.4664 13.0729 75.4288 13.1223 75.3554 13.1842C75.2054 13.3108 74.9465 13.4554 74.5495 13.5913L40.9493 25.0861C40.1581 25.3567 39.0906 25.5 38 25.5C36.9094 25.5 35.8419 25.3567 35.0507 25.0861L1.45052 13.5913C1.05346 13.4554 0.794585 13.3108 0.644576 13.1842C0.571179 13.1223 0.533648 13.0729 0.515688 13.0412C0.507009 13.0259 0.503265 13.0153 0.501641 13.0095C0.500086 13.004 0.5 13.0011 0.5 13C0.5 12.9989 0.500086 12.996 0.501641 12.9905C0.503265 12.9847 0.507009 12.9741 0.515688 12.9588C0.533648 12.9271 0.571179 12.8777 0.644576 12.8158C0.794585 12.6892 1.05346 12.5446 1.45052 12.4087L35.0507 0.913943Z"
+      stroke="white"
+      class="layer3"
+    />
+    <defs>
+      <linearGradient
+        id="paint0_linear_5084_110"
+        x1="0"
+        y1="38.9193"
+        x2="76"
+        y2="38.9193"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#FDA9FF" />
+        <stop offset="0.272599" stop-color="#C9B8FF"><animate attributeName="offset" dur="5s" values="0;1;0"
+          repeatCount="indefinite" /></stop>
+          </stop>
+        <stop offset="1" stop-color="#4DFFE5" />
+      </linearGradient>
+    </defs>
+  </svg>
+</template>
+
+<script>
+export default {
+  data: () => ({
+    intersectionOptions: {
+      root: null,
+      rootMargin: '0px 0px 0px 0px',
+      threshold: [0, 1],
+    },
+    entered: false,
+  }),
+  methods: {
+    onWaypoint({ going }) {
+      if (going === this.$waypointMap.GOING_IN) {
+        if (!this.entered) {
+          setTimeout(() => {
+            this.svgAnimation()
+          }, 1000)
+          this.entered = true
+        }
+      }
+    },
+    svgAnimation() {
+      const gsap = this.$gsap
+      const layer1 = this.$el.querySelector('.layer1')
+      const layer2 = this.$el.querySelector('.layer2')
+      const layer3 = this.$el.querySelector('.layer3')
+
+      const timeline = gsap.timeline({ repeat: -1, repeatDelay: 1 })
+      timeline.add(gsap.fromTo(layer1, { scale: 0 }, { scale: 1, duration: 1 }))
+      timeline.add(gsap.fromTo(layer2, { scale: 0 }, { scale: 1, duration: 1 }))
+      timeline.add(gsap.fromTo(layer3, { scale: 0 }, { scale: 1, duration: 1 }))
+      timeline.add(gsap.to(layer1, { scale: 0, duration: 1 }))
+      timeline.add(gsap.to(layer2, { scale: 0, duration: 1 }))
+      timeline.add(gsap.to(layer3, { scale: 0, duration: 1 }))
+    },
+  },
+}
+</script>
+
+<style scoped>
+svg path {
+  transform-origin: 50% 50%;
+}
+</style>
