@@ -103,6 +103,32 @@ export default {
   @apply text-midGreyOnNavy;
 }
 
+.nuxt-content a{
+  text-decoration: underline;
+}
+
+.nuxt-content a:hover{
+  text-decoration: none;
+}
+
+.nuxt-content ul,
+.nuxt-content ol{
+  @apply mt-4;
+  @apply pl-4;
+}
+
+.nuxt-content ul li{
+  list-style-type: disc;
+}
+
+.nuxt-content ol li{
+  list-style-type: decimal;
+}
+
+.nuxt-content details li{
+  @apply text-midGreyOnNavy;
+}
+
 .nuxt-content details p:last-child{
   @apply mb-6;
 }
