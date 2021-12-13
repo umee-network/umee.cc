@@ -97,7 +97,7 @@
       <div class="container md:text-right">
         <p>
           &copy; Umee {{ currentDate.getFullYear() }}
-          <NuxtLink class="ml-5 text-white" to="/privacy">Privacy</NuxtLink>
+          <!-- <NuxtLink class="ml-5 text-white" to="/privacy">Privacy</NuxtLink> -->
         </p>
       </div>
     </div>
