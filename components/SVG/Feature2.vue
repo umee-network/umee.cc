@@ -41,7 +41,7 @@
         x2="23"
         y2="21.5"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="rotate(180deg)"
+        gradientTransform="rotate(180)"
       >
         <stop stop-color="#FDA9FF" />
         <stop offset="0.272599" stop-color="#C9B8FF">

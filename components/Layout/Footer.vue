@@ -8,12 +8,7 @@
             Join us in building the future of cross chain DeFi!
           </p>
           <div
-            class="
-              flex flex-row
-              gap-2
-              md:grid md:gap-y-3 md:grid-cols-3
-              lg:grid-cols-6
-            "
+            class="flex flex-row gap-1.5"
           >
             <SVGSocialIcon
               name="medium"
@@ -47,30 +42,30 @@
               <UIBlockTitle>Protocol</UIBlockTitle>
               <nav>
                 <ul class="mt-3 lg:mt-6">
-                  <UIFooterLink to="">Apps</UIFooterLink>
                   <UIFooterLink to="">Markets</UIFooterLink>
+                  <UIFooterLink to="https://github.com/umee-network">Github</UIFooterLink>
                 </ul>
               </nav>
             </div>
             <div class="col-span-6 mb-6 md:mb-0 md:col-span-4">
-              <UIBlockTitle>Developers</UIBlockTitle>
+              <UIBlockTitle>Documentation</UIBlockTitle>
               <nav>
                 <ul class="mt-3 lg:mt-6">
                   <UIFooterLink to="https://docs.umee.cc/umee/"
                     >Docs</UIFooterLink
                   >
-                  <UIFooterLink to="https://github.com/umee-network"
-                    >Github</UIFooterLink
+                  <UIFooterLink to="/faqs"
+                    >FAQ</UIFooterLink
                   >
                 </ul>
               </nav>
             </div>
             <div class="col-span-6 mb-6 md:mb-0 md:col-span-4">
-              <UIBlockTitle>Support</UIBlockTitle>
+              <UIBlockTitle>Connect</UIBlockTitle>
               <nav>
                 <ul class="mt-3 lg:mt-6">
-                  <UIFooterLink to="/faqs">FAQ</UIFooterLink>
-                  <UIFooterLink to="">Branding Kit</UIFooterLink>
+                  <UIFooterLink to="https://drive.google.com/drive/folders/1p81diWQbTo6eXfmUPAicKKyEZJwqyAvM?usp=sharing">Media Kit</UIFooterLink>
+                  <UIFooterLink to="/jobs">Jobs</UIFooterLink>
                 </ul>
               </nav>
             </div>
@@ -96,7 +91,7 @@
     >
       <div class="container md:text-right">
         <p>
-          &copy; Umee {{ currentDate.getFullYear() }}
+          &copy; Umee {{ year }}
           <!-- <NuxtLink class="ml-5 text-white" to="/privacy">Privacy</NuxtLink> -->
         </p>
       </div>
@@ -106,10 +101,14 @@
 
 <script>
 export default {
-  computed: {
-    currentDate() {
-      return new Date()
-    },
+  data(){
+    return {
+      year: null
+    }
+ },
+  mounted() {
+    const today = new Date()
+    this.year = today.getFullYear()
   },
 }
 </script>

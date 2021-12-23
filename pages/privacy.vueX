@@ -1,0 +1,28 @@
+<template>
+  <div>
+    <div class="container pb-20">
+      <UITitle level="1" text="Privacy" />
+      <nuxt-content :document="privacyContent" />
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  async asyncData({ $content }) {
+    const privacyContent = await $content('pages/privacy').fetch()
+    return { privacyContent }
+  },
+  head: {
+    title: 'Privacy - Umee - Cross the Defi Waves',
+    meta: [
+      {
+        hid: 'og:title',
+        name: 'og:title',
+        content:
+          'Privacy - Umee - Cross the Defi Waves',
+      },
+    ],
+  },
+}
+</script>

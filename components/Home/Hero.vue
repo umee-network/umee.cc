@@ -33,7 +33,7 @@
           </p>
 
           <UIButtonGradient link="https://umee.cc" target="_blank" class="md:hidden"
-            >LaunchApp</UIButtonGradient
+            >Launch App</UIButtonGradient
           >
         </div>
         <div

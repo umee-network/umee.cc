@@ -51,15 +51,7 @@
                 <a
                   class="py-1 block hover:text-navy"
                   target="_blank"
-                  href="https://docs.umee.cc/umee/"
-                  >Docs</a
-                >
-              </li>
-              <li>
-                <a
-                  class="py-1 block hover:text-navy"
-                  target="_blank"
-                  href="https://umee.cc/umee-whitepaper/"
+                  href="/umee-whitepaper.pdf"
                   >Whitepaper</a
                 >
               </li>
@@ -121,7 +113,7 @@
                   class="py-1 block hover:text-navy"
                   target="_blank"
                   href="https://drive.google.com/drive/folders/1p81diWQbTo6eXfmUPAicKKyEZJwqyAvM?usp=sharing"
-                  >Branding Kit</a
+                  >Media Kit</a
                 >
               </li>
             </ul>

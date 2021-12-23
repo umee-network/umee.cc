@@ -115,7 +115,7 @@
                         class="block py-1"
                         href="https://drive.google.com/drive/folders/1p81diWQbTo6eXfmUPAicKKyEZJwqyAvM?usp=sharing"
                         target="_blank"
-                        >Branding Kit</a
+                        >Media Kit</a
                       >
                     </li>
                     <li>
