@@ -5,15 +5,15 @@
     class="
       social-icon
       border
-      w-[40px]
-      h-[40px]
+      w-[35px]
+      h-[35px]
       rounded-full
       flex
       items-center
       justify-center
     "
   >
-    <div v-html="src"></div>
+    <div class="scale-90" v-html="src"></div>
   </a>
 </template>
 <script>

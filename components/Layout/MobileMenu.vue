@@ -48,7 +48,6 @@
         <nav class="text-[1.625rem] md:pl-6 md:pl-6">
           <ul>
             <li><NuxtLink to="/" class="py-1 block">Markets</NuxtLink></li>
-            <li><NuxtLink to="/" class="py-1 block">Governance</NuxtLink></li>
             <li>
               <a
                 class="cursor-pointer py-1 block flex justify-between"
