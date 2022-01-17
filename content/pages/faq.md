@@ -8,7 +8,7 @@ Umee is a cross chain DeFi hub that interconnects between blockchains.
 
 As a base layer blockchain, applications and money lego primitives can be built on top of Umee to access cross chain leverage and liquidity. The Umee Blockchain facilitates interoperability between the Cosmos ecosystem, Ethereum network, side chain architectures, layer two scaling solutions, and alternative base layer protocols. As a Cosmos SDK blockchain, Umee is interoperable with blockchains including Terra, Crypto.com, Binance Chain, Osmosis, Secret Network, and 30+ other chains, plus Ethereum, from Day 1.
 
-The native Umee token is a Proof of Stake asset that can exist as a Cosmos SDK token and an ERC20 token on Ethereum.
+The native UMEE token is a Proof of Stake asset that can exist as a Cosmos SDK token and an ERC20 token on Ethereum.
 
 </details>
 
@@ -76,7 +76,7 @@ _Disclaimer - timeline is subject to change_
 <details>
 <summary>Where can I purchase the UMEE token?</summary>
 
-The Umee token is currently UNAVAILABLE for purchase. The Coinlist public sale has ended, and the TGE is expected to happen on or around February 15th, 2022. More information about how and where to buy UMEE will be provided soon.
+The UMEE token is currently UNAVAILABLE for purchase. The Coinlist public sale has ended, and the TGE is expected to happen on or around February 15th, 2022. More information about how and where to buy UMEE will be provided soon.
 
 **Any person or platform who claims to sell UMEE at this time is a scammer**
 
