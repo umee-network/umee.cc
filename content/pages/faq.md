@@ -78,7 +78,7 @@ _Disclaimer - timeline is subject to change_
 
 The Umee token is currently UNAVAILABLE for purchase. The Coinlist public sale has ended, and the TGE is expected to happen on or around February 15th, 2022. More information about how and where to buy UMEE will be provided soon.
 
-**Any person or platform who claims to sell $UMEE at this time is a scammer**
+**Any person or platform who claims to sell UMEE at this time is a scammer**
 
 </details>
 
