@@ -120,7 +120,7 @@ The UMEE token will exist in both ERC20 and Cosmos SDK format. If users want to 
 </details>
 
 <details>
-<summary>I have another question that’s not answered here</summary>
+<summary>I have another question that’s not answered here.</summary>
 
 Take a look at the [official documentation](https://docs.umee.cc/umee/) - if you can’t find the answer to your question here, share it with us in the [#ask-community channel on Discord](https://discord.gg/e8nCFrJtkw) or in the Umee [Telegram](https://t.me/umeecrosschain).
 
