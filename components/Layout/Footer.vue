@@ -36,13 +36,7 @@
         </div>
         <div class="col-span-12 md:col-span-6 lg:col-span-7">
           <div
-            class="
-              flex
-              gap-y-8 gap-x-16
-              lg:gap-x-20
-              flex-wrap
-              lg:justify-center
-            "
+            class="flex gap-y-8 gap-x-16 lg:gap-x-20 flex-wrap lg:justify-center"
           >
             <div>
               <UIBlockTitle>Protocol</UIBlockTitle>
@@ -92,16 +86,12 @@
     </div>
 
     <div
-      class="
-        py-4
-        text-midGreyOnNavy
-        border-t border-solid border-darkGreyOnNavy
-      "
+      class="py-4 text-midGreyOnNavy border-t border-solid border-darkGreyOnNavy"
     >
       <div class="container md:text-right">
         <p>
           &copy; Umee {{ year }}
-          <!-- <NuxtLink class="ml-5 text-white" to="/privacy">Privacy</NuxtLink> -->
+          <!-- <NuxtLink class="ml-5 text-midGreyOnNavy" to="/privacy">Privacy</NuxtLink> -->
         </p>
       </div>
     </div>

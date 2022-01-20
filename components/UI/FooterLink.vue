@@ -4,10 +4,12 @@
       v-if="to.startsWith('http')"
       target="_blank"
       :href="to"
-      class="hover:underline"
+      class="hover:underline text-midGreyOnNavy"
       ><slot></slot
     ></a>
-    <NuxtLink v-else :to="to" class="hover:underline"><slot></slot></NuxtLink>
+    <NuxtLink v-else :to="to" class="hover:underline text-midGreyOnNavy"
+      ><slot></slot
+    ></NuxtLink>
   </li>
 </template>
 
@@ -21,5 +23,3 @@ export default {
   },
 }
 </script>
-
-
