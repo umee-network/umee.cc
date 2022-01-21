@@ -3,63 +3,50 @@
 @import 'tailwindcss/utilities';
 
 @font-face {
-    font-family: 'Moret';
-    font-weight: 600;
-    font-display: swap;
-    src:
-        url('~assets/fonts/MoretSemibold/font.woff2') format('woff2'),
-        url('~assets/fonts/MoretSemibold/font.woff') format('woff');
+  font-family: 'Moret';
+  font-weight: 600;
+  font-display: swap;
+  src: url('~assets/fonts/MoretSemibold/font.woff2') format('woff2'),
+    url('~assets/fonts/MoretSemibold/font.woff') format('woff');
 }
 
 @font-face {
-    font-family: 'Moret';
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
-    src:
-        url('~assets/fonts/MoretSemiboldOblique/font.woff2') format('woff2'),
-        url('~assets/fonts/MoretSemiboldOblique/font.woff') format('woff');
+  font-family: 'Moret';
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+  src: url('~assets/fonts/MoretSemiboldOblique/font.woff2') format('woff2'),
+    url('~assets/fonts/MoretSemiboldOblique/font.woff') format('woff');
 }
 
 @font-face {
-    font-family: 'SuisseInternational';
-    font-weight: 300;
-    font-display: swap;
-    src:
-        url('~assets/fonts/SuisseInternationalLightXL/font.woff2') format('woff2'),
-        url('~assets/fonts/SuisseInternationalLightXL/font.woff') format('woff');
+  font-family: 'SuisseInternational';
+  font-weight: 300;
+  font-display: swap;
+  src: url('~assets/fonts/SuisseInternationalLightXL/font.woff2')
+      format('woff2'),
+    url('~assets/fonts/SuisseInternationalLightXL/font.woff') format('woff');
 }
 
 @font-face {
-    font-family: 'SuisseInternational';
-    font-weight: 400;
-    font-display: swap;
-    src:
-        url('~assets/fonts/SuisseInternationalLightXL/font.woff2') format('woff2'),
-        url('~assets/fonts/SuisseInternationalLightXL/font.woff') format('woff');
+  font-family: 'SuisseInternational';
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/SuisseInternationalLightXL/font.woff2')
+      format('woff2'),
+    url('~assets/fonts/SuisseInternationalLightXL/font.woff') format('woff');
 }
 
 @font-face {
-    font-family: 'SuisseInternational';
-    font-weight: 600;
-    font-display: swap;
-    src:
-        url('~assets/fonts/SuisseInternationalSemiboldXL/font.woff2') format('woff2'),
-        url('~assets/fonts/SuisseInternationalSemiboldXL/font.woff') format('woff');
+  font-family: 'SuisseInternational';
+  font-weight: 600;
+  font-display: swap;
+  src: url('~assets/fonts/SuisseInternationalSemiboldXL/font.woff2')
+      format('woff2'),
+    url('~assets/fonts/SuisseInternationalSemiboldXL/font.woff') format('woff');
 }
 
-.nuxt-content h2{
-  @apply text-[1.75rem];
-  @apply font-serif;
-  @apply mb-5;
-  @apply mt-12;
-}
-
-.nuxt-content h2:first-child{
-  @apply mt-0;
-}
-
-.nuxt-content summary{
+.faqs summary {
   background-position: 100% 50%;
   background-repeat: no-repeat;
   background-image: url(~/assets/images/plus.svg);
@@ -69,52 +56,29 @@
   @apply cursor-pointer;
 }
 
-.nuxt-content details{
+.faqs details {
   @apply mb-3;
   @apply border-b;
   @apply border-midGrey;
   @apply pb-2;
 }
 
-.nuxt-content p{
-  @apply pt-4;
+.faqs details[open] summary {
+  background-image: url(~/assets/images/minus.svg);
 }
 
-.nuxt-content details p{
-  @apply pt-4;
-  @apply text-midGreyOnNavy;
-}
-
-.nuxt-content a{
-  text-decoration: underline;
-}
-
-.nuxt-content a:hover{
-  text-decoration: none;
-}
-
-.nuxt-content ul,
-.nuxt-content ol{
-  @apply mt-4;
-  @apply pl-4;
-}
-
-.nuxt-content ul li{
-  list-style-type: disc;
-}
-
-.nuxt-content ol li{
-  list-style-type: decimal;
-}
-
-.nuxt-content details li{
-  @apply text-midGreyOnNavy;
-}
-
-.nuxt-content details p:last-child{
+.faqs details p:last-child {
   @apply mb-6;
 }
 
-.nuxt-content details[open] summary{
-  background-image: url(~/assets/images/minus.svg);
+.faqs details a,
+.faqs details li,
+.faqs details p {
+  @apply text-midGreyOnNavy;
+}
+
+.faqs h2 {
+  @apply text-[1.75rem];
+  @apply mb-5;
+  @apply mt-12;
 }

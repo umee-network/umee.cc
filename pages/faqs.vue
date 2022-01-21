@@ -7,14 +7,7 @@
             <SVGFaqs></SVGFaqs>
           </div>
           <div
-            class="
-              adora
-              w-[30vw]
-              absolute
-              bottom-[-112px]
-              left-[10%]
-              md:w-[120px]
-            "
+            class="adora w-[30vw] absolute bottom-[-112px] left-[10%] md:w-[120px]"
           >
             <img
               src="~/assets/images/adora-faq.svg"
@@ -32,7 +25,7 @@
         </div>
       </div>
       <div class="md:col-span-7">
-        <nuxt-content :document="faqContent" />
+        <nuxt-content class="prose faqs" :document="faqContent" />
       </div>
     </div>
   </div>
@@ -50,25 +43,22 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'All your questions answered'
+        content: 'All your questions answered',
       },
       {
         hid: 'og:description',
         name: 'og:description',
-        content:
-          'All your questions answered',
+        content: 'All your questions answered',
       },
       {
         hid: 'og:title',
         name: 'og:title',
-        content:
-          'FAQs - Umee - Cross the Defi Waves',
+        content: 'FAQs - Umee - Cross the Defi Waves',
       },
     ],
   },
 }
 </script>
-
 
 <style scoped>
 .cross-defi-waves-bg {
