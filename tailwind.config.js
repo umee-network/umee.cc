@@ -44,12 +44,46 @@ module.exports = {
       xxxl: '3.625rem',
       xxxxl: '4.5rem',
     },
+
+    extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            h1: {
+              fontFamily: 'Moret',
+              lineHeight: '1',
+              marginTop: '1em',
+              marginBottom: '0.5em',
+            },
+            h2: {
+              fontFamily: 'Moret',
+              lineHeight: '1',
+              marginTop: '1em',
+              marginBottom: '0.5em',
+            },
+            h3: {
+              fontFamily: 'Moret',
+              lineHeight: '1.2',
+              marginTop: '1em',
+              marginBottom: '0.5em',
+            },
+            h4: {
+              fontFamily: 'Moret',
+              lineHeight: '1.2',
+              marginTop: '1em',
+              marginBottom: '0.5em',
+            },
+          },
+        },
+      },
+    },
   },
   variants: {
     extend: {},
   },
   plugins: [
     require('tailwindcss-debug-screens'),
+    require('@tailwindcss/typography'),
     function ({ addComponents }) {
       addComponents({
         '.container': {
