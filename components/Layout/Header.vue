@@ -1,16 +1,6 @@
 <template>
   <div
-    class="
-      container
-      mx-auto
-      h-[95px]
-      flex
-      justify-between
-      align-middle
-      py-3
-      items-center
-      mb-6
-    "
+    class="container mx-auto h-[95px] flex justify-between align-middle py-3 items-center md:mb-6"
   >
     <NuxtLink to="/">
       <SVGUmeeLogo color="#16183C" class="w-[130px] md:w-[162px]"></SVGUmeeLogo>
@@ -38,14 +28,7 @@
         <transition name="fade" appear mode="out-in">
           <div v-if="subMenu" class="absolute top-0 pt-[45px] right-0 z-10">
             <ul
-              class="
-                p-6
-                bg-white
-                rounded-3xl
-                shadow
-                text-[17px] text-midGreyOnWhite
-                min-w-[190px]
-              "
+              class="p-6 bg-white rounded-3xl shadow text-[17px] text-midGreyOnWhite min-w-[190px]"
             >
               <li>
                 <a
