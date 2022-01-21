@@ -4,7 +4,7 @@
 
 ## Development
 
-Built with [Nuxt.js](https://nuxtjs.org/), [Tailwind](https://tailwindcss.com/), [Node.js](https://nodejs.org/) and [Yarn](https://yarnpkg.com/).
+Built with [Nuxt.js](https://nuxtjs.org/), [Tailwind](https://tailwindcss.com/), [Node.js](https://nodejs.org/) and [Yarn](https://yarnpkg.com/). Deployed on [Netlify](https://netlify.com).
 
 ```bash
 # install dependencies
@@ -22,7 +22,7 @@ Create a new markdown file in `~/content/pages`. The filename you choose will be
 
 `~/content/pages/umeeverse.md => https://umee.cc/umeeverse`
 
-Before getting started, you should checkout a new branch and create a new pull request. This will allow you to use Netlify's Deploy Preview feature to preview and test the page. When the page is ready, you can close the PR, merging the changes to the main branch effectively setting the page live.
+Before getting started, you should checkout a new branch and create a pull request. This will allow you to use Netlify's Deploy Preview feature to preview and test the page. When the page is ready, you can close the PR, merging the changes to the main branch effectively setting the page live.
 
 The header of the document contains **frontmatter** content. This is used to specify a title, date and a header image for the page:
 
