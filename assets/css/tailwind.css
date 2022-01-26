@@ -46,7 +46,7 @@
     url('~assets/fonts/SuisseInternationalSemiboldXL/font.woff') format('woff');
 }
 
-.faqs summary {
+.accordion summary {
   background-position: 100% 50%;
   background-repeat: no-repeat;
   background-image: url(~/assets/images/plus.svg);
@@ -56,28 +56,28 @@
   @apply cursor-pointer;
 }
 
-.faqs details {
+.accordion details {
   @apply mb-3;
   @apply border-b;
   @apply border-midGrey;
   @apply pb-2;
 }
 
-.faqs details[open] summary {
+.accordion details[open] summary {
   background-image: url(~/assets/images/minus.svg);
 }
 
-.faqs details p:last-child {
+.accordion details p:last-child {
   @apply mb-6;
 }
 
-.faqs details a,
-.faqs details li,
-.faqs details p {
+.accordion details a,
+.accordion details li,
+.accordion details p {
   @apply text-midGreyOnNavy;
 }
 
-.faqs h2 {
+.accordion h2 {
   @apply text-[1.75rem];
   @apply mb-5;
   @apply mt-12;

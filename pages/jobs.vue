@@ -4,17 +4,17 @@
       <div class="md:col-span-5 pr-5 mb-[90px]">
         <div class="relative">
           <div class="cross-defi-waves-bg">
-            <SVGFaqs></SVGFaqs>
+            <SVGJobs></SVGJobs>
           </div>
           <div
             class="adora w-[30vw] absolute bottom-[-112px] left-[10%] md:w-[120px]"
           >
             <img
-              src="~/assets/images/adora-faq.svg"
+              src="~/assets/images/adora-jobs.svg"
               class="adora-body hidden md:block"
             />
             <img
-              src="~/assets/images/adora-faq-flipped.svg"
+              src="~/assets/images/adora-jobs-flipped.svg"
               class="adora-body md:hidden"
             />
             <img
@@ -25,7 +25,7 @@
         </div>
       </div>
       <div class="md:col-span-7">
-        <nuxt-content class="prose accordion" :document="faqContent" />
+        <nuxt-content class="prose accordion" :document="jobsContent" />
       </div>
     </div>
   </div>
@@ -34,26 +34,26 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const faqContent = await $content('pages/faq').fetch()
-    return { faqContent }
+    const jobsContent = await $content('pages/jobs').fetch()
+    return { jobsContent }
   },
   head: {
-    title: 'FAQs - Umee - Cross the Defi Waves',
+    title: 'Jobs - Umee - Cross the Defi Waves',
     meta: [
       {
         hid: 'description',
         name: 'description',
-        content: 'All your questions answered',
+        content: 'Find out about our job openings',
       },
       {
         hid: 'og:description',
         name: 'og:description',
-        content: 'All your questions answered',
+        content: 'Find out about our job openings',
       },
       {
         hid: 'og:title',
         name: 'og:title',
-        content: 'FAQs - Umee - Cross the Defi Waves',
+        content: 'Jobs - Umee - Cross the Defi Waves',
       },
     ],
   },

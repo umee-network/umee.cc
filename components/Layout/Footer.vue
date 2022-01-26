@@ -64,7 +64,7 @@
               <UIBlockTitle>Connect</UIBlockTitle>
               <nav>
                 <ul class="mt-3 lg:mt-6">
-                  <!-- <UIFooterLink to="/">Jobs</UIFooterLink> -->
+                  <UIFooterLink to="/jobs">Jobs</UIFooterLink>
                   <UIFooterLink
                     to="https://drive.google.com/drive/folders/1p81diWQbTo6eXfmUPAicKKyEZJwqyAvM?usp=sharing"
                     >Media Kit</UIFooterLink
