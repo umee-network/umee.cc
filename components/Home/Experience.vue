@@ -10,17 +10,7 @@
     <div class="md:grid md:grid-cols-12">
       <div class="md:col-span-4">
         <h2
-          class="
-            max-w-[335px]
-            md:max-w-none
-            font-serif
-            mb-8
-            text-xxl
-            lg:text-xxxxl
-            leading-none
-            md:pr-8
-            lg:pr-0 lg:leading-[0.9]
-          "
+          class="max-w-[335px] md:max-w-none font-serif mb-8 text-xxl lg:text-xxxxl leading-none md:pr-8 lg:pr-0 lg:leading-[0.9]"
         >
           {{ page.umee_experience_title }}
         </h2>
@@ -59,8 +49,10 @@ export default {
       threshold: [0.25],
     },
   }),
-  mounted(){
-    this.importAll(require.context('../../assets/images/experience-logos/', true, /\.png$/))
+  mounted() {
+    this.importAll(
+      require.context('../../assets/images/experience-logos/', true, /\.png$/)
+    )
   },
   methods: {
     onWaypoint({ going }) {
@@ -69,7 +61,7 @@ export default {
       }
     },
     importAll(r) {
-      r.keys().forEach(key => (this.experienceLogos.push({ pathLong: r(key)})))
+      r.keys().forEach((key) => this.experienceLogos.push({ pathLong: r(key) }))
     },
   },
 }

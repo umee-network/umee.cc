@@ -1,16 +1,7 @@
 <template>
   <div
     id="about"
-    class="
-      bg-navy
-      text-white
-      py-20
-      md:py-20
-      lg:py-28
-      min-h-[calc(100vh-100px)]
-      flex
-      items-center
-    "
+    class="bg-navy text-white py-20 md:py-20 lg:py-28 min-h-[calc(100vh-100px)] flex items-center"
   >
     <div class="container" data-aos="fade-up">
       <UIBlockTitle class="mb-5">{{ page.about_pre_title }}</UIBlockTitle>
@@ -59,17 +50,7 @@
           </div>
         </div>
         <div
-          class="
-            track
-            absolute
-            top-0
-            left-0
-            bottom-0
-            w-px
-            bg-darkGreyOnNavy
-            md:bottom-auto md:top-[78px] md:left-0 md:w-full md:border
-            border-solid border-darkGreyOnNavy
-          "
+          class="track absolute top-0 left-0 bottom-0 w-px bg-darkGreyOnNavy md:bottom-auto md:top-[78px] md:left-0 md:w-full md:border border-solid border-darkGreyOnNavy"
         >
           <div></div>
           <div></div>
