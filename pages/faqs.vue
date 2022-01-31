@@ -3,29 +3,21 @@
     <div class="md:grid md:grid-cols-12 md:gap-x-5">
       <div class="md:col-span-5 pr-5 mb-[90px]">
         <div class="relative">
-          <div class="cross-defi-waves-bg">
-            <SVGFaqs></SVGFaqs>
-          </div>
+          <SVGWaveBackground>
+            <SVGFaqs />
+          </SVGWaveBackground>
           <div
-            class="adora w-[30vw] absolute bottom-[-112px] left-[10%] md:w-[120px]"
+            class="adora w-[30vw] absolute bottom-[-112px] left-[10%] md:w-[120px] flip-horizontal md:flip-none"
           >
-            <img
-              src="~/assets/images/adora-faq.svg"
-              class="adora-body hidden md:block"
-            />
-            <img
-              src="~/assets/images/adora-faq-flipped.svg"
-              class="adora-body md:hidden"
-            />
-            <img
-              src="~/assets/images/adora-hero-shadow.png"
-              class="adora-shadow"
-            />
+            <SVGAdoraHappy />
           </div>
         </div>
       </div>
       <div class="md:col-span-7">
-        <nuxt-content class="prose accordion" :document="faqContent" />
+        <nuxt-content
+          class="prose dark:text-white dark:prose-dark accordion"
+          :document="faqContent"
+        />
       </div>
     </div>
   </div>
@@ -59,73 +51,3 @@ export default {
   },
 }
 </script>
-
-<style scoped>
-.cross-defi-waves-bg {
-  background-image: linear-gradient(
-    90deg,
-    rgba(253, 169, 255, 1) 0%,
-    rgba(214, 154, 255, 1) 12%,
-    rgba(188, 167, 255, 1) 33%,
-    rgba(77, 255, 229, 1) 81%
-  );
-  background-size: 200% 100%;
-  animation: animatedBackground 5s linear infinite;
-}
-
-@keyframes animatedBackground {
-  0% {
-    background-position: 0 0;
-  }
-  50% {
-    background-position: 100% 0;
-  }
-  100% {
-    background-position: 0 0;
-  }
-}
-
-.adora-body {
-  width: 100%;
-  height: auto;
-  animation: adora-bounce;
-  animation-timing-function: ease;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-}
-.adora-shadow {
-  transform: scale(0.8);
-  opacity: 1;
-  animation: adora-shadow-bounce;
-  animation-timing-function: ease;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes adora-bounce {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-20px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
-@keyframes adora-shadow-bounce {
-  0% {
-    transform: scale(0.8);
-    opacity: 1;
-  }
-  50% {
-    transform: scale(1);
-    opacity: 0.5;
-  }
-  100% {
-    transform: scale(0.8);
-    opacity: 1;
-  }
-}
-</style>
