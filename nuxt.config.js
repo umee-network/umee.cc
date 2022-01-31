@@ -152,6 +152,7 @@ export default {
     '@nuxtjs/tailwindcss',
     '@nuxtjs/svg',
     'nuxt-gsap-module',
+    '@nuxtjs/color-mode',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
