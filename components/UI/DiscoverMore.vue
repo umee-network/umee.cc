@@ -1,9 +1,31 @@
 <template>
-  <div class="md:-mt-12">
-    <div class="flex flex-col items-center">
+  <div>
+    <div class="relative flex flex-col items-center md:top-12">
       <div class="discover-more mb-3">
-        <div class="discover-more-inner flex items-center justify-center">
-          <img class="arrow" src="~/assets/images/arrow-down.svg" alt="More" />
+        <div
+          class="discover-more-inner flex items-center justify-center bg-white dark:bg-navy rounded-full w-[49px] h-[49px]"
+        >
+          <svg
+            width="18"
+            height="19"
+            viewBox="0 0 18 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="inline-block animate-bounce"
+          >
+            <path
+              d="M8.6499 0V16.7"
+              stroke-width="1.3"
+              stroke-miterlimit="10"
+              class="stroke-navy dark:stroke-white"
+            />
+            <path
+              d="M16.76 9.10999L8.60996 17.26L0.459961 9.10999"
+              stroke-width="1.3"
+              stroke-miterlimit="10"
+              class="stroke-navy dark:stroke-white"
+            />
+          </svg>
         </div>
       </div>
       <span class="uppercase text-sm tracking-widest">Discover more</span>
@@ -20,32 +42,5 @@
   height: 53px;
   border-radius: 53px;
   background: linear-gradient(to right, #fda9ff, #c9b8ff, #4dffe5);
-}
-
-.discover-more-inner {
-  width: 49px;
-  height: 49px;
-  border-radius: 53px;
-  background-color: #fff;
-}
-
-.arrow {
-  animation-name: bounce;
-  animation-duration: 2s;
-  animation-timing-function: ease-out;
-  animation-iteration-count: infinite;
-  animation-fill-mode: forwards;
-}
-
-@keyframes bounce {
-  0% {
-    transform: translateY(-4px);
-  }
-  50% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-4px);
-  }
 }
 </style>
