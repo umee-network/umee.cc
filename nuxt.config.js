@@ -161,6 +161,11 @@ export default {
     '@nuxt/content',
     '@nuxtjs/markdownit',
   ],
+
+  colorMode: {
+    classSuffix: '',
+  },
+
   markdownit: {
     html: 'true',
     runtime: true,

@@ -3,10 +3,10 @@
     class="container mx-auto h-[95px] flex justify-between align-middle py-3 items-center md:mb-6"
   >
     <NuxtLink to="/">
-      <SVGUmeeLogo color="#16183C" class="w-[130px] md:w-[162px]"></SVGUmeeLogo>
+      <SVGUmeeLogo class="w-[130px] md:w-[162px]"></SVGUmeeLogo>
     </NuxtLink>
 
-    <div class="text-lg">
+    <div class="text-lg flex items-center">
       <a class="hidden md:inline-block" target="_blank" href="/">Markets</a>
       <a
         class="hidden md:inline-block ml-6"
@@ -107,30 +107,37 @@
       <UIButtonGradient href="/" class="ml-6 hidden md:inline-block"
         >Launch App</UIButtonGradient
       >
-    </div>
-    <a class="text-xl md:hidden cursor-pointer" @click="showMobileMenu"
-      >Menu
-      <svg
-        class="inline-block ml-2 relative -top-px"
-        width="15"
-        height="15"
-        viewBox="0 0 15 15"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
+
+      <UILightMode />
+      <button
+        class="text-xl md:hidden cursor-pointer ml-2"
+        @click="showMobileMenu"
       >
-        <path
-          d="M7.5 0V15"
-          stroke="#16183C"
-          stroke-width="1.3"
-          stroke-miterlimit="10"
-        />
-        <path
-          d="M0 7.5H15"
-          stroke="#16183C"
-          stroke-width="1.3"
-          stroke-miterlimit="10"
-        /></svg
-    ></a>
+        Menu
+        <svg
+          class="inline-block ml-2 relative -top-px"
+          width="15"
+          height="15"
+          viewBox="0 0 15 15"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="stroke-navy dark:stroke-white"
+            d="M7.5 0V15"
+            stroke="#16183C"
+            stroke-width="1.3"
+            stroke-miterlimit="10"
+          />
+          <path
+            class="stroke-navy dark:stroke-white"
+            d="M0 7.5H15"
+            stroke="#16183C"
+            stroke-width="1.3"
+            stroke-miterlimit="10"
+          />
+        </svg>
+      </button>
+    </div>
     <transition name="fade" appear mode="out-in">
       <LayoutMobileMenu
         v-show="mobileMenu"
