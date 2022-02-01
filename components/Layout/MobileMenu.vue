@@ -26,12 +26,12 @@
         </a>
       </div>
       <div class="container mt-4">
-        <nav class="text-[1.625rem] md:pl-6 md:pl-6">
+        <nav class="text-[1.625rem] md:pl-6">
           <ul>
             <li><NuxtLink to="/" class="py-1 block">Markets</NuxtLink></li>
             <li>
               <a
-                class="cursor-pointer py-1 block flex justify-between"
+                class="cursor-pointer py-1 flex justify-between"
                 data-display-toggle
                 @click="toggleSubMenu()"
               >
