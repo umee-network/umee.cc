@@ -16,9 +16,9 @@
 export default {
   methods: {
     toggleLightMode() {
-      this.$colorMode.value === 'dark'
-        ? (this.$colorMode.value = 'light')
-        : (this.$colorMode.value = 'dark')
+      this.$colorMode.preference === 'dark'
+        ? (this.$colorMode.preference = 'light')
+        : (this.$colorMode.preference = 'dark')
     },
   },
 }
