@@ -1,6 +1,7 @@
 <template>
   <div
-    class="flex items-center flip"
+    class="items-center flip"
+    v-bind:class="dark"
     data-aos
     :style="{ transitionDelay: `${transitionDelay}` }"
   >
@@ -24,14 +25,17 @@ export default {
     transitionDelay() {
       return this.index * 100 + 250 + 'ms'
     },
+    dark() {
+      return this.image.includes('-dark.')
+        ? 'hidden dark:flex'
+        : 'flex dark:hidden'
+    },
   },
   methods: {
-    imgAlt() {
-    },
-  }
+    imgAlt() {},
+  },
 }
 </script>
-
 
 <style scoped>
 .flip {

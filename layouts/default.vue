@@ -1,5 +1,5 @@
 <template>
-  <div class="text-navy">
+  <div class="text-navy dark:bg-navy dark:text-white">
     <LayoutHeader></LayoutHeader>
     <Nuxt />
     <LayoutFooter></LayoutFooter>

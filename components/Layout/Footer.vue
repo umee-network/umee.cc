@@ -1,9 +1,11 @@
 <template>
-  <div class="bg-navy text-white pt-11 md:pt-10 relative">
+  <div
+    class="bg-navy text-white pt-11 md:pt-10 relative dark:border-darkGreyOnNavy dark:border-t"
+  >
     <div class="container pb-8 lg:pb-16">
       <div class="grid grid-cols-12 gap-x-8">
         <div class="col-span-12 md:col-span-4 lg:col-span-3 mb-6 md:mb-0">
-          <SVGUmeeLogo class="mb-3 max-w-[162px]"></SVGUmeeLogo>
+          <SVGUmeeLogo color="light" class="mb-3 max-w-[162px]"></SVGUmeeLogo>
           <p class="text-midGreyOnNavy mb-5 max-w-[245px]">
             Join us in building the future of cross chain DeFi!
           </p>
