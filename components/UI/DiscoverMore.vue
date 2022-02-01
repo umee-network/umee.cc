@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="relative flex flex-col items-center md:top-12">
+    <div class="relative flex flex-col items-center md:dark:top-12">
       <div class="discover-more mb-3">
         <div
           class="discover-more-inner flex items-center justify-center bg-white dark:bg-navy rounded-full w-[49px] h-[49px]"
