@@ -21,10 +21,28 @@
         @mouseleave="subMenu = false"
       >
         More
-        <img
+
+        <svg
           class="inline-block relative ml-1 top-[-2px]"
-          src="~/assets/images/plus.svg"
-        />
+          width="15"
+          height="15"
+          viewBox="0 0 15 15"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7.5 0V15"
+            class="stroke-navy dark:stroke-white"
+            stroke-width="1.3"
+            stroke-miterlimit="10"
+          />
+          <path
+            d="M0 7.5H15"
+            class="stroke-navy dark:stroke-white"
+            stroke-width="1.3"
+            stroke-miterlimit="10"
+          />
+        </svg>
         <transition name="fade" appear mode="out-in">
           <div v-if="subMenu" class="absolute top-0 pt-[45px] right-0 z-10">
             <ul

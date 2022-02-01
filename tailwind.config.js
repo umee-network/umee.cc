@@ -133,17 +133,26 @@ module.exports = {
         },
         dark: {
           css: {
+            strong: {
+              color: '#ffffff',
+            },
             h1: {
-              color: '#fff',
+              color: '#ffffff',
             },
             h2: {
-              color: '#fff',
+              color: '#ffffff',
             },
-            color: '#fff',
+            h3: {
+              color: '#ffffff',
+            },
+            h4: {
+              color: '#ffffff',
+            },
+            color: '#ffffff',
             a: {
-              color: '#fff',
+              color: '#ffffff',
               '&:hover': {
-                color: '#fff',
+                color: '#ffffff',
               },
             },
           },

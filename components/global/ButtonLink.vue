@@ -48,7 +48,7 @@ export default {
   background-clip: content-box, border-box;
   box-shadow: 2px 1000px 1px #fff inset;
   transition: background-image 3s ease-in-out;
-  @apply text-navy;
+  @apply text-navy !important;
   @apply text-xl;
   @apply py-3;
   @apply px-11;
