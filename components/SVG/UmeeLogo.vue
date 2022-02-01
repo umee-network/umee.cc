@@ -1,13 +1,5 @@
 <template>
-  <svg
-    id="Layer_1"
-    version="1.1"
-    xmlns="http://www.w3.org/2000/svg"
-    x="0"
-    y="0"
-    viewBox="0 0 579.8 150.3"
-    xml:space="preserve"
-  >
+  <svg viewBox="0 0 579.8 150.3" xml:space="preserve">
     <linearGradient
       id="SVGID_1_"
       gradientUnits="userSpaceOnUse"

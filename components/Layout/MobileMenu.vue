@@ -1,31 +1,12 @@
 <template>
   <div
-    class="
-      fixed
-      top-0
-      left-0
-      right-0
-      bottom-0
-      bg-navy
-      text-white
-      z-10
-      flex flex-col
-      justify-between
-    "
+    class="fixed top-0 left-0 right-0 bottom-0 bg-navy text-white z-10 flex flex-col justify-between"
   >
     <div>
       <div
-        class="
-          container
-          mx-auto
-          h-[95px]
-          py-3
-          flex
-          justify-between
-          items-center
-        "
+        class="container mx-auto h-[95px] py-3 flex justify-between items-center"
       >
-        <SVGUmeeLogo class="w-[130px] md:w-[162px]"></SVGUmeeLogo>
+        <SVGUmeeLogo color="light" class="w-[130px] md:w-[162px]"></SVGUmeeLogo>
         <a class="text-xl cursor-pointer" @click="closeMobileMenu">
           Close
           <svg
@@ -83,11 +64,7 @@
                 <div
                   v-if="subMenu"
                   data-slide="moreMenu"
-                  class="
-                    text-midGreyOnNavy text-[1.0625rem]
-                    mt-2
-                    grid grid-cols-2
-                  "
+                  class="text-midGreyOnNavy text-[1.0625rem] mt-2 grid grid-cols-2"
                 >
                   <ul>
                     <li>
