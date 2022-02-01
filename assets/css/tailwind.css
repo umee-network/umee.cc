@@ -97,6 +97,10 @@
   @apply cursor-pointer;
 }
 
+.dark .accordion summary {
+  background-image: url(~/assets/images/plus-white.svg);
+}
+
 .accordion details {
   @apply mb-3;
   @apply border-b;
@@ -106,6 +110,10 @@
 
 .accordion details[open] summary {
   background-image: url(~/assets/images/minus.svg);
+}
+
+.dark .accordion details[open] summary {
+  background-image: url(~/assets/images/minus-white.svg);
 }
 
 .accordion details p:last-child {
