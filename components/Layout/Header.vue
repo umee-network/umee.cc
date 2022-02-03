@@ -113,7 +113,7 @@
                 <a
                   class="py-1 block hover:text-navy"
                   target="_blank"
-                  href="https://drive.google.com/drive/folders/1p81diWQbTo6eXfmUPAicKKyEZJwqyAvM?usp=sharing"
+                  href="https://drive.google.com/drive/folders/1A9G2HM5RAka4FLGyVvRC4NeazpAYBh7Z?usp=sharing"
                   >Media Kit</a
                 >
               </li>
