@@ -38,6 +38,7 @@ export default {
   );
   background-size: 200% 50%;
   transition: background-position 2s;
+  @apply text-navy !important;
 }
 
 .gradient-button:hover {

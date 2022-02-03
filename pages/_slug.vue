@@ -3,14 +3,17 @@
     <img
       v-if="page.header_image"
       :src="page.header_image"
-      class="w-full h-auto mb-8 md:mb-16"
+      class="w-full h-auto mb-8 md:mb-16 rounded-xl"
     />
 
     <div v-if="page.date">
       <UIBlockTitle class="mb-6">{{ formatDate(page.date) }}</UIBlockTitle>
     </div>
 
-    <div class="prose md:prose-lg lg:prose-xl">
+    <div
+      class="prose dark:text-white dark:prose-dark md:prose-lg lg:prose-xl"
+      :class="{ 'mt-6 md:mt-12': page.header_image === null }"
+    >
       <h1 class="mb-6">{{ page.title }}</h1>
     </div>
     <div class="grid grid-cols-3 gap-12">
@@ -18,7 +21,9 @@
         class="col-span-3 md:col-span-2"
         :class="page.toc.length ? 'md:border-r md:border-midGrey md:pr-12' : ''"
       >
-        <div class="prose md:prose-lg lg:prose-xl prose-p:first-child:mt-0">
+        <div
+          class="prose prose-img:rounded-xl dark:text-white dark:prose-dark md:prose-lg lg:prose-xl prose-p:first-child:mt-0"
+        >
           <nuxt-content ref="nuxtContent" :document="page" />
         </div>
       </div>
@@ -36,7 +41,8 @@
               <NuxtLink
                 class="block text-xl mb-4"
                 :class="{
-                  'text-navy font-bold': link.id === currentlyActiveToc,
+                  'text-navy dark:text-white font-bold':
+                    link.id === currentlyActiveToc,
                   'text-midGreyOnNavy': link.id !== currentlyActiveToc,
                 }"
                 :to="`#${link.id}`"

@@ -8,7 +8,7 @@ module.exports = {
       `nuxt.config.{js,ts}`,
     ],
   },
-  darkMode: false,
+  darkMode: 'class',
   corePlugins: {
     container: false,
   },
@@ -23,6 +23,7 @@ module.exports = {
       midGreyOnNavy: '#A0A1BA',
       midGrey: '#D8D8D8',
       midGreyOnWhite: '#7C7C87',
+      reverseAdora: '#869AC7',
     },
     screens: {
       sm: '640px',
@@ -44,8 +45,63 @@ module.exports = {
       xxxl: '3.625rem',
       xxxxl: '4.5rem',
     },
-
     extend: {
+      keyframes: {
+        'adora-bounce': {
+          '0%': {
+            transform: 'translateY(0)',
+          },
+          '50%': {
+            transform: 'translateY(-20px)',
+          },
+          '100%': {
+            transform: 'translateY(0)',
+          },
+        },
+        'adora-shadow-bounce': {
+          '0%': {
+            transform: 'scale(0.8)',
+            opacity: '1',
+          },
+          '50%': {
+            transform: 'scale(1)',
+            opacity: '0.5',
+          },
+          '100%': {
+            transform: 'scale(0.8)',
+            opacity: '1',
+          },
+        },
+        'wave-background': {
+          '0%': {
+            backgroundPosition: '0 0',
+          },
+          '50%': {
+            backgroundPosition: '100% 0',
+          },
+          '100%': {
+            backgroundPosition: '0 0',
+          },
+        },
+        bounce: {
+          '0%': {
+            transform: 'translateY(-4px)',
+          },
+          '50%': {
+            transform: 'translateY(0)',
+          },
+          '100%': {
+            transform: 'translateY(-4px)',
+          },
+        },
+      },
+      animation: {
+        'adora-bounce': 'adora-bounce 2s ease infinite',
+        'adora-shadow-bounce': 'adora-shadow-bounce 2s ease infinite',
+        'wave-background': 'wave-background 5s linear infinite',
+        bounce: 'bounce 2s ease-out infinite forwards',
+      },
+
       typography: {
         DEFAULT: {
           css: {
@@ -75,11 +131,37 @@ module.exports = {
             },
           },
         },
+        dark: {
+          css: {
+            strong: {
+              color: '#ffffff',
+            },
+            h1: {
+              color: '#ffffff',
+            },
+            h2: {
+              color: '#ffffff',
+            },
+            h3: {
+              color: '#ffffff',
+            },
+            h4: {
+              color: '#ffffff',
+            },
+            color: '#ffffff',
+            a: {
+              color: '#ffffff',
+              '&:hover': {
+                color: '#ffffff',
+              },
+            },
+          },
+        },
       },
     },
   },
   variants: {
-    extend: {},
+    typography: ['dark'],
   },
   plugins: [
     require('tailwindcss-debug-screens'),

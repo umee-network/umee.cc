@@ -3,7 +3,7 @@
     v-waypoint="{
       active: true,
       callback: onWaypoint,
-      options: intersectionOptions
+      options: intersectionOptions,
     }"
     class="container text-center pb-20"
   >
@@ -35,8 +35,8 @@ export default {
     intersectionOptions: {
       root: null,
       rootMargin: '0px 0px 0px 0px',
-      threshold: [0.25]
-    }
+      threshold: [0.25],
+    },
   }),
   mounted() {
     this.importAll(
@@ -51,7 +51,7 @@ export default {
     },
     importAll(r) {
       r.keys().forEach((key) => this.backerLogos.push({ pathLong: r(key) }))
-    }
-  }
+    },
+  },
 }
 </script>

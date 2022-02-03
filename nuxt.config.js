@@ -152,6 +152,7 @@ export default {
     '@nuxtjs/tailwindcss',
     '@nuxtjs/svg',
     'nuxt-gsap-module',
+    '@nuxtjs/color-mode',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -160,6 +161,11 @@ export default {
     '@nuxt/content',
     '@nuxtjs/markdownit',
   ],
+
+  colorMode: {
+    classSuffix: '',
+  },
+
   markdownit: {
     html: 'true',
     runtime: true,

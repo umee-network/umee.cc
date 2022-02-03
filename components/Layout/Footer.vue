@@ -1,9 +1,11 @@
 <template>
-  <div class="bg-navy text-white pt-11 md:pt-10 relative">
+  <div
+    class="bg-navy text-white pt-11 md:pt-10 relative dark:border-darkGreyOnNavy dark:border-t"
+  >
     <div class="container pb-8 lg:pb-16">
       <div class="grid grid-cols-12 gap-x-8">
         <div class="col-span-12 md:col-span-4 lg:col-span-3 mb-6 md:mb-0">
-          <SVGUmeeLogo class="mb-3 max-w-[162px]"></SVGUmeeLogo>
+          <SVGUmeeLogo color="light" class="mb-3 max-w-[162px]"></SVGUmeeLogo>
           <p class="text-midGreyOnNavy mb-5 max-w-[245px]">
             Join us in building the future of cross chain DeFi!
           </p>
@@ -64,7 +66,7 @@
               <UIBlockTitle>Connect</UIBlockTitle>
               <nav>
                 <ul class="mt-3 lg:mt-6">
-                  <!-- <UIFooterLink to="/">Jobs</UIFooterLink> -->
+                  <UIFooterLink to="/jobs">Jobs</UIFooterLink>
                   <UIFooterLink
                     to="https://drive.google.com/drive/folders/1A9G2HM5RAka4FLGyVvRC4NeazpAYBh7Z?usp=sharing"
                     >Media Kit</UIFooterLink
@@ -89,10 +91,24 @@
       class="py-4 text-midGreyOnNavy border-t border-solid border-darkGreyOnNavy"
     >
       <div class="container md:text-right">
-        <p>
-          &copy; Umee {{ year }}
-          <!-- <NuxtLink class="ml-5 text-midGreyOnNavy" to="/privacy">Privacy</NuxtLink> -->
-        </p>
+        <div class="flex flex-row flex-wrap gap-x-6 gap-y-3">
+          <div>&copy; Umee {{ year }}</div>
+          <NuxtLink
+            class="text-midGreyOnNavy whitespace-nowrap inline-block"
+            to="/privacy"
+            >Privacy</NuxtLink
+          >
+          <NuxtLink
+            class="text-midGreyOnNavy whitespace-nowrap inline-block"
+            to="/disclaimer"
+            >Disclaimer</NuxtLink
+          >
+          <NuxtLink
+            class="text-midGreyOnNavy whitespace-nowrap inline-block"
+            to="/terms-of-use"
+            >Terms of use</NuxtLink
+          >
+        </div>
       </div>
     </div>
   </div>

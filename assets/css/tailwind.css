@@ -46,7 +46,48 @@
     url('~assets/fonts/SuisseInternationalSemiboldXL/font.woff') format('woff');
 }
 
-.faqs summary {
+@layer components {
+  .fill-white {
+    @apply fill-[#ffffff];
+  }
+
+  .fill-navy {
+    @apply fill-[#16183C];
+  }
+
+  .fill-reversedOnNavy {
+    @apply fill-[#869AC7];
+  }
+
+  .stroke-white {
+    @apply stroke-[#ffffff];
+  }
+
+  .stroke-navy {
+    @apply stroke-[#16183C];
+  }
+
+  .flip-horizontal {
+    transform: scale(-1, 1);
+  }
+
+  .flip-none {
+    transform: scale(1);
+  }
+
+  .wave-gradient {
+    background-image: linear-gradient(
+      90deg,
+      rgba(253, 169, 255, 1) 0%,
+      rgba(214, 154, 255, 1) 12%,
+      rgba(188, 167, 255, 1) 33%,
+      rgba(77, 255, 229, 1) 81%
+    );
+    background-size: 200% 100%;
+  }
+}
+
+.accordion summary {
   background-position: 100% 50%;
   background-repeat: no-repeat;
   background-image: url(~/assets/images/plus.svg);
@@ -56,28 +97,36 @@
   @apply cursor-pointer;
 }
 
-.faqs details {
+.dark .accordion summary {
+  background-image: url(~/assets/images/plus-white.svg);
+}
+
+.accordion details {
   @apply mb-3;
   @apply border-b;
   @apply border-midGrey;
   @apply pb-2;
 }
 
-.faqs details[open] summary {
+.accordion details[open] summary {
   background-image: url(~/assets/images/minus.svg);
 }
 
-.faqs details p:last-child {
+.dark .accordion details[open] summary {
+  background-image: url(~/assets/images/minus-white.svg);
+}
+
+.accordion details p:last-child {
   @apply mb-6;
 }
 
-.faqs details a,
-.faqs details li,
-.faqs details p {
+.accordion details a,
+.accordion details li,
+.accordion details p {
   @apply text-midGreyOnNavy;
 }
 
-.faqs h2 {
+.accordion h2 {
   @apply text-[1.75rem];
   @apply mb-5;
   @apply mt-12;
