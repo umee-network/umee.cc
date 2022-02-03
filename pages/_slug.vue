@@ -10,7 +10,10 @@
       <UIBlockTitle class="mb-6">{{ formatDate(page.date) }}</UIBlockTitle>
     </div>
 
-    <div class="prose dark:text-white dark:prose-dark md:prose-lg lg:prose-xl">
+    <div
+      class="prose dark:text-white dark:prose-dark md:prose-lg lg:prose-xl"
+      :class="{ 'mt-6 md:mt-12': page.header_image === null }"
+    >
       <h1 class="mb-6">{{ page.title }}</h1>
     </div>
     <div class="grid grid-cols-3 gap-12">

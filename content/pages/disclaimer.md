@@ -1,5 +1,5 @@
 ---
-title: 'Privacy policy'
+title: 'Disclaimer'
 date:
 header_image:
 ---

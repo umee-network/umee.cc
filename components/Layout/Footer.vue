@@ -91,10 +91,24 @@
       class="py-4 text-midGreyOnNavy border-t border-solid border-darkGreyOnNavy"
     >
       <div class="container md:text-right">
-        <p>
-          &copy; Umee {{ year }}
-          <!-- <NuxtLink class="ml-5 text-midGreyOnNavy" to="/privacy">Privacy</NuxtLink> -->
-        </p>
+        <div class="flex flex-row flex-wrap gap-x-6 gap-y-3">
+          <div>&copy; Umee {{ year }}</div>
+          <NuxtLink
+            class="text-midGreyOnNavy whitespace-nowrap inline-block"
+            to="/privacy"
+            >Privacy</NuxtLink
+          >
+          <NuxtLink
+            class="text-midGreyOnNavy whitespace-nowrap inline-block"
+            to="/disclaimer"
+            >Disclaimer</NuxtLink
+          >
+          <NuxtLink
+            class="text-midGreyOnNavy whitespace-nowrap inline-block"
+            to="/terms-of-use"
+            >Terms of use</NuxtLink
+          >
+        </div>
       </div>
     </div>
   </div>
