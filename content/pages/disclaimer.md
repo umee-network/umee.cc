@@ -41,6 +41,7 @@ The regulatory status of cryptographic tokens, digital assets and blockchain tec
 _Risk of High Volatility of Crypto Assets_
 
 The prices of cryptocurrencies have historically been subject to dramatic fluctuations and are highly volatile, and the market price of the Tokens may also be highly volatile. Several factors may influence the market price of the Tokens, including, but not limited to:
+
 	•	Global supply of cryptocurrencies, both with respect to the number of different cryptocurrencies and the supply of each individual cryptocurrency;
 	•	Global demand for cryptocurrencies, which can be influenced by the growth of acceptance of cryptocurrencies as payment for goods and services, the security of online cryptocurrency exchanges and digital wallets that hold cryptocurrencies, the perception that the use and holding of cryptocurrencies is safe and secure, and the regulatory restrictions on their use;
 	•	Changes in software, software requirements or hardware requirements underlying blockchain technologies;
