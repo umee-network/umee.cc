@@ -8,7 +8,7 @@ We’re looking for a proactive problem-solver who thrives in a fast-paced, dive
  
 Umee is laser-focused on building and delivering our products and core mission. We take our work extremely seriously and we want to hire top notch executors to make things happen and put all the pieces together. Passion for the crypto industry and prior crypto experience is a must. We only want to work with people who are willing to learn fast, work hard and not compromise on the quality of work.
 
-What you'll be doing:
+**What you'll be doing:**
  
 - Single-point of accountability for managing, monitoring, leading, and reporting for cross functional projects and partnerships
 - Manage project delivery schedules and timelines; ensure sufficient communication with all stakeholders
@@ -16,7 +16,7 @@ What you'll be doing:
 - Conduct deep analysis of our current project strategies and identify new opportunities using qualitative and quantitative data
 - Manage miscellaneous tasks, projects, requests, and events as they arise
  
-Requirements
+**Requirements:**
  
 - Prior crypto experience is a MUST
 - 2+ years of experience in consulting, investment banking, market research, or project management
@@ -24,7 +24,7 @@ Requirements
 - Ability to thrive in ambiguous environments
 - Experience in fast paced start-up environments
  
-Benefits
+**Benefits:**
  
 - 100% remote work
 - Work with a top performing team
@@ -32,7 +32,7 @@ Benefits
 - Be a part of something great
 - Fun and impactful role
  
-How to Apply
+**How to Apply:**
  
 - Please send an email to hr@umee.cc and tell us about yourself, your work experience, and your favorite crypto project
 
@@ -45,7 +45,7 @@ We’re looking for a proactive problem-solver who thrives in a fast-paced, dive
  
 Umee is laser-focused on building and delivering our products and core mission. We take our work extremely seriously and we want to hire top notch executors to make things happen and put all the pieces together. Passion for the crypto industry and prior crypto experience is a must. We only want to work with people who are willing to learn fast, work hard and not compromise on the quality of work.
  
-What you'll be doing:
+**What you'll be doing:**
  
 - Plan and execute go-to-market strategies that span from partnership, PR, marketing, community to grow our digital presence
 - Conduct deep analysis of our current project strategies and identify growth opportunities using qualitative and quantitative data
@@ -53,7 +53,7 @@ What you'll be doing:
 - Responsible for the overall integrity of the initiatives, including deliverables, managing issues, conflicts, priorities, communication, and team members
 - Keep up to date with the trending topics in crypto and the metaverse space
  
-Requirements:
+**Requirements:**
  
 - Prior crypto experience is a MUST
 - 4+ years of experience in consulting, investment banking, market research, or project management
@@ -62,7 +62,7 @@ Requirements:
 - Leadership skills
 - Experience in fast paced start-up environments
  
-Benefits:
+**Benefits:**
  
 - 100% remote work
 - Work with a top performing team
@@ -70,7 +70,7 @@ Benefits:
 - Be a part of something great
 - Fun and impactful role
  
-How to Apply:
+**How to Apply:**
  
 - Please send an email to hr@umee.cc and tell us about yourself, your work experience, and your favorite crypto project
 
@@ -83,27 +83,25 @@ We offer internship opportunities to those who are interested in the Web3 world.
  
 Umee is laser-focused on building and delivering our products and core mission. We take our work extremely seriously and we want to hire top notch executors to make things happen and put all the pieces together. Passion for the crypto industry and prior crypto experience is a must. We only want to work with people who are willing to learn fast, work hard and not compromise on the quality of work.
  
-What you'll be doing:
+**What you'll be doing:**
  
 - Depending on your background and skills, you could be working on a variety of initiatives, such as growth hacks, data analytics, digital campaigns, social media strategies, content creation, or community management
  
  
-Requirements:
+**Requirements:**
  
 - Deep knowledge of crypto is a MUST
 - Excellent communication skills, team spirit
 - An innovative thinker and fast learner with the ability to work in a fast-paced environment
 
-
- 
-Benefits:
+**Benefits:**
  
 - 100% remote work
 - Work with a top performing team
 - Be a part of something great
 - Fun and impactful role
  
-How to Apply:
+**How to Apply:**
  
 - Please send an email to hr@umee.cc and tell us about yourself, your work experience, your top areas of interest and your favorite crypto project
   
@@ -118,14 +116,13 @@ We’re looking for a candidate who thrives in a fast-paced, diverse environment
  
 Umee is laser-focused on building and delivering our products and core mission. We take our work extremely seriously and we want to hire top notch executors to make things happen and put all the pieces together. Passion for the crypto industry and prior crypto experience is a must. We only want to work with people who are willing to learn fast, work hard and not compromise on the quality of work.
  
-What you'll be doing:
+**What you'll be doing:**
  
 - Write, edit, and review all developer-focused technical documentation, written in a mix of markdown & JSON
 - Test the products and documentation to ensure accuracy and consistency
 - Partner with Engineering, Product and Support to build and improve our documentation
- 
- 
-Requirements:
+
+**Requirements:**
  
 - Deep knowledge of Cosmos and the broader cross chain ecosystems
 - 2+ years experience in developer relations, developer support, and/or writing documentation for Web3 projects
@@ -133,7 +130,7 @@ Requirements:
 - Experience with JS/TS and subgraph is a plu
 - Experience in fast paced start-up environments
  
-Benefits:
+**Benefits:**
  
 - 100% remote work
 - Work with a top performing team
@@ -141,7 +138,7 @@ Benefits:
 - Be a part of something great
 - Fun and impactful role
  
-How to Apply:
+**How to Apply:**
  
 - Please send an email to hr@umee.cc and tell us about yourself, your work experience, and crypto projects you have worked on
 
