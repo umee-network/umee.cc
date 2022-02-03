@@ -65,7 +65,7 @@
 
       <UIButtonLinkInverse
         text="View Protocol Docs"
-        link="https://docs.umee.cc/umee/"
+        link="https://github.com/umee-network"
         target="_blank"
       ></UIButtonLinkInverse>
     </div>
