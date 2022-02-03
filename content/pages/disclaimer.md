@@ -42,15 +42,15 @@ _Risk of High Volatility of Crypto Assets_
 
 The prices of cryptocurrencies have historically been subject to dramatic fluctuations and are highly volatile, and the market price of the Tokens may also be highly volatile. Several factors may influence the market price of the Tokens, including, but not limited to:
 
-	•	Global supply of cryptocurrencies, both with respect to the number of different cryptocurrencies and the supply of each individual cryptocurrency;
-	•	Global demand for cryptocurrencies, which can be influenced by the growth of acceptance of cryptocurrencies as payment for goods and services, the security of online cryptocurrency exchanges and digital wallets that hold cryptocurrencies, the perception that the use and holding of cryptocurrencies is safe and secure, and the regulatory restrictions on their use;
-	•	Changes in software, software requirements or hardware requirements underlying blockchain technologies;
-	•	Fiat currency withdrawal and deposit policies of cryptocurrency exchanges on which cryptocurrencies may be traded and liquidity on such exchanges;
-	•	Interruptions in service from or failures of major cryptocurrency exchanges;
-	•	Investment and trading activities of large investors, including private and registered funds, that may directly or indirectly invest in cryptocurrencies;
-	•	Monetary policies of governments, trade restrictions, currency devaluations and revaluations; 
-	•	Regulatory measures, if any, that affect the use of cryptocurrencies; and
-	•	A decrease in the price of a single cryptocurrency may cause volatility in the entire cryptocurrency industry and may affect other cryptocurrencies, including the Tokens.  
+- Global supply of cryptocurrencies, both with respect to the number of different cryptocurrencies and the supply of each individual cryptocurrency;
+- Global demand for cryptocurrencies, which can be influenced by the growth of acceptance of cryptocurrencies as payment for goods and services, the security of online cryptocurrency exchanges and digital wallets that hold cryptocurrencies, the perception that the use and holding of cryptocurrencies is safe and secure, and the regulatory restrictions on their use;
+- Changes in software, software requirements or hardware requirements underlying blockchain technologies;
+- Fiat currency withdrawal and deposit policies of cryptocurrency exchanges on which cryptocurrencies may be traded and liquidity on such exchanges;
+- Interruptions in service from or failures of major cryptocurrency exchanges;
+- Investment and trading activities of large investors, including private and registered funds, that may directly or indirectly invest in cryptocurrencies;
+- Monetary policies of governments, trade restrictions, currency devaluations and revaluations; 
+- Regulatory measures, if any, that affect the use of cryptocurrencies; and
+- A decrease in the price of a single cryptocurrency may cause volatility in the entire cryptocurrency industry and may affect other cryptocurrencies, including the Tokens.  
 
 ## COMMUNICATION
 
