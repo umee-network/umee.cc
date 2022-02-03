@@ -66,7 +66,7 @@
                 <ul class="mt-3 lg:mt-6">
                   <!-- <UIFooterLink to="/">Jobs</UIFooterLink> -->
                   <UIFooterLink
-                    to="https://drive.google.com/drive/folders/1p81diWQbTo6eXfmUPAicKKyEZJwqyAvM?usp=sharing"
+                    to="https://drive.google.com/drive/folders/1A9G2HM5RAka4FLGyVvRC4NeazpAYBh7Z?usp=sharing"
                     >Media Kit</UIFooterLink
                   >
                 </ul>
