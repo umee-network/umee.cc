@@ -1,5 +1,5 @@
 ---
-title: 'Terms of use'
+title: 'TERMS OF USE'
 date: Last updated: January 25 2022
 header_image:
 ---
