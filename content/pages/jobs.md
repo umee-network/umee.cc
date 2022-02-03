@@ -107,7 +107,7 @@ Umee is laser-focused on building and delivering our products and core mission. 
   
 </details>
   
-## Operations
+## Engineering
 
 <details>
 <summary>Technical Writer </summary>
