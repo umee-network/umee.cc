@@ -22,14 +22,14 @@
         :class="page.toc.length ? 'md:border-r md:border-midGrey md:pr-12' : ''"
       >
         <div
-          class="prose prose-img:rounded-xl dark:text-white dark:prose-dark md:prose-lg lg:prose-xl prose-p:first-child:mt-0"
+          class="prose prose-img:rounded-xl dark:text-white dark:prose-dark md:prose-lg prose-p:first-child:mt-0"
         >
           <nuxt-content ref="nuxtContent" :document="page" />
         </div>
       </div>
       <div v-if="page.toc.length" class="hidden md:block col-span-1 pt-7">
         <nav class="sticky top-0">
-          <ul>
+          <ul class="pt-6">
             <div class="uppercase text-xs tracking-widest inline-block mb-6">
               On this page:
             </div>
@@ -39,7 +39,7 @@
               @click="tableOfContentsHeadingClick(link)"
             >
               <NuxtLink
-                class="block text-xl mb-4"
+                class="block text-lg mb-4 leading-tight"
                 :class="{
                   'text-navy dark:text-white font-bold':
                     link.id === currentlyActiveToc,
