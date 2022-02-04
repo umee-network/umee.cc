@@ -4,43 +4,18 @@
     <div class="pb-20">
       <div class="container max-w-[56.25rem]">
         <div class="relative mb-12">
-          <div class="cross-defi-waves-bg">
+          <SVGWaveBackground>
             <SVGOoops class="mb-8 hidden md:block w-full"></SVGOoops>
             <SVGOops class="mb-8 md:hidden w-full"></SVGOops>
-          </div>
+          </SVGWaveBackground>
           <div
-            class="
-              absolute
-              bottom-6
-              left-[10%]
-              md:right-[10%] md:bottom-[-45%] md:left-auto
-              w-[30vw]
-              md:w-[14rem]
-            "
+            class="absolute bottom-6 left-[10%] md:right-[10%] md:bottom-[-45%] md:left-auto w-[30vw] md:w-[14rem] flip-horizontal md:flip-none"
           >
-            <img
-              src="~/assets/images/adora-lost.svg"
-              class="adora-body w-full hidden md:block"
-            />
-            <img
-              src="~/assets/images/adora-lost-flipped.svg"
-              class="adora-body w-full md:hidden"
-            />
-            <img
-              src="~/assets/images/adora-hero-shadow.png"
-              class="adora-shadow w-full"
-            />
+            <SVGAdoraLost />
           </div>
         </div>
         <div
-          class="
-            font-serif
-            text-[2.75rem]
-            leading-[0.9]
-            mb-2
-            text-center
-            md:text-left
-          "
+          class="font-serif text-[2.75rem] leading-[0.9] mb-2 text-center md:text-left"
         >
           Well, this is awkward.
         </div>
