@@ -123,8 +123,9 @@ export default {
           top: document.querySelector(to.hash).offsetTop,
           behavior: 'smooth',
         })
+      } else {
+        return window.scrollTo({ top: 0 })
       }
-      // return window.scrollTo({ top: 0, behavior: 'smooth' })
     },
   },
 
