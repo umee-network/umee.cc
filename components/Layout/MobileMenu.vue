@@ -28,7 +28,11 @@
       <div class="container mt-4">
         <nav class="text-[1.625rem] md:pl-6">
           <ul>
-            <li><NuxtLink to="/" class="py-1 block">Markets</NuxtLink></li>
+            <li>
+              <a href="https://app.umee.cc/" target="_blank" class="py-1 block"
+                >Markets</a
+              >
+            </li>
             <li>
               <a
                 class="cursor-pointer py-1 flex justify-between"
@@ -154,7 +158,9 @@
     </div>
     <div>
       <div class="container pb-5">
-        <UIButtonGradient class="w-full">Launch App</UIButtonGradient>
+        <UIButtonGradient class="w-full" href="https://app.umee.cc/"
+          >Launch App</UIButtonGradient
+        >
       </div>
     </div>
   </div>

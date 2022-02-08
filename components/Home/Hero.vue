@@ -15,7 +15,7 @@
           </p>
 
           <UIButtonGradient
-            link="https://umee.cc"
+            href="https://app.umee.cc/"
             target="_blank"
             class="md:hidden"
             >Launch App</UIButtonGradient

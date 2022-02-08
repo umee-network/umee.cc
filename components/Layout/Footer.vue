@@ -44,7 +44,7 @@
               <UIBlockTitle>Protocol</UIBlockTitle>
               <nav>
                 <ul class="mt-3 lg:mt-6">
-                  <UIFooterLink to="">Markets</UIFooterLink>
+                  <UIFooterLink to="https://app.umee.cc/">Markets</UIFooterLink>
                   <UIFooterLink to="https://github.com/umee-network"
                     >Github</UIFooterLink
                   >
@@ -77,10 +77,14 @@
           </div>
         </div>
         <div class="col-span-12 md:col-span-2 mt-6 md:mt-0">
-          <UIButtonGradient class="w-full hidden md:block lg:hidden"
+          <UIButtonGradient
+            class="w-full hidden md:block lg:hidden"
+            href="https://app.umee.cc/"
             >App</UIButtonGradient
           >
-          <UIButtonGradient class="w-full md:hidden lg:block"
+          <UIButtonGradient
+            class="w-full md:hidden lg:block"
+            href="https://app.umee.cc/"
             >Launch App</UIButtonGradient
           >
         </div>

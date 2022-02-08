@@ -1,15 +1,18 @@
 <template>
+  <div v-if="href.startsWith('http')">
+    <a
+      :href="href"
+      target="_blank"
+      class="gradient-button py-3.5 px-8 text-navy rounded-full inline-block text-center"
+      ><slot></slot
+    ></a>
+  </div>
   <NuxtLink
-    class="
-      gradient-button
-      py-3.5
-      px-8
-      text-navy
-      rounded-full
-      inline-block
-      text-center
-    "
+    class="gradient-button py-3.5 px-8 text-navy rounded-full inline-block text-center"
+    v-else
     :to="href"
+    target="_self"
+    :class="buttonClass"
     ><slot></slot
   ></NuxtLink>
 </template>

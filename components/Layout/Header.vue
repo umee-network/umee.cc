@@ -7,7 +7,12 @@
     </NuxtLink>
 
     <div class="text-lg flex items-center">
-      <a class="hidden md:inline-block" target="_blank" href="/">Markets</a>
+      <a
+        class="hidden md:inline-block"
+        target="_blank"
+        href="https://app.umee.cc/"
+        >Markets</a
+      >
       <a
         class="hidden md:inline-block ml-6"
         href="https://docs.umee.cc/umee/"
@@ -122,7 +127,9 @@
         </transition>
       </div>
 
-      <UIButtonGradient href="/" class="ml-6 hidden md:inline-block"
+      <UIButtonGradient
+        href="https://app.umee.cc/"
+        class="ml-6 hidden md:inline-block"
         >Launch App</UIButtonGradient
       >
 
