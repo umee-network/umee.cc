@@ -9,7 +9,9 @@
   >
     <UIBlockTitle class="mb-10">{{ page.backed_by }}</UIBlockTitle>
 
-    <div class="grid grid-cols-2 md:grid-cols-4 auto-rows-fr gap-y-3 gap-x-5">
+    <div
+      class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 auto-rows-fr gap-y-3 gap-x-5"
+    >
       <UILogoGridCell
         v-for="(logo, index) in backerLogos"
         :key="index"
