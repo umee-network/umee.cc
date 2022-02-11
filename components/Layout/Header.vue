@@ -86,7 +86,7 @@
                 <a
                   class="py-1 block hover:text-navy"
                   target="_blank"
-                  href="https://discord.com/invite/AtbECmnt8M"
+                  href="https://discord.gg/umee"
                   >Discord</a
                 >
               </li>
