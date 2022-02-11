@@ -20,7 +20,7 @@
             ></SVGSocialIcon>
             <SVGSocialIcon
               name="discord"
-              href="https://discord.com/invite/AtbECmnt8M"
+              href="https://discord.gg/umee"
             ></SVGSocialIcon>
             <SVGSocialIcon
               name="github"
