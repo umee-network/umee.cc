@@ -119,7 +119,7 @@
                     <li>
                       <a
                         class="block py-1"
-                        href="https://discord.com/invite/AtbECmnt8M"
+                        href="https://discord.gg/umee"
                         target="_blank"
                         >Discord</a
                       >
