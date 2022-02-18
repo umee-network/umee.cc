@@ -14,6 +14,12 @@
         >Markets</a
       >
       <a
+        class="hidden md:inline-block"
+        target="_blank"
+        href="https://wallet.keplr.app/#/umee/governance"
+        >Governance</a
+      >
+      <a
         class="hidden md:inline-block ml-6"
         href="https://docs.umee.cc/umee/"
         target="_blank"
