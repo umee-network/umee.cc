@@ -45,6 +45,7 @@
               <nav>
                 <ul class="mt-3 lg:mt-6">
                   <UIFooterLink to="https://app.umee.cc/">Markets</UIFooterLink>
+                  <UIFooterLink to="https://wallet.keplr.app/#/umee/governance">Governance</UIFooterLink>
                   <UIFooterLink to="https://github.com/umee-network"
                     >Github</UIFooterLink
                   >
