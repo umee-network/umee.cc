@@ -82,6 +82,14 @@
                     <li>
                       <a
                         class="block py-1"
+                        href="https://wallet.keplr.app/#/umee/governance"
+                        target="_blank"
+                        >Governance</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="block py-1"
                         href="https://umee.cc/umee-whitepaper/"
                         target="_blank"
                         >Whitepaper</a
