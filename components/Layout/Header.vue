@@ -14,7 +14,7 @@
         >Markets</a
       >
       <a
-        class="hidden md:inline-block"
+        class="hidden md:inline-block ml-6"
         target="_blank"
         href="https://wallet.keplr.app/#/umee/governance"
         >Governance</a
