@@ -76,18 +76,14 @@ _Disclaimer - timeline is subject to change_
 <details>
 <summary>Where can I purchase the UMEE token?</summary>
 
-The UMEE token is currently UNAVAILABLE for purchase. The Coinlist public sale has ended, and the TGE is expected to happen on or around February 15th, 2022. More information about how and where to buy UMEE will be provided soon.
-
-**Any person or platform who claims to sell UMEE at this time is a scammer**
+The UMEE token is currently AVAILABLE for purchase. The Coinlist public sale has ended, and the TGE occured on February 15th, 2022. More information about where UMEE can be purchase found [here](https://www.coingecko.com/en/coins/umee).
 
 </details>
 
 <details>
 <summary>Has UMEE been issued?</summary>
 
-The UMEE token has not been issued yet. The token will begin to be issued for Coinlist buyers during the TGE that is expected to happen on or around February 15th, 2022. Until then, the token has not and will not be issued to anyone.
-
-**Any person or platform who claims to sell UMEE at this time is a scammer.**
+The UMEE token has been issued. The token was issued to Coinlist buyers during the TGE that occured on February 15th, 2022. You are now able to purchase UMEE on available markets.
 
 </details>
 
@@ -122,6 +118,6 @@ The UMEE token will exist in both ERC20 and Cosmos SDK format. If users want to 
 <details>
 <summary>I have another question that’s not answered here.</summary>
 
-Take a look at the [official documentation](https://docs.umee.cc/umee/) - if you can’t find the answer to your question here, share it with us in the [#ask-community channel on Discord](https://discord.gg/e8nCFrJtkw) or in the Umee [Telegram](https://t.me/umeecrosschain).
+Take a look at the [official documentation](https://docs.umee.cc/umee/) - if you can’t find the answer to your question here, share it with us in the [#ask-community channel on Discord](https://discord.com/invite/umee) or in the Umee [Telegram](https://t.me/umeecrosschain).
 
 </details>
