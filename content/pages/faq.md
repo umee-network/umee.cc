@@ -76,7 +76,7 @@ _Disclaimer - timeline is subject to change_
 <details>
 <summary>Where can I purchase the UMEE token?</summary>
 
-The UMEE token is currently AVAILABLE for purchase. The Coinlist public sale has ended, and the TGE occured on February 15th, 2022. More information about where UMEE can be purchase found [here](https://www.coingecko.com/en/coins/umee).
+The UMEE token is currently AVAILABLE for purchase. The Coinlist public sale has ended, and the TGE occured on February 15th, 2022. More information about where UMEE can be purchase can be found [here](https://www.coingecko.com/en/coins/umee).
 
 </details>
 
