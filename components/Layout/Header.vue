@@ -63,7 +63,7 @@
                 <a
                   class="py-1 block hover:text-navy"
                   target="_blank"
-                  href="/umee-whitepaper.pdf"
+                  href="https://www.umee.cc/umee-whitepaper.pdf"
                   >Whitepaper</a
                 >
               </li>
