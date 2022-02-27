@@ -90,7 +90,7 @@
                     <li>
                       <a
                         class="block py-1"
-                        href="https://umee.cc/umee-whitepaper/"
+                        href="https://www.umee.cc/umee-whitepaper.pdf"
                         target="_blank"
                         >Whitepaper</a
                       >
