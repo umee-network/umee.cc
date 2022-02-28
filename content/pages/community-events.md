@@ -1,5 +1,11 @@
 # Community Events
 
+### Contest 1
+
+### Contest 2 
+
+### Contest 3
+
 ### Creative Logo Contest
 
 **Date:** *2022-03-02 to 2022-03-11*
@@ -25,7 +31,7 @@ Creativity is key - feel free to submit photoshopped images or gifs, handmade ar
 
 *Hint: to get more exposure on your submission you can share it in the [#designers](https://discord.gg/umee) channel on the Umee Discord server.*
 
-Still want to participate but don’t think of yourself as a creative. Not to worry! You’re still eligible to win UMEE rewards by retweeting this **tweet**.
+Still want to participate but don’t think of yourself as a creative? Not to worry! You’re still eligible to win UMEE rewards by retweeting this **tweet**.
 
 **How To Enter**
 - Recreate the Umee logo in your own style
