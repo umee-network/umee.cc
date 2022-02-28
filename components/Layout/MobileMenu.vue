@@ -151,7 +151,7 @@
                     <li>
                       <a
                         class="block py-1"
-                        href="https://www.umee.cc/jobs"
+                        href="https://www.umee.cc/careers"
                         target="_blank"
                         >Careers</a
                       >
