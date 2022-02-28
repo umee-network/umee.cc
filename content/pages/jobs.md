@@ -34,7 +34,43 @@ Umee is laser-focused on building and delivering our products and core mission. 
  
 **How to Apply:**
  
-- Please send an email to hr@umee.cc and tell us about yourself, your work experience, and your favorite crypto project
+Please send an email to hr@umee.cc and tell us about yourself, your work experience, and your favorite crypto project.
+
+</details>
+
+<details>
+<summary>Marketing Director</summary>
+  
+We're looking for an experienced marketing professional who has executed successful marketing initiatives and has built communities in the crypto space. You must be passionate about DeFi, comfortable with working in a fast paced environment and highly motivated towards continuous execution and setting goals.
+
+The ideal candidate has extensive experience in Digital Marketing, Social Media Management, Content Creation and User Engagement in the crypto space. Experience in Public Relations is a plus.
+ 
+**Responsibilities:**
+ 
+- Create and execute on Umee’s marketing roadmap including objectives, key results, analytics, and measurement
+- Plan and execute campaigns to drive measurable improvements in market awareness
+- Build and coordinate with internal and external marketing and PR stakeholders and partners
+- Own and strategize our content-publishing plan to create a unique, powerful, and consistent brand voice that helps us achieve our goals
+- Market Analytics: Identify trends and insights, while optimizing spend and performance based on the insights
+ 
+**Requirements:**
+ 
+- 3-5 years of experience in leading marketing campaigns for blockchain projects with a proven track record of success
+- Experience in designing and executing marketing campaigns for blockchain projects
+- Self motivated, thrives in a startup environment and relentlessly executes
+- Passion for DeFi; an active power user is a plus
+ 
+**Benefits:**
+ 
+- 100% remote work
+- Work with a top performing team
+- Competitive salary
+- Be a part of something great
+- Fun and impactful role
+ 
+**How to Apply:**
+ 
+Please send an email to hr@umee.cc and tell us about yourself, your work experience, and your favorite crypto meme.
 
 </details>
 
@@ -72,7 +108,7 @@ Umee is laser-focused on building and delivering our products and core mission. 
  
 **How to Apply:**
  
-- Please send an email to hr@umee.cc and tell us about yourself, your work experience, and your favorite crypto project
+Please send an email to hr@umee.cc and tell us about yourself, your work experience, and your favorite crypto project.
 
 </details>
 
@@ -103,14 +139,14 @@ Umee is laser-focused on building and delivering our products and core mission. 
  
 **How to Apply:**
  
-- Please send an email to hr@umee.cc and tell us about yourself, your work experience, your top areas of interest and your favorite crypto project
+Please send an email to hr@umee.cc and tell us about yourself, your work experience, your top areas of interest and your favorite crypto project.
   
 </details>
   
 ## Engineering
 
 <details>
-<summary>Technical Writer </summary>
+<summary>Technical Writer</summary>
 
 We’re looking for a candidate who thrives in a fast-paced, diverse environment. The right candidate will have exceptional learning abilities, adapt to fast paced environments, possess uncompromising attention to detail, and have great communication skills. The Technical Writer will act as the bridge between our core dev team and the open source dev community. You are expected to produce top quality technical documentation.
  
@@ -140,6 +176,163 @@ Umee is laser-focused on building and delivering our products and core mission. 
  
 **How to Apply:**
  
-- Please send an email to hr@umee.cc and tell us about yourself, your work experience, and crypto projects you have worked on
+Please send an email to hr@umee.cc and tell us about yourself, your work experience, and crypto projects you have worked on.
+
+</details>
+
+<details>
+<summary>Blockchain Engineer</summary>
+
+Umee is seeking a talented Software Developer who is experienced in developing high performance code. You will be working alongside our developer team to build a cross chain defi application with high coding standards and technical design.
+
+The right candidate has 3+ years in the blockchain space, and is proficient in software development as well as having strong technical skills in assessing the blockchain industry as a whole. Candidates would benefit strongly from having a deep fundamental software development knowledge base
+
+We’re looking for a passionate and well-rounded individual who fundamentally understands the philosophy of decentralized networks and has great technical and communications skills. Your work will be hugely impactful, as you will be working within a team that acts as the driver for innovation in the cross chain defi space.
+ 
+**What you'll be doing:**
+ 
+- Building blockchain applications
+- Measure system performance, check metrics and logs
+- Cover code by unit tests and run integration tests
+- Debug, profile and search for bottlenecks
+- Collaborate on the design of data models, technical architecture, data flows, schemas and API contracts
+- Develop and improve scalable backend systems
+- Conducting technical due diligence and understanding dynamics/tradeoffs between different blockchain protocols 
+
+
+**Requirements:**
+ 
+- 3+ years of Golang, Java, Rust or C++
+- Strong experience with software delivery and taking a set of requirements towards full implementation with minimal guidance
+- Experience with RESTful programming conventions
+- Extensive knowledge of software design paradigms in large-scale environments, distributed systems
+- Understand Unix system internals, client/server protocols, and data storage systems in a cloud environment
+- Strong knowledge of Object-Oriented Analysis and Design, Software Design Patterns and coding principles
+- Excellent understanding of containers, deployment systems, and container management platforms, preferably Kubernetes
+- Understand the infrastructure monitoring agent and agent-less architecture
+- Hands-on experience in microservices architecture and development, Databases such as Oracle MySQL, PostgreSQL etc.
+- Experience in assessing application performance and optimizing/improving it through design and best coding practices
+- High attention to details with excellent organizational skills and ability to take charge, set objectives, drive to results; team-oriented
+
+**Nice to Have:**
+
+- Passion about what decentralization technology can offer to humanity
+- Insatiable curiosity of the industry; self-motivated to pursue researching every new idea that floats across the industry
+- Ability to explain abstract technical concepts in an easy to understand manner
+- Any API interaction 
+- Experience with Front End (React, Angular); javascript
+- Containers and orchestration; Docker, Gitlab CI, Kubernetes
+- CI/CD environments
+  
+**What We Offer:**
+ 
+- 100% remote work
+- Work with a top performing team
+- Competitive salary
+- Be a part of something great
+- Fun and impactful role
+ 
+**How to Apply:**
+ 
+To apply, please email hr@umee.cc and include a resume with a link to your github account.
+
+</details>
+
+<details>
+<summary>Senior Front End Engineer</summary>
+
+Umee is seeking a talented Front End Developer who is experienced in UI/UX and writing software for user interfaces. You will be working alongside our developer team to build a cross chain defi application with high coding standards and technical design.
+
+The right candidate has 3+ years in the blockchain space, and is proficient in software development as well as having strong technical skills in writing front end code. Candidates would benefit strongly from having a deep fundamental software development knowledge base.
+
+We’re looking for a passionate and well-rounded individual who fundamentally understands the philosophy of decentralized networks and has great technical and communications skills. Your work will be hugely impactful, as you will be working within a team that acts as the driver for innovation in the cross chain defi space.
+ 
+**What You'll Be Doing:**
+ 
+- Develop new user facing features
+- Write reusable code and libraries
+- Enhance application for maximum speed and scalability
+- Validate inputs before submitting to backend
+- Debug, profile and search for bottlenecks
+- Bridge the gap between graphic design and technical implementation
+- Define how applications look and how they work
+- Translate UI/UX design wireframes into actual code 
+
+**We're Looking for Someone Who Has:**
+ 
+- Strong engineering fundamentals
+- 3+ years of experience in a similar role
+- Strong experience with software delivery and taking a set of requirements towards full implementation with minimal guidance
+- Javascript frameworks like React, Redux, Angular, Vue
+- Proficient in Javascript frameworks including JQuery
+- Depth of knowledge and implementation experience
+- Strong understanding of asynchronous request handling, partial page updates, and AJAX
+- Proficient in code versioning tools such as Git, Mercurial, SVN
+- Good understanding of SEO principles
+- HTML CSS
+- Experience in agile software development
+- Familiarity with Cosmos SDK, Solidity, EVM or other blockchain based ecosystems
+- Ability to communicate effectively, and work collaboratively, with the team and internal/external organizations
+
+**Nice to Have:**
+
+- Passion about what decentralization technology can offer to humanity
+- Insatiable curiosity of the industry; self-motivated to pursue researching every new idea that floats across the industry
+- Ability to explain abstract technical concepts in an easy to understand manner
+- Any API interaction 
+- Containers and orchestration; Docker, Gitlab CI, Kubernetes
+- CI/CD environments
+  
+**What We Offer:**
+ 
+- 100% remote work
+- Work with a top performing team
+- Competitive salary
+- Be a part of something great
+- Fun and impactful role
+ 
+**How to Apply:**
+ 
+To apply, please email hr@umee.cc and include a resume with a link to your github account.
+
+</details>
+
+<details>
+<summary>Solidity Engineer</summary>
+
+Umee is seeking a talented Software Developer who is experienced in developing high performance code. You will be working alongside our developer team to build a cross chain defi application with high coding standards and technical design.
+
+The right candidate has 3+ years in the blockchain space, and is proficient in software development as well as having strong technical skills in assessing the blockchain industry as a whole. Candidates would benefit strongly from having a deep fundamental software development knowledge base
+
+We’re looking for a passionate and well-rounded individual who fundamentally understands the philosophy of decentralized networks and has great technical and communications skills. Your work will be hugely impactful, as you will be working within a team that acts as the driver for innovation in the cross chain defi space.
+ 
+**What You'll Be Doing:**
+ 
+- Building blockchain applications, working on new features for the protocol and creating new technical DeFi primitives
+- Writing extensive unit and integration tests for contracts
+- Write specs and review PRs
+- Design and ideation of new functionality 
+
+**Requirements:**
+ 
+- 3+ years of Solidity, EVM experience
+- Experience with Solidity security audits 
+- Strong experience with software delivery and taking a set of requirements towards full implementation with minimal guidance
+- Depth of knowledge and implementation experience
+- Experience in building scalable and highly available distributed systems
+- Experience in assessing application performance and optimizing/improving it through design and best coding practices
+- High attention to details with excellent organizational skills and ability to take charge, set objectives, drive to results; team-oriented
+  
+**What We Offer:**
+ 
+- 100% remote work
+- Work with a top performing team
+- Competitive salary
+- Be a part of something great
+- Fun and impactful role
+ 
+**How to Apply:**
+ 
+To apply, please email hr@umee.cc and include a resume with a link to your github account.
 
 </details>
