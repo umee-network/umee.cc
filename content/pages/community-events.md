@@ -47,8 +47,8 @@ Umee’s new branding assets can be found [here](https://drive.google.com/drive/
 *Winners will be announced on Twitter, and given instructions on how to receive their rewards. Rewards will be claimable on March 16th, 2022.*
 
 **Rules**
-- Participants must be following [@Umee_CrossChain](https://twitter.com/Umee_CrossChain) to win
-- Entries must tag [@Umee_CrossChain](https://twitter.com/Umee_CrossChain) and use #MyUmeeLogo and be shared before March 11 @ 15:00 UTC in order to be considered valid
+- Participants must be following **[@Umee_CrossChain](https://twitter.com/Umee_CrossChain)** to win
+- Entries must tag **[@Umee_CrossChain](https://twitter.com/Umee_CrossChain)** and use **#MyUmeeLogo** and be shared before March 11 @ 15:00 UTC in order to be considered valid
 - Participants are welcome to submit as many entries as they’d like, as long as they are all original
 - The level of engagement (likes, comments, retweets) a submission has will be taken into consideration by judges, so be sure to share your post with friends
 - Winners will be selected by March 16th, 2022 at the Umee team’s discretion
