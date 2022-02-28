@@ -67,7 +67,7 @@
               <UIBlockTitle>Connect</UIBlockTitle>
               <nav>
                 <ul class="mt-3 lg:mt-6">
-                  <UIFooterLink to="/jobs">Careers</UIFooterLink>
+                  <UIFooterLink to="https://www.umee.cc/careers">Careers</UIFooterLink>
                   <UIFooterLink
                     to="https://drive.google.com/drive/folders/1A9G2HM5RAka4FLGyVvRC4NeazpAYBh7Z?usp=sharing"
                     >Media Kit</UIFooterLink
