@@ -1,30 +1,50 @@
 ---
-title: 'Lorem ipsum dolor sit amet: consectetur adipiscing'
-date: 2022-01-21
+title: 'Creative Logo Contest'
+date: 2022-03-02
 header_image: images/header-image.jpg
 ---
 
-Contrary to popular belief, [Lorem Ipsum](https://www.google.com/search?q=lorem+ipsum) is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+In honor of Umee’s rebranding, we invite you to participate in Umee’s Creative Logo Contest! Get to know our new logo, colors, and of course Adora, our new mascot. Let’s get into the details and see who can create something cool. 😎
 
-- Suspendisse potenti. Mauris eget neque sit amet arcu efficitur lobortis quis ac neque. Pellentesque et leo sit amet lacus sagittis imperdiet eu vitae ipsum. Phasellus nec faucibus enim
-- Mauris volutpat, nunc ac condimentum blandit, ex quam porttitor ipsum, luctus porta purus dui sed massa. Curabitur ultrices congue interdum.
-- Praesent metus magna, rhoncus ut consectetur ut, facilisis et nibh. Sed orci libero, placerat quis feugiat ut, eleifend id mi. Nam efficitur ligula turpis.
+### TL; DR
+Recreate the new Umee logo in your own style and share it on Twitter using **#MyUmeeLogo** and tagging **[@Umee_CrossChain](https://twitter.com/Umee_CrossChain)** by March 11, 2022 @ 15:00 UTC for a chance to win Umee tokens!
 
-Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+### Details
+Creativity is key - feel free to submit photoshopped images or gifs, handmade artwork such as drawings and paintings, or anything else you can think of! The more out of the box, the better! As long as your submission(s) involves a creative twist on the new Umee logo, you will be eligible to win. 
 
-<ButtonLink href="https://www.google.com">Take me somewhere new</ButtonLink>
+### Winners will be selected by the Umee team based on:
+- Creativity
+- Quality
+- Popularity (likes, comments, retweets)
 
-## Quid enim ab antiquis ex eo genere
+*Hint: to get more exposure on your submission you can share it in the [#designers](https://discord.gg/umee) channel on the Umee Discord server.*
 
-College in Virginia, **looked up one of the more obscure** Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.
+Still want to participate but don’t think of yourself as a creative. Not to worry! You’re still eligible to win UMEE rewards by retweeting this **tweet**.
 
-1. Integer quis orci nisl. Sed dapibus varius pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra.
-2. Nunc sed porta lorem, vel lobortis ante. Suspendisse arcu mi, tristique sit amet nisi eu, ultricies mattis ante. Aenean consectetur varius bibendum.
-3. Sed ut rhoncus ex, nec ornare nibh.
-4. Praesent vehicula ornare nisl non elementum. Suspendisse potenti. Mauris eget neque sit amet arcu efficitur lobortis quis ac neque.
+### How To Enter
+- Recreate the Umee logo in your own style
+- Share an image/gif/video of your creation on Twitter and tag **[@Umee_CrossChain](https://twitter.com/Umee_CrossChain)** in the post with **#MyUmeeLogo** by March 11 @ 15:00 UTC
 
-This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+### Resources
+- [Branding assets](https://drive.google.com/drive/folders/1A9G2HM5RAka4FLGyVvRC4NeazpAYBh7Z?usp=sharing)
+- [Website](https://umee.cc/)
+- [Web App](https://app.umee.cc/#/)
 
-![image alt text](/images/inline-image.jpg)
+Umee’s new branding assets can be found [here](https://drive.google.com/drive/folders/1A9G2HM5RAka4FLGyVvRC4NeazpAYBh7Z?usp=sharing). Make sure to head over to the new [website](https://umee.cc/) and [web app](https://app.umee.cc/#/) to get some more inspiration! 
 
-### Tu autem negas fortem esse quemquam
+### Rewards
+- 1st Place - 2,000 UMEE
+- 2nd Place - 1,500 UMEE
+- 3rd Place - 1,000 UMEE
+- 10 random people who retweet the original post will receive 250 UMEE each
+
+*Winners will be announced on Twitter, and given instructions on how to receive their rewards. Rewards will be claimable on March 16th, 2022.*
+
+### Rules
+- Participants must be following [@Umee_CrossChain](https://twitter.com/Umee_CrossChain) to win
+- Entries must tag [@Umee_CrossChain](https://twitter.com/Umee_CrossChain) and use #MyUmeeLogo and be shared before March 11 @ 15:00 UTC in order to be considered valid
+- Participants are welcome to submit as many entries as they’d like, as long as they are all original
+- The level of engagement (likes, comments, retweets) a submission has will be taken into consideration by judges, so be sure to share your post with friends
+- Winners will be selected by March 16th, 2022 at the Umee team’s discretion
+
+**Good luck!**
