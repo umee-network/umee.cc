@@ -2,7 +2,7 @@
 
 ### Creative Logo Contest
 
-Date: 2022-03-02 to 2022-03-11
+**Date:** *2022-03-02 to 2022-03-11*
 
 **Skills Required:** *Creativity*
 
