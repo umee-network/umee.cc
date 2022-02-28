@@ -1,4 +1,6 @@
-# Creative Logo Contest
+# Community Events
+
+### Creative Logo Contest
 
 Date: 2022-03-02 to 2022-03-11
 
