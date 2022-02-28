@@ -124,7 +124,7 @@
                 <a
                   class="py-1 block hover:text-navy"
                   target="_blank"
-                  href="https://www.umee.cc/jobs"
+                  href="https://www.umee.cc/careers"
                   >Careers</a
                 >
               </li>
