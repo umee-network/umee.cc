@@ -11,9 +11,11 @@
 In honor of Umee’s rebranding, we invite you to participate in Umee’s Creative Logo Contest! Get to know our new logo, colors, and of course Adora, our new mascot. Let’s get into the details and see who can create something cool. 😎
 
 **TL; DR**
+
 Recreate the new Umee logo in your own style and share it on Twitter using **#MyUmeeLogo** and tagging **[@Umee_CrossChain](https://twitter.com/Umee_CrossChain)** by March 11, 2022 @ 15:00 UTC for a chance to win Umee tokens!
 
 **Details**
+
 Creativity is key - feel free to submit photoshopped images or gifs, handmade artwork such as drawings and paintings, or anything else you can think of! The more out of the box, the better! As long as your submission(s) involves a creative twist on the new Umee logo, you will be eligible to win. 
 
 **Winners will be selected by the Umee team based on:**
