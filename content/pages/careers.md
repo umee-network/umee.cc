@@ -2,7 +2,7 @@
 
 <details>
 
-<summary>Business Operations</summary>
+<summary>BUSINESS OPERATIONS</summary>
 
 We’re looking for a proactive problem-solver who thrives in a fast-paced, diverse environment. The right candidate will have exceptional learning abilities, adapt to fast paced environments, possess uncompromising attention to detail, and have great communication skills. The Business Operations Specialist is a cross-functional role working with different business functions. You will work closely with the leadership at Umee focusing on high-impact projects and initiatives.
  
@@ -39,7 +39,7 @@ Please send an email to hr@umee.cc and tell us about yourself, your work experie
 </details>
 
 <details>
-<summary>Marketing Director</summary>
+<summary>MARKETING DIRECTOR</summary>
   
 We're looking for an experienced marketing professional who has executed successful marketing initiatives and has built communities in the crypto space. You must be passionate about DeFi, comfortable with working in a fast paced environment and highly motivated towards continuous execution and setting goals.
 
@@ -75,7 +75,7 @@ Please send an email to hr@umee.cc and tell us about yourself, your work experie
 </details>
 
 <details>
-<summary>Growth Lead</summary>
+<summary>GROWTH LEAD</summary>
   
 We’re looking for a proactive problem-solver who thrives in a fast-paced, diverse environment. The right candidate will have exceptional learning abilities, adapt to fast paced environments, possess uncompromising attention to detail, and have great communication skills. The Growth Lead will be expected to be playing a pivotal role in driving growth. You will work closely with the leadership at Umee focusing on high-impact projects and initiatives.
  
@@ -113,7 +113,7 @@ Please send an email to hr@umee.cc and tell us about yourself, your work experie
 </details>
 
 <details>
-<summary>Internship</summary>
+<summary>INTERNSHIP</summary>
 
 We offer internship opportunities to those who are interested in the Web3 world. The right candidates should have exceptional learning abilities, adapt to fast paced environments, possess uncompromising attention to detail, and have great communication skills. You will have the opportunity to work closely with our core team and leadership on impactful initiatives.
  
@@ -146,7 +146,7 @@ Please send an email to hr@umee.cc and tell us about yourself, your work experie
 ## Engineering
 
 <details>
-<summary>Technical Writer</summary>
+<summary>TECHNICAL WRITER</summary>
 
 We’re looking for a candidate who thrives in a fast-paced, diverse environment. The right candidate will have exceptional learning abilities, adapt to fast paced environments, possess uncompromising attention to detail, and have great communication skills. The Technical Writer will act as the bridge between our core dev team and the open source dev community. You are expected to produce top quality technical documentation.
  
@@ -181,7 +181,7 @@ Please send an email to hr@umee.cc and tell us about yourself, your work experie
 </details>
 
 <details>
-<summary>Blockchain Engineer</summary>
+<summary>BLOCKCHAIN ENGINEER</summary>
 
 Umee is seeking a talented Software Developer who is experienced in developing high performance code. You will be working alongside our developer team to build a cross chain defi application with high coding standards and technical design.
 
@@ -239,7 +239,7 @@ To apply, please email hr@umee.cc and include a resume with a link to your githu
 </details>
 
 <details>
-<summary>Senior Front End Engineer</summary>
+<summary>SENIOR FRONT END ENGINEER</summary>
 
 Umee is seeking a talented Front End Developer who is experienced in UI/UX and writing software for user interfaces. You will be working alongside our developer team to build a cross chain defi application with high coding standards and technical design.
 
@@ -298,7 +298,7 @@ To apply, please email hr@umee.cc and include a resume with a link to your githu
 </details>
 
 <details>
-<summary>Solidity Engineer</summary>
+<summary>SOLIDITY ENGINEER</summary>
 
 Umee is seeking a talented Software Developer who is experienced in developing high performance code. You will be working alongside our developer team to build a cross chain defi application with high coding standards and technical design.
 
