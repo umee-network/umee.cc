@@ -151,6 +151,14 @@
                     <li>
                       <a
                         class="block py-1"
+                        href="https://www.umee.cc/jobs"
+                        target="_blank"
+                        >Careers</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="block py-1"
                         href="https://www.reddit.com/r/UmeeCrossChain/"
                         target="_blank"
                         >Reddit</a
