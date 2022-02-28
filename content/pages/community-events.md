@@ -14,15 +14,15 @@
 
 In honor of Umee’s rebranding, we invite you to participate in Umee’s Creative Logo Contest! Get to know our new logo, colors, and of course Adora, our new mascot. Let’s get into the details and see who can create something cool. 😎
 
-#### TL; DR
+### TL; DR
 
 Recreate the new Umee logo in your own style and share it on Twitter using **#MyUmeeLogo** and tagging **[@Umee_CrossChain](https://twitter.com/Umee_CrossChain)** by March 11, 2022 @ 15:00 UTC for a chance to win Umee tokens!
 
-#### Details
+### Details
 
 Creativity is key - feel free to submit photoshopped images or gifs, handmade artwork such as drawings and paintings, or anything else you can think of! The more out of the box, the better! As long as your submission(s) involves a creative twist on the new Umee logo, you will be eligible to win. 
 
-#### Winners will be selected by the Umee team based on:
+### Winners will be selected by the Umee team based on:
 - Creativity
 - Quality
 - Popularity (likes, comments, retweets)
@@ -31,16 +31,16 @@ Creativity is key - feel free to submit photoshopped images or gifs, handmade ar
 
 Still want to participate but don’t think of yourself as a creative? Not to worry! You’re still eligible to win UMEE rewards by retweeting this **tweet**.
 
-#### How To Enter
+### How To Enter
 - Recreate the Umee logo in your own style
 - Share an image/gif/video of your creation on Twitter and tag **[@Umee_CrossChain](https://twitter.com/Umee_CrossChain)** in the post with **#MyUmeeLogo** by March 11 @ 15:00 UTC
 
-#### Resources
+### Resources
 - [Branding assets](https://drive.google.com/drive/folders/1A9G2HM5RAka4FLGyVvRC4NeazpAYBh7Z?usp=sharing)
 - [Website](https://umee.cc/)
 - [Web App](https://app.umee.cc/#/) 
 
-#### Rewards
+### Rewards
 - 1st Place - 2,000 UMEE
 - 2nd Place - 1,500 UMEE
 - 3rd Place - 1,000 UMEE
@@ -48,7 +48,7 @@ Still want to participate but don’t think of yourself as a creative? Not to wo
 
 *Winners will be announced on Twitter, and given instructions on how to receive their rewards. Rewards will be claimable on March 16th, 2022.*
 
-#### Rules
+### Rules
 - Participants must be following **[@Umee_CrossChain](https://twitter.com/Umee_CrossChain)** to win
 - Entries must tag **[@Umee_CrossChain](https://twitter.com/Umee_CrossChain)** and use **#MyUmeeLogo** and be shared before March 11 @ 15:00 UTC in order to be considered valid
 - Participants are welcome to submit as many entries as they’d like, as long as they are all original
