@@ -1,7 +1,6 @@
 # Community Events
 
 <details>
-
 <summary>Creative Logo Contest</summary>
 
 **Date:** *2022-03-02 to 2022-03-11*
