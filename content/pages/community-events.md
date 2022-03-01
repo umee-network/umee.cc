@@ -1,6 +1,8 @@
 # Community Events
 
-## Creative Logo Contest
+<details>
+
+<summary>Creative Logo Contest</summary>
 
 **Date:** *2022-03-02 to 2022-03-11*
 
@@ -52,3 +54,5 @@ Still want to participate but don’t think of yourself as a creative? Not to wo
 - Winners will be selected by March 16th, 2022 at the Umee team’s discretion
 
 **Good luck!**
+  
+</details>
