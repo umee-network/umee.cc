@@ -17,7 +17,16 @@ Recreate the new Umee logo in your own style and share it on Twitter using **#My
 
 **Details**
 
-Creativity is key - feel free to submit photoshopped images or gifs, handmade artwork such as drawings and paintings, or anything else you can think of! The more out of the box, the better! As long as your submission(s) involves a creative twist on the new Umee logo, you will be eligible to win. 
+Creativity is key! The more out of the box, the better! As long as your submission(s) involves a creative twist on the new Umee logo, you will be eligible to win. Here are some ideas of different mediums you can recreate the Umee logo in:
+- Drawings
+- Pantings
+- Grahic Design/Photoshop  
+- Collages (Digital or handmade)
+- Woodwork
+- Baked Goods
+- ASCII Art
+- Resin Art
+- And anything else you can think of! 
 
 **Winners will be selected by the Umee team based on:**
 - Creativity
