@@ -114,6 +114,14 @@
                         >Blog</a
                       >
                     </li>
+                    <li>
+                      <a
+                        href="https://www.umee.cc/community-events"
+                        class="block py-1"
+                        target="_blank"
+                        >Community Events</a
+                      >
+                    </li>
                   </ul>
                   <ul>
                     <li>
