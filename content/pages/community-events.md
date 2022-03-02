@@ -35,7 +35,7 @@ Creativity is key! The more out of the box, the better! As long as your submissi
 
 *Hint: to get more exposure on your submission you can share it in the [#designers](https://discord.gg/umee) channel on the Umee Discord server.*
 
-Still want to participate but don’t think of yourself as a creative? Not to worry! You’re still eligible to win UMEE rewards by retweeting this **tweet**.
+Still want to participate but don’t think of yourself as a creative? Not to worry! You’re still eligible to win UMEE rewards by retweeting this [tweet](https://twitter.com/Umee_CrossChain/status/1499067194340167680?s=20&t=xldgypQozqj2BKcDgE61lw).
 
 **How To Enter**
 - Recreate the Umee logo in your own style
