@@ -78,13 +78,21 @@
                   target="_blank"
                   href="https://medium.com/umeeblog"
                   >Blog</a
+                   >
+              </li>
+              <li>
+                <a
+                  class="py-1 block hover:text-navy"
+                  target="_blank"
+                  href="https://www.umee.cc/community-events"
+                  >Community Events</a
                 >
               </li>
               <li>
                 <a
                   class="py-1 block hover:text-navy"
                   target="_blank"
-                  href="https://twitter.com/Umee_CrossChain "
+                  href="https://twitter.com/Umee_CrossChain"
                   >Twitter</a
                 >
               </li>
