@@ -53,21 +53,15 @@ Umee releases new community programs and events on an ongoing basis to gather th
 2022 March: Umee Lending Facility Upgrades   
 2022 April - Onward:
 
--Umee Polygon Lending and Borrowing Application
-  
--Umee Arbitrum Lending and Borrowing Application
-  
--Umee Optimism Lending and Borrowing Application
-  
--Umee Solana Lending and Borrowing Application
-  
--Umee Binance Smart Chain Lending and Borrowing Application
+- Umee Polygon Lending and Borrowing Application
+- Umee Arbitrum Lending and Borrowing Application 
+- Umee Optimism Lending and Borrowing Application
+- Umee Solana Lending and Borrowing Application
+- Umee Binance Smart Chain Lending and Borrowing Application
+- Protocol developments on top of Umee: meTokens, staking curves, defi debt protocols 
+- Cross chain lending and borrowing applications onto more networks
 
--Protocol developments on top of Umee: meTokens, staking curves, defi debt protocols
-  
--Cross chain lending and borrowing applications onto more networks
-
-_Disclaimer - timeline is subject to change_
+*Disclaimer - timeline is subject to change*
 
 </details>
 
