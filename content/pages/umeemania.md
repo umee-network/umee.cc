@@ -15,12 +15,6 @@ We invite you to dive into Umee’s incentivized testnet to help us improve secu
 
 ## How It Works
 
-<details>
-<summary>Umeemania participants are encouraged to contribute the highest total value locked (TVL) of assets onto [Umee](http://testnet.umee.cc). 
-</summary>
-  
-</details>
-
 **Umeemania participants are encouraged to contribute the highest total value locked (TVL) of assets onto [Umee](http://testnet.umee.cc).**
 
 Total value locked (TVL) is the overall value of crypto assets deposited in a DeFi protocol. Testnet participants can increase their TVL contributions by strategically depositing, borrowing and depositing back various testnet tokens while maintaining healthy collateralization ratios to prevent liquidation. The Umee core team will be taking snapshots randomly to check individual TVL contributions and mark suspicious bot activities. *These snapshots will be used to determine token reward allocations later on.*
