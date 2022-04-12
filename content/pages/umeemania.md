@@ -17,7 +17,7 @@ We invite you to dive into Umee’s incentivized testnet to help us improve secu
 
 Total value locked (TVL) is the overall value of crypto assets deposited in a DeFi protocol. Testnet participants can increase their TVL contributions by strategically depositing, borrowing and depositing back various testnet tokens while maintaining healthy collateralization ratios to prevent liquidation. The Umee core team will be taking snapshots randomly to check individual TVL contributions and mark suspicious bot activities. *These snapshots will be used to determine token reward allocations later on.*
 
-**Umeemania will be held on Umee’s current testnet, along with connections to ATOM, OSMO, JUNO, and more to come.**
+**Umeemania will be held on Umee’s current testnet, along with supported testnet tokens such as ATOM, OSMO, JUNO, and more to come.**
 
 What’s more exciting than an incentivized testnet? Not much! The Umee team has plenty planned for the community. Umeemania participants will be able to test our native lending module for a chance to receive UMEE token rewards, weekly community events with a focus on Umee education, and some other surprises along the way. 
 
