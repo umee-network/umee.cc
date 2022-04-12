@@ -27,8 +27,8 @@ Excited? Great! Get ready to experience cross chain DeFi while earning some UMEE
 
 - Must be using a laptop or pc;
 - Must have an [Umee blockchain compatible wallet](https://docs.umee.cc/umee/user-guides/wallet-set-up/setting-up-an-umee-blockchain-compatible-wallet), e.g. Keplr;
-- Must be an [Umee Discord](https://discord.gg/umee) member (to use testnet faucets);
-- All Umeemania participants must [use a new Umee wallet address](https://docs.umee.cc/umee/user-guides/wallet-set-up/setting-up-an-umee-blockchain-compatible-wallet#to-create-another-wallet-with-keplr).
+- All Umeemania participants must [use a new Umee wallet address](https://docs.umee.cc/umee/user-guides/wallet-set-up/setting-up-an-umee-blockchain-compatible-wallet#to-create-another-wallet-with-keplr);
+- Must be an [Umee Discord](https://discord.gg/umee) member (to use testnet faucets)
 
 ## How to Participate
 
