@@ -1,5 +1,5 @@
 ---
-title: UMEEMANIA
+title: UMEEMANIA INCENTIVIZED TESTNET
 date: 2022-04-13
 ---
 
@@ -9,7 +9,7 @@ Since our last incentivized testnet, Umee has accomplished a lot - mainnet launc
 
 We invite you to dive into Umee’s incentivized testnet to help us improve security and UX before implementing the mainnet upgrade. Become an Umeemaniac and join Umeemania by learning to use Umee’s cross-chain lending and borrowing functions, with a strong focus on IBC functionality, while having the opportunity to earn some [UMEE tokens](https://medium.com/umeeblog/umee-token-economics-cd15ef08f8be)!
 
-<ButtonGradient href="https://testnet.umee.cc/">Launch Umeemania</ButtonGradient>
+<ButtonGradient href="https://testnet.umee.cc/">Launch Testnet</ButtonGradient>
 
 ## How It Works
 
@@ -102,4 +102,4 @@ If you have any suggestions to improve the web app, please share them in the [#s
 
 *You can learn more about Umee and the UMEE token [here](https://docs.umee.cc/umee/).*
 
-<ButtonGradient href="https://testnet.umee.cc/">Launch Umeemania</ButtonGradient>
+<ButtonGradient href="https://testnet.umee.cc/">Launch Testnet</ButtonGradient>
