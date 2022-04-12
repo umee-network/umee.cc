@@ -3,8 +3,6 @@ title: UMEEMANIA
 date: 2022-04-13
 ---
 
-<ButtonLink href="https://testnet.umee.cc/">Launch Umeemania</ButtonLink>
-
 Welcome to Umeemania! If this is your first time participating in an Umee incentivized testnet, we’re thrilled to have you. And if you’re a seasoned veteran of our testnets, glad to have you back!
 
 Since our last incentivized testnet, Umee has accomplished a lot - mainnet launch, token launch, web app launch, rebrand - just to name a few items. Now, we pivot to focus on the next upgrade of Umee: our native (Cosmos-based) lending module. 
