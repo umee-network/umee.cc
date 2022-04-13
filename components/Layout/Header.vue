@@ -82,6 +82,14 @@
                 <a
                   class="py-1 block hover:text-navy"
                   target="_blank"
+                  href="https://testnet.umee.cc/"
+                  >Testnet Web App</a
+                >
+              </li>
+              <li>
+                <a
+                  class="py-1 block hover:text-navy"
+                  target="_blank"
                   href="https://medium.com/umeeblog"
                   >Blog</a
                    >
