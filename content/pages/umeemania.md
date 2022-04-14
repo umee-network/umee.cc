@@ -1,6 +1,6 @@
 ---
 title: UMEEMANIA TESTNET
-date: 2022-04-14
+date: 2022-04-15
 ---
 
 Welcome to Umeemania! If this is your first time participating in an Umee incentivized testnet, we’re thrilled to have you. And if you’re a seasoned veteran of our testnets, glad to have you back!
