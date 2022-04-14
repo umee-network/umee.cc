@@ -21,6 +21,12 @@
       >
       <a
         class="hidden md:inline-block ml-6"
+        target="_blank"
+        href="https://www.umee.cc/umeemania"
+        >Umeemania</a
+      >
+      <a
+        class="hidden md:inline-block ml-6"
         href="https://docs.umee.cc/umee/"
         target="_blank"
         >Docs</a
@@ -70,6 +76,14 @@
               <li>
                 <NuxtLink class="py-1 block hover:text-navy" to="/faqs"
                   >FAQs</NuxtLink
+                >
+              </li>
+              <li>
+                <a
+                  class="py-1 block hover:text-navy"
+                  target="_blank"
+                  href="https://testnet.umee.cc/"
+                  >Testnet Web App</a
                 >
               </li>
               <li>

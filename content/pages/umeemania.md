@@ -26,13 +26,12 @@ Excited? Great! Get ready to experience cross chain DeFi while earning some UMEE
 ## What’s Needed to Participate?
 
 - Must be using a laptop or pc;
-- Must have an [Umee blockchain compatible wallet](https://docs.umee.cc/umee/user-guides/wallet-set-up/setting-up-an-umee-blockchain-compatible-wallet), e.g. Keplr;
-- All Umeemania participants must [use a new Umee wallet address](https://docs.umee.cc/umee/user-guides/wallet-set-up/setting-up-an-umee-blockchain-compatible-wallet#to-create-another-wallet-with-keplr);
-- Must be an [Umee Discord](https://discord.gg/umee) member (to use testnet faucets)
+- Must create a NEW [Umee blockchain compatible wallet](https://docs.umee.cc/umee/user-guides/wallet-set-up/setting-up-an-umee-blockchain-compatible-wallet);
+- All Umeemania participants must [use a new Umee wallet address](https://docs.umee.cc/umee/user-guides/wallet-set-up/setting-up-an-umee-blockchain-compatible-wallet#to-create-another-wallet-with-keplr).
 
 ## How to Participate
 
-1. Make sure you have both an [Umee blockchain compatible wallet](https://docs.umee.cc/umee/user-guides/wallet-set-up/setting-up-an-umee-blockchain-compatible-wallet) and an [Ethereum wallet](https://docs.umee.cc/umee/user-guides/wallet-set-up/setting-up-an-ethereum-wallet) set up. Participants who previously had an Umee blockchain compatible wallet set up should [create a new account with a new wallet address](https://docs.umee.cc/umee/user-guides/wallet-set-up/setting-up-an-umee-blockchain-compatible-wallet#to-create-another-wallet-with-keplr).
+1. Create a new [Umee blockchain compatible wallet](https://docs.umee.cc/umee/user-guides/wallet-set-up/setting-up-an-umee-blockchain-compatible-wallet) and an [Ethereum wallet](https://docs.umee.cc/umee/user-guides/wallet-set-up/setting-up-an-ethereum-wallet). Users who would like to interact with Umee’s Ethereum web app should also have an [Ethereum wallet](https://docs.umee.cc/umee/user-guides/wallet-set-up/setting-up-an-umee-blockchain-compatible-wallet#to-create-another-wallet-with-keplr) set up.
 2. Follow the [testnet guides found here](https://docs.umee.cc/umee/user-guides/umeemania-testnet) to connect to the web app, fund your wallets with testnet tokens, and start testing out Umee’s new features!
 
 ## Guides
