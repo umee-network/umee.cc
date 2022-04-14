@@ -90,6 +90,22 @@
                     <li>
                       <a
                         class="block py-1"
+                        href="https://www.umee.cc/umeemania"
+                        target="_blank"
+                        >Umeemania</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="block py-1"
+                        href="https://testnet.umee.cc/"
+                        target="_blank"
+                        >Testnet Web App</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="block py-1"
                         href="https://www.umee.cc/umee-whitepaper.pdf"
                         target="_blank"
                         >Whitepaper</a
