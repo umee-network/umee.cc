@@ -3,7 +3,7 @@
 ## Testnet Tutorial Video/Gif Contest
 
 <details>
-<summary>Date: 2022-04-19 to 2022-04-26</summary>
+<summary>Date: 2022-04-21 to 2022-04-28</summary>
 
 **Skills Required:** *Graphics*
 
