@@ -3,7 +3,7 @@
 ## Testnet Tutorial Video/Gif Contest
 
 <details>
-<summary>Date: 2022-04-18 to 2022-04-25</summary>
+<summary>Date: 2022-04-19 to 2022-04-26</summary>
 
 **Skills Required:** *Graphics*
 
@@ -44,7 +44,7 @@ We want you to provide insight and guidance about the current testnet to potenti
 
 **How To Enter**
 - Create a testnet tutorial video or extended gif that showcases how to do one (or more) tasks/requirements of Umeemania
-- Share the testnet tutorial video/gif on Twitter and tag **[@Umee_CrossChain](https://twitter.com/Umee_CrossChain)** in the post with **#MyUmeeTutorial** by April 25, 2022 @ 15:00 UTC
+- Share the testnet tutorial video/gif on Twitter and tag **[@Umee_CrossChain](https://twitter.com/Umee_CrossChain)** in the post with **#MyUmeeTutorial** by April 26, 2022 @ 15:00 UTC
 
 **Resources**
 - [Testnet Web App](http://testnet.umee.cc)
