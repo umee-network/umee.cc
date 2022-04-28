@@ -73,7 +73,7 @@ Excited? Great! Get ready to experience cross chain DeFi while earning some UMEE
 
 ## Found a Bug? 
 
-If you encounter a bug while using the testnet web app, please use [this form](https://forms.gle/CFhWWa5BhHh4EZnUA) to report it so the Umee team can squash it.
+If you encounter a bug while using the testnet web app, please use [this form](https://forms.gle/x8Fz3KRqo7xm8ij97) to report it so the Umee team can squash it.
 
 ## Questions?
 
