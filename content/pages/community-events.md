@@ -3,7 +3,7 @@
 ## Creative Logo Contest
 
 <details>
-<summary> Know More </summary>
+<summary> Know More </summary>  
 
 **Skills Required:** *Creativity*
 
@@ -68,4 +68,58 @@ Still want to participate but don’t think of yourself as a creative? Not to wo
 ## My Umee Merch Contest
 
 <details>
-  <summary> Know More </summary>
+  
+  <summary> Know More </summary>  
+  
+Calling all designers!
+
+Share your Umee designs and swag mock ups for a chance to win UMEE tokens! If you have ideas for some cool Umee merch, now is your chance to bring it to life. Get creative and show us your swag! 😎  
+
+**Submitting Your Entry**
+  
+  To enter, share your design on Twitter using **#MyUmeeMerch** and tagging **[@Umee_CrossChain](https://twitter.com/Umee_CrossChain)** by *deadline.*
+  
+**Rewards Structure**  
+  
+- 1st Place: 2,500 UMEE
+- 2nd Place: 1,500 UMEE each
+- Runner Ups (5): 500 UMEE each
+  
+> Winners will be tagged on Twitter by **4-5 days after the deadline** with instructions to receive their rewards.  
+  
+**Sample Ideas**
+  
+- T-shirts
+- Stickers
+- Socks
+- Hats
+- Hoodies
+- Beanies
+- Sunglasses
+- Koozies
+- Stuffed animals / toys
+- Mugs
+- *Any other swag you can think of!*
+  
+**Helpful Resources**
+  
+  - [Umee Branding assets](https://drive.google.com/drive/folders/1A9G2HM5RAka4FLGyVvRC4NeazpAYBh7Z?usp=sharing)
+  - [Sticker Mule](https://www.stickermule.com/) - sticker mockups;
+  - [Printful](https://www.printful.com/) - other merch mockups;
+  
+**Tips**
+
+  - Creativity is key;
+  - Engagement (likes, comments, retweets) will be heavily considered by the judges - participants are encouraged to share their submissions in the **#marketing** channel on the [Umee Discord server](https://discord.gg/umee) to get additional exposure;
+  - Keep it real - mockups that can easily be brought to life are more desirable than far-out ones.
+  
+  **Rules**
+- By submitting your work, you grant Umee permission to use your design on future marketing campaigns;
+- Must be following **[@Umee_CrossChain](https://twitter.com/Umee_CrossChain)** to be eligible to win;
+- Participants can enter as many times as they’d like, but can only win once;
+- All submissions must be your own original work;
+- All submissions must be shared by deadline.
+
+**Good luck!**
+  
+  </details>
