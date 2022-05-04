@@ -3,7 +3,7 @@
 ## Creative Logo Contest
 
 <details>
-<summary>Date: 2022-03-02 to 2022-03-11</summary>
+<summary> Know More </summary>
 
 **Skills Required:** *Creativity*
 
@@ -64,3 +64,8 @@ Still want to participate but don’t think of yourself as a creative? Not to wo
 **Good luck!**
   
 </details>
+
+## My Umee Merch Contest
+
+<details>
+  <summary> Know More </summary>
