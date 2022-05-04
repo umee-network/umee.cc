@@ -1,6 +1,6 @@
 # Community Events
 
-## My Umee Merch Contest
+## My Umee Merch Contest **[LIVE]**
 
 <details>
   
@@ -12,15 +12,18 @@ Share your Umee designs and swag mock ups for a chance to win UMEE tokens! If yo
 
 **Submitting Your Entry**
   
-  To enter, share your design on Twitter using **#MyUmeeMerch** and tagging **[@Umee_CrossChain](https://twitter.com/Umee_CrossChain)** by *deadline.*
+  To enter, share your design on Twitter using **#MyUmeeMerch** and tagging **[@Umee_CrossChain](https://twitter.com/Umee_CrossChain)** by **May 12th at 15:00 UTC.** 
+  
+  _Participants can also retweet this post (optional) for an additional chance to win._
   
 **Rewards Structure**  
   
 - 1st Place: 2,500 UMEE
 - 2nd Place: 1,500 UMEE each
-- Runner Ups (5): 500 UMEE each
+- Runner Ups (3): 500 UMEE each
+- Random Participants who also retweet (5): 200 UMEE each
   
- *Winners will be tagged on Twitter by **4-5 days after the deadline** with instructions to receive their rewards.* 
+ *Winners will be tagged on Twitter by **May 17th** with instructions to receive their rewards.* 
   
 **Sample Ideas**
   
@@ -53,14 +56,14 @@ Share your Umee designs and swag mock ups for a chance to win UMEE tokens! If yo
 - Must be following **[@Umee_CrossChain](https://twitter.com/Umee_CrossChain)** to be eligible to win;
 - Participants can enter as many times as they’d like, but can only win once;
 - All submissions must be your own original work;
-- All submissions must be shared by deadline.
+- All submissions must be shared by **May 12th at 15:00 UTC.**
 
 **Good luck!**
   
   </details>
   
   
-## Creative Logo Contest
+## Creative Logo Contest [ENDED]
 
 <details>
 <summary> Know More </summary>  
