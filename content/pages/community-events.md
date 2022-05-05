@@ -4,7 +4,7 @@
 
 <details>
   
-  <summary> Know More </summary>  
+  <summary> Learn More </summary>  
   
 Calling all designers!
 
@@ -14,7 +14,7 @@ Share your Umee designs and swag mock ups for a chance to win UMEE tokens! If yo
   
   To enter, share your design on Twitter using **#MyUmeeMerch** and tagging **[@Umee_CrossChain](https://twitter.com/Umee_CrossChain)** by **May 12th at 15:00 UTC.** 
   
-  _Participants can also retweet this post (optional) for an additional chance to win._
+  _Participants can also retweet [this post](https://twitter.com/Umee_CrossChain/status/1522272506924748802?s=20&t=P8asuh_ysfeiWr01hG00ow) (optional) for an additional chance to win._
   
 **Rewards Structure**  
   
@@ -66,7 +66,7 @@ Share your Umee designs and swag mock ups for a chance to win UMEE tokens! If yo
 ## Creative Logo Contest [ENDED]
 
 <details>
-<summary> Know More </summary>  
+<summary> Learn More </summary>  
 
 **Skills Required:** *Creativity*
 
