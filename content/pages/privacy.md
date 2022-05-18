@@ -56,10 +56,10 @@ except where you have given your consent and further detailed below.
 
 We may share your Personal Data with third parties:
 
-1. If we think that sharing it is necessary to enforce the Terms of Service;
-2. To comply with government agencies, including regulators, law enforcement and/or justice 
+- If we think that sharing it is necessary to enforce the Terms of Service;
+- To comply with government agencies, including regulators, law enforcement and/or justice 
 departments;
-3. To third parties who provide services to Umee (such as administration or technical services);
+- To third parties who provide services to Umee (such as administration or technical services);
 
 **6. HOW WE STORE YOUR PERSONAL DATA**
 
