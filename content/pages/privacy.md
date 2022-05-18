@@ -89,11 +89,11 @@ communications.
 Users can opt out from these marketing communications at any moment. If you do not want to 
 receive these communications, please send an email to support@umee.cc.
 
-**9. Sale of Your Personal Information**
+**9. SALE OF YOUR PERSONAL INFORMATION**
 
 We do not sell your Personal Data.
 
-**10. Personal Information of Minors**
+**10. PERSONAL INFORMATION OF MINORS**
 
 Individuals under the age of eighteen (18) are not permitted to use our services. We do not collect or utilise Personal Information about children intentionally.
 
