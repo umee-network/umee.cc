@@ -47,5 +47,6 @@
     "stylelint-config-standard": "^22.0.0",
     "tailwindcss-debug-screens": "^2.2.0",
     "vue-waypoint": "^3.5.2"
-  }
+  },
+  "packageManager": "yarn@3.2.1"
 }
