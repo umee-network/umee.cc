@@ -1,4 +1,8 @@
 export default {
+  env: {
+    strapiBaseUri: process.env.API_URL || 'http://localhost:1337',
+  },
+
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
@@ -160,6 +164,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '@nuxtjs/apollo',
     '@nuxtjs/markdownit',
   ],
 
@@ -179,5 +184,13 @@ export default {
   build: {},
   generate: {
     fallback: true,
+  },
+  apollo: {
+    clientConfigs: {
+      default: {
+        httpEndpoint:
+          process.env.BACKEND_URL || 'http://localhost:1337/graphql',
+      },
+    },
   },
 }

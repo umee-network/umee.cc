@@ -1,0 +1,21 @@
+query FetchPost($slug: String!) {
+  posts(filters: { slug: { eq: $slug } }) {
+    data {
+      id
+      attributes {
+        title
+        slug
+        content
+        cover {
+          data {
+            attributes {
+              name
+              url
+            }
+          }
+        }
+        published_date
+      }
+    }
+  }
+}
