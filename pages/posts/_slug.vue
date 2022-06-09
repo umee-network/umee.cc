@@ -16,35 +16,26 @@ var moment = require('moment')
 const edjsHTML = require('editorjs-html')
 
 export default {
-  data() {
-    return {
-      moment: moment,
-      api_url: process.env.strapiBaseUri,
-    }
-  },
-  computed: {
-    content() {
-      const articleBlocks = JSON.parse(this.posts.data[0].attributes.content)
-      const edjsParser = edjsHTML()
-      const html = edjsParser.parse(articleBlocks)
-      console.log(html)
-      return html
-    },
-    article() {
-      return this.posts.data[0].attributes
-    },
-    coverImage() {
-      return this.posts.data[0].attributes.cover.data.attributes.url
-    },
-  },
-  apollo: {
-    posts: {
-      prefetch: true,
+  async asyncData({ app, route }) {
+    const articleResult = await app.apolloProvider.defaultClient.query({
       query: postQuery,
-      variables() {
-        return { slug: this.$route.params.slug }
+      variables: {
+        slug: route.params.slug,
       },
-    },
+    })
+
+    const articleBlocks = JSON.parse(
+      articleResult.data.posts.data[0].attributes.content
+    )
+    const edjsParser = edjsHTML()
+    const html = edjsParser.parse(articleBlocks)
+
+    return {
+      coverImage:
+        articleResult.data.posts.data[0].attributes.cover.data.attributes.url,
+      article: articleResult.data.posts.data[0].attributes,
+      content: html,
+    }
   },
 }
 </script>
