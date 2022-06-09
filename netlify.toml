@@ -1,6 +1,4 @@
 [build]
   publish = "dist"
   command = "npm run generate"
-  environment = {
-    YARN_VERSION = "3.2.1"
-  }
+  environment = { YARN_VERSION = "3.2.1" }
