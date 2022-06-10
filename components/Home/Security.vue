@@ -7,7 +7,9 @@
     }"
     class="py-14 md:py-20 lg:py-36 container"
   >
-    <div class="shadow-umee rounded-2xl p-6 md:p-10">
+    <div
+      class="shadow-umee dark:shadow-none dark:border-[#464869] dark:border rounded-2xl p-6 md:p-10"
+    >
       <div class="md:grid md:grid-cols-12 md:gap-x-8">
         <div class="md:col-span-4 mb-8 md:mb-0">
           <h2
