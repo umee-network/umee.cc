@@ -3,7 +3,7 @@
     <a
       :href="link"
       :target="target"
-      class="border text-xl px-11 py-3 rounded-full inline-block !no-underline border-midGrey button"
+      class="border text-xl px-11 py-3 rounded-full inline-block !no-underline border-midGrey dark:bg-navy dark:text-white button"
       ><slot></slot
     ></a>
   </div>
@@ -11,7 +11,7 @@
     v-else
     :to="link"
     :target="target"
-    class="border text-xl px-11 py-3 rounded-full inline-block !no-underline border-midGrey button"
+    class="border text-xl px-11 py-3 rounded-full inline-block !no-underline border-midGrey dark:bg-navy dark:text-white button"
     ><slot></slot
   ></NuxtLink>
 </template>

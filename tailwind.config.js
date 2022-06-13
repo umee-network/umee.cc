@@ -46,6 +46,9 @@ module.exports = {
       xxxxl: '4.5rem',
     },
     extend: {
+      boxShadow: {
+        umee: '0px 4px 12px 1px rgba(0, 0, 0, 0.15)',
+      },
       keyframes: {
         'adora-bounce': {
           '0%': {
