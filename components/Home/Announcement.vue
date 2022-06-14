@@ -1,6 +1,6 @@
 <template>
   <div
-    class="fixed z-50 bottom-12 right-12 p-6 rounded-2xl pr-12 md:min-w-[28rem] bg-navy text-midGreyOnNavy shadow-umee dark:shadow-none dark:border-[#464869] dark:border text-md"
+    class="fixed z-50 bottom-3 right-3 md:bottom-12 md:right-12 p-6 rounded-2xl pr-12 md:w-[28rem] max-w-[18.75rem] md:max-w-none bg-navy text-midGreyOnNavy shadow-umee dark:shadow-none dark:border-[#464869] dark:bg-white dark:border text-md"
   >
     <button class="absolute top-4 right-4">
       <svg
@@ -12,13 +12,13 @@
       >
         <path
           d="M6.5 6.49988L19.4998 19.4997"
-          stroke="white"
+          stroke="currentColor"
           stroke-width="1.3"
           stroke-miterlimit="10"
         />
         <path
           d="M6.5 19.4998L19.4998 6.49991"
-          stroke="white"
+          stroke="currentColor"
           stroke-width="1.3"
           stroke-miterlimit="10"
         />
@@ -36,17 +36,19 @@
       }"
     >
       <h2
-        class="text-[1.75rem] md:text-[2rem] mb-1 font-serif text-white leading-[0.9]"
+        class="text-[1.75rem] md:text-[2rem] mb-1 font-serif text-white dark:text-navy leading-[0.9]"
       >
         {{ page.announcement_title }}
       </h2>
-      <p class="mb-0">{{ page.announcement_text }}</p>
+      <p class="mb-0 text-midGreyOnNavy dark:text-navy">
+        {{ page.announcement_text }}
+      </p>
     </div>
 
     <ButtonLink
       target="_blank"
       class="text-center !text-md mt-6"
-      :dark="true"
+      color="reverse"
       :href="page.announcement_link"
       >{{ page.announcement_link_text }}</ButtonLink
     >
