@@ -136,10 +136,7 @@ export default {
     }
   },
   async fetch() {
-    this.page = await this.$content('', { deep: true }).fetch()
-  },
-  data() {
-    return { articles: null }
+    this.page = await this.$content('pages/home').fetch()
   },
   mounted() {
     const today = new Date()
