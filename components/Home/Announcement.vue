@@ -1,8 +1,10 @@
 <template>
   <div
+    v-show="show && page.announcement_title && page.announcement_text"
+    ref="banner"
     class="fixed z-50 bottom-3 right-3 md:bottom-12 md:right-12 p-6 rounded-2xl pr-12 md:w-[28rem] max-w-[18.75rem] md:max-w-none bg-navy text-midGreyOnNavy shadow-umee dark:shadow-none dark:border-[#464869] dark:bg-white dark:border text-md"
   >
-    <button class="absolute top-4 right-4">
+    <button class="absolute top-4 right-4" @click="closeAnnouncement">
       <svg
         width="26"
         height="26"
@@ -24,17 +26,7 @@
         />
       </svg>
     </button>
-    <div
-      v-motion
-      :initial="{
-        opacity: 0,
-        y: 100,
-      }"
-      :enter="{
-        opacity: 1,
-        y: 0,
-      }"
-    >
+    <div>
       <h2
         class="text-[1.75rem] md:text-[2rem] mb-1 font-serif text-white dark:text-navy leading-[0.9]"
       >
@@ -49,6 +41,7 @@
       target="_blank"
       class="text-center !text-md mt-6"
       color="reverse"
+      v-show="page.announcement_link"
       :href="page.announcement_link"
       >{{ page.announcement_link_text }}</ButtonLink
     >
@@ -63,6 +56,28 @@ export default {
       default() {
         return {}
       },
+    },
+  },
+  data: () => ({ show: false }),
+  computed: {},
+  mounted() {
+    this.show = !this.$cookies.get('announcement-closed')
+    this.$refs.banner.setAttribute('data-aos', 'zoom-in-left')
+    this.$refs.banner.setAttribute('aos-delay', '300')
+    const $this = this
+
+    setTimeout(function () {
+      $this.$refs.banner.classList.add('aos-animate')
+    }, 1000)
+  },
+  methods: {
+    closeAnnouncement() {
+      this.$cookies.set('announcement-closed', true, {
+        path: '/',
+        maxAge: 60 * 60 * 24 * 7,
+      })
+
+      this.$refs.banner.classList.remove('aos-animate')
     },
   },
 }

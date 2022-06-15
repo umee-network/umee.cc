@@ -6,7 +6,6 @@
     <SVGSwoosh />
     <Security />
     <HomeBackers :page="page" />
-    <HomeAnnouncement :page="page" :dark="true" />
     <SVGAdoraWink />
   </div>
 </template>

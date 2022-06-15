@@ -45,8 +45,12 @@
               <nav>
                 <ul class="mt-3 lg:mt-6">
                   <UIFooterLink to="https://app.umee.cc/">Markets</UIFooterLink>
-                  <UIFooterLink to="https://wallet.keplr.app/#/umee/governance">Governance</UIFooterLink>
-                  <UIFooterLink to="https://www.umee.cc/umeemania">Umeemania</UIFooterLink>
+                  <UIFooterLink to="https://wallet.keplr.app/#/umee/governance"
+                    >Governance</UIFooterLink
+                  >
+                  <UIFooterLink to="https://www.umee.cc/umeemania"
+                    >Umeemania</UIFooterLink
+                  >
                   <UIFooterLink to="https://github.com/umee-network"
                     >Github</UIFooterLink
                   >
@@ -68,7 +72,9 @@
               <UIBlockTitle>Connect</UIBlockTitle>
               <nav>
                 <ul class="mt-3 lg:mt-6">
-                  <UIFooterLink to="https://www.umee.cc/careers">Careers</UIFooterLink>
+                  <UIFooterLink to="https://www.umee.cc/careers"
+                    >Careers</UIFooterLink
+                  >
                   <UIFooterLink
                     to="https://drive.google.com/drive/folders/1A9G2HM5RAka4FLGyVvRC4NeazpAYBh7Z?usp=sharing"
                     >Media Kit</UIFooterLink
@@ -117,6 +123,7 @@
         </div>
       </div>
     </div>
+    <HomeAnnouncement :page="page" />
   </div>
 </template>
 
@@ -125,7 +132,14 @@ export default {
   data() {
     return {
       year: null,
+      page: null,
     }
+  },
+  async fetch() {
+    this.page = await this.$content('', { deep: true }).fetch()
+  },
+  data() {
+    return { articles: null }
   },
   mounted() {
     const today = new Date()
