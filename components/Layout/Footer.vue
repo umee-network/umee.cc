@@ -1,6 +1,7 @@
 <template>
+  <!-- perspective-1 class addresses safari bug where flipping logos temporarily appear on top of the announcements panel-->
   <div
-    class="bg-navy text-white pt-11 md:pt-10 relative dark:border-darkGreyOnNavy dark:border-t"
+    class="bg-navy text-white pt-11 md:pt-10 relative dark:border-darkGreyOnNavy dark:border-t perspective-1"
   >
     <div class="container pb-8 lg:pb-16">
       <div class="grid grid-cols-12 gap-x-8">
