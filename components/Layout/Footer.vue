@@ -1,7 +1,8 @@
 <template>
-  <!-- perspective-1 class addresses safari bug where flipping logos temporarily appear on top of the announcements panel-->
+  <!-- zIndex and backfaceVisibility style addresses safari bug where flipping logos temporarily appear on top of the announcements panel-->
   <div
-    class="bg-navy text-white pt-11 md:pt-10 relative dark:border-darkGreyOnNavy dark:border-t perspective-1"
+    :style="{ zIndex: '1', backfaceVisibility: 'hidden' }"
+    class="bg-navy text-white pt-11 md:pt-10 relative dark:border-darkGreyOnNavy dark:border-t"
   >
     <div class="container pb-8 lg:pb-16">
       <div class="grid grid-cols-12 gap-x-8">
