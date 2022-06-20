@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container text-center pb-20">
+    <div class="container pb-20">
       <Posts :posts="posts"></Posts>
     </div>
   </div>

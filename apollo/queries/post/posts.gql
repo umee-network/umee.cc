@@ -6,6 +6,17 @@ query Posts {
         title
         slug
         content
+        excerpt
+        cover {
+          data {
+            attributes {
+              name
+              url
+              alternativeText
+            }
+          }
+        }
+        published_date
       }
     }
   }

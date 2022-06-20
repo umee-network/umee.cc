@@ -52,9 +52,15 @@
         <div
           class="track absolute top-0 left-0 bottom-0 w-px bg-darkGreyOnNavy md:bottom-auto md:top-[78px] md:left-0 md:w-full md:border border-solid border-darkGreyOnNavy"
         >
-          <div></div>
-          <div></div>
-          <div></div>
+          <div
+            class="absolute hidden -top-[-3px] w-[5px] h-[5px] rounded-[5px] bg-darkGreyOnNavy"
+          ></div>
+          <div
+            class="absolute hidden -top-[-3px] w-[5px] h-[5px] rounded-[5px] bg-darkGreyOnNavy"
+          ></div>
+          <div
+            class="absolute hidden -top-[-3px] w-[5px] h-[5px] rounded-[5px] bg-darkGreyOnNavy"
+          ></div>
         </div>
       </div>
       <div class="grid grid-cols-3 mb-8">
@@ -89,10 +95,6 @@ export default {
 </script>
 
 <style scoped>
-.track div {
-  @apply absolute hidden top-[-3px] w-[5px] h-[5px] rounded-[5px] bg-darkGreyOnNavy;
-}
-
 @media screen(md) {
   .track div {
     @apply block;
@@ -117,7 +119,12 @@ export default {
 
 .track-pointer::before {
   content: '';
-  @apply bg-darkGreyOnNavy w-[5px] h-[5px] rounded-[5px] left-[-1.625rem] top-[1.5rem] absolute;
+  left: -1.625rem;
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  top: 1.5rem;
+  @apply bg-darkGreyOnNavy absolute;
 }
 
 @media screen(md) {
