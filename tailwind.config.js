@@ -1,13 +1,11 @@
 module.exports = {
-  purge: {
-    content: [
-      `components/**/*.{vue,js}`,
-      `layouts/**/*.vue`,
-      `pages/**/*.vue`,
-      `plugins/**/*.{js,ts}`,
-      `nuxt.config.{js,ts}`,
-    ],
-  },
+  content: [
+    `components/**/*.{vue,js}`,
+    `layouts/**/*.vue`,
+    `pages/**/*.vue`,
+    `plugins/**/*.{js,ts}`,
+    `nuxt.config.{js,ts}`,
+  ],
   darkMode: 'class',
   corePlugins: {
     container: false,
@@ -163,9 +161,6 @@ module.exports = {
       },
     },
   },
-  variants: {
-    typography: ['dark'],
-  },
   plugins: [
     require('tailwindcss-debug-screens'),
     require('@tailwindcss/typography'),
@@ -193,5 +188,4 @@ module.exports = {
       })
     },
   ],
-  mode: 'jit',
 }
