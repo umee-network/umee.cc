@@ -43,6 +43,11 @@ export default {
           this.baseButtonClass +
           ' dark:shadow-button shadow-button-dark dark:bg-button-link-gradient bg-button-link-gradient dark:text-navy bg-button-gradient-reverse hover:bg-button-link-gradient-hover dark:hover:bg-button-link-gradient-hover text-white button'
         )
+      } else if (this.color === 'reverse-reverse-hover') {
+        return (
+          this.baseButtonClass +
+          ' dark:shadow-button shadow-button-dark dark:bg-button-link-gradient-hover bg-button-link-gradient dark:text-navy bg-button-link-gradient-hover hover:bg-button-link-gradient dark:hover:bg-button-link-gradient text-white button'
+        )
       } else {
         return (
           this.baseButtonClass +
