@@ -1,23 +1,6 @@
 <template>
   <div>
     <div
-      class="uppercase text-sm tracking-widest flex gap-x-8 mb-12 border-b border-midGrey"
-    >
-      <nuxt-link
-        to="/blog"
-        class="relative -bottom-px py-4 border-transparent border-b-[3px] hover:border-current"
-        >All</nuxt-link
-      >
-      <nuxt-link
-        class="relative -bottom-px py-4 border-transparent border-b-[3px] hover:border-current"
-        to="/"
-        v-for="category in categories.data"
-        :key="category.id"
-      >
-        {{ category.attributes.name }}
-      </nuxt-link>
-    </div>
-    <div
       class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-8 lg:gap-x-8 lg:gap-y-12"
     >
       <nuxt-link
@@ -50,22 +33,14 @@
 </template>
 
 <script>
-import categoriesQuery from '../apollo/queries/category/categories'
 export default {
   data() {
     return {
-      categories: [],
       api_url: process.env.strapiBaseUri,
     }
   },
   props: {
     posts: Array,
-  },
-  apollo: {
-    categories: {
-      prefetch: true,
-      query: categoriesQuery,
-    },
   },
 }
 </script>

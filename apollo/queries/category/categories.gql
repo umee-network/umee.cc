@@ -4,6 +4,7 @@ query Category {
       id
       attributes {
         name
+        slug
       }
     }
   }

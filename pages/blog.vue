@@ -1,13 +1,11 @@
 <template>
-  <div>
-    <div class="container pb-20">
-      <Posts :posts="posts"></Posts>
-    </div>
+  <div class="container pb-20">
+    <BlogCategories />
+    <BlogPosts :posts="posts" />
   </div>
 </template>
 
 <script>
-// import categoriesQuery from '../apollo/queries/category/categories'
 import postsQuery from '../apollo/queries/post/posts'
 
 export default {
@@ -21,9 +19,6 @@ export default {
     posts: {
       prefetch: true,
       query: postsQuery,
-      variables() {
-        return { id: parseInt(this.$route.params.id) }
-      },
     },
   },
 }

@@ -1,0 +1,28 @@
+query FetchCategory($slug: String!) {
+  categories(filters: { slug: { eq: $slug } }) {
+    data {
+      attributes {
+        name
+        slug
+        posts {
+          data {
+            attributes {
+              title
+              slug
+              content
+              cover {
+                data {
+                  attributes {
+                    name
+                    url
+                  }
+                }
+              }
+              published_date
+            }
+          }
+        }
+      }
+    }
+  }
+}
