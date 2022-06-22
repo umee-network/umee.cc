@@ -86,6 +86,23 @@ FAQ content is edited in the following markdown file `~/content/faq.md`. It uses
 
 ---
 
+## Announcements
+
+The website features an announcement pop-up panel useful for alerting visitors to events or other important information.
+
+Content for the panel is specified in `~/content/home.yml` using the following fields:
+
+```
+announcement_title: Umeemania now live!
+announcement_text: Our incentivized Testnet is now available
+announcement_link_text: Find out more
+announcement_link: /umeemania
+```
+
+If the fields are empty then the banner does not display. If a user closes the banner, their preference is stored in a cookie that expires in 7 days.
+
+---
+
 ## Previewing changes
 
 Any new changes should be made by checking out a new branch from main. Create a PR in Github from this new branch and it will automatically trigger a deployment preview site and URL within Netlify.
