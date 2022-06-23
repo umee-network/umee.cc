@@ -17,6 +17,14 @@
           <h2 class="text-[1.5rem] font-sans font-light leading-tight mb-2">
             {{ post.attributes.title }}
           </h2>
+
+          <div
+            :key="index"
+            v-for="(cat, index) in post.attributes.categories.data"
+          >
+            <div>{{ cat.attributes.name }}</div>
+          </div>
+
           <div class="prose text-midGreyOnNavy">
             {{
               (post.attributes.excerpt ? post.attributes.excerpt : '')

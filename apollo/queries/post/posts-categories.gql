@@ -1,27 +1,39 @@
-query FetchCategory($slug: String!) {
-  categories(filters: { slug: { eq: $slug } }) {
+query FetchCategory($slug: String!, $page: Int!, $pageSize: Int!) {
+  posts(
+    sort: "published_date:desc"
+    pagination: { page: $page, pageSize: $pageSize }
+    filters: { categories: { slug: { eq: $slug } } }
+  ) {
     data {
       attributes {
-        name
+        title
         slug
-        posts(sort: "published_date:desc") {
+        content
+        cover {
           data {
             attributes {
-              title
-              slug
-              content
-              cover {
-                data {
-                  attributes {
-                    name
-                    url
-                  }
-                }
-              }
-              published_date
+              name
+              url
             }
           }
         }
+        categories {
+          data {
+            attributes {
+              slug
+              name
+            }
+          }
+        }
+        published_date
+      }
+    }
+    meta {
+      pagination {
+        page
+        pageSize
+        pageCount
+        total
       }
     }
   }

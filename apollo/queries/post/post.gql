@@ -6,6 +6,14 @@ query FetchPost($slug: String!) {
         title
         slug
         content
+        categories {
+          data {
+            attributes {
+              slug
+              name
+            }
+          }
+        }
         cover {
           data {
             attributes {

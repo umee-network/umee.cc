@@ -1,11 +1,22 @@
-query Posts {
-  posts(sort: "published_date:desc") {
+query Posts($page: Int!, $pageSize: Int!) {
+  posts(
+    pagination: { page: $page, pageSize: $pageSize }
+    sort: "published_date:desc"
+  ) {
     data {
       id
       attributes {
         title
         slug
         content
+        categories {
+          data {
+            attributes {
+              slug
+              name
+            }
+          }
+        }
         excerpt
         cover {
           data {
@@ -17,6 +28,11 @@ query Posts {
           }
         }
         published_date
+      }
+    }
+    meta {
+      pagination {
+        pageCount
       }
     }
   }

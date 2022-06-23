@@ -12,8 +12,8 @@
       class="relative -bottom-px py-4 border-transparent border-b-[3px] hover:border-current"
       active-class="border-current"
       :to="{
-        name: 'categories-slug',
-        params: { slug: category.attributes.slug },
+        name: 'categories-category',
+        params: { category: category.attributes.slug },
       }"
       v-for="category in categories.data"
       :key="category.id"
