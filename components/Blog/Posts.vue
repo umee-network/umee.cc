@@ -7,7 +7,7 @@
         v-for="post in posts.data"
         :to="{ name: 'posts-slug', params: { slug: post.attributes.slug } }"
         :key="post.id"
-        class="flex flex-col justify-between gap-8"
+        class="flex flex-col justify-between gap-4"
       >
         <div>
           <div
@@ -19,13 +19,14 @@
           </h2>
 
           <div
+            class="inline-block mr-2 uppercase text-xs tracking-widest border-b-[2px] border-gradient"
             :key="index"
             v-for="(cat, index) in post.attributes.categories.data"
           >
             <div>{{ cat.attributes.name }}</div>
           </div>
 
-          <div class="prose text-midGreyOnNavy">
+          <div class="prose text-midGreyOnNavy mt-3">
             {{
               (post.attributes.excerpt ? post.attributes.excerpt : '')
                 | truncate(20)
@@ -33,7 +34,7 @@
           </div>
         </div>
         <div class="uppercase tracking-widest text-xs">
-          {{ $moment(post.attributes.published_date).format('LLL') }}
+          {{ $moment(post.attributes.published_date).format('LL') }}
         </div>
       </nuxt-link>
     </div>

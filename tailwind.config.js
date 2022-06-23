@@ -22,6 +22,9 @@ module.exports = {
       midGrey: '#D8D8D8',
       midGreyOnWhite: '#7C7C87',
       reverseAdora: '#869AC7',
+      pink: '#fda9ff',
+      mauve: '#c9b8ff',
+      cyan: '#4dffe5  ',
     },
     screens: {
       sm: '640px',

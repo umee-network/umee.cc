@@ -123,12 +123,7 @@
                       >
                     </li>
                     <li>
-                      <a
-                        href="https://medium.com/umeeblog"
-                        class="block py-1"
-                        target="_blank"
-                        >Blog</a
-                      >
+                      <NuxtLink to="/blog" class="block py-1">Blog</NuxtLink>
                     </li>
                     <li>
                       <a
