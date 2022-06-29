@@ -5,37 +5,52 @@
         <div
           class="text-xs uppercase tracking-widest border-b border-darkGreyOnNavy dark:text-navy mb-5 pb-1"
         >
-          Build
+          Developers
         </div>
         <ul class="text-xl">
-          <li><a href="#" class="inline-block py-1.5">About Umee</a></li>
           <li>
-            <a href="#" class="inline-block py-1.5">Blockchain Basics</a>
+            <a
+              href="https://github.com/PineStreetLabs/nebula"
+              target="_blank"
+              class="inline-block py-1.5 hover:underline"
+              >Nebula Wallet CLI</a
+            >
           </li>
-          <li><a href="#" class="inline-block py-1.5">Blog</a></li>
+          <li>
+            <a
+              href="https://github.com/umee-network/peggo"
+              target="_blank"
+              class="inline-block py-1.5 hover:underline"
+              >Umee Peggo Implementation</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/umee-network/liquidator"
+              target="_blank"
+              class="inline-block py-1.5 hover:underline"
+              >Umee Liquidator toolkit</a
+            >
+          </li>
         </ul>
       </div>
       <div>
         <div
           class="text-xs uppercase tracking-widest border-b border-darkGreyOnNavy mb-5 pb-1"
         >
-          Guides
+          Tutorials
         </div>
         <div class="grid grid-cols-2">
           <ul class="text-xl">
             <li>
-              <a href="#" class="inline-block py-1.5">Creating a Wallet</a>
+              <a href="#" class="inline-block py-1.5 hover:underline"
+                >Developer Docs</a
+              >
             </li>
             <li>
-              <a href="#" class="inline-block py-1.5">Funding a Wallet</a>
-            </li>
-          </ul>
-          <ul class="text-xl">
-            <li>
-              <a href="#" class="inline-block py-1.5">Staking UMEE</a>
-            </li>
-            <li>
-              <a href="#" class="inline-block py-1.5">Lending & Borrowing</a>
+              <a href="#" class="inline-block py-1.5 hover:underline"
+                >Validator Docs</a
+              >
             </li>
           </ul>
         </div>

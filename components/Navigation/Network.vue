@@ -5,37 +5,48 @@
         <div
           class="text-xs uppercase tracking-widest border-b border-darkGreyOnNavy dark:text-navy mb-5 pb-1"
         >
-          Discover
+          Block Explorers
         </div>
         <ul class="text-xl">
           <li>
             <a
-              href="https://docs.umee.cc/umee/umee-overview/what-is-umee"
+              href="https://www.mintscan.io/umee"
               target="_blank"
               class="inline-block py-1.5 hover:underline"
-              >About Umee</a
+              >Mintscan</a
             >
           </li>
           <li>
             <a
-              href="https://docs.umee.cc/umee/blockchain-basics/what-is-a-blockchain"
+              href="https://umee.explorers.guru/"
               target="_blank"
               class="inline-block py-1.5 hover:underline"
-              >Blockchain Basics</a
+              >NodesGuru</a
             >
           </li>
           <li>
-            <NuxtLink to="/blog" class="inline-block py-1.5 hover:underline"
-              >Blog</NuxtLink
+            <a
+              href="https://ping.pub/umee"
+              target="_blank"
+              class="inline-block py-1.5 hover:underline"
+              >Ping.pub</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://atomscan.com/umee"
+              target="_blank"
+              class="inline-block py-1.5 hover:underline"
+              >ATOMScan</a
             >
           </li>
         </ul>
       </div>
-      <div>
+      <!-- <div>
         <div
           class="text-xs uppercase tracking-widest border-b border-darkGreyOnNavy mb-5 pb-1"
         >
-          Guides
+          Analytics
         </div>
         <div class="grid grid-cols-2">
           <ul class="text-xl">
@@ -91,6 +102,31 @@
             </li>
           </ul>
         </div>
+      </div> -->
+      <div>
+        <div
+          class="text-xs uppercase tracking-widest border-b border-darkGreyOnNavy dark:text-navy mb-5 pb-1"
+        >
+          Validators
+        </div>
+        <ul class="text-xl">
+          <li>
+            <a
+              href="https://discord.com/invite/umee"
+              target="_blank"
+              class="inline-block py-1.5 hover:underline"
+              >Validator Community</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              target="_blank"
+              class="inline-block py-1.5 hover:underline"
+              >Validator Documentation</a
+            >
+          </li>
+        </ul>
       </div>
     </div>
   </div>

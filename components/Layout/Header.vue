@@ -12,7 +12,7 @@
       </NuxtLink>
 
       <div
-        class="relative z-10 text-lg flex items-center"
+        class="relative z-10 text-lg flex gap-x-6 items-center"
         :class="
           dropdownMenu
             ? 'text-midGreyOnNavy dark:text-navy'
@@ -20,38 +20,66 @@
         "
       >
         <a
-          class="hidden md:inline-block"
+          class="hidden md:inline-block border-b-2 pb-1"
+          :class="
+            dropdownMenu == 'NavigationLearn'
+              ? 'border-gradient-reverse'
+              : 'border-transparent'
+          "
           target="_blank"
           href="https://app.umee.cc/"
           @mouseover="dropdownMenu = 'NavigationLearn'"
-          >Learn</a
-        >
+          >Learn <UIMenuDropdown class="ml-1 inline-block"
+        /></a>
         <a
-          class="hidden md:inline-block ml-6"
+          class="hidden md:inline-block border-b-2 pb-1"
+          :class="
+            dropdownMenu == 'NavigationBuild'
+              ? 'border-gradient-reverse'
+              : 'border-transparent'
+          "
           target="_blank"
           href="https://wallet.keplr.app/#/umee/governance"
           @mouseover="dropdownMenu = 'NavigationBuild'"
-          >Build</a
-        >
+          >Build <UIMenuDropdown class="ml-1 inline-block"
+        /></a>
         <a
-          class="hidden md:inline-block ml-6"
+          class="hidden md:inline-block border-b-2 pb-1"
+          :class="
+            dropdownMenu == 'NavigationNetwork'
+              ? 'border-gradient-reverse'
+              : 'border-transparent'
+          "
           target="_blank"
           href="https://www.umee.cc/umeemania"
-          >Network</a
-        >
+          @mouseover="dropdownMenu = 'NavigationNetwork'"
+          >Network <UIMenuDropdown class="ml-1 inline-block"
+        /></a>
         <a
-          class="hidden md:inline-block ml-6"
+          class="hidden md:inline-block border-b-2 pb-1"
+          :class="
+            dropdownMenu == 'NavigationCommunity'
+              ? 'border-gradient-reverse'
+              : 'border-transparent'
+          "
           href="https://docs.umee.cc/umee/"
+          @mouseover="dropdownMenu = 'NavigationCommunity'"
           target="_blank"
-          >Community</a
-        >
+          >Community <UIMenuDropdown class="ml-1 inline-block"
+        /></a>
 
         <a
-          class="hidden md:inline-block ml-6"
+          class="hidden md:inline-block border-b-2 pb-1"
+          :class="
+            dropdownMenu == 'NavigationEcosystem'
+              ? 'border-gradient-reverse'
+              : 'border-transparent'
+          "
           href="https://docs.umee.cc/umee/"
           target="_blank"
-          >Ecosystem</a
-        >
+          @mouseover="dropdownMenu = 'NavigationEcosystem'"
+          >Ecosystem <UIMenuDropdown class="ml-1 inline-block"
+        /></a>
 
         <UIButtonGradient
           href="https://app.umee.cc/"
