@@ -11,7 +11,7 @@
         </nuxt-link>
         <div v-else />
         <nuxt-link
-          v-if="this.page < postsResults.meta.pagination.pageCount"
+          v-if="this.page < this.pageCount"
           :to="`/categories/${slug}/page/${parseInt(page) + 1}`"
           >Older posts <SVGArrow class="ml-2 -rotate-90 scale-90"
         /></nuxt-link>
@@ -26,19 +26,24 @@ import categoryQuery from '~/apollo/queries/post/posts-categories'
 const pageSize = 12
 
 export default {
-  async asyncData({ app, route }) {
-    const categories = await app.apolloProvider.defaultClient.query({
-      query: categoryQuery,
-      variables: {
-        slug: route.params.slug,
-        page: parseInt(route.params.number),
-        pageSize: pageSize,
-      },
+  data() {
+    return {
+      page: 1,
+      slug: '',
+      postsResults: [],
+    }
+  },
+  async asyncData({ $graphql, params }) {
+    const categoriesData = await $graphql.default.request(categoryQuery, {
+      page: parseInt(params.number),
+      slug: params.slug,
+      pageSize: pageSize,
     })
     return {
-      page: route.params.number,
-      slug: route.params.slug,
-      postsResults: categories.data.posts,
+      slug: params.slug,
+      page: parseInt(params.number),
+      pageCount: categoriesData.posts.meta.pagination.pageCount,
+      postsResults: categoriesData.posts.data,
     }
   },
 }

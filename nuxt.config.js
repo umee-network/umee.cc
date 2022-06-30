@@ -3,10 +3,9 @@ export default {
     strapiBaseUri: process.env.API_URL || 'http://localhost:1337',
   },
   devServerHandlers: [],
-  // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+  ssr: true,
 
-  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Umee - Cross the Defi Waves',
     htmlAttrs: {
@@ -160,13 +159,13 @@ export default {
     'nuxt-gsap-module',
     '@nuxtjs/color-mode',
     '@nuxtjs/moment',
+    'nuxt-graphql-request',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
-    '@nuxtjs/apollo',
     '@nuxtjs/markdownit',
     '@nuxtjs/gtm',
   ],
@@ -196,27 +195,17 @@ export default {
   colorMode: {
     classSuffix: '',
   },
-
   markdownit: {
     html: 'true',
     runtime: true,
   },
-
-  moment: {},
-
-  // Content module configuration: https://go.nuxtjs.dev/config-content
-  content: {},
-
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
   generate: {
     fallback: true,
   },
-  apollo: {
-    clientConfigs: {
+  graphql: {
+    clients: {
       default: {
-        httpEndpoint:
-          process.env.BACKEND_URL || 'http://localhost:1337/graphql',
+        endpoint: process.env.BACKEND_URL || 'http://localhost:1337/graphql',
       },
     },
   },
