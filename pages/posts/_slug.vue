@@ -16,24 +16,20 @@ var moment = require('moment')
 const edjsHTML = require('editorjs-html')
 
 export default {
-  async asyncData({ app, route }) {
-    const articleResult = await app.apolloProvider.defaultClient.query({
-      query: postQuery,
-      variables: {
-        slug: route.params.slug,
-      },
+  async asyncData({ $graphql, params }) {
+    const articleResult = await $graphql.default.request(postQuery, {
+      slug: params.slug,
     })
-
     const articleBlocks = JSON.parse(
-      articleResult.data.posts.data[0].attributes.content
+      articleResult.posts.data[0].attributes.content
     )
     const edjsParser = edjsHTML()
     const html = edjsParser.parse(articleBlocks)
 
     return {
       coverImage:
-        articleResult.data.posts.data[0].attributes.cover.data.attributes.url,
-      article: articleResult.data.posts.data[0].attributes,
+        articleResult.posts.data[0].attributes.cover.data.attributes.url,
+      article: articleResult.posts.data[0].attributes,
       content: html,
     }
   },
