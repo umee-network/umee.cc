@@ -47,19 +47,4 @@ export default {
     }
   },
 }
-
-// export default {
-//   async fetch() {
-//     const categories = await this.$apolloProvider.defaultClient.query({
-//       query: categoryQuery,
-//       variables: {
-//         page: parseInt(this.$route.params.number),
-//         pageSize: pageSize,
-//       },
-//     })
-//     ;(this.page = this.$route.params.number),
-//       (this.slug = this.$route.route.params.slug),
-//       (this.postsResults = categories.data.posts)
-//   },
-// }
 </script>

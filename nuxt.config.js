@@ -201,7 +201,6 @@ export default {
   },
   generate: {
     fallback: true,
-    routes: ['/blog/page/1', '/blog/page/2'],
   },
   graphql: {
     clients: {
