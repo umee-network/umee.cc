@@ -4,7 +4,7 @@
       class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-8 lg:gap-x-8 lg:gap-y-12"
     >
       <nuxt-link
-        v-for="post in posts.data"
+        v-for="post in posts"
         :to="{ name: 'posts-slug', params: { slug: post.attributes.slug } }"
         :key="post.id"
         class="flex flex-col justify-between gap-4"
@@ -49,7 +49,7 @@ export default {
     }
   },
   props: {
-    posts: Array,
+    posts: [],
   },
 }
 </script>

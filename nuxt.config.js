@@ -160,13 +160,13 @@ export default {
     'nuxt-gsap-module',
     '@nuxtjs/color-mode',
     '@nuxtjs/moment',
+    'nuxt-graphql-request',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
-    '@nuxtjs/apollo',
     '@nuxtjs/markdownit',
     '@nuxtjs/gtm',
   ],
@@ -212,11 +212,10 @@ export default {
   generate: {
     fallback: true,
   },
-  apollo: {
-    clientConfigs: {
+  graphql: {
+    clients: {
       default: {
-        httpEndpoint:
-          process.env.BACKEND_URL || 'http://localhost:1337/graphql',
+        endpoint: process.env.BACKEND_URL || 'http://localhost:1337/graphql',
       },
     },
   },

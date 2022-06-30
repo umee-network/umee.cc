@@ -87,7 +87,7 @@
                 >
               </li>
               <li>
-                <NuxtLink to="/blog" class="py-1 block hover:text-navy"
+                <NuxtLink to="/blog/page/1" class="py-1 block hover:text-navy"
                   >Blog</NuxtLink
                 >
               </li>
