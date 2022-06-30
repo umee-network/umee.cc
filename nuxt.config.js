@@ -1,4 +1,8 @@
 export default {
+  env: {
+    strapiBaseUri: process.env.API_URL || 'http://localhost:1337',
+  },
+  devServerHandlers: [],
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
@@ -138,6 +142,7 @@ export default {
       src: '~/plugins/v-waypoint.client.js',
       mode: 'client',
     },
+    '~plugins/truncate.js',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -154,12 +159,14 @@ export default {
     '@nuxtjs/svg',
     'nuxt-gsap-module',
     '@nuxtjs/color-mode',
+    '@nuxtjs/moment',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '@nuxtjs/apollo',
     '@nuxtjs/markdownit',
     '@nuxtjs/gtm',
   ],
@@ -195,6 +202,8 @@ export default {
     runtime: true,
   },
 
+  moment: {},
+
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
 
@@ -202,5 +211,13 @@ export default {
   build: {},
   generate: {
     fallback: true,
+  },
+  apollo: {
+    clientConfigs: {
+      default: {
+        httpEndpoint:
+          process.env.BACKEND_URL || 'http://localhost:1337/graphql',
+      },
+    },
   },
 }

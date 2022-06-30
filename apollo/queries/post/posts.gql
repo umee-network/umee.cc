@@ -1,0 +1,39 @@
+query Posts($page: Int!, $pageSize: Int!) {
+  posts(
+    pagination: { page: $page, pageSize: $pageSize }
+    sort: "published_date:desc"
+  ) {
+    data {
+      id
+      attributes {
+        title
+        slug
+        content
+        categories {
+          data {
+            attributes {
+              slug
+              name
+            }
+          }
+        }
+        excerpt
+        cover {
+          data {
+            attributes {
+              name
+              url
+              alternativeText
+            }
+          }
+        }
+        published_date
+      }
+    }
+    meta {
+      pagination {
+        pageCount
+      }
+    }
+  }
+}

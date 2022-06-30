@@ -87,12 +87,9 @@
                 >
               </li>
               <li>
-                <a
-                  class="py-1 block hover:text-navy"
-                  target="_blank"
-                  href="https://medium.com/umeeblog"
-                  >Blog</a
-                   >
+                <NuxtLink to="/blog" class="py-1 block hover:text-navy"
+                  >Blog</NuxtLink
+                >
               </li>
               <li>
                 <a
