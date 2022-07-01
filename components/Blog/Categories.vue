@@ -1,5 +1,6 @@
 <template>
   <div
+    v-if="!$fetchState.pending"
     class="uppercase text-sm tracking-widest flex gap-x-8 mb-12 border-b border-midGrey"
   >
     <nuxt-link
@@ -15,7 +16,7 @@
         name: 'categories-category',
         params: { category: category.attributes.slug },
       }"
-      v-for="category in categories.data"
+      v-for="category in categories"
       :key="category.id"
     >
       {{ category.attributes.name }}
@@ -24,7 +25,7 @@
 </template>
 
 <script>
-import categoriesQuery from '../../apollo/queries/category/categories'
+import categoriesQuery from '~/apollo/queries/category/categories'
 
 export default {
   data() {
@@ -32,11 +33,11 @@ export default {
       categories: [],
     }
   },
-  apollo: {
-    categories: {
-      prefetch: true,
-      query: categoriesQuery,
-    },
+  async fetch() {
+    try {
+      const categories = await this.$graphql.default.request(categoriesQuery)
+      this.categories = categories.categories.data
+    } catch (error) {}
   },
 }
 </script>
