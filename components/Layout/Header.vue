@@ -16,7 +16,7 @@
       <a
         class="hidden md:inline-block ml-6"
         target="_blank"
-        href="https://wallet.keplr.app/#/umee/governance"
+        href="https://commonwealth.im/umee"
         >Governance</a
       >
       <a
