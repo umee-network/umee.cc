@@ -1,7 +1,7 @@
 <template>
   <div class="inline-block">
     <button
-      class="w-[53px] h-[53px] flex md:justify-end items-center"
+      class="w-[33px] h-[53px] xl:w-[53px] xl:h-[53px] flex md:justify-end items-center"
       @click="toggleLightMode"
     >
       <div class="w-full h-full flex justify-center items-center">

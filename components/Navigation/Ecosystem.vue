@@ -1,6 +1,6 @@
 <template>
-  <div class="container mx-auto pb-16">
-    <div class="grid grid-cols-1 gap-x-12">
+  <div class="container mx-auto lg:pb-16">
+    <div class="grid grid-cols-1 gap-x-12 gap-y-10">
       <div>
         <div
           class="text-xs uppercase tracking-widest border-b border-darkGreyOnNavy dark:text-navy mb-5 pb-1"

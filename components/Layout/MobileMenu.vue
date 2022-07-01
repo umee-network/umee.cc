@@ -1,6 +1,6 @@
 <template>
   <div
-    class="fixed top-0 left-0 right-0 bottom-0 bg-navy text-white z-10 flex flex-col justify-between"
+    class="fixed overflow-scroll top-0 left-0 right-0 bottom-0 bg-navy text-white dark:bg-white dark:text-navy z-10 flex flex-col justify-between"
   >
     <div>
       <div
@@ -18,184 +18,52 @@
           >
             <path
               d="M0.5 13.5L13.5 0.5M0.5 0.5L13.5 13.5L0.5 0.5Z"
-              stroke="white"
+              stroke="currentColor"
               stroke-width="1.3"
               stroke-miterlimit="10"
             />
           </svg>
         </a>
       </div>
-      <div class="container mt-4">
-        <nav class="text-[1.625rem] md:pl-6">
-          <ul>
-            <li>
-              <a href="https://app.umee.cc/" target="_blank" class="py-1 block"
-                >Markets</a
-              >
-            </li>
-            <li>
-              <a
-                class="cursor-pointer py-1 flex justify-between"
-                data-display-toggle
-                @click="toggleSubMenu()"
-              >
-                <span>More</span>
-                <span
-                  ><svg
-                    class="inline-block"
-                    width="15"
-                    height="15"
-                    viewBox="0 0 15 15"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      v-if="!subMenu"
-                      d="M7.5 0V15"
-                      stroke="#ffffff"
-                      stroke-width="1.3"
-                      stroke-miterlimit="10"
-                    />
-                    <path
-                      d="M0 7.5H15"
-                      stroke="#ffffff"
-                      stroke-width="1.3"
-                      stroke-miterlimit="10"
-                    />
-                  </svg> </span
-              ></a>
-              <transition name="fade" appear mode="out-in">
-                <div
-                  v-if="subMenu"
-                  data-slide="moreMenu"
-                  class="text-midGreyOnNavy text-[1.0625rem] mt-2 grid grid-cols-2"
+      <div class="mt-4">
+        <nav class="text-[1.625rem]">
+          <div class="relative z-10 text-lg">
+            <div v-for="(item, index) in items" :key="index">
+              <div>
+                <button
+                  @click="setDropdown(index)"
+                  class="w-full border-t border-darkGreyOnNavy dark:border-midGrey text-xl container py-[1rem] flex justify-between items-center"
                 >
-                  <ul>
-                    <li>
-                      <a
-                        class="block py-1"
-                        target="_blank"
-                        href="https://docs.umee.cc/umee/"
-                        >Docs</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="block py-1"
-                        href="https://wallet.keplr.app/#/umee/governance"
-                        target="_blank"
-                        >Governance</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="block py-1"
-                        href="https://www.umee.cc/umeemania"
-                        target="_blank"
-                        >Umeemania</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="block py-1"
-                        href="https://testnet.umee.cc/"
-                        target="_blank"
-                        >Testnet Web App</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="block py-1"
-                        href="https://www.umee.cc/umee-whitepaper.pdf"
-                        target="_blank"
-                        >Whitepaper</a
-                      >
-                    </li>
-                    <li>
-                      <NuxtLink to="/faqs" class="block py-1">FAQs</NuxtLink>
-                    </li>
-                    <li>
-                      <a
-                        class="block py-1"
-                        href="https://drive.google.com/drive/folders/1p81diWQbTo6eXfmUPAicKKyEZJwqyAvM?usp=sharing"
-                        target="_blank"
-                        >Media Kit</a
-                      >
-                    </li>
-                    <li>
-                      <NuxtLink to="/blog" class="block py-1">Blog</NuxtLink>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.umee.cc/community-events"
-                        class="block py-1"
-                        target="_blank"
-                        >Community Events</a
-                      >
-                    </li>
-                  </ul>
-                  <ul>
-                    <li>
-                      <a
-                        class="block py-1"
-                        href="https://twitter.com/Umee_CrossChain"
-                        target="_blank"
-                        >Twitter</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="block py-1"
-                        href="https://discord.gg/umee"
-                        target="_blank"
-                        >Discord</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="block py-1"
-                        href="https://github.com/umee-network"
-                        target="_blank"
-                        >Github</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="block py-1"
-                        href="https://t.me/umeecrosschain"
-                        target="_blank"
-                        >Telegram</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="block py-1"
-                        href="https://www.umee.cc/careers"
-                        target="_blank"
-                        >Careers</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="block py-1"
-                        href="https://www.reddit.com/r/UmeeCrossChain/"
-                        target="_blank"
-                        >Reddit</a
-                      >
-                    </li>
-                  </ul>
+                  <span
+                    :class="
+                      isOpen === index
+                        ? 'border-b-2 border-gradient-reverse'
+                        : 'border-b-2 border-transparent'
+                    "
+                  >
+                    {{ item.title }}
+                  </span>
+                  <UIMenuDropdown
+                    class="ml-1 inline-block transition"
+                    :class="isOpen === index ? 'rotate-180' : ''"
+                  />
+                </button>
+                <div :class="isOpen === index ? 'block' : 'hidden'">
+                  <div class="pt-6 pb-12">
+                    <component v-bind:is="item.component"></component>
+                  </div>
                 </div>
-              </transition>
-            </li>
-          </ul>
+              </div>
+            </div>
+          </div>
         </nav>
-      </div>
-    </div>
-    <div>
-      <div class="container pb-5">
-        <UIButtonGradient class="w-full" href="https://app.umee.cc/"
-          >Launch App</UIButtonGradient
+        <div
+          class="container border-t border-darkGreyOnNavy dark:border-midGrey"
         >
+          <UIButtonGradient href="https://app.umee.cc/" class="w-full my-6"
+            >Launch App</UIButtonGradient
+          >
+        </div>
       </div>
     </div>
   </div>
@@ -205,15 +73,42 @@
 export default {
   data() {
     return {
-      subMenu: false,
+      items: [
+        {
+          title: 'Learn',
+          component: 'NavigationLearn',
+        },
+        {
+          title: 'Build',
+          component: 'NavigationBuild',
+        },
+        {
+          title: 'Network',
+          component: 'NavigationNetwork',
+        },
+        {
+          title: 'Community',
+          component: 'NavigationCommunity',
+        },
+        {
+          title: 'Ecosystem',
+          component: 'NavigationEcosystem',
+        },
+      ],
+      isOpen: -1,
     }
   },
   methods: {
+    setDropdown(index) {
+      if (this.isOpen === index) {
+        this.isOpen = -1
+      } else {
+        this.isOpen = index
+      }
+    },
     closeMobileMenu() {
       this.$parent.showMobileMenu()
-    },
-    toggleSubMenu() {
-      this.subMenu = !this.subMenu
+      this.isOpen = -1
     },
   },
 }
