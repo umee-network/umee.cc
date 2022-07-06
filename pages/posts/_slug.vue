@@ -12,7 +12,6 @@
 
 <script>
 import postQuery from '~/apollo/queries/post/post'
-var moment = require('moment')
 const edjsHTML = require('editorjs-html')
 
 export default {
@@ -32,6 +31,12 @@ export default {
       article: articleResult.posts.data[0].attributes,
       content: html,
     }
+  },
+  mounted() {
+    this.$el.querySelectorAll('iframe').forEach((iframe) => {
+      iframe.classList.add('responsive-video-iframe')
+      iframe.parentElement.classList.add('responsive-video')
+    })
   },
 }
 </script>
