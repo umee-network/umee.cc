@@ -25,7 +25,10 @@
             >
           </li>
           <li>
-            <NuxtLink to="/blog" class="inline-block py-1.5 hover:underline"
+            <NuxtLink
+              to="/blog"
+              @click.native="closeActions"
+              class="inline-block py-1.5 hover:underline"
               >Blog</NuxtLink
             >
           </li>
@@ -95,3 +98,13 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    closeActions() {
+      this.$parent.closeMobileMenu()
+    },
+  },
+}
+</script>

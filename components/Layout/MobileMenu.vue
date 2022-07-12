@@ -6,7 +6,12 @@
       <div
         class="container mx-auto h-[95px] py-3 flex justify-between items-center"
       >
-        <SVGUmeeLogo color="light" class="w-[130px] md:w-[162px]"></SVGUmeeLogo>
+        <NuxtLink @click.native="closeMobileMenu" to="/" class="relative z-10">
+          <SVGUmeeLogo
+            color="light"
+            class="w-[130px] md:w-[162px]"
+          ></SVGUmeeLogo>
+        </NuxtLink>
         <a class="text-xl cursor-pointer" @click="closeMobileMenu">
           Close
           <svg
@@ -50,7 +55,10 @@
                 </button>
                 <div :class="isOpen === index ? 'block' : 'hidden'">
                   <div class="pt-6 pb-12">
-                    <component v-bind:is="item.component"></component>
+                    <component
+                      v-bind:is="item.component"
+                      closeMobileMenu="this.closeMobileMenu"
+                    ></component>
                   </div>
                 </div>
               </div>
