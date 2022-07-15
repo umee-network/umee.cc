@@ -5,7 +5,7 @@
     <h1>{{ article.title }}</h1>
     <img :src="coverImage" />
     <div v-for="block in content" :key="block">
-      <div v-html="block"></div>
+      <div v-html="addTargetBlankToLinks(block)"></div>
     </div>
   </div>
 </template>
@@ -37,6 +37,15 @@ export default {
       iframe.classList.add('responsive-video-iframe')
       iframe.parentElement.classList.add('responsive-video')
     })
+  },
+  methods: {
+    addTargetBlankToLinks(html) {
+      if (typeof html === 'string') {
+        return html.replace(/href/g, "target='_blank' href")
+      } else {
+        return html
+      }
+    },
   },
 }
 </script>
