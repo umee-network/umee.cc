@@ -36,7 +36,7 @@ export default {
       {
         hid: 'og:image',
         name: 'og:image',
-        content: '',
+        content: 'https://umee.cc/umee.png',
       },
       {
         hid: 'description',
