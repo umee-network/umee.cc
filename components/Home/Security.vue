@@ -29,7 +29,7 @@
         </div>
         <div class="md:col-span-8">
           <div
-            class="grid grid-cols-3 md:grid-cols-3 auto-rows-fr gap-y-3 gap-x-3 md:gap-x-5"
+            class="grid grid-cols-3 md:grid-cols-3 auto-rows-fr gap-y-3 gap-x-3 md:gap-5"
           >
             <UILogoGridCell
               v-for="(logo, index) in securityLogos"
