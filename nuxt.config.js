@@ -34,15 +34,30 @@ export default {
           'Umee is a cross chain borrowing and lending DeFi hub built on the Cosmos SDK that interconnects between blockchains, Supports Bridge Technology, Interoperable Base Layer Blockchain And Facilitate Defi Lending & Borrowing. Umee is powered by the UMEE native token.',
       },
       {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary',
+      },
+      {
         hid: 'twitter:image',
         name: 'twitter:image',
         content: 'https://umee.cc/umee.png',
       },
       {
+        hid: 'twitter:image:alt',
+        name: 'twitter:image:alt',
+        content: 'Umee DeFi Logo',
+      },
+      {
+        hid: 'twitter:site',
+        name: 'twitter:site',
+        content: '@Umee_CrossChain',
+      },
+      {
         hid: 'twitter:description',
         name: 'twitter:description',
         content:
-          'The simplest way to start your DeFi experience for staking, rates, and interoperable solutions across Cosmos and Ethereum.',
+          'Umee is a cross chain borrowing and lending DeFi hub built on the Cosmos SDK that interconnects between blockchains, Supports Bridge Technology, Interoperable Base Layer Blockchain And Facilitate Defi Lending & Borrowing. Umee is powered by the UMEE native token.',
       },
       {
         hid: 'og:image',
@@ -53,28 +68,9 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'The simplest way to start your DeFi experience for staking, rates, and interoperable solutions across Cosmos and Ethereum.',
+          'Umee is a cross chain borrowing and lending DeFi hub built on the Cosmos SDK that interconnects between blockchains, Supports Bridge Technology, Interoperable Base Layer Blockchain And Facilitate Defi Lending & Borrowing. Umee is powered by the UMEE native token.',
       },
-      {
-        hid: 'twitter:card',
-        name: 'summary',
-      },
-      {
-        hid: 'twitter:site',
-        name: '@Umee_CrossChain',
-      },
-      {
-        hid: 'twitter:title',
-        name: 'Umee - Cross the Defi Waves',
-      },
-      {
-        hid: 'twitter:description',
-        name: 'The simplest way to start your DeFi experience for staking, rates, and interoperable solutions across Cosmos and Ethereum.',
-      },
-      {
-        hid: 'twitter:image',
-        name: '',
-      },
+
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [
