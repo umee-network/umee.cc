@@ -175,6 +175,7 @@ export default {
     '@nuxt/content',
     '@nuxtjs/markdownit',
     '@nuxtjs/gtm',
+    'cookie-universal-nuxt',
   ],
   gtm: {
     enabled: true /* see below */,

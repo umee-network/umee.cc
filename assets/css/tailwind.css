@@ -75,6 +75,14 @@
     transform: scale(1);
   }
 
+  .perspective-1 {
+    perspective: 1px;
+  }
+
+  .bg-clip-content-border {
+    background-clip: content-box, border-box;
+  }
+
   .border-gradient {
     border-image: linear-gradient(to right, #4dffe5, #fda9ff, #c9b8ff) 1;
   }

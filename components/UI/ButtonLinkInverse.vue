@@ -28,7 +28,7 @@ export default {
 
 <style scoped>
 .button-inverse {
-  border: solid 1px transparent;
+  border: solid 2px transparent;
   background-image: linear-gradient(#464869, #464869),
     linear-gradient(#464869, #464869);
   background-origin: border-box;
@@ -47,4 +47,3 @@ export default {
     linear-gradient(101deg, #fda9ff, #4dffe5);
 }
 </style>
-

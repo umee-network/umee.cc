@@ -49,6 +49,17 @@ module.exports = {
     extend: {
       boxShadow: {
         umee: '0px 4px 12px 1px rgba(0, 0, 0, 0.15)',
+        button: '2px 1000px 1px #fff inset',
+        'button-dark': '2px 1000px 1px #16183c inset',
+      },
+      backgroundImage: {
+        'button-link-gradient':
+          'linear-gradient(#d8d8d8, #d8d8d8), linear-gradient(#d8d8d8, #d8d8d8)',
+        'button-link-box-shadow': '2px 1000px 1px #fff inset',
+        'button-link-gradient-hover':
+          'linear-gradient(#16183c, #16183c), linear-gradient(101deg, #fda9ff, #4dffe5)',
+        'button-link-gradient-dark':
+          ' linear-gradient(#464869, #464869), linear-gradient(#464869, #464869)',
       },
       keyframes: {
         'adora-bounce': {
@@ -105,7 +116,6 @@ module.exports = {
         'wave-background': 'wave-background 5s linear infinite',
         bounce: 'bounce 2s ease-out infinite forwards',
       },
-
       typography: {
         DEFAULT: {
           css: {
