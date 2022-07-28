@@ -90,7 +90,7 @@ FAQ content is edited in the following markdown file `~/content/faq.md`. It uses
 
 The website features an announcement pop-up panel useful for alerting visitors to events or other important information.
 
-Content for the panel is specified in `~/content/home.yml` using the following fields:
+Content for the panel is specified in [`~/content/pages/home.yml`](https://github.com/umee-network/umee.cc/blob/main/content/pages/home.yml) using the following fields:
 
 ```
 announcement_title: Umeemania now live!
