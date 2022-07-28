@@ -28,7 +28,7 @@ Umee plans to break the inherent silos between blockchains by utilizing bridging
 <details>
 <summary>What does the name “Umee” mean?</summary>
 
-The name Umee was inspired by the Japanese word “Umi”, which translates to ocean. We use this water analogy to refer to the vision that transactions can happen without being restricted to specific systems; i.e. money can flow freely like water across different blockchains. Moreover, Umee strives to help connect the world of crypto; the name itself depicts connectivity as it joins both “U” and “Me.”
+The name Umee was inspired by the Japanese word “Umi”, which translates to ocean. We use this water analogy to refer to the vision that transactions can happen without being restricted to specific systems; i.e. money can flow freely like water across different blockchains.
 
 </details>
 

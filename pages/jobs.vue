@@ -16,7 +16,7 @@
       </div>
       <div class="md:col-span-7">
         <nuxt-content
-          class="prose dark:text-white dark:prose-dark accordion"
+          class="prose dark:text-white dark:prose-dark prose-h2:text-[1.75rem] accordion"
           :document="jobsContent"
         />
       </div>

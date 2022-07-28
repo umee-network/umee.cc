@@ -1,8 +1,11 @@
 export default {
-  // Target: https://go.nuxtjs.dev/config-target
+  env: {
+    strapiBaseUri: process.env.API_URL || 'http://localhost:1337',
+  },
+  devServerHandlers: [],
   target: 'static',
+  ssr: true,
 
-  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Umee - Cross the Defi Waves',
     htmlAttrs: {
@@ -22,45 +25,52 @@ export default {
       {
         hid: 'og:title',
         name: 'og:title',
-        content: 'Umee - Cross the Defi Waves',
+        content: 'Umee - Cross Chain Defi Hub',
       },
       {
         hid: 'og:description',
         name: 'og:description',
         content:
-          'The simplest way to start your DeFi experience for staking, rates, and interoperable solutions across Cosmos and Ethereum.',
+          'Umee is a cross chain borrowing and lending DeFi hub built on the Cosmos SDK that interconnects between blockchains, Supports Bridge Technology, Interoperable Base Layer Blockchain And Facilitate Defi Lending & Borrowing. Umee is powered by the UMEE native token.',
+      },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary',
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: 'https://umee.cc/umee.png',
+      },
+      {
+        hid: 'twitter:image:alt',
+        name: 'twitter:image:alt',
+        content: 'Umee DeFi Logo',
+      },
+      {
+        hid: 'twitter:site',
+        name: 'twitter:site',
+        content: '@Umee_CrossChain',
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content:
+          'Umee is a cross chain borrowing and lending DeFi hub built on the Cosmos SDK that interconnects between blockchains, Supports Bridge Technology, Interoperable Base Layer Blockchain And Facilitate Defi Lending & Borrowing. Umee is powered by the UMEE native token.',
       },
       {
         hid: 'og:image',
         name: 'og:image',
-        content: '',
+        content: 'https://umee.cc/umee.png',
       },
       {
         hid: 'description',
         name: 'description',
         content:
-          'The simplest way to start your DeFi experience for staking, rates, and interoperable solutions across Cosmos and Ethereum.',
+          'Umee is a cross chain borrowing and lending DeFi hub built on the Cosmos SDK that interconnects between blockchains, Supports Bridge Technology, Interoperable Base Layer Blockchain And Facilitate Defi Lending & Borrowing. Umee is powered by the UMEE native token.',
       },
-      {
-        hid: 'twitter:card',
-        name: 'summary',
-      },
-      {
-        hid: 'twitter:site',
-        name: '@Umee_CrossChain',
-      },
-      {
-        hid: 'twitter:title',
-        name: 'Umee - Cross the Defi Waves',
-      },
-      {
-        hid: 'twitter:description',
-        name: 'The simplest way to start your DeFi experience for staking, rates, and interoperable solutions across Cosmos and Ethereum.',
-      },
-      {
-        hid: 'twitter:image',
-        name: '',
-      },
+
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [
@@ -138,6 +148,7 @@ export default {
       src: '~/plugins/v-waypoint.client.js',
       mode: 'client',
     },
+    '~plugins/truncate.js',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -154,6 +165,8 @@ export default {
     '@nuxtjs/svg',
     'nuxt-gsap-module',
     '@nuxtjs/color-mode',
+    '@nuxtjs/moment',
+    'nuxt-graphql-request',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -190,18 +203,18 @@ export default {
   colorMode: {
     classSuffix: '',
   },
-
   markdownit: {
     html: 'true',
     runtime: true,
   },
-
-  // Content module configuration: https://go.nuxtjs.dev/config-content
-  content: {},
-
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
   generate: {
     fallback: true,
+  },
+  graphql: {
+    clients: {
+      default: {
+        endpoint: process.env.BACKEND_URL || 'http://localhost:1337/graphql',
+      },
+    },
   },
 }

@@ -2,27 +2,29 @@
 
 <details>
 
-<summary>BUSINESS OPERATIONS</summary>
+<summary>RISK ANALYST</summary>
 
-We’re looking for a proactive problem-solver who thrives in a fast-paced, diverse environment. The right candidate will have exceptional learning abilities, adapt to fast paced environments, possess uncompromising attention to detail, and have great communication skills. The Business Operations Specialist is a cross-functional role working with different business functions. You will work closely with the leadership at Umee focusing on high-impact projects and initiatives.
- 
-Umee is laser-focused on building and delivering our products and core mission. We take our work extremely seriously and we want to hire top notch executors to make things happen and put all the pieces together. Passion for the crypto industry and prior crypto experience is a must. We only want to work with people who are willing to learn fast, work hard and not compromise on the quality of work.
+Umee is seeking a quantitative risk analyst to lead analysis of all aspects of financial risk. You will be working alongside our engineering team to build innovative crypto lending projects. Your work will be hugely impactful and act as the driver for innovation in the crypto space.
 
 **What you'll be doing:**
  
-- Single-point of accountability for managing, monitoring, leading, and reporting for cross functional projects and partnerships
-- Manage project delivery schedules and timelines; ensure sufficient communication with all stakeholders
-- Responsible for the overall integrity of the projects, including deliverables, managing issues, conflicts, priorities, communication, and team members
-- Conduct deep analysis of our current project strategies and identify new opportunities using qualitative and quantitative data
-- Manage miscellaneous tasks, projects, requests, and events as they arise
+- Develop risk models to analyze and quantify cryptocurrency risk
+- Document rules and procedures to monitor and manage financial, credit and market risk
+- Create and maintain database for risk assessment and risk reporting
+- Build model risk standards, governance, and controls
+- Produce accurate and regular risk reporting
+
  
 **Requirements:**
  
-- Prior crypto experience is a MUST
-- 2+ years of experience in consulting, investment banking, market research, or project management
-- Solid communication skills and uncompromising attention to detail
-- Ability to thrive in ambiguous environments
-- Experience in fast paced start-up environments
+- Advanced degree in Mathematics, Econometrics, or related quantitative field
+- 2+ years of risk analytics experience at a financial institution, or background in mathematics and statistical modeling
+- Working experience in a Market Risk, Model Validation or Risk Control role at a large financial institution, familiar with greeks, VaR, Expected Shortfall, stochastic modeling and various portfolio risk exposures
+- Experienced in the data science tech stack, including SQL and Python (Numpy, Scipy, Matplotlab, Scikit-learn) for data science, machine learning, analytics tools 
+- Experience in cadCAD dynamic system modeling and simulations
+- Knowledgeable about the crypto lending space
+- Insatiable curiosity of the industry; self-motivated to pursue researching every new idea that floats across the industry
+
  
 **Benefits:**
  
@@ -39,7 +41,7 @@ Please send an email to hr@umee.cc and tell us about yourself, your work experie
 </details>
 
 <details>
-<summary>MARKETING DIRECTOR</summary>
+<summary>MARKETING LEAD</summary>
   
 We're looking for an experienced marketing professional who has executed successful marketing initiatives and has built communities in the crypto space. You must be passionate about DeFi, comfortable with working in a fast paced environment and highly motivated towards continuous execution and setting goals.
 
@@ -146,50 +148,30 @@ Please send an email to hr@umee.cc and tell us about yourself, your work experie
 ## Engineering
 
 <details>
-<summary>BLOCKCHAIN ENGINEER</summary>
+<summary>TECHNICAL WRITER</summary>
 
-Umee is seeking a talented Software Developer who is experienced in developing high performance code. You will be working alongside our developer team to build a cross chain defi application with high coding standards and technical design.
-
-The right candidate has 3+ years in the blockchain space, and is proficient in software development as well as having strong technical skills in assessing the blockchain industry as a whole. Candidates would benefit strongly from having a deep fundamental software development knowledge base
-
-We’re looking for a passionate and well-rounded individual who fundamentally understands the philosophy of decentralized networks and has great technical and communications skills. Your work will be hugely impactful, as you will be working within a team that acts as the driver for innovation in the cross chain defi space.
+We’re looking for a candidate who thrives in a fast-paced, diverse environment. The Technical Writer will act as the bridge between our core dev team and the open source dev community. You are expected to produce top quality technical documentation.
  
-**What you'll be doing:**
+Umee is laser-focused on building and delivering our products and core mission. We take our work extremely seriously and we want to hire top notch executors to make things happen and put all the pieces together. Passion for the crypto industry and prior crypto experience is a must. We only want to work with people who are willing to learn fast, work hard and not compromise on the quality of work.
+
  
-- Building blockchain applications
-- Measure system performance, check metrics and logs
-- Cover code by unit tests and run integration tests
-- Debug, profile and search for bottlenecks
-- Collaborate on the design of data models, technical architecture, data flows, schemas and API contracts
-- Develop and improve scalable backend systems
-- Conducting technical due diligence and understanding dynamics/tradeoffs between different blockchain protocols 
+**Responsibilities:**
+ 
+- Write, edit, and review all developer-focused technical documentation, written in a mix of markdown & JSON
+- Test the products and documentation to ensure accuracy and consistency
+- Partner with Engineering, Product and Support to build and improve our documentation
 
 
 **Requirements:**
  
-- 3+ years of Golang, Java, Rust or C++
-- Strong experience with software delivery and taking a set of requirements towards full implementation with minimal guidance
-- Experience with RESTful programming conventions
-- Extensive knowledge of software design paradigms in large-scale environments, distributed systems
-- Understand Unix system internals, client/server protocols, and data storage systems in a cloud environment
-- Strong knowledge of Object-Oriented Analysis and Design, Software Design Patterns and coding principles
-- Excellent understanding of containers, deployment systems, and container management platforms, preferably Kubernetes
-- Understand the infrastructure monitoring agent and agent-less architecture
-- Hands-on experience in microservices architecture and development, Databases such as Oracle MySQL, PostgreSQL etc.
-- Experience in assessing application performance and optimizing/improving it through design and best coding practices
-- High attention to details with excellent organizational skills and ability to take charge, set objectives, drive to results; team-oriented
+- Deep knowledge of Cosmos and the broader cross chain ecosystems
+- 2+ years experience in developer relations, developer support, and/or writing documentation for Web3 projects
+- Developer background
+- Experience with JS/TS and subgraph is a plus
+- Experience in fast paced start-up environments
 
-**Nice to Have:**
-
-- Passion about what decentralization technology can offer to humanity
-- Insatiable curiosity of the industry; self-motivated to pursue researching every new idea that floats across the industry
-- Ability to explain abstract technical concepts in an easy to understand manner
-- Any API interaction 
-- Experience with Front End (React, Angular); javascript
-- Containers and orchestration; Docker, Gitlab CI, Kubernetes
-- CI/CD environments
   
-**What We Offer:**
+**Benefits:**
  
 - 100% remote work
 - Work with a top performing team
@@ -203,101 +185,3 @@ To apply, please email hr@umee.cc and include a resume with a link to your githu
 
 </details>
 
-<details>
-<summary>SENIOR FRONT END ENGINEER</summary>
-
-Umee is seeking a talented Front End Developer who is experienced in UI/UX and writing software for user interfaces. You will be working alongside our developer team to build a cross chain defi application with high coding standards and technical design.
-
-The right candidate has 3+ years in the blockchain space, and is proficient in software development as well as having strong technical skills in writing front end code. Candidates would benefit strongly from having a deep fundamental software development knowledge base.
-
-We’re looking for a passionate and well-rounded individual who fundamentally understands the philosophy of decentralized networks and has great technical and communications skills. Your work will be hugely impactful, as you will be working within a team that acts as the driver for innovation in the cross chain defi space.
- 
-**What You'll Be Doing:**
- 
-- Develop new user facing features
-- Write reusable code and libraries
-- Enhance application for maximum speed and scalability
-- Validate inputs before submitting to backend
-- Debug, profile and search for bottlenecks
-- Bridge the gap between graphic design and technical implementation
-- Define how applications look and how they work
-- Translate UI/UX design wireframes into actual code 
-
-**We're Looking for Someone Who Has:**
- 
-- Strong engineering fundamentals
-- 3+ years of experience in a similar role
-- Strong experience with software delivery and taking a set of requirements towards full implementation with minimal guidance
-- Javascript frameworks like React, Redux, Angular, Vue
-- Proficient in Javascript frameworks including JQuery
-- Depth of knowledge and implementation experience
-- Strong understanding of asynchronous request handling, partial page updates, and AJAX
-- Proficient in code versioning tools such as Git, Mercurial, SVN
-- Good understanding of SEO principles
-- HTML CSS
-- Experience in agile software development
-- Familiarity with Cosmos SDK, Solidity, EVM or other blockchain based ecosystems
-- Ability to communicate effectively, and work collaboratively, with the team and internal/external organizations
-
-**Nice to Have:**
-
-- Passion about what decentralization technology can offer to humanity
-- Insatiable curiosity of the industry; self-motivated to pursue researching every new idea that floats across the industry
-- Ability to explain abstract technical concepts in an easy to understand manner
-- Any API interaction 
-- Containers and orchestration; Docker, Gitlab CI, Kubernetes
-- CI/CD environments
-  
-**What We Offer:**
- 
-- 100% remote work
-- Work with a top performing team
-- Competitive salary
-- Be a part of something great
-- Fun and impactful role
- 
-**How to Apply:**
- 
-To apply, please email hr@umee.cc and include a resume with a link to your github account.
-
-</details>
-
-<details>
-<summary>SOLIDITY ENGINEER</summary>
-
-Umee is seeking a talented Software Developer who is experienced in developing high performance code. You will be working alongside our developer team to build a cross chain defi application with high coding standards and technical design.
-
-The right candidate has 3+ years in the blockchain space, and is proficient in software development as well as having strong technical skills in assessing the blockchain industry as a whole. Candidates would benefit strongly from having a deep fundamental software development knowledge base
-
-We’re looking for a passionate and well-rounded individual who fundamentally understands the philosophy of decentralized networks and has great technical and communications skills. Your work will be hugely impactful, as you will be working within a team that acts as the driver for innovation in the cross chain defi space.
- 
-**What You'll Be Doing:**
- 
-- Building blockchain applications, working on new features for the protocol and creating new technical DeFi primitives
-- Writing extensive unit and integration tests for contracts
-- Write specs and review PRs
-- Design and ideation of new functionality 
-
-**Requirements:**
- 
-- 3+ years of Solidity, EVM experience
-- Experience with Solidity security audits 
-- Strong experience with software delivery and taking a set of requirements towards full implementation with minimal guidance
-- Depth of knowledge and implementation experience
-- Experience in building scalable and highly available distributed systems
-- Experience in assessing application performance and optimizing/improving it through design and best coding practices
-- High attention to details with excellent organizational skills and ability to take charge, set objectives, drive to results; team-oriented
-  
-**What We Offer:**
- 
-- 100% remote work
-- Work with a top performing team
-- Competitive salary
-- Be a part of something great
-- Fun and impactful role
- 
-**How to Apply:**
- 
-To apply, please email hr@umee.cc and include a resume with a link to your github account.
-
-</details>

@@ -1,13 +1,11 @@
 module.exports = {
-  purge: {
-    content: [
-      `components/**/*.{vue,js}`,
-      `layouts/**/*.vue`,
-      `pages/**/*.vue`,
-      `plugins/**/*.{js,ts}`,
-      `nuxt.config.{js,ts}`,
-    ],
-  },
+  content: [
+    `components/**/*.{vue,js}`,
+    `layouts/**/*.vue`,
+    `pages/**/*.vue`,
+    `plugins/**/*.{js,ts}`,
+    `nuxt.config.{js,ts}`,
+  ],
   darkMode: 'class',
   corePlugins: {
     container: false,
@@ -24,11 +22,14 @@ module.exports = {
       midGrey: '#D8D8D8',
       midGreyOnWhite: '#7C7C87',
       reverseAdora: '#869AC7',
+      pink: '#fda9ff',
+      mauve: '#c9b8ff',
+      cyan: '#4dffe5  ',
     },
     screens: {
       sm: '640px',
       md: '768px',
-      lg: '998px',
+      lg: '1024px',
       xl: '1200px',
     },
     fontFamily: {
@@ -173,9 +174,6 @@ module.exports = {
       },
     },
   },
-  variants: {
-    typography: ['dark'],
-  },
   plugins: [
     require('tailwindcss-debug-screens'),
     require('@tailwindcss/typography'),
@@ -203,5 +201,4 @@ module.exports = {
       })
     },
   ],
-  mode: 'jit',
 }

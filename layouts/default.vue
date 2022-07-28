@@ -1,7 +1,7 @@
 <template>
   <div class="text-navy dark:bg-navy dark:text-white">
     <LayoutHeader></LayoutHeader>
-    <Nuxt />
+    <Nuxt class="pt-[7.5rem]" />
     <LayoutFooter></LayoutFooter>
   </div>
 </template>
