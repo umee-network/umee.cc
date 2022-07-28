@@ -25,11 +25,22 @@ export default {
       {
         hid: 'og:title',
         name: 'og:title',
-        content: 'Umee - Cross the Defi Waves',
+        content: 'Umee - Cross Chain Defi Hub',
       },
       {
         hid: 'og:description',
         name: 'og:description',
+        content:
+          'Umee is a cross chain borrowing and lending DeFi hub built on the Cosmos SDK that interconnects between blockchains, Supports Bridge Technology, Interoperable Base Layer Blockchain And Facilitate Defi Lending & Borrowing. Umee is powered by the UMEE native token.',
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: 'https://umee.cc/umee.png',
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
         content:
           'The simplest way to start your DeFi experience for staking, rates, and interoperable solutions across Cosmos and Ethereum.',
       },
