@@ -43,12 +43,14 @@
         <div class="grid grid-cols-2">
           <ul class="text-xl">
             <li>
-              <a href="#" class="inline-block py-1.5 hover:underline"
+              <a href="https://umeeversity.umee.cc/developers/" 
+              class="inline-block py-1.5 hover:underline"
                 >Developer Docs</a
               >
             </li>
             <li>
-              <a href="#" class="inline-block py-1.5 hover:underline"
+              <a href="https://umeeversity.umee.cc/validators/" 
+              class="inline-block py-1.5 hover:underline"
                 >Validator Docs</a
               >
             </li>
