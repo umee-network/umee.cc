@@ -10,7 +10,7 @@
         <ul class="text-xl">
           <li>
             <a
-              href="https://docs.umee.cc/umee/umee-overview/what-is-umee"
+              href="https://umeeversity.umee.cc/overview/"
               target="_blank"
               class="inline-block py-1.5 hover:underline"
               >About Umee</a
@@ -18,7 +18,7 @@
           </li>
           <li>
             <a
-              href="https://docs.umee.cc/umee/blockchain-basics/what-is-a-blockchain"
+              href="https://umeeversity.umee.cc/users/blockchain-basics/"
               target="_blank"
               class="inline-block py-1.5 hover:underline"
               >Blockchain Basics</a
@@ -44,7 +44,7 @@
           <ul class="text-xl">
             <li>
               <a
-                href="https://docs.umee.cc/user-guides/getting-started/creating-a-wallet"
+                href="https://umeeversity.umee.cc/users/getting-started/creating-wallet.html"
                 target="_blank"
                 class="inline-block py-1.5 hover:underline"
                 >Creating a Wallet</a
@@ -52,7 +52,7 @@
             </li>
             <li>
               <a
-                href="https://docs.umee.cc/user-guides/getting-started/funding-a-wallet"
+                href="https://umeeversity.umee.cc/users/getting-started/funding-wallet.html"
                 target="_blank"
                 class="inline-block py-1.5 hover:underline"
                 >Funding a Wallet</a
@@ -60,7 +60,7 @@
             </li>
             <li>
               <a
-                href="https://docs.umee.cc/user-guides/staking-umee/staking-umee"
+                href="https://umeeversity.umee.cc/users/staking-umee/staking-umee.html"
                 target="_blank"
                 class="inline-block py-1.5 hover:underline"
                 >Staking Umee</a
@@ -70,7 +70,7 @@
           <ul class="text-xl">
             <li>
               <a
-                href="https://docs.umee.cc/user-guides/using-the-web-app/transferring-tokens"
+                href="https://umeeversity.umee.cc/users/using-the-web-app/transferring-tokens.html"
                 target="_blank"
                 class="inline-block py-1.5 hover:underline"
                 >Transferring to Umee</a
@@ -78,7 +78,7 @@
             </li>
             <li>
               <a
-                href="https://docs.umee.cc/user-guides/using-the-web-app/supplying-and-withdrawing"
+                href="https://umeeversity.umee.cc/users/using-the-web-app/supply-withdraw.html"
                 target="_blank"
                 class="inline-block py-1.5 hover:underline"
                 >Lending with Umee</a
@@ -86,7 +86,7 @@
             </li>
             <li>
               <a
-                href="https://docs.umee.cc/user-guides/using-the-web-app/borrowing-and-repaying"
+                href="https://umeeversity.umee.cc/users/using-the-web-app/borrow-repay.html"
                 target="_blank"
                 class="inline-block py-1.5 hover:underline"
                 >Borrowing with Umee</a
