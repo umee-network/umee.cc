@@ -5,7 +5,7 @@
     >
       <nuxt-link
         v-for="post in posts"
-        :to="{ name: 'posts-slug', params: { slug: post.attributes.slug } }"
+        :to="{ name: 'blog-slug', params: { slug: post.attributes.slug } }"
         :key="post.id"
         class="flex flex-col justify-between gap-4"
       >
