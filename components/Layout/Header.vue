@@ -142,6 +142,7 @@ export default {
     showMobileMenu() {
       this.mobileMenu = !this.mobileMenu
     },
+    closeMobileMenu() {},
   },
 }
 </script>
