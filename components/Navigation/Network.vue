@@ -120,7 +120,7 @@
           </li>
           <li>
             <a
-              href=""
+              href="https://umeeversity.umee.cc/validators/"
               target="_blank"
               class="inline-block py-1.5 hover:underline"
               >Validator Documentation</a
