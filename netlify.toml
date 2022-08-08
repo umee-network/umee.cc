@@ -2,5 +2,8 @@
   publish = "dist"
   command = "yarn run generate"
 
+[context.production.environment]
+  BASE_URL = "https://umee.cc"
+
 [[plugins]]
 package = "@netlify/plugin-sitemap"
