@@ -1,11 +1,11 @@
 export default {
   env: {
     strapiBaseUri: process.env.API_URL || 'http://localhost:1337',
+    baseUrl: process.env.BASE_URL || 'http://localhost:3000',
   },
   devServerHandlers: [],
   target: 'static',
   ssr: true,
-
   head: {
     title: 'Umee - Cross the Defi Waves',
     htmlAttrs: {
@@ -36,12 +36,12 @@ export default {
       {
         hid: 'twitter:card',
         name: 'twitter:card',
-        content: 'summary',
+        content: 'summary_large_image',
       },
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: 'https://umee.cc/umee.png',
+        content: `${process.env.BASE_URL || 'localhost:3000'}/umee-card.jpg`,
       },
       {
         hid: 'twitter:image:alt',
@@ -62,7 +62,7 @@ export default {
       {
         hid: 'og:image',
         name: 'og:image',
-        content: 'https://umee.cc/umee.png',
+        content: `${process.env.BASE_URL || 'localhost:3000'}/umee.png`,
       },
       {
         hid: 'description',

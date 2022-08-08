@@ -47,5 +47,67 @@ export default {
       }
     },
   },
+  head() {
+    return {
+      title: this.article.title,
+      meta: [
+        {
+          hid: 'og:type',
+          name: 'og:type',
+          content: 'article',
+        },
+        {
+          hid: 'og:published_time',
+          name: 'og:published_time',
+          content: this.article.published_date,
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.article.title,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.article.excerpt,
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: this.article.cover.data.attributes.url,
+        },
+        {
+          hid: 'twitter:image:alt',
+          name: 'twitter:image:alt',
+          content: this.article.cover.data.attributes.alternativeText,
+        },
+        {
+          hid: 'twitter:site',
+          name: 'twitter:site',
+          content: '@Umee_CrossChain',
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: this.article.excerpt,
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: this.article.cover.data.attributes.url,
+        },
+        {
+          hid: 'og:image:alt',
+          name: 'og:image:alt',
+          content: this.article.cover.data.attributes.alternativeText,
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.article.excerpt,
+        },
+      ],
+    }
+  },
 }
 </script>
