@@ -167,6 +167,7 @@ export default {
     '@nuxtjs/color-mode',
     '@nuxtjs/moment',
     'nuxt-graphql-request',
+    '@nuxtjs/robots',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

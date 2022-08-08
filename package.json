@@ -20,6 +20,7 @@
     "@nuxt/content": "^1.15.0",
     "@nuxtjs/gtm": "^2.4.0",
     "@nuxtjs/moment": "^1.6.1",
+    "@nuxtjs/robots": "^2.5.0",
     "@tailwindcss/aspect-ratio": "latest",
     "@tailwindcss/forms": "latest",
     "@tailwindcss/line-clamp": "latest",
