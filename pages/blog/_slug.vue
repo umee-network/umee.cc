@@ -97,6 +97,11 @@ export default {
           content: this.article.cover.data.attributes.url,
         },
         {
+          hid: 'og:image:alt',
+          name: 'og:image:alt',
+          content: this.article.cover.data.attributes.alternativeText,
+        },
+        {
           hid: 'description',
           name: 'description',
           content: this.article.excerpt,
