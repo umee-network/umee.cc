@@ -74,7 +74,7 @@ export default {
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: process.env.baseUrl + this.article.cover.data.attributes.url,
+          content: this.article.cover.data.attributes.url,
         },
         {
           hid: 'twitter:image:alt',
@@ -94,7 +94,7 @@ export default {
         {
           hid: 'og:image',
           name: 'og:image',
-          content: process.env.baseUrl + this.article.cover.data.attributes.url,
+          content: this.article.cover.data.attributes.url,
         },
         {
           hid: 'description',
