@@ -1,13 +1,13 @@
 <template>
-  <li class="py-1 text-sm">
+  <li class="py-1.5 text-base">
     <a
       v-if="to.startsWith('http')"
       target="_blank"
       :href="to"
-      class="hover:underline text-midGreyOnNavy"
+      class="hover:underline text-white leading-tight"
       ><slot></slot
     ></a>
-    <NuxtLink v-else :to="to" class="hover:underline text-midGreyOnNavy"
+    <NuxtLink v-else :to="to" class="hover:underline text-white leading-tight"
       ><slot></slot
     ></NuxtLink>
   </li>

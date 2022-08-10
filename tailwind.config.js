@@ -37,6 +37,7 @@ module.exports = {
       serif: ['Moret'],
     },
     fontSize: {
+      xxs: '.6875rem',
       xs: '.8125rem',
       sm: '.9375rem',
       md: '1rem',
