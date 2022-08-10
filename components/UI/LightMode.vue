@@ -7,9 +7,9 @@
       <div class="w-full h-full flex justify-center items-center">
         <SVGLightModeButton
           v-if="$colorMode.value === 'light'"
-          class="w-[25px] h-[25px]"
+          class="w-[26px] h-[26px]"
         />
-        <SVGDarkModeButton v-else class="w-[20px] h-[20px]" />
+        <SVGDarkModeButton v-else class="w-[26px] h-[26px]" />
       </div>
     </button>
   </div>
