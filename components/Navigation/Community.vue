@@ -80,7 +80,7 @@
           </li>
           <li>
             <a
-              href="https://commonwealth.im/umee/"
+              href="https://gov.umee.cc/"
               target="_blank"
               class="inline-block py-1.5 hover:underline"
               >Governance Forum</a
