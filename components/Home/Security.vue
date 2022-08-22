@@ -13,7 +13,7 @@
       <div class="md:grid md:grid-cols-12 md:gap-x-8">
         <div class="md:col-span-4 mb-8 md:mb-0">
           <h2
-            class="max-w-[335px] mb-3 md:max-w-none font-serif text-xxl lg:text-xxxl leading-none md:pr-8 lg:pr-0 lg:leading-[0.9]"
+            class="max-w-[335px] mb-3 md:max-w-none font-serif text-xxxl lg:text-xxxxl leading-none md:pr-8 lg:pr-0 lg:leading-[0.9]"
           >
             Security and Audits
           </h2>

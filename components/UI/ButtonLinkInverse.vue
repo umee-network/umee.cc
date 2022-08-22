@@ -1,10 +1,13 @@
 <template>
   <div v-if="link.startsWith('http')">
-    <a :href="link" :target="target" class="button-inverse">{{ text }}</a>
+    <a :href="link" :target="target" class="button-inverse">
+      <slot v-if="text === ''"></slot>
+      <span v-else>{{ text }}</span>
+    </a>
   </div>
-  <NuxtLink v-else :to="link" :target="target" class="button-inverse">{{
-    text
-  }}</NuxtLink>
+  <NuxtLink v-else :to="link" :target="target" class="button-inverse"
+    ><slot v-if="text === ''"></slot> <span v-else>{{ text }}</span></NuxtLink
+  >
 </template>
 
 <script>
@@ -38,7 +41,7 @@ export default {
   @apply text-white;
   @apply text-xl;
   @apply py-3;
-  @apply px-11;
+  @apply px-8;
   @apply rounded-full;
 }
 
