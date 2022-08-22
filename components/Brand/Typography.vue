@@ -18,8 +18,10 @@
               </p>
             </div>
             <div>
-              <div class="md:grid md:grid-cols-2 md:gap-12 mb-20">
-                <div>
+              <div
+                class="grid grid-cols-1 lg:grid-cols-2 lg:gap-12 mb-10 lg:mb-20"
+              >
+                <div class="mb-10 md:mb-0 order-2 lg:order-1">
                   <UITitle
                     text="Moret Semibold"
                     class="mb-4"
@@ -40,10 +42,15 @@
                     <SVGLinkArrow class="ml-3"
                   /></UIButtonLinkInverse>
                 </div>
-                <img :src="moretExample" class="w-full h-auto" />
+                <div class="order-1 lg:order-2 mb-6 lg:mb-0">
+                  <img
+                    :src="moretExample"
+                    class="w-full h-auto max-w-[13.75rem] lg:max-w-none"
+                  />
+                </div>
               </div>
-              <div class="md:grid md:grid-cols-2 md:gap-12">
-                <div>
+              <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-12">
+                <div class="mb-10 md:mb-0 order-2 lg:order-1">
                   <h2 class="text-xxxl lg:text-xxl leading-none mb-4">
                     Siusse Int'l
                   </h2>
@@ -65,8 +72,11 @@
                     <SVGLinkArrow class="ml-3"
                   /></UIButtonLinkInverse>
                 </div>
-                <div>
-                  <img :src="suisseIntlExample" class="w-full h-auto" />
+                <div class="order-1 lg:order-2 mb-6 lg:mb-0">
+                  <img
+                    :src="suisseIntlExample"
+                    class="w-full h-auto max-w-[13.75rem] lg:max-w-none"
+                  />
                 </div>
               </div>
             </div>

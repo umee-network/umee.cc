@@ -19,7 +19,7 @@ module.exports = {
       lightGrey: '#EAEAEA',
       greyOnNavy: '#A0A1BA',
       darkGreyOnNavy: '#464869',
-      midGreyOnNavy: '#A0A1BA',
+      midGreyOnNavy: '#9D9EAA',
       midGrey: '#D8D8D8',
       midGreyOnWhite: '#7C7C87',
       reverseAdora: '#869AC7',

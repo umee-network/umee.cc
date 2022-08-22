@@ -23,15 +23,17 @@
               >Download logos <SVGLinkDownload class="ml-3"
             /></UIButtonLinkInverse>
 
-            <div class="grid grid-cols-12 gap-8 mt-20">
-              <div class="col-span-8">
+            <div class="grid grid-cols-12 gap-4 lg:gap-8 mt-10 md:mt-20">
+              <div class="col-span-12 md:col-span-8">
                 <img
                   src="~/assets/images/brand-logo-on-white.png"
                   class="w-full h-auto"
                 />
                 <p class="mt-1.5 text-midGreyOnNavy">On white</p>
               </div>
-              <div class="col-span-4 flex justify-between flex-col">
+              <div
+                class="grid grid-cols-2 col-span-12 md:col-span-4 md:flex justify-between flex-col gap-4 md:gap-0"
+              >
                 <div>
                   <img
                     src="~/assets/images/brand-logo-on-navy.png"
@@ -49,15 +51,17 @@
               </div>
             </div>
 
-            <div class="grid grid-cols-12 gap-8 my-20">
-              <div class="col-span-4">
+            <div class="grid grid-cols-12 gap-4 md:gap-8 my-10 md:my-20">
+              <div class="col-span-12 md:col-span-4">
                 <UITitle
                   level="3"
                   text="Safe zone"
                   class="mb-2"
                   fontSizeClass="text-xxl"
                 />
-                <div class="prose text-midGreyOnNavy">
+                <div
+                  class="prose text-midGreyOnNavy max-w-[25rem] md:max-w-none"
+                >
                   <p>
                     The logo's safe zone is equivalent to the height of "u" on
                     all sizes:
@@ -65,7 +69,7 @@
                 </div>
               </div>
 
-              <div class="col-span-8 flex justify-end">
+              <div class="col-span-12 md:col-span-8 flex md:justify-end">
                 <img
                   src="~/assets/images/brand-safe-zone.png"
                   alt=""
@@ -80,7 +84,7 @@
               class="mb-2"
               fontSizeClass="text-xxl"
             />
-            <div class="prose text-midGreyOnNavy">
+            <div class="prose text-midGreyOnNavy max-w-[25rem] md:max-w-none">
               <p>
                 We're quite protective over our logo and how it's used. Please
                 avoid doing any of the following:
@@ -88,7 +92,7 @@
             </div>
 
             <div
-              class="flex justify-center gap-6 flex-col md:grid md:grid-cols-3 my-10"
+              class="gap-4 md:gap-6 flex-col grid grid-cols-2 md:grid-cols-3 mt-4 md:mt-10"
             >
               <div class="flex justify-center">
                 <div>

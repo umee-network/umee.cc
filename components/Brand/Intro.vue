@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-navy text-white pt-16 md:pt-28">
+  <div class="bg-navy text-white pt-16 md:pt-28" id="sectionOurBrand">
     <div class="container">
       <div class="grid md:grid-cols-12 md:gap-12 lg:gap-16">
         <div
@@ -7,7 +7,6 @@
         ></div>
         <div class="col-span-8">
           <div
-            id="sectionOurBrand"
             class="border-b border-darkGreyOnNavy pb-6 mb-12 md:pb-10 md:mb-20"
           >
             <UITitle heading="1" class="mb-3" text="Our brand" />

@@ -20,7 +20,7 @@
             </div>
             <div>
               <UIBlockTitle class="mb-6">Neutrals</UIBlockTitle>
-              <div class="grid grid-cols-3 gap-6 mb-8">
+              <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
                 <div class="border border-darkGreyOnNavy rounded-xl p-5">
                   <div class="font-serif leading-none text-[1.75rem] mb-8">
                     Navy
@@ -56,7 +56,7 @@
             </div>
             <div>
               <UIBlockTitle class="mb-6">Accents</UIBlockTitle>
-              <div class="grid grid-cols-3 gap-6 mb-8">
+              <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
                 <div
                   class="border text-navy bg-pink border-pink rounded-xl p-5"
                 >

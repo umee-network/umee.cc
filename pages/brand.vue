@@ -17,7 +17,7 @@
         <SVGAdoraBrandHero></SVGAdoraBrandHero>
       </div>
 
-      <NuxtLink :to="{ path: '/brand', hash: '#sectionOurBrand' }">
+      <NuxtLink :to="{ path: '/brand', hash: 'sectionOurBrand' }">
         <UIDiscoverMore
           class="hidden md:block"
           text="Explore our brand"
@@ -26,7 +26,9 @@
     </div>
 
     <div class="relative">
-      <div class="absolute top-0 bottom-0 left-0 right-0 pointer-events-none">
+      <div
+        class="hidden md:block absolute top-0 bottom-0 left-0 right-0 pointer-events-none"
+      >
         <div class="container pt-16 md:pt-28 h-full">
           <div class="w-1/3 pr-12 h-full">
             <ul
