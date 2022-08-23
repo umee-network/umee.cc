@@ -34,21 +34,28 @@
             <ul
               class="rounded-xl bg-white p-8 text-midGreyOnWhite text-xl sticky top-6 drop-shadow-md pointer-events-auto"
             >
-              <li><a class="py-1.5 inline-block">Our brand</a></li>
-              <li><a class="py-1.5 inline-block">Logo</a></li>
-              <li><a class="py-1.5 inline-block">Color</a></li>
-              <li><a class="py-1.5 inline-block">Typography</a></li>
-              <li><a class="py-1.5 inline-block">"Adora"</a></li>
+              <li v-for="(section, index) in sections" :key="index">
+                <NuxtLink
+                  :to="{ path: '/brand', hash: section.hash }"
+                  class="py-1.5 inline-block hover:font-bold hover:text-navy"
+                  :class="{
+                    'font-bold text-navy': section.hash === currentlyActiveToc,
+                  }"
+                  >{{ section.name }}</NuxtLink
+                >
+              </li>
             </ul>
           </div>
         </div>
       </div>
 
-      <BrandIntro />
-      <BrandLogo />
-      <BrandColor />
-      <BrandTypography />
-      <BrandAdora />
+      <div ref="brandSections">
+        <BrandIntro />
+        <BrandLogo />
+        <BrandColor />
+        <BrandTypography />
+        <BrandAdora />
+      </div>
     </div>
   </div>
 </template>
@@ -65,6 +72,64 @@ export default {
       const src = require(`assets/images/brand-personality.svg`)
       return src
     },
+  },
+  methods: {
+    formatDate(date) {
+      const options = { year: 'numeric', month: 'long', day: 'numeric' }
+      return new Date(date).toLocaleDateString('en', options)
+    },
+    tableOfContentsHeadingClick(link) {
+      this.currentlyActiveToc = link.id
+    },
+  },
+  data() {
+    return {
+      currentlyActiveToc: '',
+      observer: null,
+      observerOptions: {
+        root: this.$refs.brandSections,
+        threshold: 0.1,
+      },
+      sections: [
+        {
+          name: 'Our brand',
+          hash: 'sectionOurBrand',
+        },
+        {
+          name: 'Logo',
+          hash: 'sectionLogo',
+        },
+        {
+          name: 'Color',
+          hash: 'sectionColor',
+        },
+        {
+          name: 'Typography',
+          hash: 'sectionTypography',
+        },
+        {
+          name: 'Adora',
+          hash: 'sectionAdora',
+        },
+      ],
+    }
+  },
+  mounted() {
+    this.observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        const id = entry.target.getAttribute('id')
+        if (entry.isIntersecting) {
+          this.currentlyActiveToc = id
+        }
+      })
+    }, this.observerOptions)
+
+    document.querySelectorAll("[id^='section']").forEach((section) => {
+      this.observer.observe(section)
+    })
+  },
+  beforeDestroy() {
+    this.observer.disconnect()
   },
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-navy text-white">
+  <div class="bg-navy text-white pt-10" id="sectionLogo">
     <div class="container">
       <div class="grid md:grid-cols-12 md:gap-12 lg:gap-16">
         <div
@@ -7,7 +7,6 @@
         ></div>
         <div class="col-span-8">
           <div
-            id="sectionLogo"
             class="border-b border-darkGreyOnNavy pb-6 mb-12 md:pb-10 md:mb-20"
           >
             <UITitle level="2" text="Logo" class="mb-3" />
@@ -19,7 +18,9 @@
                 below:
               </p>
             </div>
-            <UIButtonLinkInverse link="https://www.google.com"
+            <UIButtonLinkInverse
+              target="_blank"
+              link="https://drive.google.com/drive/folders/1A9G2HM5RAka4FLGyVvRC4NeazpAYBh7Z"
               >Download logos <SVGLinkDownload class="ml-3"
             /></UIButtonLinkInverse>
 

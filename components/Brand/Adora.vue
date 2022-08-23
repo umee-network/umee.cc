@@ -1,12 +1,12 @@
 <template>
-  <div class="pt-16 md:pt-28">
+  <div class="pt-16 md:pt-28" id="sectionAdora">
     <div class="container">
       <div class="grid md:grid-cols-12 md:gap-12 lg:gap-16">
         <div
           class="hidden md:block col-span-4 relative pointer-events-none"
         ></div>
         <div class="col-span-8">
-          <div id="sectionAdora" class="pb-6 mb-12 md:pb-10 md:mb-20">
+          <div class="pb-6 mb-12 md:pb-10 md:mb-20">
             <div
               class="md:grid md:grid-cols-12 lg:gap-12 mb-10 md:mb-20 relative pt-[10rem] md:pt-0"
             >
@@ -24,7 +24,7 @@
                   </p>
                 </div>
                 <ButtonLink
-                  link="https://github.com/umee-network"
+                  link="https://drive.google.com/drive/folders/1A9G2HM5RAka4FLGyVvRC4NeazpAYBh7Z"
                   target="_blank"
                   ><span class="align-middle">Download Adora</span>
                   <SVGLinkDownload class="ml-3"

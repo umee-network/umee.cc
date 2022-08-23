@@ -131,7 +131,7 @@ export default {
       if (to.hash) {
         const offset = document.querySelector(to.hash).getBoundingClientRect()
         return window.scrollTo({
-          top: offset.top,
+          top: offset.top + document.documentElement.scrollTop,
           behavior: 'smooth',
         })
       } else {

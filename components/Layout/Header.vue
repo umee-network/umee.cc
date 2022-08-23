@@ -82,7 +82,7 @@
           >Launch App</UIButtonGradient
         >
 
-        <UILightMode />
+        <UILightMode v-if="showLightMode" />
         <button
           class="text-xl lg:hidden cursor-pointer ml-2"
           @click="showMobileMenu"
@@ -143,6 +143,11 @@ export default {
       this.mobileMenu = !this.mobileMenu
     },
     closeMobileMenu() {},
+  },
+  computed: {
+    showLightMode() {
+      return this.$route.name !== 'brand'
+    },
   },
 }
 </script>

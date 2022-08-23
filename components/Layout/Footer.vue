@@ -77,10 +77,7 @@
                   <UIFooterLink to="https://www.umee.cc/careers"
                     >Careers</UIFooterLink
                   >
-                  <UIFooterLink
-                    to="https://drive.google.com/drive/folders/1A9G2HM5RAka4FLGyVvRC4NeazpAYBh7Z?usp=sharing"
-                    >Media Kit</UIFooterLink
-                  >
+                  <UIFooterLink to="/brand">Brand Kit</UIFooterLink>
                 </ul>
               </nav>
             </div>
