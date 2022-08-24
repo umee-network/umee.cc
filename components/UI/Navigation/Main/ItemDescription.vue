@@ -1,3 +1,3 @@
 <template>
-  <p class="text-lg text-greyOnNavy mb-3"><slot></slot></p>
+  <p class="text-base text-greyOnNavy mb-4"><slot></slot></p>
 </template>

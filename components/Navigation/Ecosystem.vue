@@ -7,23 +7,18 @@
         >
           Apps
         </div>
-        <ul class="text-xl">
-          <li>
-            <a
-              href="https://github.com/umee-network/cosmos-multisig-ui"
-              target="_blank"
-              class="inline-block py-1.5 hover:underline"
-              >Cosmos Multisig App</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://app.umee.cc/#/markets"
-              target="_blank"
-              class="inline-block py-1.5 hover:underline"
-              >Umee&lt;&gt;Ethereum Bridge</a
-            >
-          </li>
+        <ul>
+          <UINavigationMainItem
+            link="https://github.com/umee-network/cosmos-multisig-ui"
+            description="The DAO that governs Umee's delegation decisions"
+            >Cosmos Multisig App</UINavigationMainItem
+          >
+
+          <UINavigationMainItem
+            link="https://app.umee.cc/#/markets"
+            description="The DAO that governs Umee's delegation decisions"
+            >Umee&lt;&gt;Ethereum Bridge</UINavigationMainItem
+          >
         </ul>
       </div>
     </div>

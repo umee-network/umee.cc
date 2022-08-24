@@ -24,7 +24,7 @@ export default {
   },
   computed: {
     linkClass() {
-      return 'text-xl inline-block py-1.5 hover:underline'
+      return 'text-lg inline-block leading-none hover:underline'
     },
   },
 }

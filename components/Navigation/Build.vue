@@ -19,7 +19,7 @@
           <UINavigationMainItem
             link="https://github.com/umee-network/liquidator"
             description="A liquidator tool for Umee's native leverage protocol"
-            >Umee Liquidator toolkit</UINavigationMainItem
+            >Umee Liquidator Toolkit</UINavigationMainItem
           >
         </ul>
       </div>

@@ -12,7 +12,7 @@
             >About Umee</UINavigationMainItem
           >
           <UINavigationMainItem
-            link="https://umeeversity.umee.cc/users/blockchain-basics/"
+            link="https://umeeversity.umee.cc/learn-the-basics/"
             description="Essential information every crypto user should
               know"
             >Blockchain Basics</UINavigationMainItem
