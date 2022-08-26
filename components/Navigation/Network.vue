@@ -2,130 +2,39 @@
   <div class="container mx-auto lg:pb-16">
     <div class="grid lg:grid-cols-2 gap-x-12 gap-y-10">
       <div>
-        <div
-          class="text-xs uppercase tracking-widest border-b border-darkGreyOnNavy dark:text-navy mb-5 pb-1"
+        <UINavigationMainSectionHeading
+          >Block Explorers</UINavigationMainSectionHeading
         >
-          Block Explorers
-        </div>
-        <ul class="text-xl">
-          <li>
-            <a
-              href="https://www.mintscan.io/umee"
-              target="_blank"
-              class="inline-block py-1.5 hover:underline"
-              >Mintscan</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://umee.explorers.guru/"
-              target="_blank"
-              class="inline-block py-1.5 hover:underline"
-              >NodesGuru</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://ping.pub/umee"
-              target="_blank"
-              class="inline-block py-1.5 hover:underline"
-              >Ping.pub</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://atomscan.com/umee"
-              target="_blank"
-              class="inline-block py-1.5 hover:underline"
-              >ATOMScan</a
-            >
-          </li>
+        <ul>
+          <UINavigationMainItem link="https://www.mintscan.io/umee"
+            >Mintscan</UINavigationMainItem
+          >
+          <UINavigationMainItem link="https://umee.explorers.guru/"
+            >NodesGuru</UINavigationMainItem
+          >
+          <UINavigationMainItem link="https://ping.pub/umee"
+            >Ping.pub</UINavigationMainItem
+          >
+          <UINavigationMainItem link="https://atomscan.com/umee"
+            >ATOMScan</UINavigationMainItem
+          >
         </ul>
       </div>
-      <!-- <div>
-        <div
-          class="text-xs uppercase tracking-widest border-b border-darkGreyOnNavy mb-5 pb-1"
-        >
-          Analytics
-        </div>
-        <div class="grid grid-cols-2">
-          <ul class="text-xl">
-            <li>
-              <a
-                href="https://docs.umee.cc/user-guides/getting-started/creating-a-wallet"
-                target="_blank"
-                class="inline-block py-1.5 hover:underline"
-                >Creating a Wallet</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://docs.umee.cc/user-guides/getting-started/funding-a-wallet"
-                target="_blank"
-                class="inline-block py-1.5 hover:underline"
-                >Funding a Wallet</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://docs.umee.cc/user-guides/staking-umee/staking-umee"
-                target="_blank"
-                class="inline-block py-1.5 hover:underline"
-                >Staking Umee</a
-              >
-            </li>
-          </ul>
-          <ul class="text-xl">
-            <li>
-              <a
-                href="https://docs.umee.cc/user-guides/using-the-web-app/transferring-tokens"
-                target="_blank"
-                class="inline-block py-1.5 hover:underline"
-                >Transferring to Umee</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://docs.umee.cc/user-guides/using-the-web-app/supplying-and-withdrawing"
-                target="_blank"
-                class="inline-block py-1.5 hover:underline"
-                >Lending with Umee</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://docs.umee.cc/user-guides/using-the-web-app/borrowing-and-repaying"
-                target="_blank"
-                class="inline-block py-1.5 hover:underline"
-                >Borrowing with Umee</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div> -->
       <div>
-        <div
-          class="text-xs uppercase tracking-widest border-b border-darkGreyOnNavy dark:text-navy mb-5 pb-1"
+        <UINavigationMainSectionHeading
+          >Validators</UINavigationMainSectionHeading
         >
-          Validators
-        </div>
-        <ul class="text-xl">
-          <li>
-            <a
-              href="https://discord.com/invite/umee"
-              target="_blank"
-              class="inline-block py-1.5 hover:underline"
-              >Validator Community</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://umeeversity.umee.cc/validators/"
-              target="_blank"
-              class="inline-block py-1.5 hover:underline"
-              >Validator Documentation</a
-            >
-          </li>
+        <ul>
+          <UINavigationMainItem
+            link="https://www.mintscan.io/umee"
+            description="Connect with validators on Discord"
+            >Validator Community</UINavigationMainItem
+          >
+          <UINavigationMainItem
+            link="https://umeeversity.umee.cc/validators/"
+            description="Learn how to run a validator on Umee"
+            >Validator Documentation</UINavigationMainItem
+          >
         </ul>
       </div>
     </div>
