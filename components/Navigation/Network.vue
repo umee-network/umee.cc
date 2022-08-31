@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto lg:pb-16">
-    <div class="grid lg:grid-cols-2 gap-x-12 gap-y-10">
+    <div class="grid lg:grid-cols-2 gap-x-12 gap-y-6 md:gap-y-10">
       <div>
         <UINavigationMainSectionHeading
           >Block Explorers</UINavigationMainSectionHeading

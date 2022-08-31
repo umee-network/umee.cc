@@ -24,7 +24,7 @@ export default {
   },
   computed: {
     linkClass() {
-      return 'text-lg inline-block leading-none hover:underline'
+      return 'text-base md:text-lg inline-block leading-none hover:underline'
     },
   },
 }

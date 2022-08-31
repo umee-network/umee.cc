@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto lg:pb-16">
-    <div class="grid lg:grid-cols-2 gap-x-12 gap-y-10">
+    <div class="grid lg:grid-cols-2 gap-x-12 gap-y-6 md:gap-y-10">
       <div>
         <UINavigationMainSectionHeading
           >Developers</UINavigationMainSectionHeading
@@ -27,7 +27,7 @@
         <UINavigationMainSectionHeading
           >Tutorials</UINavigationMainSectionHeading
         >
-        <div class="grid grid-cols-2 md:gap-6">
+        <div class="grid grid-cols-2 gap-y-6 md:gap-y-10">
           <ul>
             <UINavigationMainItem
               link="https://umeeversity.umee.cc/developers/"

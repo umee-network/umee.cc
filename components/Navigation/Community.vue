@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto lg:pb-16">
-    <div class="grid lg:grid-cols-2 gap-x-12 gap-y-10">
+    <div class="grid lg:grid-cols-2 gap-x-12 gap-y-6 md:gap-y-10">
       <div>
         <UINavigationMainSectionHeading>Socials</UINavigationMainSectionHeading>
 
@@ -16,7 +16,7 @@
               >Telegram</UINavigationMainItem
             >
           </ul>
-          <ul class="text-xl">
+          <ul>
             <UINavigationMainItem link="https://medium.com/umeeblog"
               >Medium</UINavigationMainItem
             >
@@ -54,7 +54,7 @@
         </ul>
       </div>
     </div>
-    <div class="grid lg:grid-cols-3 gap-x-12 gap-y-6 mt-12">
+    <div class="grid lg:grid-cols-3 gap-x-12 gap-y-6 mt-6 md:mt-12">
       <div>
         <UINavigationMainSectionHeading>DAOs</UINavigationMainSectionHeading>
         <ul>

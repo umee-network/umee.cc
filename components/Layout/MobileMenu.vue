@@ -31,8 +31,8 @@
         </a>
       </div>
       <div class="mt-4">
-        <nav class="text-[1.625rem]">
-          <div class="relative z-10 text-lg">
+        <nav>
+          <div class="relative z-10">
             <div v-for="(item, index) in items" :key="index">
               <div>
                 <button
@@ -54,7 +54,7 @@
                   />
                 </button>
                 <div :class="isOpen === index ? 'block' : 'hidden'">
-                  <div class="pt-6 pb-12">
+                  <div class="py-6">
                     <component
                       v-bind:is="item.component"
                       closeMobileMenu="this.closeMobileMenu"
