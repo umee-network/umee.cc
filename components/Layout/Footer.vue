@@ -198,10 +198,7 @@
             <UIBlockTitle class="mb-6 md:mb-8">Support</UIBlockTitle>
             <ul>
               <UIFooterLink to="/faqs">FAQs</UIFooterLink>
-              <UIFooterLink
-                to="https://drive.google.com/drive/folders/1A9G2HM5RAka4FLGyVvRC4NeazpAYBh7Z?usp=sharing"
-                >Brand Kit</UIFooterLink
-              >
+              <UIFooterLink to="/brand">Brand Kit</UIFooterLink>
             </ul>
           </div>
         </div>

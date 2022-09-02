@@ -10,7 +10,7 @@
     <div class="md:grid md:grid-cols-12">
       <div class="md:col-span-4">
         <h2
-          class="max-w-[335px] md:max-w-none font-serif mb-8 text-xxl lg:text-xxxxl leading-none md:pr-8 lg:pr-0 lg:leading-[0.9]"
+          class="max-w-[335px] md:max-w-none font-serif mb-8 text-xxxl lg:text-xxxxxl leading-none md:pr-8 lg:pr-0 lg:leading-[0.9]"
         >
           {{ page.umee_experience_title }}
         </h2>

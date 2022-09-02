@@ -16,15 +16,16 @@ module.exports = {
       current: 'currentColor',
       white: '#ffffff',
       navy: '#16183C',
+      lightGrey: '#EAEAEA',
       greyOnNavy: '#A0A1BA',
       darkGreyOnNavy: '#464869',
-      midGreyOnNavy: '#A0A1BA',
+      midGreyOnNavy: '#9D9EAA',
       midGrey: '#D8D8D8',
       midGreyOnWhite: '#7C7C87',
       reverseAdora: '#869AC7',
-      pink: '#fda9ff',
-      mauve: '#c9b8ff',
-      cyan: '#4dffe5  ',
+      pink: '#FDA9FF',
+      purple: '#C9B8FF',
+      aqua: '#4DFFE5',
     },
     screens: {
       sm: '640px',
@@ -43,9 +44,10 @@ module.exports = {
       md: '1rem',
       lg: '1.125rem',
       xl: '1.25rem',
-      xxl: '2.9375rem',
-      xxxl: '3.625rem',
-      xxxxl: '4.5rem',
+      xxl: '2.625rem',
+      xxxl: '2.9375rem',
+      xxxxl: '3.625rem',
+      xxxxxl: '4.5rem',
     },
     extend: {
       boxShadow: {
@@ -120,6 +122,7 @@ module.exports = {
       typography: {
         DEFAULT: {
           css: {
+            lineHeight: '1.5',
             h1: {
               fontFamily: 'Moret',
               lineHeight: '1',

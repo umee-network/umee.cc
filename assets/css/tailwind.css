@@ -32,9 +32,9 @@
   font-family: 'SuisseInternational';
   font-weight: 400;
   font-display: swap;
-  src: url('~assets/fonts/SuisseInternationalLightXL/font.woff2')
+  src: url('~assets/fonts/SuisseInternationalRegularXL/font.woff2')
       format('woff2'),
-    url('~assets/fonts/SuisseInternationalLightXL/font.woff') format('woff');
+    url('~assets/fonts/SuisseInternationalRegularXL/font.woff') format('woff');
 }
 
 @font-face {
@@ -106,6 +106,15 @@
       rgba(77, 255, 229, 1) 81%
     );
     background-size: 200% 100%;
+  }
+
+  .umee-gradient {
+    background: linear-gradient(
+      90deg,
+      #fda9ff 0%,
+      #c9b8ff 27.26%,
+      #4dffe5 100%
+    );
   }
 }
 

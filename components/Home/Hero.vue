@@ -10,7 +10,7 @@
           <p class="mb-8">
             {{ page.intro_text }}
           </p>
-          <p class="mb-12 font-serif text-xxl md:text-xxl leading-[0.9]">
+          <p class="mb-12 font-serif text-xxl md:text-xxxl leading-[0.9]">
             <b>{{ page.intro_text_cta }}</b>
           </p>
 
@@ -34,7 +34,10 @@
       </div>
 
       <NuxtLink :to="{ path: '/', hash: '#about' }">
-        <UIDiscoverMore class="hidden md:block"></UIDiscoverMore>
+        <UIDiscoverMore
+          class="hidden md:block"
+          text="Discover more"
+        ></UIDiscoverMore>
       </NuxtLink>
     </div>
   </div>

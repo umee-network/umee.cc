@@ -13,6 +13,10 @@ export default {
     },
     meta: [
       { charset: 'utf-8' },
+      {
+        name: 'google-site-verification',
+        content: 'ZiDrNgg_i6VgvqT0pCV08rpNgOAGuE0CQpKma_SzNLs',
+      },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'application-name', content: 'Umee' },
       { name: 'msapplication-TileColor', content: '#FFFFFF' },
@@ -129,8 +133,9 @@ export default {
   router: {
     scrollBehavior(to) {
       if (to.hash) {
+        const offset = document.querySelector(to.hash).getBoundingClientRect()
         return window.scrollTo({
-          top: document.querySelector(to.hash).offsetTop,
+          top: offset.top + document.documentElement.scrollTop,
           behavior: 'smooth',
         })
       } else {

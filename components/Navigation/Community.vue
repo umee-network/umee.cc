@@ -2,159 +2,69 @@
   <div class="container mx-auto lg:pb-16">
     <div class="grid lg:grid-cols-2 gap-x-12 gap-y-10">
       <div>
-        <div
-          class="text-xs uppercase tracking-widest border-b border-darkGreyOnNavy dark:text-navy mb-5 pb-1"
-        >
-          Socials
-        </div>
+        <UINavigationMainSectionHeading>Socials</UINavigationMainSectionHeading>
 
         <div class="grid lg:grid-cols-2 gap-x-12">
-          <ul class="text-xl">
-            <li>
-              <a
-                href="https://twitter.com/Umee_CrossChain"
-                target="_blank"
-                class="inline-block py-1.5 hover:underline"
-                >Twitter</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://discord.com/invite/umee"
-                target="_blank"
-                class="inline-block py-1.5 hover:underline"
-                >Discord</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://t.me/umeecrosschain"
-                target="_blank"
-                class="inline-block py-1.5 hover:underline"
-                >Telegram</a
-              >
-            </li>
+          <ul>
+            <UINavigationMainItem link="https://twitter.com/Umee_CrossChain"
+              >Twitter</UINavigationMainItem
+            >
+            <UINavigationMainItem link="https://discord.com/invite/umee"
+              >Discord</UINavigationMainItem
+            >
+            <UINavigationMainItem link="https://t.me/umeecrosschain"
+              >Telegram</UINavigationMainItem
+            >
           </ul>
           <ul class="text-xl">
-            <li>
-              <a
-                href="https://medium.com/umeeblog"
-                target="_blank"
-                class="inline-block py-1.5 hover:underline"
-                >Medium</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.youtube.com/channel/UCNNeflvj43QylhjvssqdIHQ/videos"
-                target="_blank"
-                class="inline-block py-1.5 hover:underline"
-                >YouTube</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.reddit.com/r/UmeeCrossChain/"
-                target="_blank"
-                class="inline-block py-1.5 hover:underline"
-                >Reddit</a
-              >
-            </li>
+            <UINavigationMainItem link="https://medium.com/umeeblog"
+              >Medium</UINavigationMainItem
+            >
+            <UINavigationMainItem
+              link="https://www.youtube.com/channel/UCNNeflvj43QylhjvssqdIHQ/videos"
+              >YouTube</UINavigationMainItem
+            >
+            <UINavigationMainItem
+              link="https://www.reddit.com/r/UmeeCrossChain/"
+              >Reddit</UINavigationMainItem
+            >
           </ul>
         </div>
       </div>
       <div>
-        <div
-          class="text-xs uppercase tracking-widest border-b border-darkGreyOnNavy mb-5 pb-1"
+        <UINavigationMainSectionHeading
+          >Governance</UINavigationMainSectionHeading
         >
-          Governance
-        </div>
-        <ul class="text-xl">
-          <li>
-            <a
-              href="https://docs.umee.cc/governance/governance-overview/governance"
-              target="_blank"
-              class="inline-block py-1.5 hover:underline"
-              >Community Governance</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://commonwealth.im/umee/"
-              target="_blank"
-              class="inline-block py-1.5 hover:underline"
-              >Governance Forum</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://wallet.keplr.app/#/umee/governance"
-              target="_blank"
-              class="inline-block py-1.5 hover:underline"
-              >Voting Dashboard</a
-            >
-          </li>
+        <ul>
+          <UINavigationMainItem
+            link="https://docs.umee.cc/governance/governance-overview/governance"
+            description="Learn how Umee's governance processes work"
+            >Community Governance</UINavigationMainItem
+          >
+          <UINavigationMainItem
+            link="https://gov.umee.cc/"
+            description="Join the conversation to help determine Umee's future"
+            >Governance Forum</UINavigationMainItem
+          >
+          <UINavigationMainItem
+            link="https://wallet.keplr.app/#/umee/governance"
+            description="Vote on live governance proposals here"
+            >Voting Dashboard</UINavigationMainItem
+          >
         </ul>
       </div>
     </div>
     <div class="grid lg:grid-cols-3 gap-x-12 gap-y-6 mt-12">
       <div>
-        <div
-          class="text-xs uppercase tracking-widest border-b border-darkGreyOnNavy dark:text-navy mb-5 pb-1"
-        >
-          DAOs
-        </div>
-        <ul class="text-xl">
-          <!-- <li>
-            <a
-              href=""
-              target="_blank"
-              class="inline-block py-1.5 hover:underline"
-              >Community DAO</a
-            >
-          </li> -->
-          <li>
-            <a
-              href="https://docs.umee.cc/umee-validator-dao/"
-              target="_blank"
-              class="inline-block py-1.5 hover:underline"
-              >Validator DAO</a
-            >
-          </li>
+        <UINavigationMainSectionHeading>DAOs</UINavigationMainSectionHeading>
+        <ul>
+          <UINavigationMainItem
+            link="https://docs.umee.cc/umee-validator-dao/"
+            description="The DAO that governs Umee's delegation decisions"
+            >Validator DAO</UINavigationMainItem
+          >
         </ul>
       </div>
-      <!-- <div>
-        <div
-          class="text-xs uppercase tracking-widest border-b border-darkGreyOnNavy dark:text-navy mb-5 pb-1"
-        >
-          Events
-        </div>
-        <ul class="text-xl">
-          <li></li>
-        </ul>
-      </div> -->
-      <!-- <div>
-        <div
-          class="text-xs uppercase tracking-widest border-b border-darkGreyOnNavy dark:text-navy mb-5 pb-1"
-        >
-          Branding
-        </div>
-        <ul class="text-xl">
-          <li>
-            <a href="" target="_blank" class="inline-block py-1.5"
-              >Branding Guidelines</a
-            >
-          </li>
-          <li>
-            <a
-              href=""
-              target="_blank"
-              class="inline-block py-1.5 hover:underline"
-              >Branding Assets</a
-            >
-          </li>
-        </ul>
-      </div> -->
     </div>
   </div>
 </template>

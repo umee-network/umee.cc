@@ -28,7 +28,7 @@
           </svg>
         </div>
       </div>
-      <span class="uppercase text-sm tracking-widest">Discover more</span>
+      <span class="uppercase text-sm tracking-widest">{{ text }}</span>
     </div>
   </div>
 </template>
@@ -44,3 +44,14 @@
   background: linear-gradient(to right, #fda9ff, #c9b8ff, #4dffe5);
 }
 </style>
+
+<script>
+export default {
+  props: {
+    text: {
+      type: String,
+      default: '',
+    },
+  },
+}
+</script>
