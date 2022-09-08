@@ -11,6 +11,7 @@
 </template>
 
 <script>
+import { tsConstructSignatureDeclaration } from '@babel/types'
 import postQuery from '~/apollo/queries/post/post'
 const edjsHTML = require('editorjs-html')
 
@@ -49,7 +50,10 @@ export default {
   },
   head() {
     return {
-      title: this.article.title,
+      title:
+        this.article.seo_title === ''
+          ? this.article.title + `  - Umee - Cross the Defi Waves`
+          : this.article.seo_title + `  - Umee - Cross the Defi Waves`,
       meta: [
         {
           hid: 'og:type',
@@ -64,7 +68,10 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.article.title,
+          content:
+            this.article.seo_title === ''
+              ? this.article.title + `  - Umee - Cross the Defi Waves`
+              : this.article.seo_title + `  - Umee - Cross the Defi Waves`,
         },
         {
           hid: 'og:description',

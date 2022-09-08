@@ -46,5 +46,21 @@ export default {
       postsResults: categoriesData.posts.data,
     }
   },
+  head() {
+    return {
+      title: `Blog - ${
+        this.slug[0].toUpperCase() + this.slug.slice(1)
+      } - Page ${this.page} - Umee - Cross the Defi Waves`,
+      meta: [
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: `Blog - ${
+            this.slug[0].toUpperCase() + this.slug.slice(1)
+          } - Page ${this.page} - Umee - Cross the Defi Waves`,
+        },
+      ],
+    }
+  },
 }
 </script>

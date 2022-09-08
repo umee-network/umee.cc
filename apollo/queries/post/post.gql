@@ -4,6 +4,7 @@ query FetchPost($slug: String!) {
       id
       attributes {
         title
+        seo_title
         slug
         content
         excerpt

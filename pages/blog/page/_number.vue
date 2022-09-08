@@ -40,5 +40,17 @@ export default {
       postsResults: postsData.posts.data,
     }
   },
+  head() {
+    return {
+      title: `Blog - Page ${this.page} - Umee - Cross the Defi Waves`,
+      meta: [
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Blog - Umee - Cross the Defi Waves',
+        },
+      ],
+    }
+  },
 }
 </script>
