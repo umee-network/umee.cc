@@ -60,13 +60,13 @@
             >
             <UINavigationMainItem
               link="https://umeeversity.umee.cc/users/using-the-web-app/borrow-repay.html"
-              description="Lend cross chain tokens with Umee"
+              description="Borrow cross chain tokens with Umee"
               >Borrowing with Umee</UINavigationMainItem
             >
             <UINavigationMainItem
               link="https://umeeversity.umee.cc/governance/asset-listing/asset-listing-guide.html"
               description="Propose a new asset to be listed on Umee"
-              >New Assets Listing</UINavigationMainItem
+              >New Asset Listings</UINavigationMainItem
             >
        
           </ul>
