@@ -63,7 +63,7 @@
               <UIBlockTitle>Documentation</UIBlockTitle>
               <nav>
                 <ul class="mt-3 lg:mt-6">
-                  <UIFooterLink to="https://docs.umee.cc/umee/"
+                  <UIFooterLink to="https://umeeversity.umee.cc/"
                     >Docs</UIFooterLink
                   >
                   <UIFooterLink to="/faqs">FAQ</UIFooterLink>
