@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container pb-12 md:pb-20 lg:pb-28 prose dark:prose-invert max-w-[43.75rem] mx-auto"
+    class="container pb-12 md:pb-20 lg:pb-28 prose prose-headings:font-sans prose-headings:font-normal dark:prose-invert max-w-[43.75rem] mx-auto"
   >
     <h1>{{ article.title }}</h1>
     <img v-if="!article.hide_cover_image" :src="coverImage" />
