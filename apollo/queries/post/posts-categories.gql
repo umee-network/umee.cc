@@ -17,6 +17,7 @@ query FetchCategory($slug: String!, $page: Int!, $pageSize: Int!) {
             }
           }
         }
+        hide_cover_image
         categories {
           data {
             attributes {

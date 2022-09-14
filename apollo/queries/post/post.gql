@@ -25,6 +25,7 @@ query FetchPost($slug: String!) {
             }
           }
         }
+        hide_cover_image
         published_date
       }
     }

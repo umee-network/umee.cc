@@ -3,7 +3,7 @@
     class="container pb-12 md:pb-20 lg:pb-28 prose dark:prose-invert max-w-[43.75rem] mx-auto"
   >
     <h1>{{ article.title }}</h1>
-    <img :src="coverImage" />
+    <img v-if="!article.hide_cover_image" :src="coverImage" />
     <div v-for="block in content" :key="block">
       <div v-html="addTargetBlankToLinks(block)"></div>
     </div>
@@ -11,7 +11,6 @@
 </template>
 
 <script>
-import { tsConstructSignatureDeclaration } from '@babel/types'
 import postQuery from '~/apollo/queries/post/post'
 const edjsHTML = require('editorjs-html')
 
