@@ -1,8 +1,55 @@
 <template>
   <div
-    class="container pb-12 md:pb-20 lg:pb-28 prose prose-headings:font-sans prose-headings:font-normal dark:prose-invert max-w-[43.75rem] mx-auto"
+    class="container pb-12 md:pb-20 lg:pb-28 prose prose-headings:font-sans prose-headings:font-normal prose-a:text-[#433d55] hover:prose-a:no-underline dark:prose-invert max-w-[48rem] mx-auto"
   >
-    <h1>{{ article.title }}</h1>
+    <UIBlockTitle class="mb-6">{{
+      formatDate(article.published_date)
+    }}</UIBlockTitle>
+    <h1 class="mb-6">{{ article.title }}</h1>
+
+    <div class="prose prose-lg mb-3">{{ article.excerpt }}</div>
+
+    <div
+      class="text-[1.0625rem font-normal text-midGreyOnNavy pb-3 border-b border-midGrey md:flex md:items-center md:justify-between"
+    >
+      <div>
+        By {{ article.author.data.attributes.name
+        }}<span v-if="article.author.data.attributes.position"
+          >, {{ article.author.data.attributes.position }}</span
+        >
+      </div>
+      <div class="mt-3 md:mt-0">
+        <span class="pr-3"> Share: </span>
+        <ShareNetwork
+          network="twitter"
+          :url="'https://umee.cc/blog/' + article.slug"
+          :title="article.title"
+          :description="article.excerpt"
+          class="inline-block"
+        >
+          <SVGSocialIcon name="twitter" />
+        </ShareNetwork>
+        <ShareNetwork
+          network="facebook"
+          :url="'https://umee.cc/blog/' + article.slug"
+          :title="article.title"
+          :description="article.excerpt"
+          class="inline-block"
+        >
+          <SVGSocialIcon name="facebook" />
+        </ShareNetwork>
+        <ShareNetwork
+          network="linkedin"
+          :url="'https://umee.cc/blog/' + article.slug"
+          :title="article.title"
+          :description="article.excerpt"
+          class="inline-block"
+        >
+          <SVGSocialIcon name="linkedin" />
+        </ShareNetwork>
+      </div>
+    </div>
+
     <img v-if="!article.hide_cover_image" :src="coverImage" />
     <div v-for="block in content" :key="block">
       <div v-html="addTargetBlankToLinks(block)"></div>
@@ -38,6 +85,12 @@ export default {
       iframe.parentElement.classList.add('responsive-video')
     })
   },
+  computed: {
+    socialIcon() {
+      const src = require(`assets/images/logo-social-twitter.svg?raw`)
+      return src
+    },
+  },
   methods: {
     addTargetBlankToLinks(html) {
       if (typeof html === 'string') {
@@ -45,6 +98,10 @@ export default {
       } else {
         return html
       }
+    },
+    formatDate(date) {
+      const options = { year: 'numeric', month: 'long', day: 'numeric' }
+      return new Date(date).toLocaleDateString('en', options)
     },
   },
   head() {

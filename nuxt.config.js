@@ -182,6 +182,7 @@ export default {
     '@nuxtjs/markdownit',
     '@nuxtjs/gtm',
     'cookie-universal-nuxt',
+    'vue-social-sharing/nuxt',
   ],
   gtm: {
     enabled: true /* see below */,

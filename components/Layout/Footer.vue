@@ -12,30 +12,30 @@
             Join us in building the future of cross chain DeFi!
           </p>
           <div class="flex flex-row gap-1.5 flex-wrap">
-            <SVGSocialIcon
+            <SVGSocialIconLink
               name="medium"
               href="https://medium.com/umeeblog"
-            ></SVGSocialIcon>
-            <SVGSocialIcon
+            ></SVGSocialIconLink>
+            <SVGSocialIconLink
               name="twitter"
               href="https://twitter.com/Umee_CrossChain"
-            ></SVGSocialIcon>
-            <SVGSocialIcon
+            ></SVGSocialIconLink>
+            <SVGSocialIconLink
               name="discord"
               href="https://discord.gg/umee"
-            ></SVGSocialIcon>
-            <SVGSocialIcon
+            ></SVGSocialIconLink>
+            <SVGSocialIconLink
               name="github"
               href="https://github.com/umee-network"
-            ></SVGSocialIcon>
-            <SVGSocialIcon
+            ></SVGSocialIconLink>
+            <SVGSocialIconLink
               name="telegram"
               href="https://t.me/umeecrosschain"
-            ></SVGSocialIcon>
-            <SVGSocialIcon
+            ></SVGSocialIconLink>
+            <SVGSocialIconLink
               name="reddit"
               href="https://www.reddit.com/r/UmeeCrossChain"
-            ></SVGSocialIcon>
+            ></SVGSocialIconLink>
           </div>
         </div>
         <div class="col-span-12 md:col-span-6 lg:col-span-7">

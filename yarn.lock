@@ -15863,6 +15863,7 @@ __metadata:
     stylelint-config-standard: ^22.0.0
     tailwindcss: latest
     tailwindcss-debug-screens: ^2.2.0
+    vue-social-sharing: ^3.0.9
     vue-waypoint: ^3.5.2
   languageName: unknown
   linkType: soft
@@ -16512,6 +16513,15 @@ __metadata:
     serialize-javascript: ^3.1.0
     source-map: 0.5.6
   checksum: 190c2e3f23c503067dafaa5fc1f2775a88d7d78c8a274ba68bb3c4e417a08c3034a16487a3ad92c0b3153f010115cfa093ad0470c244198a0f25483a688027a1
+  languageName: node
+  linkType: hard
+
+"vue-social-sharing@npm:^3.0.9":
+  version: 3.0.9
+  resolution: "vue-social-sharing@npm:3.0.9"
+  peerDependencies:
+    vue: ^2.6.10
+  checksum: 60265c3cd713a60fa833e7f07dc9af68cde0a60a632e66df985c5596cf5fdd0f78672b1de4f8a49cccc5fc8c24d8c3fcffba0bc3071c271cce0227417b8568b4
   languageName: node
   linkType: hard
 
