@@ -18,7 +18,7 @@
               </p>
             </div>
             <div>
-              <UIBlockTitle class="mb-6">Neutrals</UIBlockTitle>
+              <h2><UIBlockTitle class="mb-6">Neutrals</UIBlockTitle></h2>
               <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
                 <div class="border border-darkGreyOnNavy rounded-xl p-5">
                   <div class="font-serif leading-none text-[1.75rem] mb-8">
@@ -54,7 +54,7 @@
               </div>
             </div>
             <div>
-              <UIBlockTitle class="mb-6">Accents</UIBlockTitle>
+              <h2><UIBlockTitle class="mb-6">Accents</UIBlockTitle></h2>
               <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
                 <div
                   class="border text-navy bg-pink border-pink rounded-xl p-5"
@@ -92,7 +92,7 @@
               </div>
             </div>
             <div>
-              <UIBlockTitle class="mb-4">Brand gradient</UIBlockTitle>
+              <h2><UIBlockTitle class="mb-4">Brand gradient</UIBlockTitle></h2>
 
               <div class="relative umee-gradient w-full h-[2.5rem] mt-[3rem]">
                 <div

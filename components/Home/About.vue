@@ -4,7 +4,9 @@
     class="bg-navy text-white py-20 md:py-20 lg:py-28 min-h-[calc(100vh-100px)] flex items-center"
   >
     <div class="container" data-aos="fade-up">
-      <UIBlockTitle class="mb-5">{{ page.about_pre_title }}</UIBlockTitle>
+      <h2>
+        <UIBlockTitle class="mb-5">{{ page.about_pre_title }}</UIBlockTitle>
+      </h2>
       <UITitle level="1" :text="page.about_title" class="mb-10"></UITitle>
 
       <div class="relative pl-6 md:pl-0">

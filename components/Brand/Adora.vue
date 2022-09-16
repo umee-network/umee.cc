@@ -40,7 +40,9 @@
             </div>
 
             <div>
-              <UIBlockTitle class="mb-4">Facial expressions</UIBlockTitle>
+              <h2>
+                <UIBlockTitle class="mb-4">Facial expressions</UIBlockTitle>
+              </h2>
               <div class="prose prose-lg text-midGreyOnWhite">
                 <p>
                   Like the rest of us, Adora experiences a range of emotions and
@@ -122,7 +124,7 @@
             </div>
 
             <div class="my-10">
-              <UIBlockTitle class="mb-4">Light/dark mode</UIBlockTitle>
+              <h2><UIBlockTitle class="mb-4">Light/dark mode</UIBlockTitle></h2>
               <div class="prose prose-lg text-midGreyOnWhite">
                 <p>
                   Adora's one of those annnoying "early-bird" types, but also
