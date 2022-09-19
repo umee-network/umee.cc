@@ -1,14 +1,14 @@
 <template>
   <div
-    class="container pt-20 md:pt-40 pb-12 md:pb-20 lg:pb-28 prose prose-headings:font-sans prose-headings:font-normal prose-a:text-[#433d55] hover:prose-a:no-underline dark:prose-invert max-w-[48rem] mx-auto"
+    class="container pt-20 md:pt-40 pb-12 md:pb-20 lg:pb-28 prose prose-headings:font-sans prose-headings:font-normal prose-a:text-[#433d55] dark:prose-a:text-[#ffffff] hover:prose-a:no-underline dark:prose-invert max-w-[48rem] mx-auto"
   >
     <UIBlockTitle class="mb-6 !text-xs">{{
       formatDate(article.published_date)
     }}</UIBlockTitle>
     <h1 class="mb-8 mt-0">{{ article.title }}</h1>
-    <div class="prose text-lg mb-3 md:pr-10">{{ article.excerpt }}</div>
+    <div class="text-lg mb-3 md:pr-10">{{ article.excerpt }}</div>
     <div
-      class="text-[1.0625rem font-normal text-midGreyOnNavy pb-3 border-b border-midGrey md:flex md:items-center md:justify-between"
+      class="text-[1.0625rem font-normal pb-3 border-b border-midGrey md:flex md:items-center md:justify-between"
     >
       <div>
         By {{ article.author.data.attributes.name

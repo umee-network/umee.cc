@@ -32,8 +32,22 @@ export default {
   border: solid 2px transparent;
 }
 
+.dark .social-icon {
+  background-image: linear-gradient(#16183c, #16183c),
+    linear-gradient(#d0d1d8, #d0d1d8);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  border: solid 2px transparent;
+  color: #fff;
+}
+
 .social-icon:hover {
   background-image: linear-gradient(#fff, #fff),
+    linear-gradient(to right, #fda9ff, #c9b8ff, #4dffe5);
+}
+
+.dark .social-icon:hover {
+  background-image: linear-gradient(#16183c, #16183c),
     linear-gradient(to right, #fda9ff, #c9b8ff, #4dffe5);
 }
 </style>
