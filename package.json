@@ -16,8 +16,11 @@
     "*.{css,vue}": "stylelint"
   },
   "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.78",
     "@netlify/plugin-sitemap": "^0.8.1",
     "@nuxt/content": "^1.15.0",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/gtm": "^2.4.0",
     "@nuxtjs/moment": "^1.6.1",
     "@nuxtjs/robots": "^2.5.0",
@@ -27,6 +30,7 @@
     "autoprefixer": "latest",
     "cookie-universal-nuxt": "^2.2.1",
     "core-js": "^3.15.1",
+    "crypto": "^1.0.1",
     "editorjs-html": "^3.4.2",
     "graphql": "^16.4.0",
     "graphql-tag": "^2.12.6",

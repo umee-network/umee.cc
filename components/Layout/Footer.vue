@@ -204,6 +204,9 @@
         </div>
       </div>
     </div>
+    <div class="flex justify-center my-12">
+      <FormSubscribe />
+    </div>
 
     <div
       class="py-4 text-midGreyOnNavy border-t border-solid border-darkGreyOnNavy"
