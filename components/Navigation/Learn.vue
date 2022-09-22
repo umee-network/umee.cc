@@ -41,33 +41,34 @@
               description="Learn how to create an interchain wallet"
               >Creating a Wallet</UINavigationMainItem
             >
-            <UINavigationMainItem
-              link="https://umeeversity.umee.cc/users/getting-started/funding-wallet.html"
-              description="Fund your wallet with tokens to use on Umee"
-              >Funding a Wallet</UINavigationMainItem
+             <UINavigationMainItem
+              link="https://umeeversity.umee.cc/users/using-the-web-app/supply-withdraw.html"
+              description="Lend cross chain tokens with Umee"
+              >Lending with Umee</UINavigationMainItem
             >
             <UINavigationMainItem
-              link="https://umeeversity.umee.cc/users/staking-umee/staking-umee.html"
+              link="https://umeeversity.umee.cc/users/staking-umee/"
               description="Secure the blockchain and earn staking yield"
-              >Staking Umee</UINavigationMainItem
+              >Staking UMEE</UINavigationMainItem
             >
           </ul>
           <ul>
-            <UINavigationMainItem
-              link="https://umeeversity.umee.cc/users/using-the-web-app/transferring-tokens.html"
-              description="Move tokens on to Umee to put them to use"
-              >Transferring to Umee</UINavigationMainItem
-            >
-            <UINavigationMainItem
-              link="https://umeeversity.umee.cc/users/using-the-web-app/supply-withdraw.html"
-              description="Supply tokens on Umee to earn lending yield"
-              >Lending with Umee</UINavigationMainItem
+          <UINavigationMainItem
+              link="https://umeeversity.umee.cc/users/getting-started/funding-wallet.html"
+              description="Fund your wallet with tokens to use on Umee"
+              >Funding a Wallet</UINavigationMainItem
             >
             <UINavigationMainItem
               link="https://umeeversity.umee.cc/users/using-the-web-app/borrow-repay.html"
               description="Borrow cross chain tokens with Umee"
               >Borrowing with Umee</UINavigationMainItem
             >
+            <UINavigationMainItem
+              link="https://umeeversity.umee.cc/governance/asset-listing/asset-listing-guide.html"
+              description="Propose a new asset to be listed on Umee"
+              >New Asset Listings</UINavigationMainItem
+            >
+       
           </ul>
         </div>
       </div>
