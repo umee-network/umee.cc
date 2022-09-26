@@ -16,6 +16,7 @@ module.exports = {
       current: 'currentColor',
       white: '#ffffff',
       navy: '#16183C',
+      lightNavy: '#23254E',
       lightGrey: '#EAEAEA',
       greyOnNavy: '#A0A1BA',
       darkGreyOnNavy: '#464869',
