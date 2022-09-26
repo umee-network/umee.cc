@@ -52,6 +52,15 @@
     <div v-for="block in content" :key="block">
       <div v-html="addTargetBlankToLinks(block)"></div>
     </div>
+    <BlogStructuredData
+      :headline="this.article.title"
+      :description="this.article.excerpt"
+      :image="this.article.cover.data.attributes.url"
+      :datePublished="article.published_date"
+      :dateModified="article.updatedAt"
+      :authorName="article.author.data.attributes.name"
+      :authorUrl="article.author.data.attributes.url"
+    />
   </div>
 </template>
 
