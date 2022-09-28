@@ -1,6 +1,7 @@
 [build]
   publish = "dist"
   command = "yarn run generate"
+  functions = "./functions"
 
 [context.production.environment]
   BASE_URL = "https://umee.cc"

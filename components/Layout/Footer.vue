@@ -1,128 +1,222 @@
 <template>
   <!-- zIndex and backfaceVisibility style addresses safari bug where flipping logos temporarily appear on top of the announcements panel-->
-  <div
-    :style="{ zIndex: '1', backfaceVisibility: 'hidden' }"
-    class="bg-navy text-white pt-11 md:pt-10 relative dark:border-darkGreyOnNavy dark:border-t"
-  >
-    <div class="container pb-8 lg:pb-16">
-      <div class="grid grid-cols-12 gap-x-8">
-        <div class="col-span-12 md:col-span-4 lg:col-span-3 mb-6 md:mb-0">
-          <SVGUmeeLogo color="light" class="mb-3 max-w-[162px]"></SVGUmeeLogo>
-          <p class="text-midGreyOnNavy mb-5 max-w-[245px]">
-            Join us in building the future of cross chain DeFi!
-          </p>
-          <div class="flex flex-row gap-1.5 flex-wrap">
-            <SVGSocialIcon
-              name="medium"
-              href="https://medium.com/umeeblog"
-            ></SVGSocialIcon>
-            <SVGSocialIcon
-              name="twitter"
-              href="https://twitter.com/Umee_CrossChain"
-            ></SVGSocialIcon>
-            <SVGSocialIcon
-              name="discord"
-              href="https://discord.gg/umee"
-            ></SVGSocialIcon>
-            <SVGSocialIcon
-              name="github"
-              href="https://github.com/umee-network"
-            ></SVGSocialIcon>
-            <SVGSocialIcon
-              name="telegram"
-              href="https://t.me/umeecrosschain"
-            ></SVGSocialIcon>
-            <SVGSocialIcon
-              name="reddit"
-              href="https://www.reddit.com/r/UmeeCrossChain"
-            ></SVGSocialIcon>
-          </div>
-        </div>
-        <div class="col-span-12 md:col-span-6 lg:col-span-7">
-          <div
-            class="flex gap-y-8 gap-x-16 lg:gap-x-20 flex-wrap lg:justify-center"
-          >
-            <div>
-              <UIBlockTitle>Protocol</UIBlockTitle>
-              <nav>
-                <ul class="mt-3 lg:mt-6">
-                  <UIFooterLink to="https://app.umee.cc/">Markets</UIFooterLink>
-                  <UIFooterLink to="https://wallet.keplr.app/#/umee/governance"
-                    >Governance</UIFooterLink
-                  >
-                  <UIFooterLink to="https://www.umee.cc/umeemania"
-                    >Umeemania</UIFooterLink
-                  >
-                  <UIFooterLink to="https://github.com/umee-network"
-                    >Github</UIFooterLink
-                  >
-                </ul>
-              </nav>
-            </div>
-            <div>
-              <UIBlockTitle>Documentation</UIBlockTitle>
-              <nav>
-                <ul class="mt-3 lg:mt-6">
-                  <UIFooterLink to="https://umeeversity.umee.cc/"
-                    >Docs</UIFooterLink
-                  >
-                  <UIFooterLink to="/faqs">FAQ</UIFooterLink>
-                </ul>
-              </nav>
-            </div>
-            <div>
-              <UIBlockTitle>Connect</UIBlockTitle>
-              <nav>
-                <ul class="mt-3 lg:mt-6">
-                  <UIFooterLink to="https://www.umee.cc/careers"
-                    >Careers</UIFooterLink
-                  >
-                  <UIFooterLink to="/brand">Brand Kit</UIFooterLink>
-                </ul>
-              </nav>
-            </div>
-          </div>
-        </div>
-        <div class="col-span-12 md:col-span-2 mt-6 md:mt-0">
-          <UIButtonGradient
-            class="w-full hidden md:block lg:hidden"
-            href="https://app.umee.cc/"
-            >App</UIButtonGradient
-          >
-          <UIButtonGradient
-            class="w-full md:hidden lg:block"
-            href="https://app.umee.cc/"
-            >Launch App</UIButtonGradient
-          >
-        </div>
-      </div>
+  <div :style="{ zIndex: '1', backfaceVisibility: 'hidden' }">
+    <div class="bg-lightNavy py-12 text-midGreyOnNavy text-center relative">
+      <UITitle
+        level="4"
+        text="Receive the latest from Umee, direct to your inbox"
+        class="text-white mb-2"
+        fontSizeClass="text-[2rem]"
+      ></UITitle>
+      <p class="text-lg mb-6">One weekly digest, and nothing else - promise!</p>
+      <FormSubscribe />
     </div>
-
     <div
-      class="py-4 text-midGreyOnNavy border-t border-solid border-darkGreyOnNavy"
+      :style="{ zIndex: '1', backfaceVisibility: 'hidden' }"
+      class="bg-navy text-white pt-11 md:pt-10 relative dark:border-darkGreyOnNavy dark:border-t"
     >
-      <div class="container md:text-right">
-        <div class="flex flex-row flex-wrap gap-x-6 gap-y-3">
-          <div>&copy; Umee {{ year }}</div>
-          <NuxtLink
-            class="text-midGreyOnNavy whitespace-nowrap inline-block"
-            to="/privacy"
-            >Privacy</NuxtLink
+      <div class="container pb-8 lg:pb-16">
+        <div class="grid grid-cols-12 gap-x-8 mb-12">
+          <div class="col-span-12 md:col-span-6 mb-6 md:mb-0">
+            <SVGUmeeLogo color="light" class="mb-3 max-w-[162px]"></SVGUmeeLogo>
+            <p class="text-midGreyOnNavy">
+              Join us in building the future of cross chain DeFi!
+            </p>
+          </div>
+          <div class="col-span-12 md:col-span-6 flex items-center justify-end">
+            <UIButtonGradient
+              class="w-full md:w-auto"
+              href="https://app.umee.cc/"
+              >Launch App</UIButtonGradient
+            >
+          </div>
+        </div>
+        <div>
+          <div
+            class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-y-8 gap-x-16 lg:gap-x-20 flex-wrap lg:justify-center"
           >
-          <NuxtLink
-            class="text-midGreyOnNavy whitespace-nowrap inline-block"
-            to="/disclaimer"
-            >Disclaimer</NuxtLink
-          >
-          <NuxtLink
-            class="text-midGreyOnNavy whitespace-nowrap inline-block"
-            to="/terms-of-use"
-            >Terms of use</NuxtLink
-          >
+            <div>
+              <UIBlockTitle class="mb-6 md:mb-8">Learn</UIBlockTitle>
+              <UIFooterTitle>Discover</UIFooterTitle>
+              <ul class="mb-6 md:mb-8">
+                <UIFooterLink to="https://umeeversity.umee.cc/overview/"
+                  >About Umee</UIFooterLink
+                >
+                <UIFooterLink
+                  to="https://umeeversity.umee.cc/users/blockchain-basics/"
+                  >Blockchain Basics</UIFooterLink
+                >
+                <UIFooterLink to="/careers">Careers</UIFooterLink>
+                <UIFooterLink to="/blog">Blog</UIFooterLink>
+              </ul>
+              <UIFooterTitle>Guides</UIFooterTitle>
+              <ul>
+                <UIFooterLink
+                  to="https://umeeversity.umee.cc/users/getting-started/creating-wallet.html"
+                  >Creating a Wallet</UIFooterLink
+                >
+                <UIFooterLink
+                  to="https://umeeversity.umee.cc/users/getting-started/funding-wallet.html"
+                  >Funding a Wallet</UIFooterLink
+                >
+                <UIFooterLink
+                  to="https://umeeversity.umee.cc/users/staking-umee/staking-umee.html"
+                  >Staking Umee</UIFooterLink
+                >
+                <UIFooterLink
+                  to="https://umeeversity.umee.cc/users/using-the-web-app/transferring-tokens.html"
+                  >Transferring to Umee</UIFooterLink
+                >
+                <UIFooterLink
+                  to="https://umeeversity.umee.cc/users/using-the-web-app/supply-withdraw.html"
+                  >Lending with Umee</UIFooterLink
+                >
+                <UIFooterLink
+                  to="https://umeeversity.umee.cc/users/using-the-web-app/borrow-repay.html"
+                  >Borrowing with Umee</UIFooterLink
+                >
+              </ul>
+            </div>
+            <div>
+              <UIBlockTitle class="mb-6 md:mb-8">Build</UIBlockTitle>
+              <UIFooterTitle>Developers</UIFooterTitle>
+              <ul class="mb-6 md:mb-8">
+                <UIFooterLink to="https://github.com/PineStreetLabs/nebula"
+                  >Nebula Wallet CLI</UIFooterLink
+                >
+                <UIFooterLink to="https://github.com/umee-network/peggo"
+                  >Umee Peggo Implementation</UIFooterLink
+                >
+                <UIFooterLink to="https://github.com/umee-network/liquidator"
+                  >Umee Liquidator Toolkit</UIFooterLink
+                >
+              </ul>
+              <UIFooterTitle>Tutorials</UIFooterTitle>
+              <ul>
+                <UIFooterLink to="https://umeeversity.umee.cc/developers/"
+                  >Developer Docs</UIFooterLink
+                >
+                <UIFooterLink to="https://umeeversity.umee.cc/validators/"
+                  >Validator Docs</UIFooterLink
+                >
+              </ul>
+            </div>
+            <div>
+              <UIBlockTitle class="mb-6 md:mb-8">Network</UIBlockTitle>
+              <UIFooterTitle>Block Explorers</UIFooterTitle>
+              <ul class="mb-6 md:mb-8">
+                <UIFooterLink to="https://www.mintscan.io/umee"
+                  >Mintscan</UIFooterLink
+                >
+                <UIFooterLink to="https://umee.explorers.guru/"
+                  >NodesGuru</UIFooterLink
+                >
+                <UIFooterLink to="https://ping.pub/umee">Ping.pub</UIFooterLink>
+                <UIFooterLink to="https://atomscan.com/umee"
+                  >ATOMScan</UIFooterLink
+                >
+              </ul>
+              <UIFooterTitle>Validators</UIFooterTitle>
+              <ul>
+                <UIFooterLink to="https://discord.com/invite/umee"
+                  >Validator Community</UIFooterLink
+                >
+                <UIFooterLink to="https://umeeversity.umee.cc/validators/"
+                  >Validator Documentation</UIFooterLink
+                >
+              </ul>
+            </div>
+            <div>
+              <UIBlockTitle class="mb-6 md:mb-8">Community</UIBlockTitle>
+              <UIFooterTitle>Socials</UIFooterTitle>
+              <ul class="mb-6 md:mb-8">
+                <UIFooterLink to="https://twitter.com/Umee_CrossChain"
+                  >Twitter</UIFooterLink
+                >
+                <UIFooterLink to="https://discord.com/invite/umee"
+                  >Discord</UIFooterLink
+                >
+                <UIFooterLink to="https://t.me/umeecrosschain"
+                  >Telegram</UIFooterLink
+                >
+                <UIFooterLink to="https://medium.com/umeeblog"
+                  >Medium</UIFooterLink
+                >
+                <UIFooterLink
+                  to="https://www.youtube.com/channel/UCNNeflvj43QylhjvssqdIHQ/videos"
+                  >YouTube</UIFooterLink
+                >
+                <UIFooterLink to="https://www.reddit.com/r/UmeeCrossChain/"
+                  >Reddit</UIFooterLink
+                >
+              </ul>
+              <UIFooterTitle>Governance</UIFooterTitle>
+              <ul class="mb-6 md:mb-8">
+                <UIFooterLink
+                  to="https://docs.umee.cc/governance/governance-overview/governance"
+                  >Community Governance</UIFooterLink
+                >
+                <UIFooterLink to="https://commonwealth.im/umee/"
+                  >Governance Forum</UIFooterLink
+                >
+                <UIFooterLink to="https://wallet.keplr.app/#/umee/governance"
+                  >Voting Dashboard</UIFooterLink
+                >
+              </ul>
+              <UIFooterTitle>DAOS</UIFooterTitle>
+              <ul>
+                <UIFooterLink to="https://docs.umee.cc/umee-validator-dao/"
+                  >Validator DAO</UIFooterLink
+                >
+              </ul>
+            </div>
+            <div>
+              <UIBlockTitle class="mb-6 md:mb-8">Ecosystem</UIBlockTitle>
+              <UIFooterTitle>APPS</UIFooterTitle>
+              <ul class="mb-6 md:mb-8">
+                <UIFooterLink
+                  to="https://github.com/umee-network/cosmos-multisig-ui"
+                  >Cosmos Multisig App</UIFooterLink
+                >
+                <UIFooterLink to="https://app.umee.cc/#/markets"
+                  >Umee&lt;&gt;Ethereum Bridge</UIFooterLink
+                >
+              </ul>
+              <UIBlockTitle class="mb-6 md:mb-8">Support</UIBlockTitle>
+              <ul>
+                <UIFooterLink to="/faqs">FAQs</UIFooterLink>
+                <UIFooterLink to="/brand">Brand Kit</UIFooterLink>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
+      <div
+        class="py-4 text-midGreyOnNavy border-t border-solid border-darkGreyOnNavy"
+      >
+        <div class="container md:text-right">
+          <div class="flex flex-row flex-wrap gap-x-6 gap-y-3">
+            <div>&copy; Umee {{ year }}</div>
+            <NuxtLink
+              class="text-midGreyOnNavy whitespace-nowrap inline-block"
+              to="/privacy"
+              >Privacy</NuxtLink
+            >
+            <NuxtLink
+              class="text-midGreyOnNavy whitespace-nowrap inline-block"
+              to="/disclaimer"
+              >Disclaimer</NuxtLink
+            >
+            <NuxtLink
+              class="text-midGreyOnNavy whitespace-nowrap inline-block"
+              to="/terms-of-use"
+              >Terms of use</NuxtLink
+            >
+          </div>
+        </div>
+      </div>
+      <HomeAnnouncement :page="page" />
     </div>
-    <HomeAnnouncement :page="page" />
   </div>
 </template>
 

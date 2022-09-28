@@ -1,15 +1,13 @@
 <template>
-  <li class="py-1 text-sm">
+  <li class="py-1.5 text-base">
     <a
       v-if="to.startsWith('http')"
       target="_blank"
       :href="to"
-      class="hover:underline text-midGreyOnNavy"
+      :class="linkClass"
       ><slot></slot
     ></a>
-    <NuxtLink v-else :to="to" class="hover:underline text-midGreyOnNavy"
-      ><slot></slot
-    ></NuxtLink>
+    <NuxtLink v-else :to="to" :class="linkClass"><slot></slot></NuxtLink>
   </li>
 </template>
 
@@ -19,6 +17,11 @@ export default {
     to: {
       type: String,
       default: '',
+    },
+  },
+  computed: {
+    linkClass() {
+      return 'hover:underline text-midGreyOnNavy text-xs leading-snug block py-px'
     },
   },
 }
