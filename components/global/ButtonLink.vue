@@ -2,7 +2,7 @@
   <div v-if="link.startsWith('http')">
     <a :href="link" :target="target" :class="classObject"><slot></slot></a>
   </div>
-  <NuxtLink v-else :to="link" :target="target" :class="classObject"
+  <NuxtLink v-else :to="link" target="_self" :class="classObject"
     ><slot></slot
   ></NuxtLink>
 </template>

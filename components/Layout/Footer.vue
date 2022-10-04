@@ -2,14 +2,18 @@
   <!-- zIndex and backfaceVisibility style addresses safari bug where flipping logos temporarily appear on top of the announcements panel-->
   <div :style="{ zIndex: '1', backfaceVisibility: 'hidden' }">
     <div class="bg-lightNavy py-12 text-midGreyOnNavy text-center relative">
-      <UITitle
-        level="4"
-        text="Receive the latest from Umee, direct to your inbox"
-        class="text-white mb-2"
-        fontSizeClass="text-[2rem]"
-      ></UITitle>
-      <p class="text-lg mb-6">One weekly digest, and nothing else - promise!</p>
-      <FormSubscribe />
+      <div class="container">
+        <UITitle
+          level="4"
+          text="Receive the latest from Umee, direct to your inbox"
+          class="text-white mb-2"
+          fontSizeClass="text-[2rem]"
+        ></UITitle>
+        <p class="text-lg mb-6">
+          One weekly digest, and nothing else - promise!
+        </p>
+        <FormSubscribe />
+      </div>
     </div>
     <div
       :style="{ zIndex: '1', backfaceVisibility: 'hidden' }"

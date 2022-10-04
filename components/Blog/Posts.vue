@@ -1,13 +1,16 @@
 <template>
   <div>
     <div
-      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-8 lg:gap-x-8 lg:gap-y-12"
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-8 md:gap-x-8 lg:gap-y-12"
     >
       <nuxt-link
         v-for="post in posts"
         :to="{ name: 'blog-slug', params: { slug: post.attributes.slug } }"
         :key="post.id"
         class="flex flex-col justify-between gap-4"
+        :class="{
+          'md:[&:nth-child(3)]:hidden lg:[&:nth-child(3)]:flex': preview,
+        }"
       >
         <div>
           <div
@@ -50,6 +53,7 @@ export default {
   },
   props: {
     posts: [],
+    preview: false,
   },
 }
 </script>
