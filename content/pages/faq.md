@@ -84,21 +84,21 @@ The UMEE token has been issued. The token was issued to Coinlist buyers during t
 <details>
 <summary>What is the UMEE token used for?</summary>
 
-UMEE tokens are used to pay for network fees on the Umee blockchain, to provide Proof of Stake consensus to the Umee network, and for protocol governance. You can read more about UMEE token uses in Umee’s [documentation](https://docs.umee.cc/umee/umee-token/token-usage).
+UMEE tokens are used to pay for network fees on the Umee blockchain, to provide Proof of Stake consensus to the Umee network, and for protocol governance. You can read more about UMEE token uses in Umee’s [documentation](https://umeeversity.umee.cc/overview/umee-token/token-utility.html)
 
 </details>
 
 <details>
 <summary>What is the total UMEE token supply?</summary>
 
-10 billion. You can learn more about the inflation and deflation mechanisms in place [here](https://docs.umee.cc/umee/umee-token/tokenomics#token-inflation-and-deflation-mechanism).
+10 billion. You can learn more about the inflation and deflation mechanisms in place [here](https://umeeversity.umee.cc/overview/umee-token/tokenomics.html#supply)
 
 </details>
 
 <details>
 <summary>What is the initial distribution and release schedule of the UMEE token?</summary>
 
-Details about Umee’s token distribution and release schedule can be found [here](https://docs.umee.cc/umee/umee-token/tokenomics#token-distribution-and-release-schedule)
+Details about Umee’s token distribution and release schedule can be found [here](https://umeeversity.umee.cc/overview/umee-token/tokenomics.html#supply)
 
 </details>
 
@@ -112,6 +112,6 @@ The UMEE token will exist in both ERC20 and Cosmos SDK format. If users want to 
 <details>
 <summary>I have another question that’s not answered here.</summary>
 
-Take a look at the [official documentation](https://docs.umee.cc/umee/) - if you can’t find the answer to your question here, share it with us in the [#ask-community channel on Discord](https://discord.com/invite/umee) or in the Umee [Telegram](https://t.me/umeecrosschain).
+Take a look at the [official documentation](https://umeeversity.umee.cc/) - if you can’t find the answer to your question here, share it with us in the [#ask-community channel on Discord](https://discord.com/invite/umee) or in the Umee [Telegram](https://t.me/umeecrosschain).
 
 </details>
