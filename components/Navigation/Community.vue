@@ -37,7 +37,7 @@
         >
         <ul>
           <UINavigationMainItem
-            link="https://docs.umee.cc/governance/governance-overview/governance"
+            link="https://umeeversity.umee.cc/governance/"
             description="Learn how Umee's governance processes work"
             >Community Governance</UINavigationMainItem
           >
@@ -47,7 +47,7 @@
             >Governance Forum</UINavigationMainItem
           >
           <UINavigationMainItem
-            link="https://wallet.keplr.app/#/umee/governance"
+            link="https://app.umee.cc/#/governance"
             description="Vote on live governance proposals here"
             >Voting Dashboard</UINavigationMainItem
           >
