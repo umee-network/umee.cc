@@ -39,31 +39,6 @@ Umee releases new community programs and events on an ongoing basis to gather th
 
 </details>
 
-<details>
-<summary>Where can I find Umee’s roadmap?</summary>
-
-2021 October: Umee Network Deployment (Completed)  
-2021 October: Umee Ethereum Lending and Borrowing Application (Completed)  
-2021 November: Umee Network and Gravity Bridge Deployment (Completed)  
-2021 November: Umee Alpha Mainnet Launch (Completed)  
-2021 December: Umee Base Functionality Deployment on Testnet (Completed)  
-2021 December: Security Audits (Completed)<br />
-2022 January: Umee Network Lending and Borrowing Application testnet<br /> 
-2022 February: Umee Base Functionality Deployment on Mainnet and Token Launch  
-2022 March: Umee Lending Facility Upgrades   
-2022 April - Onward:
-
-- Umee Polygon Lending and Borrowing Application
-- Umee Arbitrum Lending and Borrowing Application 
-- Umee Optimism Lending and Borrowing Application
-- Umee Solana Lending and Borrowing Application
-- Umee Binance Smart Chain Lending and Borrowing Application
-- Protocol developments on top of Umee: meTokens, staking curves, defi debt protocols 
-- Cross chain lending and borrowing applications onto more networks
-
-*Disclaimer - timeline is subject to change*
-
-</details>
 
 ## UMEE Token FAQ
 
@@ -105,7 +80,7 @@ Details about Umee’s token distribution and release schedule can be found [her
 <details>
 <summary>What is the blockchain configuration of the UMEE token?</summary>
 
-The UMEE token will exist in both ERC20 and Cosmos SDK format. If users want to convert from one blockchain to another, all they need to do is to go to the Umee Application page and use the convert function through Umee’s gravity bridge; such transactions will take sub minutes.
+The UMEE token will exist in both ERC20 and Cosmos SDK format. If users want to convert from one blockchain to another, all they need to do is to go to the Umee Application page and use the convert function through Umee’s gravity bridge; such transactions will take sub minutes. Find more details [here](https://umeeversity.umee.cc/overview/umee-token/token-format.html)
 
 </details>
 
