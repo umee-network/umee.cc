@@ -33,8 +33,15 @@
             }}
           </div>
         </div>
-        <div class="uppercase tracking-widest text-xs">
-          {{ $moment(post.attributes.published_date).format('LL') }}
+        <div>
+          <BlogDifficulty
+            v-if="post.attributes.difficulty.data"
+            :difficulty="post.attributes.difficulty.data.attributes.name"
+            class="mr-3"
+          />
+          <div class="uppercase tracking-widest text-xs inline-block">
+            {{ $moment(post.attributes.published_date).format('LL') }}
+          </div>
         </div>
       </nuxt-link>
     </div>
@@ -50,6 +57,8 @@ export default {
   },
   props: {
     posts: [],
+    difficulty: {},
   },
+  computed: {},
 }
 </script>

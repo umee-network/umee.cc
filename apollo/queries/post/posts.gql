@@ -10,6 +10,14 @@ query Posts($page: Int!, $pageSize: Int!) {
         seo_title
         slug
         content
+        difficulty {
+          data {
+            attributes {
+              name
+              slug
+            }
+          }
+        }
         categories {
           data {
             attributes {

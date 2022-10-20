@@ -1,9 +1,20 @@
 <template>
-  <div
-    class="social-icon border w-[35px] h-[35px] rounded-full flex items-center justify-center"
+  <a
+    :href="href"
+    target="_blank"
+    class="
+      social-icon
+      border
+      w-[35px]
+      h-[35px]
+      rounded-full
+      flex
+      items-center
+      justify-center
+    "
   >
-    <div v-html="src"></div>
-  </div>
+    <div class="scale-90" v-html="src"></div>
+  </a>
 </template>
 <script>
 export default {
@@ -12,6 +23,10 @@ export default {
     name: {
       type: String,
       required: true,
+    },
+    href: {
+      type: String,
+      default: '',
     },
   },
   computed: {
@@ -25,28 +40,14 @@ export default {
 
 <style scoped>
 .social-icon {
-  background-image: linear-gradient(#fff, #fff),
-    linear-gradient(#d0d1d8, #d0d1d8);
-  background-origin: border-box;
-  background-clip: content-box, border-box;
-  border: solid 2px transparent;
-}
-
-.dark .social-icon {
   background-image: linear-gradient(#16183c, #16183c),
-    linear-gradient(#d0d1d8, #d0d1d8);
+    linear-gradient(#464869, #464869);
   background-origin: border-box;
   background-clip: content-box, border-box;
   border: solid 2px transparent;
-  color: #fff;
 }
 
 .social-icon:hover {
-  background-image: linear-gradient(#fff, #fff),
-    linear-gradient(to right, #fda9ff, #c9b8ff, #4dffe5);
-}
-
-.dark .social-icon:hover {
   background-image: linear-gradient(#16183c, #16183c),
     linear-gradient(to right, #fda9ff, #c9b8ff, #4dffe5);
 }

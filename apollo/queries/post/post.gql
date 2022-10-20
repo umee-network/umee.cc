@@ -8,6 +8,14 @@ query FetchPost($slug: String!) {
         slug
         content
         excerpt
+        difficulty {
+          data {
+            attributes {
+              name
+              slug
+            }
+          }
+        }
         categories {
           data {
             attributes {
@@ -25,7 +33,17 @@ query FetchPost($slug: String!) {
             }
           }
         }
+        hide_cover_image
         published_date
+        updatedAt
+        author {
+          data {
+            attributes {
+              name
+              position
+            }
+          }
+        }
       }
     }
   }

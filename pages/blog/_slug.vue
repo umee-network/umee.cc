@@ -1,17 +1,70 @@
 <template>
   <div
-    class="container pb-12 md:pb-20 lg:pb-28 prose dark:prose-invert max-w-[43.75rem] mx-auto"
+    class="container pt-20 md:pt-40 pb-12 md:pb-20 lg:pb-28 prose prose-headings:font-sans prose-headings:font-normal prose-a:text-[#433d55] dark:prose-a:text-[#ffffff] hover:prose-a:no-underline dark:prose-invert max-w-[48rem] mx-auto"
   >
-    <h1>{{ article.title }}</h1>
-    <img :src="coverImage" />
+    <UIBlockTitle class="mb-6 !text-xs">{{
+      formatDate(article.published_date)
+    }}</UIBlockTitle>
+    <h1 class="mb-8 mt-0">{{ article.title }}</h1>
+    <div class="text-lg mb-3 md:pr-10">{{ article.excerpt }}</div>
+    <div
+      class="text-[1.0625rem font-normal pb-3 border-b border-midGrey md:flex md:items-center md:justify-between"
+    >
+      <div>
+        By {{ article.author.data.attributes.name
+        }}<span v-if="article.author.data.attributes.position"
+          >, {{ article.author.data.attributes.position }}</span
+        >
+      </div>
+      <div class="mt-3 md:mt-0">
+        <span class="pr-3"> Share: </span>
+        <ShareNetwork
+          network="twitter"
+          :url="'https://umee.cc/blog/' + article.slug"
+          :title="article.title"
+          :description="article.excerpt"
+          class="inline-block"
+        >
+          <SVGSocialIcon name="twitter" />
+        </ShareNetwork>
+        <ShareNetwork
+          network="facebook"
+          :url="'https://umee.cc/blog/' + article.slug"
+          :title="article.title"
+          :description="article.excerpt"
+          class="inline-block"
+        >
+          <SVGSocialIcon name="facebook" />
+        </ShareNetwork>
+        <ShareNetwork
+          network="linkedin"
+          :url="'https://umee.cc/blog/' + article.slug"
+          :title="article.title"
+          :description="article.excerpt"
+          class="inline-block"
+        >
+          <SVGSocialIcon name="linkedin" />
+        </ShareNetwork>
+      </div>
+    </div>
+
+    <img v-if="!article.hide_cover_image" :src="coverImage" />
     <div v-for="block in content" :key="block">
       <div v-html="addTargetBlankToLinks(block)"></div>
     </div>
+    <BlogStructuredData
+      :headline="this.article.title"
+      :description="this.article.excerpt"
+      :image="this.article.cover.data.attributes.url"
+      :datePublished="article.published_date"
+      :dateModified="article.updatedAt"
+      :authorName="article.author.data.attributes.name"
+      :authorUrl="article.author.data.attributes.url"
+    />
   </div>
 </template>
 
 <script>
-import { tsConstructSignatureDeclaration } from '@babel/types'
 import postQuery from '~/apollo/queries/post/post'
 const edjsHTML = require('editorjs-html')
 
@@ -39,6 +92,12 @@ export default {
       iframe.parentElement.classList.add('responsive-video')
     })
   },
+  computed: {
+    socialIcon() {
+      const src = require(`assets/images/logo-social-twitter.svg?raw`)
+      return src
+    },
+  },
   methods: {
     addTargetBlankToLinks(html) {
       if (typeof html === 'string') {
@@ -46,6 +105,10 @@ export default {
       } else {
         return html
       }
+    },
+    formatDate(date) {
+      const options = { year: 'numeric', month: 'long', day: 'numeric' }
+      return new Date(date).toLocaleDateString('en', options)
     },
   },
   head() {

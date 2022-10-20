@@ -7,7 +7,9 @@
     }"
     class="container text-center pb-20"
   >
-    <UIBlockTitle class="mb-10">{{ page.backed_by }}</UIBlockTitle>
+    <h2>
+      <UIBlockTitle class="mb-10">{{ page.backed_by }}</UIBlockTitle>
+    </h2>
 
     <div
       class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 auto-rows-fr gap-y-3 gap-x-5"

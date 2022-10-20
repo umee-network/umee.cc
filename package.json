@@ -35,7 +35,8 @@
     "graphql": "^16.4.0",
     "graphql-tag": "^2.12.6",
     "nuxt": "^2.15.8",
-    "tailwindcss": "latest"
+    "tailwindcss": "latest",
+    "vue-social-sharing": "^3.0.9"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.14.7",
