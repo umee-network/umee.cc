@@ -1,9 +1,18 @@
 [build]
   publish = "dist"
   command = "yarn run generate"
+  functions = "./functions"
 
 [context.production.environment]
   BASE_URL = "https://umee.cc"
 
 [[plugins]]
 package = "@netlify/plugin-sitemap"
+
+[functions."mailchimp-digest"]
+#schedule = "@weekly"
+
+[[headers]]
+  for = "/fonts/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"

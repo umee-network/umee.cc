@@ -3,6 +3,7 @@ export default {
     strapiBaseUri: process.env.API_URL || 'http://localhost:1337',
     baseUrl: process.env.BASE_URL || 'http://localhost:3000',
   },
+  dev: process.env.NODE_ENV !== 'production',
   devServerHandlers: [],
   target: 'static',
   ssr: true,
@@ -183,6 +184,8 @@ export default {
     '@nuxtjs/gtm',
     'cookie-universal-nuxt',
     'vue-social-sharing/nuxt',
+    '@nuxtjs/axios',
+    '@nuxtjs/dotenv',
   ],
   gtm: {
     enabled: true /* see below */,
