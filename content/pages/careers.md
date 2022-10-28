@@ -152,7 +152,7 @@ Please send an email to hr@umee.cc and tell us about yourself, your work experie
 
 We’re looking for a candidate who thrives in a fast-paced, diverse environment. The Technical Writer will act as the bridge between our core dev team and the open source dev community. You are expected to produce top quality technical documentation.
  
-Umee is laser-focused on building and delivering our products and core mission. We take our work extremely seriously and we want to hire top notch executors to make things happen and put all the pieces together. Passion for the crypto industry and prior crypto experience is a must. We only want to work with people who are willing to learn fast, work hard and not compromise on the quality of work.
+**Umee** is laser-focused on building and delivering our products and core mission. We take our work extremely seriously and we want to hire top notch executors to make things happen and put all the pieces together. Passion for the crypto industry and prior crypto experience is a must. We only want to work with people who are willing to learn fast, work hard and not compromise on the quality of work.
 
  
 **Responsibilities:**
