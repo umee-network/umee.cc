@@ -185,3 +185,120 @@ To apply, please email hr@umee.cc and include a resume with a link to your githu
 
 </details>
 
+<details>
+<summary>BLOCKCHAIN ENGINEER</summary>
+
+Umee is seeking a talented Software Developer who is experienced in developing high performance code. You will be working alongside our developer team to build a cross chain defi application with high coding standards and technical design.
+
+The right candidate has 3+ years in the blockchain space, and is proficient in software development as well as having strong technical skills in assessing the blockchain industry as a whole. Candidates would benefit strongly from having a deep fundamental software development knowledge base
+
+We’re looking for a passionate and well-rounded individual who fundamentally understands the philosophy of decentralized networks and has great technical and communications skills. Your work will be hugely impactful, as you will be working within a team that acts as the driver for innovation in the cross chain defi space.
+ 
+**What you'll be doing:**
+ 
+- Building blockchain applications
+- Measure system performance, check metrics and logs
+- Cover code by unit tests and run integration tests
+- Debug, profile and search for bottlenecks
+- Collaborate on the design of data models, technical architecture, data flows, schemas and API contracts
+- Develop and improve scalable backend systems
+- Conducting technical due diligence and understanding dynamics/tradeoffs between different blockchain protocols 
+
+
+**Requirements:**
+ 
+- 3+ years of Golang, Java, Rust or C++
+- Strong experience with software delivery and taking a set of requirements towards full implementation with minimal guidance
+- Experience with RESTful programming conventions
+- Extensive knowledge of software design paradigms in large-scale environments, distributed systems
+- Understand Unix system internals, client/server protocols, and data storage systems in a cloud environment
+- Strong knowledge of Object-Oriented Analysis and Design, Software Design Patterns and coding principles
+- Excellent understanding of containers, deployment systems, and container management platforms, preferably Kubernetes
+- Understand the infrastructure monitoring agent and agent-less architecture
+- Hands-on experience in microservices architecture and development, Databases such as Oracle MySQL, PostgreSQL etc.
+- Experience in assessing application performance and optimizing/improving it through design and best coding practices
+- High attention to details with excellent organizational skills and ability to take charge, set objectives, drive to results; team-oriented
+
+**Nice to Have:**
+
+- Passion about what decentralization technology can offer to humanity
+- Insatiable curiosity of the industry; self-motivated to pursue researching every new idea that floats across the industry
+- Ability to explain abstract technical concepts in an easy to understand manner
+- Any API interaction 
+- Experience with Front End (React, Angular); javascript
+- Containers and orchestration; Docker, Gitlab CI, Kubernetes
+- CI/CD environments
+  
+**What We Offer:**
+ 
+- 100% remote work
+- Work with a top performing team
+- Competitive salary
+- Be a part of something great
+- Fun and impactful role
+ 
+**How to Apply:**
+ 
+To apply, please email hr@umee.cc and include a resume with a link to your github account.
+
+</details>
+
+<details>
+<summary>SENIOR FRONT END ENGINEER</summary>
+
+Umee is seeking a talented Front End Developer who is experienced in UI/UX and writing software for user interfaces. You will be working alongside our developer team to build a cross chain defi application with high coding standards and technical design.
+
+The right candidate has 3+ years in the blockchain space, and is proficient in software development as well as having strong technical skills in writing front end code. Candidates would benefit strongly from having a deep fundamental software development knowledge base.
+
+We’re looking for a passionate and well-rounded individual who fundamentally understands the philosophy of decentralized networks and has great technical and communications skills. Your work will be hugely impactful, as you will be working within a team that acts as the driver for innovation in the cross chain defi space.
+ 
+**What You'll Be Doing:**
+ 
+- Develop new user facing features
+- Write reusable code and libraries
+- Enhance application for maximum speed and scalability
+- Validate inputs before submitting to backend
+- Debug, profile and search for bottlenecks
+- Bridge the gap between graphic design and technical implementation
+- Define how applications look and how they work
+- Translate UI/UX design wireframes into actual code 
+
+**We're Looking for Someone Who Has:**
+ 
+- Strong engineering fundamentals
+- 3+ years of experience in a similar role
+- Strong experience with software delivery and taking a set of requirements towards full implementation with minimal guidance
+- Javascript frameworks like React, Redux, Angular, Vue
+- Proficient in Javascript frameworks including JQuery
+- Depth of knowledge and implementation experience
+- Strong understanding of asynchronous request handling, partial page updates, and AJAX
+- Proficient in code versioning tools such as Git, Mercurial, SVN
+- Good understanding of SEO principles
+- HTML CSS
+- Experience in agile software development
+- Familiarity with Cosmos SDK, Solidity, EVM or other blockchain based ecosystems
+- Ability to communicate effectively, and work collaboratively, with the team and internal/external organizations
+
+**Nice to Have:**
+
+- Passion about what decentralization technology can offer to humanity
+- Insatiable curiosity of the industry; self-motivated to pursue researching every new idea that floats across the industry
+- Ability to explain abstract technical concepts in an easy to understand manner
+- Any API interaction 
+- Containers and orchestration; Docker, Gitlab CI, Kubernetes
+- CI/CD environments
+  
+**What We Offer:**
+ 
+- 100% remote work
+- Work with a top performing team
+- Competitive salary
+- Be a part of something great
+- Fun and impactful role
+ 
+**How to Apply:**
+ 
+To apply, please email hr@umee.cc and include a resume with a link to your github account.
+
+</details>
+

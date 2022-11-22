@@ -1,26 +1,5 @@
 <template>
-  <div>
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "NewsArticle",
-        "headline": "{{headline}}",
-        "description": "{{description}}"
-        "image": [
-          "{{image}}",
-        ],
-        "datePublished": "{{datePublished}}",
-        "dateModified": "{{datePublished}}",
-        "author": [
-          {
-            "@type": "Person",
-            "name": "{{authorName}}",
-            "url": "{{authorUrl}}"
-          },
-        ]
-      }
-    </script>
-  </div>
+  <div></div>
 </template>
 <script>
 export default {
@@ -37,10 +16,10 @@ export default {
       default: '',
     },
     datePublished: {
-      type: Date,
+      type: String,
     },
     datePublished: {
-      type: Date,
+      type: String,
     },
     authorName: {
       type: String,
@@ -48,6 +27,24 @@ export default {
     authorUrl: {
       type: String,
     },
+  },
+  jsonld() {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'NewsArticle',
+      headline: this.headline,
+      description: this.description,
+      image: [this.image],
+      datePublished: this.datePublished,
+      dateModified: this.datePublished,
+      author: [
+        {
+          '@type': 'Person',
+          name: this.authorName,
+          url: this.authorUrl,
+        },
+      ],
+    }
   },
 }
 </script>
