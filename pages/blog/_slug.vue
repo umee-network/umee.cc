@@ -18,33 +18,30 @@
       </div>
       <div class="mt-3 md:mt-0">
         <span class="pr-3"> Share: </span>
-        <ShareNetwork
+        <BlogShareIcon
           network="twitter"
           :url="'https://umee.cc/blog/' + article.slug"
           :title="article.title"
           :description="article.excerpt"
-          class="inline-block"
         >
           <SVGSocialIcon name="twitter" />
-        </ShareNetwork>
-        <ShareNetwork
+        </BlogShareIcon>
+
+        <BlogShareIcon
           network="facebook"
           :url="'https://umee.cc/blog/' + article.slug"
           :title="article.title"
           :description="article.excerpt"
-          class="inline-block"
-        >
-          <SVGSocialIcon name="facebook" />
-        </ShareNetwork>
-        <ShareNetwork
+          ><SVGSocialIcon name="facebook" />
+        </BlogShareIcon>
+
+        <BlogShareIcon
           network="linkedin"
           :url="'https://umee.cc/blog/' + article.slug"
           :title="article.title"
           :description="article.excerpt"
-          class="inline-block"
-        >
-          <SVGSocialIcon name="linkedin" />
-        </ShareNetwork>
+          ><SVGSocialIcon name="linkedin" />
+        </BlogShareIcon>
       </div>
     </div>
 
@@ -61,6 +58,37 @@
       :authorName="article.author.data.attributes.name"
       :authorUrl="article.author.data.attributes.url"
     />
+    <div
+      class="text-[1.0625rem font-normal pt-3 mt-12 border-t border-midGrey md:flex md:items-center md:justify-end"
+    >
+      <div class="mt-3 md:mt-0">
+        <span class="pr-3"> Share: </span>
+        <BlogShareIcon
+          network="twitter"
+          :url="'https://umee.cc/blog/' + article.slug"
+          :title="article.title"
+          :description="article.excerpt"
+        >
+          <SVGSocialIcon name="twitter" />
+        </BlogShareIcon>
+
+        <BlogShareIcon
+          network="facebook"
+          :url="'https://umee.cc/blog/' + article.slug"
+          :title="article.title"
+          :description="article.excerpt"
+          ><SVGSocialIcon name="facebook" />
+        </BlogShareIcon>
+
+        <BlogShareIcon
+          network="linkedin"
+          :url="'https://umee.cc/blog/' + article.slug"
+          :title="article.title"
+          :description="article.excerpt"
+          ><SVGSocialIcon name="linkedin" />
+        </BlogShareIcon>
+      </div>
+    </div>
   </div>
 </template>
 
