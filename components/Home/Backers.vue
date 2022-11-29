@@ -7,7 +7,9 @@
     }"
     class="py-14 md:py-20 lg:py-36 container text-center"
   >
-    <UIBlockTitle class="mb-10">{{ page.backed_by }}</UIBlockTitle>
+    <h2>
+      <UIBlockTitle class="mb-10">{{ page.backed_by }}</UIBlockTitle>
+    </h2>
 
     <div
       class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 auto-rows-fr gap-y-3 gap-x-5"

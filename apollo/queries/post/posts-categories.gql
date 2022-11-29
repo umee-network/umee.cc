@@ -9,6 +9,14 @@ query FetchCategory($slug: String!, $page: Int!, $pageSize: Int!) {
         title
         slug
         content
+        difficulty {
+          data {
+            attributes {
+              name
+              slug
+            }
+          }
+        }
         cover {
           data {
             attributes {
@@ -17,6 +25,7 @@ query FetchCategory($slug: String!, $page: Int!, $pageSize: Int!) {
             }
           }
         }
+        hide_cover_image
         categories {
           data {
             attributes {

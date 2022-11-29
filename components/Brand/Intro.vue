@@ -17,7 +17,7 @@
               </p>
             </div>
 
-            <UIBlockTitle class="mb-4">Our personality</UIBlockTitle>
+            <h2><UIBlockTitle class="mb-4">Our personality</UIBlockTitle></h2>
             <div class="prose prose-lg text-midGreyOnNavy leading-normal mb-6">
               <p>
                 Our three personality attributes inspire how we behave and

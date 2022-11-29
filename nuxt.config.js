@@ -155,6 +155,7 @@ export default {
       mode: 'client',
     },
     '~plugins/truncate.js',
+    '~/plugins/jsonld',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -183,6 +184,7 @@ export default {
     '@nuxtjs/markdownit',
     '@nuxtjs/gtm',
     'cookie-universal-nuxt',
+    'vue-social-sharing/nuxt',
     '@nuxtjs/axios',
     '@nuxtjs/dotenv',
   ],

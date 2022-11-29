@@ -11367,6 +11367,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nuxt-jsonld@npm:v1":
+  version: 1.5.3
+  resolution: "nuxt-jsonld@npm:1.5.3"
+  dependencies:
+    schema-dts: ^1.0.0
+  checksum: 551ae8ff04e240b3baf7276608bca81b90c4da9192072a401c06a418ed2190b12eded4415f7b7177fa8c33aed450c90d7fd2b5bd2c43595b9c08d77d374cb6d0
+  languageName: node
+  linkType: hard
+
 "nuxt@npm:^2.15.8":
   version: 2.15.8
   resolution: "nuxt@npm:2.15.8"
@@ -14281,6 +14290,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"schema-dts@npm:^1.0.0":
+  version: 1.1.0
+  resolution: "schema-dts@npm:1.1.0"
+  peerDependencies:
+    typescript: ">=4.1.0"
+  checksum: 546af6d8707790d666f64665b755a683166675c11195406e78e2ac875e7b6f1f550b4306449c8b00a5ef0384a487a7837eac7b8b3f00c2ca2c8f231d931507d4
+  languageName: node
+  linkType: hard
+
 "schema-utils@npm:2.7.0":
   version: 2.7.0
   resolution: "schema-utils@npm:2.7.0"
@@ -16051,6 +16069,7 @@ __metadata:
     nuxt: ^2.15.8
     nuxt-graphql-request: ^5.2.0
     nuxt-gsap-module: ^1.5.0
+    nuxt-jsonld: v1
     postcss: latest
     prettier: 2.5.1
     stylelint: ^13.13.1
@@ -16058,6 +16077,7 @@ __metadata:
     stylelint-config-standard: ^22.0.0
     tailwindcss: latest
     tailwindcss-debug-screens: ^2.2.0
+    vue-social-sharing: ^3.0.9
     vue-waypoint: ^3.5.2
   languageName: unknown
   linkType: soft
@@ -16707,6 +16727,15 @@ __metadata:
     serialize-javascript: ^3.1.0
     source-map: 0.5.6
   checksum: 190c2e3f23c503067dafaa5fc1f2775a88d7d78c8a274ba68bb3c4e417a08c3034a16487a3ad92c0b3153f010115cfa093ad0470c244198a0f25483a688027a1
+  languageName: node
+  linkType: hard
+
+"vue-social-sharing@npm:^3.0.9":
+  version: 3.0.9
+  resolution: "vue-social-sharing@npm:3.0.9"
+  peerDependencies:
+    vue: ^2.6.10
+  checksum: 60265c3cd713a60fa833e7f07dc9af68cde0a60a632e66df985c5596cf5fdd0f78672b1de4f8a49cccc5fc8c24d8c3fcffba0bc3071c271cce0227417b8568b4
   languageName: node
   linkType: hard
 

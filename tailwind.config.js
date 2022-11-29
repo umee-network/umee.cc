@@ -27,6 +27,7 @@ module.exports = {
       pink: '#FDA9FF',
       purple: '#C9B8FF',
       aqua: '#4DFFE5',
+      darkAqua: '#55E9D3',
     },
     screens: {
       sm: '640px',

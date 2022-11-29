@@ -5,8 +5,8 @@
     >
       <nuxt-link
         v-for="post in posts"
-        :to="{ name: 'blog-slug', params: { slug: post.attributes.slug } }"
         :key="post.id"
+        :to="{ name: 'blog-slug', params: { slug: post.attributes.slug } }"
         class="flex flex-col justify-between gap-4"
         :class="{
           'md:[&:nth-child(3)]:hidden lg:[&:nth-child(3)]:flex': preview,
@@ -22,9 +22,9 @@
           </h2>
 
           <div
-            class="inline-block mr-2 uppercase text-xs tracking-widest border-b-[2px] border-gradient"
-            :key="index"
             v-for="(cat, index) in post.attributes.categories.data"
+            :key="index"
+            class="inline-block mr-2 uppercase text-xs tracking-widest border-b-[2px] border-gradient"
           >
             <div>{{ cat.attributes.name }}</div>
           </div>
@@ -36,8 +36,15 @@
             }}
           </div>
         </div>
-        <div class="uppercase tracking-widest text-xs">
-          {{ $moment(post.attributes.published_date).format('LL') }}
+        <div>
+          <BlogDifficulty
+            v-if="post.attributes.difficulty.data"
+            :difficulty="post.attributes.difficulty.data.attributes.name"
+            class="mr-3"
+          />
+          <div class="uppercase tracking-widest text-xs inline-block">
+            {{ $moment(post.attributes.published_date).format('LL') }}
+          </div>
         </div>
       </nuxt-link>
     </div>
@@ -46,14 +53,26 @@
 
 <script>
 export default {
+  props: {
+    posts: {
+      type: Array,
+      required: true,
+    },
+    preview: {
+      type: Boolean,
+      required: false,
+    },
+    difficulty: {
+      type: String,
+      default: '',
+      required: false,
+    },
+  },
   data() {
     return {
       api_url: process.env.strapiBaseUri,
     }
   },
-  props: {
-    posts: [],
-    preview: false,
-  },
+  computed: {},
 }
 </script>

@@ -47,7 +47,7 @@
                   >About Umee</UIFooterLink
                 >
                 <UIFooterLink
-                  to="https://umeeversity.umee.cc/users/blockchain-basics/"
+                  to="https://umeeversity.umee.cc/learn-the-basics/blockchain-basics/"
                   >Blockchain Basics</UIFooterLink
                 >
                 <UIFooterLink to="/careers">Careers</UIFooterLink>

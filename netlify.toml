@@ -8,3 +8,11 @@
 
 [[plugins]]
 package = "@netlify/plugin-sitemap"
+
+[functions."mailchimp-digest"]
+#schedule = "@weekly"
+
+[[headers]]
+  for = "/fonts/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"

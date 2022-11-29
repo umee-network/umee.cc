@@ -7,7 +7,9 @@
     />
 
     <div v-if="page.date">
-      <UIBlockTitle class="mb-6">{{ formatDate(page.date) }}</UIBlockTitle>
+      <UIBlockTitle class="mb-6 font-light">{{
+        formatDate(page.date)
+      }}</UIBlockTitle>
     </div>
 
     <div
