@@ -59,7 +59,7 @@
         <UINavigationMainSectionHeading>DAOs</UINavigationMainSectionHeading>
         <ul>
           <UINavigationMainItem
-            link="https://docs.umee.cc/umee-validator-dao/"
+            link="https://umeeversity.umee.cc/governance/validator-dao/overview.html"
             description="The DAO that governs Umee's delegation decisions"
             >Validator DAO</UINavigationMainItem
           >
