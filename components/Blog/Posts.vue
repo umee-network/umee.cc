@@ -1,13 +1,16 @@
 <template>
   <div>
     <div
-      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-8 lg:gap-x-8 lg:gap-y-12"
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-8 md:gap-x-8 lg:gap-y-12"
     >
       <nuxt-link
         v-for="post in posts"
-        :to="{ name: 'blog-slug', params: { slug: post.attributes.slug } }"
         :key="post.id"
+        :to="{ name: 'blog-slug', params: { slug: post.attributes.slug } }"
         class="flex flex-col justify-between gap-4"
+        :class="{
+          'md:[&:nth-child(3)]:hidden lg:[&:nth-child(3)]:flex': preview,
+        }"
       >
         <div>
           <div
@@ -19,9 +22,9 @@
           </h2>
 
           <div
-            class="inline-block mr-2 uppercase text-xs tracking-widest border-b-[2px] border-gradient"
-            :key="index"
             v-for="(cat, index) in post.attributes.categories.data"
+            :key="index"
+            class="inline-block mr-2 uppercase text-xs tracking-widest border-b-[2px] border-gradient"
           >
             <div>{{ cat.attributes.name }}</div>
           </div>
@@ -50,14 +53,25 @@
 
 <script>
 export default {
+  props: {
+    posts: {
+      type: Array,
+      required: true,
+    },
+    preview: {
+      type: Boolean,
+      required: false,
+    },
+    difficulty: {
+      type: String,
+      default: '',
+      required: false,
+    },
+  },
   data() {
     return {
       api_url: process.env.strapiBaseUri,
     }
-  },
-  props: {
-    posts: [],
-    difficulty: {},
   },
   computed: {},
 }

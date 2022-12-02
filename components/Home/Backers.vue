@@ -5,7 +5,7 @@
       callback: onWaypoint,
       options: intersectionOptions,
     }"
-    class="container text-center pb-20"
+    class="py-14 md:py-20 lg:py-36 container text-center"
   >
     <h2>
       <UIBlockTitle class="mb-10">{{ page.backed_by }}</UIBlockTitle>
