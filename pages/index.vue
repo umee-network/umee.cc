@@ -2,9 +2,9 @@
   <div>
     <HomeHero :page="page" />
     <HomeAbout :page="page" />
+    <Security />
     <HomeExperience :page="page" />
     <SVGSwoosh />
-    <Security />
     <HomeBackers :page="page" />
     <HomeBlog :posts="postsResults" />
     <SVGAdoraWink />
