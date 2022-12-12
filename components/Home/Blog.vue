@@ -1,5 +1,5 @@
 <template>
-  <div class="container pb-20">
+  <div class="container pt-14 md:pt-20 lg:pt-36">
     <div class="flex justify-between items-center mb-6 md:mb-12">
       <h2
         class="max-w-[335px] md:max-w-none font-serif text-xxxl lg:text-xxxxl leading-none md:pr-8 lg:pr-0 lg:leading-[0.9]"

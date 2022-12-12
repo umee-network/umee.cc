@@ -1,5 +1,5 @@
 <template>
-  <div class="home-screen pb-20" data-aos="fade-in">
+  <div class="home-screen" data-aos="fade-in">
     <div class="container">
       <SVGWaveBackground class="mb-8">
         <SVGCrossTheWaves />
@@ -33,7 +33,7 @@
         </div>
       </div>
 
-      <NuxtLink :to="{ path: '/', hash: '#about' }">
+      <NuxtLink :to="{ path: '/', hash: '#security' }">
         <UIDiscoverMore
           class="hidden md:block"
           text="Discover more"
