@@ -1,12 +1,12 @@
 <template>
   <div>
     <HomeHero :page="page" />
-    <HomeAbout :page="page" />
     <Security />
+    <HomeAbout :page="page" />
+    <HomeBlog :posts="postsResults" />
     <HomeExperience :page="page" />
     <SVGSwoosh />
     <HomeBackers :page="page" />
-    <HomeBlog :posts="postsResults" />
     <SVGAdoraWink />
   </div>
 </template>

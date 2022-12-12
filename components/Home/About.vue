@@ -1,7 +1,7 @@
 <template>
   <div
     id="about"
-    class="bg-navy text-white py-20 md:py-20 lg:py-28 min-h-[calc(100vh-100px)] flex items-center"
+    class="bg-navy text-white py-14 md:py-20 lg:py-36 flex items-center"
   >
     <div class="container" data-aos="fade-up">
       <h2>

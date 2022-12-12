@@ -1,5 +1,6 @@
 <template>
   <div
+    id="security"
     v-waypoint="{
       active: true,
       callback: onWaypoint,
