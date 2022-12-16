@@ -17,10 +17,7 @@
             </div>
             <div class="pt-4 pr-5 track-pointer md:pr-12 md:max-w-[330px]">
               <p>
-                Umee is a layer one blockchain for cross chain communication and
-                interoperability, built on the Cosmos SDK and powered by
-                Tendermint Consensus along with a self sovereign validator
-                network.
+                Umee enables the development of the next generation of lending markets through a combination of leverage focused DeFi applications and interest rate primitives.
               </p>
             </div>
           </div>
@@ -30,10 +27,8 @@
             </div>
             <div class="pt-4 pr-5 track-pointer md:pr-12 md:max-w-[330px]">
               <p>
-                Interoperability is achieved using Inter-Blockchain
-                Communication protocol (IBC), Gravity bridge, and decentralized
-                infrastructure for creating a universal cross chain DeFi hub
-                toward expanding the crypto ecosystem.
+               Umee is a base layer blockchain for permissionless, autonomous debt financing markets. Umee is built using the Cosmos SDK and powered by Tendermint Consensus, Inter-blockchain Communication Protocol (IBC), and a self sovereign validator network.
+
               </p>
             </div>
           </div>
@@ -43,10 +38,7 @@
             </div>
             <div class="pt-4 pr-5 track-pointer md:pr-12 md:max-w-[330px]">
               <p>
-                A DeFi platform designed towards integrating with money legos,
-                that interconnects crypto markets across networks, allows for
-                the development of open finance innovation including Multi-chain
-                Staking, Interchain Leverage, and Cross Chain Interest rates.
+               Umee offers the most programmable suite of lending-specific algorithms and base layer blockchain modules to enable the maximum safety guarantees customized for each asset’s individual risk profile.
               </p>
             </div>
           </div>
