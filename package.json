@@ -40,6 +40,7 @@
     "graphql-tag": "^2.12.6",
     "nuxt": "^2.15.8",
     "nuxt-jsonld": "v1",
+    "send_x_rest_api": "^1.0.0",
     "tailwindcss": "latest",
     "vue-social-sharing": "^3.0.9"
   },

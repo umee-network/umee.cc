@@ -1,15 +1,8 @@
-const mailchimp = require('@mailchimp/mailchimp_marketing')
-const crypto = require('crypto')
+const SendXRestApi = require('send_x_rest_api')
+const api = new SendXRestApi.ContactApi()
+const { SENDX_API_KEY, SENDX_TEAM_ID, SENDX_TAG } = process.env
 
-exports.handler = async function (event, context) {
-  const { MAILCHIMP_API_KEY, MAILCHIMP_SERVER_PREFIX, MAILCHIMP_LIST_ID } =
-    process.env
-
-  mailchimp.setConfig({
-    apiKey: MAILCHIMP_API_KEY,
-    server: MAILCHIMP_SERVER_PREFIX,
-  })
-
+exports.handler = function (event, context, cb) {
   const headers = {
     'Access-Control-Allow-Origin': '*',
     'Access-Control-Allow-Headers': 'Content-Type',
@@ -23,33 +16,29 @@ exports.handler = async function (event, context) {
     }
   }
   const { email } = JSON.parse(event.body)
-  const subscriberHash = crypto.createHash('md5').update(email).digest('hex')
-  try {
-    const response = await mailchimp.lists.setListMember(
-      MAILCHIMP_LIST_ID,
-      subscriberHash,
-      {
-        email_address: email,
-        status_if_new: 'pending',
-      },
-      { skipMergeValidation: true }
-    )
-    return {
-      statusCode: 200,
-      headers,
-      body: JSON.stringify({
-        subscription_status: response.status,
-        email: response.email_address,
-      }),
+  const newContact = new SendXRestApi.ContactRequest()
+  newContact.email = email
+  newContact.tags = [SENDX_TAG]
+
+  api.contactIdentifyPost(
+    SENDX_API_KEY,
+    SENDX_TEAM_ID,
+    newContact,
+    (err, data, res) => {
+      if (err) {
+        cb(null, {
+          statusCode: 400,
+          body: JSON.stringify({
+            status: 'error',
+            error: err.message,
+          }),
+        })
+      } else {
+        cb(null, {
+          statusCode: data.status,
+          body: JSON.stringify({ email, message: data.message }),
+        })
+      }
     }
-  } catch (e) {
-    return {
-      statusCode: 400,
-      headers,
-      body: JSON.stringify({
-        status: 'error',
-        error: e.response.body.title,
-      }),
-    }
-  }
+  )
 }
