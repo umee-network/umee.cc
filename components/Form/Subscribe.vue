@@ -3,14 +3,14 @@
     <div class="gradient-border">
       <form
         accept-charset="UTF-8"
-        v-on:submit.prevent="onSubmit()"
         method="POST"
         class="flex justify-between gap-x-6"
+        @submit.prevent="onSubmit()"
       >
         <input
+          v-model="email"
           class="text-midGreyOnNaby bg-transparent text-lg grow-0 w-full"
           type="email"
-          v-model="email"
           placeholder="Email address"
         />
 
@@ -44,13 +44,12 @@ export default {
       name: '',
       email: '',
       message: '',
-      isSuccess: false,
     }
   },
   methods: {
     onSubmit() {
       this.loading = true
-      let data = {
+      const data = {
         email: this.email,
       }
       axios
@@ -60,17 +59,17 @@ export default {
           },
         })
         .then(
-          (response) => {
-            this.isSuccess = response.data.success ? true : false
-            if (response.data.subscription_status === 'pending') {
-              this.message =
-                'Please check your email to confirm your subscription'
-            } else {
-              this.message = "You have been added to Umee's mailing list"
-            }
+          (_response) => {
+            this.message = "You have been added to Umee's mailing list"
+            // if (response.data.subscription_status === 'pending') {
+            //   this.message =
+            //     'Please check your email to confirm your subscription'
+            // } else {
+            //   this.message = "You have been added to Umee's mailing list"
+            // }
             this.loading = false
           },
-          (response) => {
+          (_response) => {
             this.message = 'There was a problem adding you to the mailing list.'
             this.loading = false
           }
