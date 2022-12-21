@@ -2,7 +2,7 @@ const SendXRestApi = require('send_x_rest_api')
 const api = new SendXRestApi.ContactApi()
 const { SENDX_API_KEY, SENDX_TEAM_ID, SENDX_TAG } = process.env
 
-exports.handler = function (event, context, cb) {
+exports.handler = function (event, _context, cb) {
   const headers = {
     'Access-Control-Allow-Origin': '*',
     'Access-Control-Allow-Headers': 'Content-Type',
@@ -24,7 +24,7 @@ exports.handler = function (event, context, cb) {
     SENDX_API_KEY,
     SENDX_TEAM_ID,
     newContact,
-    (err, data, res) => {
+    (err, data) => {
       if (err) {
         cb(null, {
           statusCode: 400,
@@ -35,7 +35,7 @@ exports.handler = function (event, context, cb) {
         })
       } else {
         cb(null, {
-          statusCode: data.status,
+          statusCode: 200,
           body: JSON.stringify({ email, message: data.message }),
         })
       }
