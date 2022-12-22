@@ -12,6 +12,11 @@
             >About Umee</UINavigationMainItem
           >
           <UINavigationMainItem
+            link="https://astrolabe.umee.cc/"
+            description="Check the platform statistics"
+            >Astrolabe</UINavigationMainItem
+          >
+          <UINavigationMainItem
             link="https://umeeversity.umee.cc/learn-the-basics/"
             description="Essential information every crypto user should
               know"
