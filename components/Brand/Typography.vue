@@ -34,12 +34,6 @@
                       headings and pull-out statements.
                     </p>
                   </div>
-                  <UIButtonLinkInverse
-                    link="https://fonts.adobe.com/fonts/moret"
-                    target="_blank"
-                    ><span class="align-middle">Buy Moret</span>
-                    <SVGLinkArrow class="ml-3"
-                  /></UIButtonLinkInverse>
                 </div>
                 <div class="order-1 lg:order-2 mb-6 lg:mb-0">
                   <img
@@ -64,12 +58,6 @@
                     <span>Light</span> <span class="font-normal">Regular</span>
                     <span class="font-semibold">Semi Bold</span>
                   </div>
-                  <UIButtonLinkInverse
-                    link="https://www.swisstypefaces.com/fonts/suisse/#Int%E2%80%99l"
-                    target="_blank"
-                    ><span class="align-middle">Buy Suisse Int'l</span>
-                    <SVGLinkArrow class="ml-3"
-                  /></UIButtonLinkInverse>
                 </div>
                 <div class="order-1 lg:order-2 mb-6 lg:mb-0">
                   <img
