@@ -28,7 +28,7 @@
           <UINavigationMainItem link="https://github.com/umee-network/umee/tree/canon-2/networks/canon-2"
             >Canon-2 Github</UINavigationMainItem
           >
-          <UINavigationMainItem link="canon.umee.cc"
+          <UINavigationMainItem link="https://canon.umee.cc"
             >Canon-2 website</UINavigationMainItem
         </ul>
       </div>
