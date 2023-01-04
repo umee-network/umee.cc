@@ -22,12 +22,12 @@
           <UINavigationMainItem
             link="https://peggo.info/"
             description="Validators performance chart based on nonce"
-            >Umee&lt;&gt;Peggo Health Stats</UINavigationMainItem
+            >Peggo Health Stats</UINavigationMainItem
           >
           <UINavigationMainItem
             link="http://peggo-monitor.kingsuper.services:3001/"
             description="Umee Orchestrator Health Checker"
-            >Umee&lt;&gt;Peggo Status Checker</UINavigationMainItem
+            >Peggo Status Checker</UINavigationMainItem
           >
         </ul>
       </div>
