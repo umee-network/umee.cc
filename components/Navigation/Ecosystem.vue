@@ -19,6 +19,16 @@
             description="The DAO that governs Umee's delegation decisions"
             >Umee&lt;&gt;Ethereum Bridge</UINavigationMainItem
           >
+          <UINavigationMainItem
+            link="https://peggo.info/"
+            description="Validators performance chart based on nonce"
+            >Umee&lt;&gt;Peggo Health Stats</UINavigationMainItem
+          >
+          <UINavigationMainItem
+            link="http://peggo-monitor.kingsuper.services:3001/"
+            description="Umee Orchestrator Health Checker"
+            >Umee&lt;&gt;Peggo Status Checker</UINavigationMainItem
+          >
         </ul>
       </div>
     </div>
