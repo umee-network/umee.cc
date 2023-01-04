@@ -10,14 +10,24 @@
         <ul>
           <UINavigationMainItem
             link="https://github.com/umee-network/cosmos-multisig-ui"
-            description="The DAO that governs Umee's delegation decisions"
+            description="An ecosystem tool for multi-sig users in Cosmos"
             >Cosmos Multisig App</UINavigationMainItem
           >
 
           <UINavigationMainItem
-            link="https://app.umee.cc/#/markets"
-            description="The DAO that governs Umee's delegation decisions"
+            link="https://github.com/umee-network/peggo"
+            description="Umee’s implementation of Gravity Bridge and it’s Orchestrator"
             >Umee&lt;&gt;Ethereum Bridge</UINavigationMainItem
+          >
+          <UINavigationMainItem
+            link="https://peggo.info/"
+            description="Check Peggo health of the network and for each of the validators"
+            >Peggo Health Stats</UINavigationMainItem
+          >
+          <UINavigationMainItem
+            link="http://peggo-monitor.kingsuper.services:3001/"
+            description="Handy tool to verify your Peggo status"
+            >Peggo Status Checker</UINavigationMainItem
           >
         </ul>
       </div>
