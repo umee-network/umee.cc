@@ -47,6 +47,10 @@
                   >About Umee</UIFooterLink
                 >
                 <UIFooterLink
+                  to="https://astrolabe.umee.cc/"
+                  >Astrolabe</UIFooterLink
+                >
+                <UIFooterLink
                   to="https://umeeversity.umee.cc/learn-the-basics/blockchain-basics/"
                   >Blockchain Basics</UIFooterLink
                 >
@@ -129,6 +133,17 @@
                   >Validator Documentation</UIFooterLink
                 >
               </ul>
+              
+               <UIFooterTitle>Testnets</UIFooterTitle>
+              <ul>
+                <UIFooterLink to="https://github.com/umee-network/umee/tree/canon-2/networks/canon-2"
+                  >Canon-2 Github</UIFooterLink
+                >
+                <UIFooterLink to="https://canon.umee.cc/"
+                  >Canon-2 Website</UIFooterLink
+                >
+              </ul>
+              
             </div>
             <div>
               <UIBlockTitle class="mb-6 md:mb-8">Community</UIBlockTitle>
@@ -184,6 +199,12 @@
                 >
                 <UIFooterLink to="https://app.umee.cc/#/markets"
                   >Umee&lt;&gt;Ethereum Bridge</UIFooterLink
+                >
+                <UIFooterLink to="https://peggo.info/"
+                  >Peggo Health Stats</UIFooterLink
+                >
+                  <UIFooterLink to="http://peggo-monitor.kingsuper.services:3001/"
+                  >Peggo Status Checker</UIFooterLink
                 >
               </ul>
               <UIBlockTitle class="mb-6 md:mb-8">Support</UIBlockTitle>
