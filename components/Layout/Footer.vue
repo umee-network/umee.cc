@@ -132,6 +132,7 @@
                 <UIFooterLink to="https://umeeversity.umee.cc/validators/"
                   >Validator Documentation</UIFooterLink
                 >
+                <br>
               </ul>
                <UIFooterTitle>Testnets</UIFooterTitle>
               <ul>
