@@ -184,7 +184,7 @@
               <UIFooterTitle>DAOS</UIFooterTitle>
               <ul>
                 <UIFooterLink to="https://docs.umee.cc/umee-validator-dao/"
-                  >Validator DAO</UIFooterLink
+                  >Validator DAAO</UIFooterLink
                 >
               </ul>
             </div>
