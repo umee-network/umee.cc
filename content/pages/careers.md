@@ -148,6 +148,46 @@ Please send an email to hr@umee.cc and tell us about yourself, your work experie
 ## Engineering
 
 <details>
+<summary>DevOps ENGINEER</summary>
+
+Umee is seeking a DevOps Engineer to work with a cross functional team. The right candidate has 2+ years of DevOps experience and has a proven track record of setting up automation and operations of Google Cloud Infrastructures.
+Bonus if a candidate has already setup a blockchain network and worked with the Cosmos blockchain stack. Your work will be hugely impactful, as you will be working within a team that acts as the driver for innovation in the crypto space.
+
+ 
+**What you'll be doing:**
+ 
+- Build secure and reliable cloud infrastructure to monitor, detect and mitigate performance and security issues
+- System administration activities including routine, proactive daily management of the health, stability, and availability of system infrastructure
+- Automate and streamline operations and processes
+- Act as liaison between the protocol engineering team and the validator community
+- Collaborate with the Umee validator network
+
+
+**We're looking for someone who has:**
+ 
+- 2+ year experience as a DevOps/Infrastructure Engineer
+- High proficiency with Cloud or infrastructure-as-code experience
+- Experience with GCP and AWS and knowledge of cloud architecture and cloud native technologies
+- High proficiency with containerized environments (Kubernetes and Docker)
+- Experience in scripting – Shell scripts, Python or Go preferred
+- Effective communication and interpersonal skills, ability to work and coordinate between cross functional teams
+
+  
+**What We Offer:**
+ 
+- 100% remote work
+- Work with a top performing team
+- Competitive salary
+- Be a part of something great
+- Fun and impactful role
+ 
+**How to Apply:**
+ 
+To apply, please email hr@umee.cc and include a resume with a link to your github account.
+
+</details>
+
+<details>
 <summary>BLOCKCHAIN ENGINEER</summary>
 
 Umee is seeking a talented Software Developer who is experienced in developing high performance code. You will be working alongside our developer team to build a cross chain defi application with high coding standards and technical design.
