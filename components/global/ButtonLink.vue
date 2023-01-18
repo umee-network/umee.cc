@@ -1,8 +1,8 @@
 <template>
-  <div v-if="link.startsWith('http')">
-    <a :href="link" :target="target" :class="classObject"><slot></slot></a>
+  <div v-if="to.startsWith('http')">
+    <a :href="to" :target="target" :class="classObject"><slot></slot></a>
   </div>
-  <NuxtLink v-else :to="link" target="_self" :class="classObject"
+  <NuxtLink v-else :to="to" target="_self" :class="classObject"
     ><slot></slot
   ></NuxtLink>
 </template>
@@ -14,12 +14,9 @@ export default {
       type: String,
       default: '',
     },
-    text: {
+    to: {
       type: String,
-      default: '',
-    },
-    link: {
-      type: String,
+      required: true,
       default: '',
     },
     target: {

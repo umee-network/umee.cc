@@ -1,7 +1,7 @@
 <template>
-  <div v-if="href.startsWith('http')">
+  <div v-if="to.startsWith('http')">
     <a
-      :href="href"
+      :href="to"
       target="_blank"
       class="gradient-button py-3.5 px-8 text-navy rounded-full inline-block text-center !no-underline"
       ><slot></slot
@@ -10,7 +10,7 @@
   <NuxtLink
     class="gradient-button py-3.5 px-8 text-navy rounded-full inline-block text-center !no-underline"
     v-else
-    :to="href"
+    :to="to"
     target="_self"
     :class="buttonClass"
     ><slot></slot
@@ -20,8 +20,9 @@
 <script>
 export default {
   props: {
-    href: {
+    to: {
       type: String,
+      required: true,
       default: '',
     },
   },

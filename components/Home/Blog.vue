@@ -7,12 +7,12 @@
         From the blog
       </h2>
       <div class="hidden md:block">
-        <ButtonLink class="text-center" link="/blog">View all posts</ButtonLink>
+        <ButtonLink to="/blog">View all posts</ButtonLink>
       </div>
     </div>
     <BlogPosts :posts="posts" :preview="true" />
 
-    <ButtonLink class="text-center md:hidden mt-12" link="/blog"
+    <ButtonLink class="md:hidden mt-12" to="/blog"
       >View all blog posts</ButtonLink
     >
   </div>

@@ -1,13 +1,12 @@
 <template>
-  <div v-if="link.startsWith('http')">
-    <a :href="link" :target="target" class="button-inverse">
-      <slot v-if="text === ''"></slot>
-      <span v-else>{{ text }}</span>
+  <div v-if="to.startsWith('http')">
+    <a :href="to" :target="target" class="button-inverse">
+      <slot></slot>
     </a>
   </div>
   <NuxtLink v-else :to="link" :target="target" class="button-inverse"
-    ><slot v-if="text === ''"></slot> <span v-else>{{ text }}</span></NuxtLink
-  >
+    ><slot></slot
+  ></NuxtLink>
 </template>
 
 <script>
@@ -17,8 +16,9 @@ export default {
       type: String,
       default: '',
     },
-    link: {
+    to: {
       type: String,
+      required: true,
       default: '',
     },
     target: {

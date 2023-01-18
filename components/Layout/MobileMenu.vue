@@ -68,7 +68,7 @@
         <div
           class="container border-t border-darkGreyOnNavy dark:border-midGrey"
         >
-          <UIButtonGradient href="https://app.umee.cc/" class="w-full my-6"
+          <UIButtonGradient to="https://app.umee.cc/" class="w-full my-6"
             >Launch App</UIButtonGradient
           >
         </div>

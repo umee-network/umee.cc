@@ -24,7 +24,7 @@
                   </p>
                 </div>
                 <ButtonLink
-                  link="https://drive.google.com/drive/folders/1A9G2HM5RAka4FLGyVvRC4NeazpAYBh7Z"
+                  to="https://drive.google.com/drive/folders/1A9G2HM5RAka4FLGyVvRC4NeazpAYBh7Z"
                   target="_blank"
                   ><span class="align-middle">Download Adora</span>
                   <SVGLinkDownload class="ml-3"
