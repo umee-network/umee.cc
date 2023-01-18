@@ -38,11 +38,11 @@
     </div>
 
     <ButtonLink
-      target="_blank"
-      class="text-center !text-md mt-6"
-      color="reverse-reverse-hover"
       v-show="page.announcement_link"
-      :href="page.announcement_link"
+      target="_blank"
+      class="!text-md mt-6"
+      color="reverse-reverse-hover"
+      :to="page.announcement_link"
       >{{ page.announcement_link_text }}</ButtonLink
     >
   </div>

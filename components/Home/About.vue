@@ -17,7 +17,9 @@
             </div>
             <div class="pt-4 pr-5 track-pointer md:pr-12 md:max-w-[330px]">
               <p>
-                Umee enables the development of the next generation of lending markets through a combination of leverage focused DeFi applications and interest rate primitives.
+                Umee enables the development of the next generation of lending
+                markets through a combination of leverage focused DeFi
+                applications and interest rate primitives.
               </p>
             </div>
           </div>
@@ -27,8 +29,10 @@
             </div>
             <div class="pt-4 pr-5 track-pointer md:pr-12 md:max-w-[330px]">
               <p>
-               Umee is a base layer blockchain for permissionless, autonomous debt financing markets. Umee is built using the Cosmos SDK and powered by Tendermint Consensus, Inter-blockchain Communication Protocol (IBC), and a self sovereign validator network.
-
+                Umee is a base layer blockchain for permissionless, autonomous
+                debt financing markets. Umee is built using the Cosmos SDK and
+                powered by Tendermint Consensus, Inter-blockchain Communication
+                Protocol (IBC), and a self sovereign validator network.
               </p>
             </div>
           </div>
@@ -38,7 +42,10 @@
             </div>
             <div class="pt-4 pr-5 track-pointer md:pr-12 md:max-w-[330px]">
               <p>
-               Umee offers the most programmable suite of lending-specific algorithms and base layer blockchain modules to enable the maximum safety guarantees customized for each asset’s individual risk profile.
+                Umee offers the most programmable suite of lending-specific
+                algorithms and base layer blockchain modules to enable the
+                maximum safety guarantees customized for each asset’s individual
+                risk profile.
               </p>
             </div>
           </div>
@@ -63,11 +70,9 @@
         <div class="pt-4 pr-5"></div>
       </div>
 
-      <UIButtonLinkInverse
-        text="View Protocol Docs"
-        link="https://github.com/umee-network"
-        target="_blank"
-      ></UIButtonLinkInverse>
+      <UIButtonLinkInverse to="https://github.com/umee-network" target="_blank"
+        >View Protocol Docs</UIButtonLinkInverse
+      >
     </div>
   </div>
 </template>

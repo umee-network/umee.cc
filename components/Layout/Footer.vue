@@ -28,9 +28,7 @@
             </p>
           </div>
           <div class="col-span-12 md:col-span-6 flex items-center justify-end">
-            <UIButtonGradient
-              class="w-full md:w-auto"
-              href="https://app.umee.cc/"
+            <UIButtonGradient class="w-full md:w-auto" to="https://app.umee.cc/"
               >Launch App</UIButtonGradient
             >
           </div>
@@ -46,8 +44,7 @@
                 <UIFooterLink to="https://umeeversity.umee.cc/overview/"
                   >About Umee</UIFooterLink
                 >
-                <UIFooterLink
-                  to="https://astrolabe.umee.cc/"
+                <UIFooterLink to="https://astrolabe.umee.cc/"
                   >Astrolabe</UIFooterLink
                 >
                 <UIFooterLink
@@ -132,18 +129,18 @@
                 <UIFooterLink to="https://umeeversity.umee.cc/validators/"
                   >Validator Documentation</UIFooterLink
                 >
-                <br>
+                <br />
               </ul>
-               <UIFooterTitle>Testnets</UIFooterTitle>
+              <UIFooterTitle>Testnets</UIFooterTitle>
               <ul>
-                <UIFooterLink to="https://github.com/umee-network/umee/tree/canon-2/networks/canon-2"
+                <UIFooterLink
+                  to="https://github.com/umee-network/umee/tree/canon-2/networks/canon-2"
                   >Canon-2 Github</UIFooterLink
                 >
                 <UIFooterLink to="https://canon.umee.cc/"
                   >Canon-2 Website</UIFooterLink
                 >
               </ul>
-              
             </div>
             <div>
               <UIBlockTitle class="mb-6 md:mb-8">Community</UIBlockTitle>
@@ -203,7 +200,7 @@
                 <UIFooterLink to="https://peggo.info/"
                   >Peggo Health Stats</UIFooterLink
                 >
-                  <UIFooterLink to="http://peggo-monitor.kingsuper.services:3001/"
+                <UIFooterLink to="http://peggo-monitor.kingsuper.services:3001/"
                   >Peggo Status Checker</UIFooterLink
                 >
               </ul>

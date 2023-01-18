@@ -22,8 +22,8 @@
         <div class="text-xl mb-6 text-center md:text-left">
           We can't seem to find what you're looking for.
         </div>
-        <div class="text-center md:text-left">
-          <ButtonLink link="/" target="_blank">Go back home</ButtonLink>
+        <div class="md:text-left">
+          <ButtonLink to="/" target="_blank">Go back home</ButtonLink>
         </div>
       </div>
     </div>

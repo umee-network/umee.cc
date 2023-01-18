@@ -20,7 +20,7 @@
             </div>
             <UIButtonLinkInverse
               target="_blank"
-              link="https://drive.google.com/drive/folders/1A9G2HM5RAka4FLGyVvRC4NeazpAYBh7Z"
+              to="https://drive.google.com/drive/folders/1A9G2HM5RAka4FLGyVvRC4NeazpAYBh7Z"
               >Download logos <SVGLinkDownload class="ml-3"
             /></UIButtonLinkInverse>
 
