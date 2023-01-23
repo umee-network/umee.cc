@@ -1,18 +1,10 @@
 intro_text: The most programmable, safety-first, autonomous lending algorithm built as a blockchain. Umee is reshaping the global debt markets in Web3.
 intro_text_cta: Lend and Borrow today!
 about_pre_title: ABOUT UMEE
-about_title: Waves Happen Under The Chain
-about_block_1_text: Umee is a layer one blockchain for cross chain communication
-  and interoperability, built on the Cosmos SDK and powered by Tendermint
-  Consensus along with a self sovereign validator network.
-about_block_2_text: Interoperability is achieved using Inter-Blockchain
-  Communication protocol (IBC), Gravity bridge, and decentralized infrastructure
-  for creating a universal cross chain DeFi hub toward expanding the crypto
-  ecosystem.
-about_block_3_text: A DeFi platform designed towards integrating with money
-  legos, that interconnects crypto markets across networks, allows for the
-  development of open finance innovation including Multi-chain Staking,
-  Interchain Leverage, and Cross Chain Interest rates.
+about_title: Waves Happen Cross Chain
+about_block_1_text: Umee develops the next generation of lending markets through a combination of leverage focused DeFi applications and interest rate products while enabling scalability, cross chain interoperability, and privacy.
+about_block_2_text: Umee is a base layer blockchain with full sovereignty and programmability for its debt financing products. Umee is powered by Tendermint Consensus, Inter-blockchain Communication Protocol (IBC), and a permissionless validator network.
+about_block_3_text: Umee offers the maximum safety guarantees with the most customizable suite of lending algorithms and chain-level security measures that autonomously monitor the health of individual assets, markets, and the overall platform. 
 umee_experience_title: 'The Umee team brings experience from:'
 backed_by: Backed by
 announcement_title: Cosmos Native Lending is Live!
