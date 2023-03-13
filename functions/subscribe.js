@@ -36,6 +36,7 @@ exports.handler = function (event, _context, cb) {
       } else {
         cb(null, {
           statusCode: 200,
+          headers,
           body: JSON.stringify({ email, message: data.message }),
         })
       }
