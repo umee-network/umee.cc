@@ -16,11 +16,7 @@ import Security from '~/components/Home/Security.vue'
 import postsQuery from '~/apollo/queries/post/posts'
 
 export default {
-  data() {
-    return {
-      postsResults: [],
-    }
-  },
+  components: { Security },
   async asyncData({ $content, $graphql }) {
     const [page, postsData] = await Promise.all([
       $content('pages/home').fetch(),
@@ -31,10 +27,14 @@ export default {
     ])
 
     return {
-      page: page,
+      page,
       postsResults: postsData.posts.data,
     }
   },
-  components: { Security },
+  data() {
+    return {
+      postsResults: [],
+    }
+  },
 }
 </script>

@@ -10,14 +10,14 @@
       >All</nuxt-link
     >
     <nuxt-link
+      v-for="category in categories"
+      :key="category.id"
       class="relative -bottom-px py-4 border-transparent border-b-[3px] hover:border-current"
       active-class="border-current"
       :to="{
         name: 'categories-category',
         params: { category: category.attributes.slug },
       }"
-      v-for="category in categories"
-      :key="category.id"
     >
       {{ category.attributes.name }}
     </nuxt-link>

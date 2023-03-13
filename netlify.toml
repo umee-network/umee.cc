@@ -13,6 +13,6 @@ package = "@netlify/plugin-sitemap"
 #schedule = "@weekly"
 
 [[headers]]
-  for = "/fonts/*"
+  for = "/*"
     [headers.values]
     Access-Control-Allow-Origin = "*"

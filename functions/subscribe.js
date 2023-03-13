@@ -6,12 +6,12 @@ exports.handler = function (event, _context, cb) {
   const headers = {
     'Access-Control-Allow-Origin': '*',
     'Access-Control-Allow-Headers': 'Content-Type',
-    'Access-Control-Allow-Methods': 'OPTIONS,POST,GET',
+    'Access-Control-Allow-Methods': 'OPTIONS, GET, POST',
   }
 
   if (event.httpMethod === 'OPTIONS') {
     return {
-      statusCode: 204,
+      statusCode: 200,
       headers,
     }
   }
