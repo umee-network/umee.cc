@@ -133,10 +133,7 @@
               </ul>
               <UIFooterTitle>Testnets</UIFooterTitle>
               <ul>
-                <UIFooterLink
-                  to="https://github.com/umee-network/umee/tree/canon-2/networks/canon-2"
-                  >Canon-2 Github</UIFooterLink
-                >
+               
                 <UIFooterLink to="https://canon.umee.cc/"
                   >Canon-2 Website</UIFooterLink
                 >
