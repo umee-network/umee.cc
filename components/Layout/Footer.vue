@@ -159,7 +159,7 @@
                   >Medium</UIFooterLink
                 >
                 <UIFooterLink
-                  to="https://www.youtube.com/channel/UCNNeflvj43QylhjvssqdIHQ/videos"
+                  to="https://www.youtube.com/channel/UCNNeflvj43QylhjvssqdIHQ"
                   >YouTube</UIFooterLink
                 >
                 <UIFooterLink to="https://www.reddit.com/r/UmeeCrossChain/"
@@ -169,10 +169,10 @@
               <UIFooterTitle>Governance</UIFooterTitle>
               <ul class="mb-6 md:mb-8">
                 <UIFooterLink
-                  to="https://docs.umee.cc/governance/governance-overview/governance"
+                  to="https://umeeversity.umee.cc/governance/"
                   >Community Governance</UIFooterLink
                 >
-                <UIFooterLink to="https://commonwealth.im/umee/"
+                <UIFooterLink to="https://gov.umee.cc/"
                   >Governance Forum</UIFooterLink
                 >
                 <UIFooterLink to="https://wallet.keplr.app/#/umee/governance"
@@ -181,7 +181,7 @@
               </ul>
               <UIFooterTitle>DAOS</UIFooterTitle>
               <ul>
-                <UIFooterLink to="https://docs.umee.cc/umee-validator-dao/"
+                <UIFooterLink to="https://umeeversity.umee.cc/governance/validator-dao/"
                   >Validator DAO</UIFooterLink
                 >
               </ul>
