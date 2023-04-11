@@ -8,7 +8,7 @@ export default {
   target: 'static',
   ssr: true,
   head: {
-    title: 'Umee - Cross the Defi Waves',
+    title: 'Umee - Building The Decentralized Lending Markets',
     htmlAttrs: {
       lang: 'en',
     },
@@ -30,13 +30,13 @@ export default {
       {
         hid: 'og:title',
         name: 'og:title',
-        content: 'Umee - Cross Chain Defi Hub',
+        content: 'Umee - Building The Decentralized Lending Markets',
       },
       {
         hid: 'og:description',
         name: 'og:description',
         content:
-          'Umee is a cross chain borrowing and lending DeFi hub built on the Cosmos SDK that interconnects between blockchains, Supports Bridge Technology, Interoperable Base Layer Blockchain And Facilitate Defi Lending & Borrowing. Umee is powered by the UMEE native token.',
+          'Umee is a cross chain borrowing and lending Cosmos DeFi hub built on the Cosmos SDK that interconnects between blockchains, Supports Bridge Technology, Interoperable Base Layer Blockchain And Facilitate Defi Lending & Borrowing. Umee is powered by the UMEE native token.',
       },
       {
         hid: 'twitter:card',
@@ -73,7 +73,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Umee is a cross chain borrowing and lending DeFi hub built on the Cosmos SDK that interconnects between blockchains, Supports Bridge Technology, Interoperable Base Layer Blockchain And Facilitate Defi Lending & Borrowing. Umee is powered by the UMEE native token.',
+          'Umee is a cross chain borrowing and lending Cosmos DeFi hub built on the Cosmos SDK that interconnects between blockchains, Supports Bridge Technology, Interoperable Base Layer Blockchain And Facilitate Defi Lending & Borrowing. Umee is powered by the UMEE native token.',
       },
 
       { name: 'format-detection', content: 'telephone=no' },
