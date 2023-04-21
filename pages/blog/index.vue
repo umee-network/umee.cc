@@ -33,15 +33,35 @@ export default {
       postsResults: postsData.posts.data,
     }
   },
-  head: {
-    title: 'Blog - Umee - Cross the Defi Waves',
-    meta: [
-      {
-        hid: 'og:title',
-        name: 'og:title',
-        content: 'Blog - Umee - Cross the Defi Waves',
-      },
-    ],
+  head() {
+    const title = 'Umee: Blog'
+    const description =
+      'Stay up-to-date with our blog! We cover a range of topics, from ecosystem news and trends to tips and advice. Visit our blog regularly to read the latest posts!'
+    return {
+      title,
+      meta: [
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: title,
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: description,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: description,
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: description,
+        },
+      ],
+    }
   },
 }
 </script>

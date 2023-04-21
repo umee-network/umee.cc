@@ -2,6 +2,9 @@
 title: 'TERMS OF USE'
 date:
 header_image:
+head:
+  title: 'Umee: Terms of Use'
+  description: "The Umee website's Terms of Use outline the rules and regulations for accessing and using our site. By using our website, you agree to these terms and conditions. Please read them carefully before continuing."
 ---
 
 Last updated: January 25 2022

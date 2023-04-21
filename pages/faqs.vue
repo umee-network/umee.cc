@@ -29,25 +29,35 @@ export default {
     const faqContent = await $content('pages/faq').fetch()
     return { faqContent }
   },
-  head: {
-    title: 'FAQs - Umee - Cross the Defi Waves',
-    meta: [
-      {
-        hid: 'description',
-        name: 'description',
-        content: 'All your questions answered',
-      },
-      {
-        hid: 'og:description',
-        name: 'og:description',
-        content: 'All your questions answered',
-      },
-      {
-        hid: 'og:title',
-        name: 'og:title',
-        content: 'FAQs - Umee - Cross the Defi Waves',
-      },
-    ],
+  head() {
+    const title = 'Umee: Frequently Asked Questions'
+    const description =
+      "Find answers to your questions quickly and easily with our FAQs. We have compiled a list of the most common questions and concerns that our community has. Browse through to find the information you need. If you can't find the answer you're looking for, contact us and we'll be happy to help."
+    return {
+      title,
+      meta: [
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: title,
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: description,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: description,
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: description,
+        },
+      ],
+    }
   },
 }
 </script>

@@ -103,5 +103,34 @@ export default {
   beforeDestroy() {
     this.observer.disconnect()
   },
+  head() {
+    return this.page.head
+      ? {
+          title: this.page.head.title,
+          meta: [
+            {
+              hid: 'og:title',
+              name: 'og:title',
+              content: this.page.head.title,
+            },
+            {
+              hid: 'description',
+              name: 'description',
+              content: this.page.head.description,
+            },
+            {
+              hid: 'og:description',
+              name: 'og:description',
+              content: this.page.head.description,
+            },
+            {
+              hid: 'twitter:description',
+              name: 'twitter:description',
+              content: this.page.head.description,
+            },
+          ],
+        }
+      : undefined
+  },
 }
 </script>
