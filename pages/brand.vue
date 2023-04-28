@@ -131,5 +131,35 @@ export default {
   beforeDestroy() {
     this.observer.disconnect()
   },
+  head() {
+    const title = 'Umee: Brand Guidelines'
+    const description =
+      "Stay true to our brand guidelines. Our brand is more than just a logo or a color scheme - it's a promise to our community and a reflection of our values. We've created this handy guide for anyone to find our brand assets and feel confident using them. Go explore!"
+    return {
+      title,
+      meta: [
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: title,
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: description,
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: description,
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: description,
+        },
+      ],
+    }
+  },
 }
 </script>
