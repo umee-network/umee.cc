@@ -8,6 +8,52 @@ head:
 
 <details>
 
+<summary> AMBASSADOR FOR UMEE </summary>
+
+As an Ambassador for Umee, you will be responsible for representing our project in a positive and professional manner in various online and offline communities. You will work closely with our marketing and community teams to build brand awareness, grow our community and seek partnership opportunities.
+
+**Key Responsibilities:**
+
+- Represent our project in online communities such as social media, forums, and chat groups
+- Engage with community members, answer questions, and provide support
+- Attend virtual and in-person events to represent our project
+- Create and share content such as blog posts, videos, and social media updates 
+- Collaborate with the marketing and community management teams to develop and execute campaigns
+- Provide feedback to the project team on community sentiment, user feedback, and emerging trends
+
+  
+**Requirements:**
+
+- A strong understanding of the cryptocurrency industry and blockchain technology
+- Excellent written and verbal communication skills
+- A passion for building and nurturing communities
+- Experience in social media management and marketing
+- Ability to work independently and as part of a team
+- Comfortable with public speaking and presenting
+- Familiarity with project management and collaboration tools such as Trello, Asana, Telegram, and Twitter
+  
+  
+**Preferred Qualifications:**
+- Previous experience as a community manager, social media manager, or brand ambassador in the cryptocurrency industry
+- Knowledge of multiple languages is a plus
+
+  
+**Compensation and Benefits:**
+
+- Competitive compensation packages based on experience and performance
+- Flexible work schedule
+- Opportunity to work with a dynamic team of professionals in a fast-growing industry
+- Potential for career advancement as our project grows
+
+If you are passionate about cryptocurrency and community building, we encourage you to apply for this exciting opportunity to join our team as an Ambassador for Umee.
+
+**How to Apply:**
+
+Please send an email to hr@umee.cc and tell us about yourself, your work experience, and your favorite crypto project.
+
+</details>
+<details>
+
 <summary>RISK ANALYST</summary>
 
 Umee is seeking a quantitative risk analyst to lead analysis of all aspects of financial risk. You will be working alongside our engineering team to build innovative crypto lending projects. Your work will be hugely impactful and act as the driver for innovation in the crypto space.
