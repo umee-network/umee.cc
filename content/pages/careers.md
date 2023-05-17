@@ -8,7 +8,7 @@ head:
 
 <details>
 
-<summary> AMBASSADOR FOR UMEE </summary>
+<summary> Ambassador for Umee </summary>
 
 As an Ambassador for Umee, you will be responsible for representing our project in a positive and professional manner in various online and offline communities. You will work closely with our marketing and community teams to build brand awareness, grow our community and seek partnership opportunities.
 
@@ -54,7 +54,7 @@ Please send an email to hr@umee.cc and tell us about yourself, your work experie
 </details>
 <details>
 
-<summary>RISK ANALYST</summary>
+<summary>Risk Analyst</summary>
 
 Umee is seeking a quantitative risk analyst to lead analysis of all aspects of financial risk. You will be working alongside our engineering team to build innovative crypto lending projects. Your work will be hugely impactful and act as the driver for innovation in the crypto space.
 
@@ -91,7 +91,7 @@ Please send an email to hr@umee.cc and tell us about yourself, your work experie
 </details>
 
 <details>
-<summary>MARKETING LEAD</summary>
+<summary>Marketing Lead</summary>
   
 We're looking for an experienced marketing professional who has executed successful marketing initiatives and has built communities in the crypto space. You must be passionate about DeFi, comfortable with working in a fast paced environment and highly motivated towards continuous execution and setting goals.
 
@@ -127,7 +127,7 @@ Please send an email to hr@umee.cc and tell us about yourself, your work experie
 </details>
 
 <details>
-<summary>GROWTH LEAD</summary>
+<summary>Growth Lead</summary>
   
 We’re looking for a proactive problem-solver who thrives in a fast-paced, diverse environment. The right candidate will have exceptional learning abilities, adapt to fast paced environments, possess uncompromising attention to detail, and have great communication skills. The Growth Lead will be expected to be playing a pivotal role in driving growth. You will work closely with the leadership at Umee focusing on high-impact projects and initiatives.
  
@@ -165,7 +165,7 @@ Please send an email to hr@umee.cc and tell us about yourself, your work experie
 </details>
 
 <details>
-<summary>INTERNSHIP</summary>
+<summary>Internship</summary>
 
 We offer internship opportunities to those who are interested in the Web3 world. The right candidates should have exceptional learning abilities, adapt to fast paced environments, possess uncompromising attention to detail, and have great communication skills. You will have the opportunity to work closely with our core team and leadership on impactful initiatives.
 
@@ -197,7 +197,7 @@ Please send an email to hr@umee.cc and tell us about yourself, your work experie
 ## Engineering
 
 <details>
-<summary>DevOps ENGINEER</summary>
+<summary>DevOps Engineer</summary>
 
 Umee is seeking a DevOps Engineer to work with a cross functional team. The right candidate has 2+ years of DevOps experience and has a proven track record of setting up automation and operations of Google Cloud Infrastructures.
 Bonus if a candidate has already setup a blockchain network and worked with the Cosmos blockchain stack. Your work will be hugely impactful, as you will be working within a team that acts as the driver for innovation in the crypto space.
@@ -234,7 +234,7 @@ To apply, please email hr@umee.cc and include a resume with a link to your githu
 </details>
 
 <details>
-<summary>BLOCKCHAIN ENGINEER</summary>
+<summary>Blockchain Engineer</summary>
 
 Umee is seeking a talented Software Developer who is experienced in developing high performance code. You will be working alongside our developer team to build a cross chain defi application with high coding standards and technical design.
 
@@ -291,7 +291,7 @@ To apply, please email hr@umee.cc and include a resume with a link to your githu
 </details>
 
 <details>
-<summary>SENIOR FRONT END ENGINEER</summary>
+<summary>Senior Front End Engineer</summary>
 
 Umee is seeking a talented Front End Developer who is experienced in UI/UX and writing software for user interfaces. You will be working alongside our developer team to build a cross chain defi application with high coding standards and technical design.
 
