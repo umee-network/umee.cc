@@ -71,7 +71,7 @@
               ? 'border-gradient-reverse'
               : 'border-transparent'
           "
-          href="#"
+          href="/ecosystem"
           @mouseover="dropdownMenu = 'NavigationEcosystem'"
           >Ecosystem <UIMenuDropdown class="ml-1 inline-block"
         /></a>
