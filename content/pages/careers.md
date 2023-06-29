@@ -197,6 +197,45 @@ Please send an email to hr@umee.cc and tell us about yourself, your work experie
 ## Engineering
 
 <details>
+<summary>Product Lead - Technical</summary>
+
+Umee is seeking a product lead to work with a cross functional team. The right candidate has 2+ years of product and technical engineering experience. The candidate should be well versed in blockchain architecture as well as all aspects of the technical stack. This role requires knowledge on both the development side as well as product management.
+
+Bonus if a candidate has experience in the Cosmos blockchain stack. 
+
+**We're looking for someone who has:**
+
+- 2+ year experience as a product manager or technical engineering lead
+- Experience leading blockchain/crypto applications
+- Ability to manage scrum for engineers
+- Ability to understand software architecture and development frameworks
+- Experience coding in backend languages like C++, Golang, Rust, or Java
+- Ability to develop front end languages like Javascript in react or redux frameworks
+- Skills in UI/UX design for product features
+- Knowledge of blockchain and cryptocurrencies
+- Knowledge around how to optimize UI for crypto platforms
+- Knowledge of DeFi a plus
+- Knowledge around backend and frontend components of a crypto product
+- Ability to understand infrastructure needs around blockchain applications
+- Ability to thrive in a startup environment
+- Computer Science Background
+
+
+**What We Offer:**
+
+- 100% remote work
+- Work with a top performing team
+- Competitive salary
+- Be a part of something great
+- Fun and impactful role
+
+**How to Apply:**
+
+To apply, please email hr@umee.cc and include a resume with a link to your github account.
+
+</details>
+
+<details>
 <summary>DevOps Engineer</summary>
 
 Umee is seeking a DevOps Engineer to work with a cross functional team. The right candidate has 2+ years of DevOps experience and has a proven track record of setting up automation and operations of Google Cloud Infrastructures.
