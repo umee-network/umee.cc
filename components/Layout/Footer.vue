@@ -44,9 +44,6 @@
                 <UIFooterLink to="https://umeeversity.umee.cc/overview/"
                   >About Umee</UIFooterLink
                 >
-                <UIFooterLink to="https://astrolabe.umee.cc/"
-                  >Astrolabe</UIFooterLink
-                >
                 <UIFooterLink
                   to="https://umeeversity.umee.cc/learn-the-basics/blockchain-basics/"
                   >Blockchain Basics</UIFooterLink
