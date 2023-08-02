@@ -1,0 +1,116 @@
+{
+  "apps": [
+    {
+      "name": "Restake",
+      "description": "Dapp",
+      "img": "https://uploads-ssl.webflow.com/62825f7982e99cdbe7e37258/62910487dd18934c7be2d682_fafb9045.jpeg",
+      "web": "https://restake.app/umee",
+      "github": "https://github.com/eco-stake/restake",
+      "twitter": "https://twitter.com/REStakeApp"
+    },
+    {
+      "name": "Yieldmos",
+      "description": "Dapp",
+      "img": "https://uploads-ssl.webflow.com/62825f7982e99cdbe7e37258/6318f8968e438ff5157bf173_d63bf625.png",
+      "web": "https://www.yieldmos.com/",
+      "github": "",
+      "twitter": "https://twitter.com/yieldmos"
+    },
+    {
+      "name": "Osmosis",
+      "description": "DEX",
+      "img": "https://uploads-ssl.webflow.com/62825f7982e99cdbe7e37258/629104858e4c01e752dd9077_28f7f2eb.png",
+      "web": "https://app.osmosis.zone/",
+      "github": "https://github.com/osmosis-labs/osmosis",
+      "twitter": "https://twitter.com/osmosiszone"
+    },
+    {
+      "name": "Crescent",
+      "description": "DEX",
+      "img": "https://app.crescent.network/static/media/crescent_logo.63e3cd95ddbc0b0cbb172bd253e6fff5.svg",
+      "web": "https://app.crescent.network/",
+      "github": "https://github.com/crescent-network/crescent",
+      "twitter": "https://twitter.com/CrescentHub"
+    },
+    {
+      "name": "Stride",
+      "description": "Dapp",
+      "img": "https://uploads-ssl.webflow.com/62825f7982e99cdbe7e37258/642b3e9125143a8205038ecb_ND-57GBKafO4kKXR5FxfuejMkj2Y02EctNMTYuqKhTQ.png",
+      "web": "https://stride.zone/",
+      "github": "https://github.com/Stride-Labs/stride/",
+      "twitter": "https://www.twitter.com/stride_zone"
+    },
+    {
+      "name": "Keplr",
+      "description": "Wallet",
+      "img": "https://uploads-ssl.webflow.com/62825f7982e99cdbe7e37258/6291048f97258893a2ee5ed1_3a6b4e03.png",
+      "web": "https://www.keplr.app/",
+      "github": "https://github.com/chainapsis/keplr-wallet",
+      "twitter": "https://twitter.com/keplrwallet"
+    },
+    {
+      "name": "Mintscan",
+      "description": "Explorer",
+      "img": "https://uploads-ssl.webflow.com/62825f7982e99cdbe7e37258/62910490972588eee7ee5ed5_bb56ec36.png",
+      "web": "https://www.mintscan.io/umee",
+      "github": "https://github.com/cosmostation",
+      "twitter": "https://twitter.com/CosmostationVD"
+    },
+    {
+      "name": "Cosmostation",
+      "description": "Wallet",
+      "img": "https://uploads-ssl.webflow.com/62825f7982e99cdbe7e37258/62910490972588eee7ee5ed5_bb56ec36.png",
+      "web": "https://wallet.cosmostation.io/cosmos",
+      "github": "https://github.com/cosmostation",
+      "twitter": "https://twitter.com/CosmostationVD"
+    },
+    {
+      "name": "Astrolabe",
+      "description": "Analytics",
+      "img": "https://avatars.githubusercontent.com/u/79238191?s=200&v=4",
+      "web": "https://astrolabe.umee.cc/",
+      "github": "https://github.com/umee-network",
+      "twitter": "https://twitter.com/Umee_CrossChain"
+    },
+    {
+      "name": "Axelar",
+      "description": "Bridge",
+      "img": "https://uploads-ssl.webflow.com/62825f7982e99cdbe7e37258/638d12b576e6fe691e47eaa8_Y4d19MKromF1AUEvi1zmlDKD__gr6Ae6uhgd4Zh39K0.jpeg",
+      "web": "https://axelar.network/",
+      "github": "https://github.com/axelarnetwork",
+      "twitter": "https://twitter.com/axelarcore"
+    },
+    {
+      "name": "Leap",
+      "description": "Wallet",
+      "img": "https://uploads-ssl.webflow.com/62825f7982e99cdbe7e37258/638d12aeedce180bcf4afccf_8MJY8FXLDLYpqPuuW9uSLPkC3lPwUxM5cWx5H6GJs4I.jpeg",
+      "web": "https://www.leapwallet.io/cosmos",
+      "github": "",
+      "twitter": "https://twitter.com/leap_wallet"
+    },
+    {
+      "name": "Numia",
+      "description": "Analytics",
+      "img": "https://uploads-ssl.webflow.com/62825f7982e99cdbe7e37258/630cc6b4755dde70942894ab_f6e20fa2.jpeg",
+      "web": "https://www.numia.xyz/",
+      "github": "",
+      "twitter": "https://twitter.com/NumiaData"
+    },
+    {
+      "name": "Atomscan",
+      "description": "Explorer",
+      "img": "https://uploads-ssl.webflow.com/62825f7982e99cdbe7e37258/62910492c2a563231e01add2_97197aa6.jpeg",
+      "web": "https://atomscan.com/umee/",
+      "github": "",
+      "twitter": "https://twitter.com/atomscan"
+    },
+    {
+      "name": "Ping Pub",
+      "description": "Explorer",
+      "img": "https://uploads-ssl.webflow.com/62825f7982e99cdbe7e37258/62910491517ba7490afbd094_e70492c7.png",
+      "web": "https://ping.pub/umee",
+      "github": "",
+      "twitter": "https://twitter.com/ping_pub"
+    }
+  ]
+}
