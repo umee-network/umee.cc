@@ -1,15 +1,15 @@
 <template>
   <div class="container pb-12 md:pb-20 lg:pb-28">
-    <Box class="columns-2 flex justify-center align-middle font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple to-aqua">
-      <Box>
-        <h1 class="leading-none font-serif text-[375px]">14</h1>
-      </Box>
+    <div class="columns-2 flex justify-center align-middle font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple to-aqua">
+      <div>
+        <h1 class="leading-none font-serif text-[375px]">{{apps.length}}</h1>
+      </div>
 
-      <Box class="flex flex-col justify-center items-stretch width=100%">
+      <div class="flex flex-col justify-center items-stretch width=100%">
         <h1 class="uppercase tracking-[1rem] font-serif leading-[0.7] text-[140px]">Apps and</h1>
         <h1 class="uppercase tracking-[-.75rem] font-serif leading-[0.75] text-[200px]">Services</h1>
-      </Box>
-    </Box>
+      </div>
+    </div>
     <p class="text-xl mb-6">
       Discover a wide variety of apps, blockchains, wallets and explorers, built
       in the Umee ecosystem by developers and contributors from across the
