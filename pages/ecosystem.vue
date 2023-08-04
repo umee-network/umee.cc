@@ -7,7 +7,7 @@
         <h1
           class="leading-none font-serif lg:text-[400px] md:text-[375px] text-[200px]"
         >
-          14
+          {{ apps.length }}
         </h1>
       </div>
 
