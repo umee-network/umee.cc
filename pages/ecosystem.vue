@@ -1,27 +1,27 @@
 <template>
   <div class="container pb-12 md:pb-20 lg:pb-28">
 
-    <div class="grid grid-cols-1 lg:columns-2 lg:flex justify-center align-middle font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple to-aqua">
+    <div class="grid grid-cols-1 lg:columns-2 lg:flex justify-center align-middle font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple to-aqua mb-4">
       <div class="flex justify-center" >
         <h1 class="leading-none font-serif lg:text-[400px] md:text-[375px] text-[200px]">14</h1>
       </div>
 
       <div class="flex flex-col lg:justify-center lg:items-stretch items-center width=100%">
         <h1 class="uppercase lg:tracking-[1rem] font-serif leading-[0.7] lg:text-[190px] md:text-[140px] text-[80px] lg:pb-0 pb-2">Apps and</h1>
-        <h1 class="uppercase tracking-[-.75rem] font-serif leading-[0.75] lg:text-[250px] md:text-[200px] text-[125px] lg:pb-0 pb-2" >Services</h1>
+        <h1 class="uppercase tracking-[-.65rem] font-serif leading-[0.75] lg:text-[250px] md:text-[200px] text-[112px] lg:pb-0 pb-2" >Services</h1>
       </div>
     </div>
 
-    <p class="text-xl mb-6">
+    <p class="text-xl mb-6 md:text-left text-center">
       Discover a wide variety of apps, blockchains, wallets and explorers, built
       in the Umee ecosystem by developers and contributors from across the
       globe.
     </p>
-    <h1 class="text-[48px] font-bold font-serif mb-10">
+    <h1 class="text-[48px] font-bold font-serif mb-10 md:text-left text-center">
       Join the Umee ecosystem today
     </h1>
     <div class="grid grid-flow-row grid-cols-1 md:grid-cols-3 gap-8">
-      <div v-for="app in apps" :key="app.name" class="col-span-1 flex">
+      <div v-for="app in apps" :key="app.name" class="col-span-1 flex md:justify-start justify-center md:gap-0 gap-8">
         <a :href="app.web" target="_blank"
           ><img :src="app.img" class="w-24 h-24 rounded-lg mr-4"
         /></a>
