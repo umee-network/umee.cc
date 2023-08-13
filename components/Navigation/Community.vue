@@ -6,8 +6,8 @@
 
         <div class="grid lg:grid-cols-2 gap-x-12">
           <ul>
-            <UINavigationMainItem link="https://twitter.com/Umee_CrossChain"
-              >Twitter</UINavigationMainItem
+            <UINavigationMainItem link="https://x.com/Umee_CrossChain"
+              >X</UINavigationMainItem
             >
             <UINavigationMainItem link="https://discord.com/invite/umee"
               >Discord</UINavigationMainItem
