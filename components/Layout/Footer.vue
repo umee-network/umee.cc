@@ -140,8 +140,8 @@
               <UIBlockTitle class="mb-6 md:mb-8">Community</UIBlockTitle>
               <UIFooterTitle>Socials</UIFooterTitle>
               <ul class="mb-6 md:mb-8">
-                <UIFooterLink to="https://twitter.com/Umee_CrossChain"
-                  >Twitter</UIFooterLink
+                <UIFooterLink to="https://X.com/Umee_CrossChain"
+                  >X</UIFooterLink
                 >
                 <UIFooterLink to="https://discord.com/invite/umee"
                   >Discord</UIFooterLink
