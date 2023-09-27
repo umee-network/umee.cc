@@ -25,15 +25,27 @@
             /></UIButtonLinkInverse>
 
             <div class="grid grid-cols-12 gap-4 lg:gap-8 mt-10 md:mt-20">
-              <div class="col-span-12 md:col-span-8">
-                <img
-                  src="~/assets/images/brand-logo-on-white.png"
-                  class="w-full h-auto"
-                />
-                <p class="mt-1.5 text-midGreyOnNavy">On white</p>
+              <div
+                class="grid grid-cols-2 col-span-12 md:col-span-6 md:flex justify-between flex-col gap-4 md:gap-0"
+              >
+                <div>
+                  <img
+                    src="~/assets/images/brand-logo-on-white.png"
+                    class="w-full h-auto"
+                    style="border-radius: 8px"
+                  />
+                  <p class="mt-1.5 mb-3 text-midGreyOnNavy">On white</p>
+                </div>
+                <div>
+                  <img
+                    src="~/assets/images/brand-umee-x.png"
+                    class="w-full h-auto"
+                  />
+                  <p class="mt-1.5 text-midGreyOnNavy">UmeeX</p>
+                </div>
               </div>
               <div
-                class="grid grid-cols-2 col-span-12 md:col-span-4 md:flex justify-between flex-col gap-4 md:gap-0"
+                class="grid grid-cols-2 col-span-12 md:col-span-6 md:flex justify-between flex-col gap-4 md:gap-0"
               >
                 <div>
                   <img
