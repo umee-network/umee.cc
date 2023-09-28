@@ -41,7 +41,7 @@
                     src="~/assets/images/brand-umee-x.png"
                     class="w-full h-auto"
                   />
-                  <p class="mt-1.5 text-midGreyOnNavy">UmeeX</p>
+                  <p class="mt-1.5 text-midGreyOnNavy">UX</p>
                 </div>
               </div>
               <div
