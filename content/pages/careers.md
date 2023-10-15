@@ -326,7 +326,6 @@ We’re looking for a passionate and well-rounded individual who fundamentally u
 **How to Apply:**
 
 To apply, please email hr@umee.cc and include a resume with a link to your github account.
-
 </details>
 
 <details>
