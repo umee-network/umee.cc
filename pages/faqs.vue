@@ -30,7 +30,7 @@ export default {
     return { faqContent }
   },
   head() {
-    const title = 'Umee: Frequently Asked Questions'
+    const title = 'UX: Frequently Asked Questions'
     const description =
       "Find answers to your questions quickly and easily with our FAQs. We have compiled a list of the most common questions and concerns that our community has. Browse through to find the information you need. If you can't find the answer you're looking for, contact us and we'll be happy to help."
     return {
