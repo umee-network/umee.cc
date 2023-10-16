@@ -14,13 +14,13 @@ export default {
     return { privacyContent }
   },
   head: {
-    title: 'Privacy - Umee - Cross the Defi Waves',
+    title: 'Privacy - UX - Cross the Defi Waves',
     meta: [
       {
         hid: 'og:title',
         name: 'og:title',
         content:
-          'Privacy - Umee - Cross the Defi Waves',
+          'Privacy - UX - Cross the Defi Waves',
       },
     ],
   },
