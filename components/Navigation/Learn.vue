@@ -8,8 +8,8 @@
         <ul>
           <UINavigationMainItem
             link="https://umeeversity.umee.cc/overview/"
-            description="Learn about Umee and our mission"
-            >About Umee</UINavigationMainItem
+            description="Learn about UX and our mission"
+            >About UX</UINavigationMainItem
           >
           <UINavigationMainItem
             link="https://astrolabe.umee.cc/"
@@ -31,7 +31,7 @@
           >
           <UINavigationMainItem
             link="/careers"
-            description="Apply to join Umee"
+            description="Apply to join UX"
             @click.native="closeActions"
             >Careers</UINavigationMainItem
           >
@@ -48,29 +48,29 @@
             >
              <UINavigationMainItem
               link="https://umeeversity.umee.cc/users/using-the-web-app/supply-withdraw.html"
-              description="Lend cross chain tokens with Umee"
-              >Lending with Umee</UINavigationMainItem
+              description="Lend cross chain tokens with UX"
+              >Lending with UX</UINavigationMainItem
             >
             <UINavigationMainItem
               link="https://umeeversity.umee.cc/users/staking-umee/"
               description="Secure the blockchain and earn staking yield"
-              >Staking UMEE</UINavigationMainItem
+              >Staking UX</UINavigationMainItem
             >
           </ul>
           <ul>
           <UINavigationMainItem
               link="https://umeeversity.umee.cc/users/getting-started/funding-wallet.html"
-              description="Fund your wallet with tokens to use on Umee"
+              description="Fund your wallet with tokens to use on UX"
               >Funding a Wallet</UINavigationMainItem
             >
             <UINavigationMainItem
               link="https://umeeversity.umee.cc/users/using-the-web-app/borrow-repay.html"
-              description="Borrow cross chain tokens with Umee"
-              >Borrowing with Umee</UINavigationMainItem
+              description="Borrow cross chain tokens with UX"
+              >Borrowing with UX</UINavigationMainItem
             >
             <UINavigationMainItem
               link="https://umeeversity.umee.cc/governance/asset-listing/asset-listing-guide.html"
-              description="Propose a new asset to be listed on Umee"
+              description="Propose a new asset to be listed on UX"
               >New Asset Listings</UINavigationMainItem
             >
        

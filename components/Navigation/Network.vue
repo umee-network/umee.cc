@@ -43,7 +43,7 @@
           >
           <UINavigationMainItem
             link="https://umeeversity.umee.cc/validators/"
-            description="Learn how to run a validator on Umee"
+            description="Learn how to run a validator on UX"
             >Validator Documentation</UINavigationMainItem
           >
         </ul>

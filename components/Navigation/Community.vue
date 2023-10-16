@@ -38,12 +38,12 @@
         <ul>
           <UINavigationMainItem
             link="https://umeeversity.umee.cc/governance/"
-            description="Learn how Umee's governance processes work"
+            description="Learn how UX's governance processes work"
             >Community Governance</UINavigationMainItem
           >
           <UINavigationMainItem
             link="https://gov.umee.cc/"
-            description="Join the conversation to help determine Umee's future"
+            description="Join the conversation to help determine UX's future"
             >Governance Forum</UINavigationMainItem
           >
           <UINavigationMainItem
@@ -60,7 +60,7 @@
         <ul>
           <UINavigationMainItem
             link="https://umeeversity.umee.cc/governance/validator-dao/overview.html"
-            description="The DAO that governs Umee's delegation decisions"
+            description="The DAO that governs UX's delegation decisions"
             >Validator DAO</UINavigationMainItem
           >
         </ul>

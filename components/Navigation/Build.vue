@@ -8,18 +8,18 @@
         <ul>
           <UINavigationMainItem
             link="https://github.com/PineStreetLabs/nebula"
-            description="Build wallet applications on Umee"
+            description="Build wallet applications on UX"
             >Nebula Wallet CLI</UINavigationMainItem
           >
           <UINavigationMainItem
             link="https://github.com/umee-network/peggo"
-            description="Umee's Gravity Bridge orchestrator"
-            >Umee Peggo Implementation</UINavigationMainItem
+            description="UX's Gravity Bridge orchestrator"
+            >UX Peggo Implementation</UINavigationMainItem
           >
           <UINavigationMainItem
             link="https://github.com/umee-network/liquidator"
-            description="A liquidator tool for Umee's native leverage protocol"
-            >Umee Liquidator Toolkit</UINavigationMainItem
+            description="A liquidator tool for UX's native leverage protocol"
+            >UX Liquidator Toolkit</UINavigationMainItem
           >
         </ul>
       </div>
@@ -31,12 +31,12 @@
           <ul>
             <UINavigationMainItem
               link="https://umeeversity.umee.cc/developers/"
-              description="Build in the Umee ecosystem"
+              description="Build in the UX ecosystem"
               >Developer Docs</UINavigationMainItem
             >
             <UINavigationMainItem
               link="https://umeeversity.umee.cc/validators/"
-              description="Learn how to run a validator on Umee"
+              description="Learn how to run a validator on UX"
               >Validator Docs</UINavigationMainItem
             >
           </ul>

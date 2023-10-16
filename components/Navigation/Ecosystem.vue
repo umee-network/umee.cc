@@ -16,8 +16,8 @@
 
           <UINavigationMainItem
             link="https://github.com/umee-network/peggo"
-            description="Umee’s implementation of Gravity Bridge and it’s Orchestrator"
-            >Umee&lt;&gt;Ethereum Bridge</UINavigationMainItem
+            description="UX's implementation of Gravity Bridge and it’s Orchestrator"
+            >UX&lt;&gt;Ethereum Bridge</UINavigationMainItem
           >
           <UINavigationMainItem
             link="https://peggo.info/"

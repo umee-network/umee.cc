@@ -5,7 +5,7 @@
       <div class="container">
         <UITitle
           level="4"
-          text="Receive the latest from Umee, direct to your inbox"
+          text="Receive the latest from UX, direct to your inbox"
           class="text-white mb-2"
           fontSizeClass="text-[2rem]"
         ></UITitle>
@@ -42,7 +42,7 @@
               <UIFooterTitle>Discover</UIFooterTitle>
               <ul class="mb-6 md:mb-8">
                 <UIFooterLink to="https://umeeversity.umee.cc/overview/"
-                  >About Umee</UIFooterLink
+                  >About UX</UIFooterLink
                 >
                 <UIFooterLink
                   to="https://umeeversity.umee.cc/learn-the-basics/blockchain-basics/"
@@ -75,7 +75,7 @@
                 >
                 <UIFooterLink
                   to="https://umeeversity.umee.cc/users/using-the-web-app/borrow-repay.html"
-                  >Borrowing with Umee</UIFooterLink
+                  >Borrowing with UX</UIFooterLink
                 >
               </ul>
             </div>
@@ -87,10 +87,10 @@
                   >Nebula Wallet CLI</UIFooterLink
                 >
                 <UIFooterLink to="https://github.com/umee-network/peggo"
-                  >Umee Peggo Implementation</UIFooterLink
+                  >UX Peggo Implementation</UIFooterLink
                 >
                 <UIFooterLink to="https://github.com/umee-network/liquidator"
-                  >Umee Liquidator Toolkit</UIFooterLink
+                  >UX Liquidator Toolkit</UIFooterLink
                 >
               </ul>
               <UIFooterTitle>Tutorials</UIFooterTitle>
@@ -189,7 +189,7 @@
                   >Cosmos Multisig App</UIFooterLink
                 >
                 <UIFooterLink to="https://app.umee.cc/#/markets"
-                  >Umee&lt;&gt;Ethereum Bridge</UIFooterLink
+                  >UX&lt;&gt;Ethereum Bridge</UIFooterLink
                 >
                 <UIFooterLink to="https://peggo.info/"
                   >Peggo Health Stats</UIFooterLink
@@ -212,7 +212,7 @@
       >
         <div class="container md:text-right">
           <div class="flex flex-row flex-wrap gap-x-6 gap-y-3">
-            <div>&copy; Umee {{ year }}</div>
+            <div>&copy; UX {{ year }}</div>
             <NuxtLink
               class="text-midGreyOnNavy whitespace-nowrap inline-block"
               to="/privacy"
