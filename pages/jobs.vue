@@ -31,7 +31,7 @@ export default {
     return { jobsContent }
   },
   head: {
-    title: 'Jobs - Umee - Cross the Defi Waves',
+    title: 'Jobs - UX - Cross the Defi Waves',
     meta: [
       {
         hid: 'description',
@@ -46,7 +46,7 @@ export default {
       {
         hid: 'og:title',
         name: 'og:title',
-        content: 'Jobs - Umee - Cross the Defi Waves',
+        content: 'Jobs - UX - Cross the Defi Waves',
       },
     ],
   },
