@@ -29,11 +29,11 @@
 
     <p class="text-xl mb-6 md:text-left text-center">
       Discover a wide variety of apps, blockchains, wallets and explorers, built
-      in the Umee ecosystem by developers and contributors from across the
+      in the UX ecosystem by developers and contributors from across the
       globe.
     </p>
     <h1 class="text-[48px] font-bold font-serif mb-10 md:text-left text-center">
-      Join the Umee ecosystem today
+      Join the UX ecosystem today
     </h1>
     <div class="grid grid-flow-row grid-cols-1 md:grid-cols-3 gap-8">
       <div
@@ -76,9 +76,9 @@ export default {
     return await $content('pages/ecosystem').fetch()
   },
   head() {
-    const title = 'Umee: Ecosystem'
+    const title = 'UX: Ecosystem'
     const description =
-      'Discover a wide variety of apps, blockchains, wallets and explorers, built in the Umee ecosystem by developers and contributors from across the globe.'
+      'Discover a wide variety of apps, blockchains, wallets and explorers, built in the UX ecosystem by developers and contributors from across the globe.'
     return {
       title,
       meta: [
