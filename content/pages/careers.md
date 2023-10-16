@@ -1,6 +1,6 @@
 ---
 head:
-  title: 'Umee: Careers'
+  title: 'UX: Careers'
   description: 'Join our team and make a difference! We are a dynamic and fast-growing company with a range of exciting career opportunities. Explore our open positions and apply today to take part in building decentralized lending markets for Web3.'
 ---
 
@@ -8,9 +8,9 @@ head:
 
 <details>
 
-<summary> Ambassador for Umee </summary>
+<summary> Ambassador for UX </summary>
 
-As an Ambassador for Umee, you will be responsible for representing our project in a positive and professional manner in various online and offline communities. You will work closely with our marketing and community teams to build brand awareness, grow our community and seek partnership opportunities.
+As an Ambassador for UX, you will be responsible for representing our project in a positive and professional manner in various online and offline communities. You will work closely with our marketing and community teams to build brand awareness, grow our community and seek partnership opportunities.
 
 **Key Responsibilities:**
 
@@ -45,7 +45,7 @@ As an Ambassador for Umee, you will be responsible for representing our project 
 - Opportunity to work with a dynamic team of professionals in a fast-growing industry
 - Potential for career advancement as our project grows
 
-If you are passionate about cryptocurrency and community building, we encourage you to apply for this exciting opportunity to join our team as an Ambassador for Umee.
+If you are passionate about cryptocurrency and community building, we encourage you to apply for this exciting opportunity to join our team as an Ambassador for UX.
 
 **How to Apply:**
 
@@ -56,7 +56,7 @@ Please send an email to hr@umee.cc and tell us about yourself, your work experie
 
 <summary>Risk Analyst</summary>
 
-Umee is seeking a quantitative risk analyst to lead analysis of all aspects of financial risk. You will be working alongside our engineering team to build innovative crypto lending projects. Your work will be hugely impactful and act as the driver for innovation in the crypto space.
+UX is seeking a quantitative risk analyst to lead analysis of all aspects of financial risk. You will be working alongside our engineering team to build innovative crypto lending projects. Your work will be hugely impactful and act as the driver for innovation in the crypto space.
 
 **What you'll be doing:**
 
@@ -99,7 +99,7 @@ The ideal candidate has extensive experience in Digital Marketing, Social Media 
 
 **Responsibilities:**
 
-- Create and execute on Umee’s marketing roadmap including objectives, key results, analytics, and measurement
+- Create and execute on UX’s marketing roadmap including objectives, key results, analytics, and measurement
 - Plan and execute campaigns to drive measurable improvements in market awareness
 - Build and coordinate with internal and external marketing and PR stakeholders and partners
 - Own and strategize our content-publishing plan to create a unique, powerful, and consistent brand voice that helps us achieve our goals
@@ -129,9 +129,9 @@ Please send an email to hr@umee.cc and tell us about yourself, your work experie
 <details>
 <summary>Growth Lead</summary>
   
-We’re looking for a proactive problem-solver who thrives in a fast-paced, diverse environment. The right candidate will have exceptional learning abilities, adapt to fast paced environments, possess uncompromising attention to detail, and have great communication skills. The Growth Lead will be expected to be playing a pivotal role in driving growth. You will work closely with the leadership at Umee focusing on high-impact projects and initiatives.
+We’re looking for a proactive problem-solver who thrives in a fast-paced, diverse environment. The right candidate will have exceptional learning abilities, adapt to fast paced environments, possess uncompromising attention to detail, and have great communication skills. The Growth Lead will be expected to be playing a pivotal role in driving growth. You will work closely with the leadership at UX focusing on high-impact projects and initiatives.
  
-Umee is laser-focused on building and delivering our products and core mission. We take our work extremely seriously and we want to hire top notch executors to make things happen and put all the pieces together. Passion for the crypto industry and prior crypto experience is a must. We only want to work with people who are willing to learn fast, work hard and not compromise on the quality of work.
+UX is laser-focused on building and delivering our products and core mission. We take our work extremely seriously and we want to hire top notch executors to make things happen and put all the pieces together. Passion for the crypto industry and prior crypto experience is a must. We only want to work with people who are willing to learn fast, work hard and not compromise on the quality of work.
  
 **What you'll be doing:**
  
@@ -169,7 +169,7 @@ Please send an email to hr@umee.cc and tell us about yourself, your work experie
 
 We offer internship opportunities to those who are interested in the Web3 world. The right candidates should have exceptional learning abilities, adapt to fast paced environments, possess uncompromising attention to detail, and have great communication skills. You will have the opportunity to work closely with our core team and leadership on impactful initiatives.
 
-Umee is laser-focused on building and delivering our products and core mission. We take our work extremely seriously and we want to hire top notch executors to make things happen and put all the pieces together. Passion for the crypto industry and prior crypto experience is a must. We only want to work with people who are willing to learn fast, work hard and not compromise on the quality of work.
+UX is laser-focused on building and delivering our products and core mission. We take our work extremely seriously and we want to hire top notch executors to make things happen and put all the pieces together. Passion for the crypto industry and prior crypto experience is a must. We only want to work with people who are willing to learn fast, work hard and not compromise on the quality of work.
 
 **What you'll be doing:**
 
@@ -199,7 +199,7 @@ Please send an email to hr@umee.cc and tell us about yourself, your work experie
 <details>
 <summary>Product Lead - Technical</summary>
 
-Umee is seeking a product lead to work with a cross functional team. The right candidate has 2+ years of product and technical engineering experience. The candidate should be well versed in blockchain architecture as well as all aspects of the technical stack. This role requires knowledge on both the development side as well as product management.
+UX is seeking a product lead to work with a cross functional team. The right candidate has 2+ years of product and technical engineering experience. The candidate should be well versed in blockchain architecture as well as all aspects of the technical stack. This role requires knowledge on both the development side as well as product management.
 
 Bonus if a candidate has experience in the Cosmos blockchain stack. 
 
@@ -238,7 +238,7 @@ To apply, please email hr@umee.cc and include a resume with a link to your githu
 <details>
 <summary>DevOps Engineer</summary>
 
-Umee is seeking a DevOps Engineer to work with a cross functional team. The right candidate has 2+ years of DevOps experience and has a proven track record of setting up automation and operations of Google Cloud Infrastructures.
+UX is seeking a DevOps Engineer to work with a cross functional team. The right candidate has 2+ years of DevOps experience and has a proven track record of setting up automation and operations of Google Cloud Infrastructures.
 Bonus if a candidate has already setup a blockchain network and worked with the Cosmos blockchain stack. Your work will be hugely impactful, as you will be working within a team that acts as the driver for innovation in the crypto space.
 
 **What you'll be doing:**
@@ -247,7 +247,7 @@ Bonus if a candidate has already setup a blockchain network and worked with the 
 - System administration activities including routine, proactive daily management of the health, stability, and availability of system infrastructure
 - Automate and streamline operations and processes
 - Act as liaison between the protocol engineering team and the validator community
-- Collaborate with the Umee validator network
+- Collaborate with the UX validator network
 
 **We're looking for someone who has:**
 
@@ -275,7 +275,7 @@ To apply, please email hr@umee.cc and include a resume with a link to your githu
 <details>
 <summary>Blockchain Engineer</summary>
 
-Umee is seeking a talented Software Developer who is experienced in developing high performance code. You will be working alongside our developer team to build a cross chain defi application with high coding standards and technical design.
+UX is seeking a talented Software Developer who is experienced in developing high performance code. You will be working alongside our developer team to build a cross chain defi application with high coding standards and technical design.
 
 The right candidate has 3+ years in the blockchain space, and is proficient in software development as well as having strong technical skills in assessing the blockchain industry as a whole. Candidates would benefit strongly from having a deep fundamental software development knowledge base
 
@@ -332,7 +332,7 @@ To apply, please email hr@umee.cc and include a resume with a link to your githu
 <details>
 <summary>Senior Front End Engineer</summary>
 
-Umee is seeking a talented Front End Developer who is experienced in UI/UX and writing software for user interfaces. You will be working alongside our developer team to build a cross chain defi application with high coding standards and technical design.
+UX is seeking a talented Front End Developer who is experienced in UI/UX and writing software for user interfaces. You will be working alongside our developer team to build a cross chain defi application with high coding standards and technical design.
 
 The right candidate has 3+ years in the blockchain space, and is proficient in software development as well as having strong technical skills in writing front end code. Candidates would benefit strongly from having a deep fundamental software development knowledge base.
 
