@@ -34,7 +34,7 @@ export default {
     }
   },
   head() {
-    const title = 'Umee: Blog'
+    const title = 'UX: Blog'
     const description =
       'Stay up-to-date with our blog! We cover a range of topics, from ecosystem news and trends to tips and advice. Visit our blog regularly to read the latest posts!'
     return {

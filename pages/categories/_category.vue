@@ -50,14 +50,14 @@ export default {
     return {
       title: `Blog - ${
         this.slug[0].toUpperCase() + this.slug.slice(1)
-      } - Umee - Cross the Defi Waves`,
+      } - UX - Cross the Defi Waves`,
       meta: [
         {
           hid: 'og:title',
           name: 'og:title',
           content: `Blog - ${
             this.slug[0].toUpperCase() + this.slug.slice(1)
-          } - Umee - Cross the Defi Waves`,
+          } - UX - Cross the Defi Waves`,
         },
       ],
     }
