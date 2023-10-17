@@ -17,7 +17,7 @@
             </div>
             <div class="pt-4 pr-5 track-pointer md:pr-12 md:max-w-[330px]">
               <p>
-                Umee develops the next generation of lending markets through a combination of leverage focused DeFi applications and interest rate products while enabling scalability, cross chain interoperability, and privacy.
+                UX develops the next generation of lending markets through a combination of leverage focused DeFi applications and interest rate products while enabling scalability, cross chain interoperability, and privacy.
               </p>
             </div>
           </div>
@@ -27,7 +27,7 @@
             </div>
             <div class="pt-4 pr-5 track-pointer md:pr-12 md:max-w-[330px]">
               <p>
-                Umee is a base layer blockchain with full sovereignty and programmability for its debt financing products. Umee is powered by Tendermint Consensus, Inter-blockchain Communication Protocol (IBC), and a permissionless validator network.
+                UX is a base layer blockchain with full sovereignty and programmability for its debt financing products. Umee is powered by Tendermint Consensus, Inter-blockchain Communication Protocol (IBC), and a permissionless validator network.
               </p>
             </div>
           </div>
@@ -37,7 +37,7 @@
             </div>
             <div class="pt-4 pr-5 track-pointer md:pr-12 md:max-w-[330px]">
               <p>
-                Umee offers the maximum safety guarantees with the most customizable suite of lending algorithms and chain-level security measures that autonomously monitor the health of individual assets, markets, and the overall platform. 
+                UX offers the maximum safety guarantees with the most customizable suite of lending algorithms and chain-level security measures that autonomously monitor the health of individual assets, markets, and the overall platform. 
               </p>
             </div>
           </div>
