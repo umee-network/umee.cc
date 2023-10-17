@@ -63,7 +63,7 @@
                 >
                 <UIFooterLink
                   to="https://umeeversity.umee.cc/users/staking-UX/staking-UX.html"
-                  >Staking Umee</UIFooterLink
+                  >Staking UX</UIFooterLink
                 >
                 <UIFooterLink
                   to="https://umeeversity.umee.cc/users/using-the-web-app/transferring-tokens.html"
