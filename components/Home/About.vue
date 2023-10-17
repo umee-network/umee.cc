@@ -27,7 +27,7 @@
             </div>
             <div class="pt-4 pr-5 track-pointer md:pr-12 md:max-w-[330px]">
               <p>
-                UX is a base layer blockchain with full sovereignty and programmability for its debt financing products. Umee is powered by Tendermint Consensus, Inter-blockchain Communication Protocol (IBC), and a permissionless validator network.
+                UX is a base layer blockchain with full sovereignty and programmability for its debt financing products. UX is powered by Tendermint Consensus, Inter-blockchain Communication Protocol (IBC), and a permissionless validator network.
               </p>
             </div>
           </div>
