@@ -62,16 +62,16 @@
                   >Funding a Wallet</UIFooterLink
                 >
                 <UIFooterLink
-                  to="https://umeeversity.umee.cc/users/staking-umee/staking-umee.html"
+                  to="https://umeeversity.umee.cc/users/staking-UX/staking-UX.html"
                   >Staking Umee</UIFooterLink
                 >
                 <UIFooterLink
                   to="https://umeeversity.umee.cc/users/using-the-web-app/transferring-tokens.html"
-                  >Transferring to Umee</UIFooterLink
+                  >Transferring to UX</UIFooterLink
                 >
                 <UIFooterLink
                   to="https://umeeversity.umee.cc/users/using-the-web-app/supply-withdraw.html"
-                  >Lending with Umee</UIFooterLink
+                  >Lending with UX</UIFooterLink
                 >
                 <UIFooterLink
                   to="https://umeeversity.umee.cc/users/using-the-web-app/borrow-repay.html"
