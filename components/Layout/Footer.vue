@@ -10,7 +10,7 @@
           fontSizeClass="text-[2rem]"
         ></UITitle>
         <p class="text-lg mb-6">
-          One weekly digest, and nothing else - promise!
+          One monthly digest, and nothing else - promise!
         </p>
         <FormSubscribe />
       </div>
