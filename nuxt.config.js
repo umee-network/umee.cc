@@ -8,7 +8,7 @@ export default {
   target: 'static',
   ssr: true,
   head: {
-    title: 'Umee - Building The Decentralized Lending Markets',
+    title: 'UX - Building The Decentralized Lending Markets',
     htmlAttrs: {
       lang: 'en',
     },
@@ -19,7 +19,7 @@ export default {
         content: 'ZiDrNgg_i6VgvqT0pCV08rpNgOAGuE0CQpKma_SzNLs',
       },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'application-name', content: 'Umee' },
+      { name: 'application-name', content: 'UX' },
       { name: 'msapplication-TileColor', content: '#FFFFFF' },
       { name: 'msapplication-TileImage', content: 'mstile-144x144.png' },
       {
@@ -30,13 +30,13 @@ export default {
       {
         hid: 'og:title',
         name: 'og:title',
-        content: 'Umee - Building The Decentralized Lending Markets',
+        content: 'UX - Building The Decentralized Lending Markets',
       },
       {
         hid: 'og:description',
         name: 'og:description',
         content:
-          'Umee is a cross chain borrowing and lending Cosmos DeFi hub built on the Cosmos SDK that interconnects between blockchains, Supports Bridge Technology, Interoperable Base Layer Blockchain And Facilitate Defi Lending & Borrowing. Umee is powered by the UMEE native token.',
+          'UX is a cross chain borrowing and lending Cosmos DeFi hub built on the Cosmos SDK that interconnects between blockchains, Supports Bridge Technology, Interoperable Base Layer Blockchain And Facilitate Defi Lending & Borrowing. UX is powered by the UX native token.',
       },
       {
         hid: 'twitter:card',
@@ -51,7 +51,7 @@ export default {
       {
         hid: 'twitter:image:alt',
         name: 'twitter:image:alt',
-        content: 'Umee DeFi Logo',
+        content: 'UX DeFi Logo',
       },
       {
         hid: 'twitter:site',
@@ -62,7 +62,7 @@ export default {
         hid: 'twitter:description',
         name: 'twitter:description',
         content:
-          'Umee is a cross chain borrowing and lending DeFi hub built on the Cosmos SDK that interconnects between blockchains, Supports Bridge Technology, Interoperable Base Layer Blockchain And Facilitate Defi Lending & Borrowing. Umee is powered by the UMEE native token.',
+          'UX is a cross chain borrowing and lending DeFi hub built on the Cosmos SDK that interconnects between blockchains, Supports Bridge Technology, Interoperable Base Layer Blockchain And Facilitate Defi Lending & Borrowing. UX is powered by the UX native token.',
       },
       {
         hid: 'og:image',
@@ -73,7 +73,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Umee is a cross chain borrowing and lending Cosmos DeFi hub built on the Cosmos SDK that interconnects between blockchains, Supports Bridge Technology, Interoperable Base Layer Blockchain And Facilitate Defi Lending & Borrowing. Umee is powered by the UMEE native token.',
+          'UX is a cross chain borrowing and lending Cosmos DeFi hub built on the Cosmos SDK that interconnects between blockchains, Supports Bridge Technology, Interoperable Base Layer Blockchain And Facilitate Defi Lending & Borrowing. UX is powered by the UX native token.',
       },
 
       { name: 'format-detection', content: 'telephone=no' },

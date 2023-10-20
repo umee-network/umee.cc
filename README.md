@@ -1,4 +1,4 @@
-# Umee Website 🐙
+# UX Website 🐙
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/423df50c-2801-4926-83b7-8415e4d450cf/deploy-status)](https://app.netlify.com/sites/vibrant-bassi-5dde1e/deploys)
 
@@ -20,7 +20,7 @@ $ yarn dev
 
 Create a new markdown file in `~/content/pages`. The filename you choose will become the URL. For example:
 
-`~/content/pages/umeeverse.md => https://umee.cc/umeeverse`
+`~/content/pages/uxverse.md => https://ux.xyz/uxverse`
 
 Before getting started, you should checkout a new branch and create a pull request. This will allow you to use Netlify's Deploy Preview feature to preview and test the page. When the page is ready, you can close the PR, merging the changes to the main branch effectively setting the page live.
 
@@ -93,10 +93,10 @@ The website features an announcement pop-up panel useful for alerting visitors t
 Content for the panel is specified in [`~/content/pages/home.yml`](https://github.com/umee-network/umee.cc/blob/main/content/pages/home.yml) using the following fields:
 
 ```
-announcement_title: Umeemania now live!
+announcement_title: UXmania now live!
 announcement_text: Our incentivized Testnet is now available
 announcement_link_text: Find out more
-announcement_link: /umeemania
+announcement_link: /uxmania
 ```
 
 If the fields are empty then the banner does not display. If a user closes the banner, their preference is stored in a cookie that expires in 7 days.

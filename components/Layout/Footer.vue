@@ -130,7 +130,6 @@
               </ul>
               <UIFooterTitle>Testnets</UIFooterTitle>
               <ul>
-               
                 <UIFooterLink to="https://canon.umee.cc/"
                   >Canon-2 Website</UIFooterLink
                 >
@@ -162,8 +161,7 @@
               </ul>
               <UIFooterTitle>Governance</UIFooterTitle>
               <ul class="mb-6 md:mb-8">
-                <UIFooterLink
-                  to="https://umeeversity.umee.cc/governance/"
+                <UIFooterLink to="https://umeeversity.umee.cc/governance/"
                   >Community Governance</UIFooterLink
                 >
                 <UIFooterLink to="https://gov.umee.cc/"
@@ -175,7 +173,8 @@
               </ul>
               <UIFooterTitle>DAOS</UIFooterTitle>
               <ul>
-                <UIFooterLink to="https://umeeversity.umee.cc/governance/validator-dao/"
+                <UIFooterLink
+                  to="https://umeeversity.umee.cc/governance/validator-dao/"
                   >Validator DAO</UIFooterLink
                 >
               </ul>
