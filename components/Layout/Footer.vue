@@ -120,7 +120,7 @@
               </ul>
               <UIFooterTitle>Validators</UIFooterTitle>
               <ul>
-                <UIFooterLink to="https://discord.com/invite/uxchaiun"
+                <UIFooterLink to="https://discord.com/invite/uxchain"
                   >Validator Community</UIFooterLink
                 >
                 <UIFooterLink to="https://umeeversity.umee.cc/validators/"
@@ -142,7 +142,7 @@
                 <UIFooterLink to="https://X.com/Umee_CrossChain"
                   >X</UIFooterLink
                 >
-                <UIFooterLink to="https://discord.com/invite/uxchaiun"
+                <UIFooterLink to="https://discord.com/invite/uxchain"
                   >Discord</UIFooterLink
                 >
                 <UIFooterLink to="https://t.me/umeecrosschain"
