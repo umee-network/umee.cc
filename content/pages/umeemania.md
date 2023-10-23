@@ -72,7 +72,7 @@ _Follow the guides in the order presented to learn how to use the UX testnet web
 
 - Accumulating TVL through one wallet works better than using multiple wallets. Users who try to manipulate TVL by sending testnet tokens between wallets will not be eligible to earn UX token rewards!
 - In this testnet, lending and borrowing will take place on both Cosmos and Ethereum.
-- There is a **faucet within the [UX Discord](https://discord.gg/umee)** to claim multiple testnet tokens; each testnet token can be claimed every 12 hours, and not all requests release the same amount of tokens!
+- There is a **faucet within the [UX Discord](https://discord.gg/uxchain)** to claim multiple testnet tokens; each testnet token can be claimed every 12 hours, and not all requests release the same amount of tokens!
 - Participants can use their deposits as collateral to borrow in order to further increase their TVL contribution while simultaneously managing their risk.
 - Pay attention to changes in interest rates and asset prices to maintain a healthy [LTV ratio](https://docs.umee.cc/umee/blockchain-basics-1/defi-basics/lending-and-borrowing-in-defi#loan-to-value) and avoid getting [liquidated](https://docs.umee.cc/umee/blockchain-basics-1/defi-basics/lending-and-borrowing-in-defi#liquidation)!
 
@@ -84,11 +84,11 @@ If you encounter a bug while using the testnet web app, please use [this form](h
 
 ## Questions?
 
-For general questions about UX or the UX token, please take a look at [UX's documentation](https://docs.umee.cc/umee/) and/or the [#ask-community](https://discord.gg/umee) on the UX Discord.
+For general questions about UX or the UX token, please take a look at [UX's documentation](https://docs.umee.cc/umee/) and/or the [#ask-community](https://discord.gg/uxchain) on the UX Discord.
 
-If you have questions regarding UXmania please refer to the [“Testnet Web App"](https://docs.umee.cc/umee/user-guides/umeemania-testnet) guides in documentation and make sure you are following the steps in the order they are presented. If you cannot find the answer to your question in the guide, share it in the [#ask-community](https://discord.gg/umee) or [#general](https://discord.gg/umee) channel in the [Umee Discord](https://discord.gg/umee).
+If you have questions regarding UXmania please refer to the [“Testnet Web App"](https://docs.umee.cc/umee/user-guides/umeemania-testnet) guides in documentation and make sure you are following the steps in the order they are presented. If you cannot find the answer to your question in the guide, share it in the [#ask-community](https://discord.gg/uxchain) or [#general](https://discord.gg/uxchain) channel in the [Umee Discord](https://discord.gg/uxchain).
 
-If you have any suggestions to improve the web app, please share them in the [#suggestions](https://discord.gg/umee) channel on the [UX Discord](https://discord.gg/umee).
+If you have any suggestions to improve the web app, please share them in the [#suggestions](https://discord.gg/uxchain) channel on the [UX Discord](https://discord.gg/uxchain).
 
 ## Learn More
 
