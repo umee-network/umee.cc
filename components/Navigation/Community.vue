@@ -9,7 +9,7 @@
             <UINavigationMainItem link="https://x.com/Umee_CrossChain"
               >X</UINavigationMainItem
             >
-            <UINavigationMainItem link="https://discord.com/invite/umee"
+            <UINavigationMainItem link="https://discord.com/invite/uxchaiun"
               >Discord</UINavigationMainItem
             >
             <UINavigationMainItem link="https://t.me/umeecrosschain"

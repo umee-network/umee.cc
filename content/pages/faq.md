@@ -39,7 +39,6 @@ UX releases new community programs and events on an ongoing basis to gather the 
 
 </details>
 
-
 ## UX Token FAQ
 
 <details>
@@ -87,6 +86,6 @@ The UX token will exist in both ERC20 and Cosmos SDK format. If users want to co
 <details>
 <summary>I have another question that’s not answered here.</summary>
 
-Take a look at the [official documentation](https://umeeversity.umee.cc/) - if you can’t find the answer to your question here, share it with us in the [#support-chat on Discord](https://discord.com/invite/umee) or in the UX [Telegram](https://t.me/umeecrosschain).
+Take a look at the [official documentation](https://umeeversity.umee.cc/) - if you can’t find the answer to your question here, share it with us in the [#support-chat on Discord](https://discord.com/invite/uxchaiun) or in the UX [Telegram](https://t.me/umeecrosschain).
 
 </details>
