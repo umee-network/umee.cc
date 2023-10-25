@@ -183,18 +183,10 @@
               <UIBlockTitle class="mb-6 md:mb-8">Ecosystem</UIBlockTitle>
               <UIFooterTitle>APPS</UIFooterTitle>
               <ul class="mb-6 md:mb-8">
+                <UIFooterLink to="https://app.umee.cc/">UX App</UIFooterLink>
                 <UIFooterLink
                   to="https://github.com/umee-network/cosmos-multisig-ui"
                   >Cosmos Multisig App</UIFooterLink
-                >
-                <UIFooterLink to="https://app.umee.cc/#/markets"
-                  >UX&lt;&gt;Ethereum Bridge</UIFooterLink
-                >
-                <UIFooterLink to="https://peggo.info/"
-                  >Peggo Health Stats</UIFooterLink
-                >
-                <UIFooterLink to="http://peggo-monitor.kingsuper.services:3001/"
-                  >Peggo Status Checker</UIFooterLink
                 >
               </ul>
               <UIBlockTitle class="mb-6 md:mb-8">Support</UIBlockTitle>

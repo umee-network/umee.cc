@@ -79,7 +79,7 @@ Details about UX’s token distribution and release schedule can be found [here]
 <details>
 <summary>What is the blockchain configuration of the UX token?</summary>
 
-The UX token will exist in both ERC20 and Cosmos SDK format. If users want to convert from one blockchain to another, all they need to do is to go to the UX Application page and use the convert function through UX’s gravity bridge; such transactions will take sub minutes. Find more details [here](https://umeeversity.umee.cc/overview/UX-token/token-format.html)
+The UX token will exist in both ERC20 and Cosmos SDK format. Find more details [here](https://umeeversity.umee.cc/overview/UX-token/token-format.html)
 
 </details>
 
