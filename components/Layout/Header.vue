@@ -8,7 +8,8 @@
       class="container mx-auto h-[95px] flex justify-between align-middle py-3 items-center"
     >
       <NuxtLink to="/" class="relative z-10">
-        <SVGUmeeLogo class="w-[130px] md:w-[162px]"></SVGUmeeLogo>
+        <!-- <SVGUX class="w-[130px] md:w-[162px]"></SVGUX> -->
+        <img src="~/assets/images/ux.png" class="w-[80px]" alt="UX" />
       </NuxtLink>
 
       <div

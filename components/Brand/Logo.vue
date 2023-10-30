@@ -30,30 +30,15 @@
               >
                 <div>
                   <img
-                    src="~/assets/images/brand-logo-on-white.png"
-                    class="w-full h-auto"
-                    style="border-radius: 8px"
-                  />
-                  <p class="mt-1.5 mb-3 text-midGreyOnNavy">On white</p>
-                </div>
-                <div>
-                  <img
-                    src="~/assets/images/brand-umee-x.png"
-                    class="w-full h-auto"
-                  />
-                  <p class="mt-1.5 text-midGreyOnNavy">UX</p>
-                </div>
-              </div>
-              <div
-                class="grid grid-cols-2 col-span-12 md:col-span-6 md:flex justify-between flex-col gap-4 md:gap-0"
-              >
-                <div>
-                  <img
                     src="~/assets/images/brand-logo-on-navy.png"
                     class="w-full h-auto"
                   />
                   <p class="mt-1.5 mb-3 text-midGreyOnNavy">On navy</p>
                 </div>
+              </div>
+              <div
+                class="grid grid-cols-2 col-span-12 md:col-span-6 md:flex justify-between flex-col gap-4 md:gap-0"
+              >
                 <div>
                   <img
                     src="~/assets/images/brand-u-monogram.png"
@@ -65,7 +50,7 @@
             </div>
 
             <div class="grid grid-cols-12 gap-4 md:gap-8 my-10 md:my-20">
-              <div class="col-span-12 md:col-span-4">
+              <!-- <div class="col-span-12 md:col-span-4">
                 <UITitle
                   level="3"
                   text="Safe zone"
@@ -88,7 +73,7 @@
                   alt=""
                   class="w-full h-auto max-w-[26rem]"
                 />
-              </div>
+              </div> -->
             </div>
 
             <UITitle
@@ -104,20 +89,18 @@
               </p>
             </div>
 
-            <div
-              class="gap-4 md:gap-6 flex-col grid grid-cols-2 md:grid-cols-3 mt-4 md:mt-10"
-            >
-              <div class="flex justify-center">
-                <div>
-                  <img
-                    src="~/assets/images/brand-avoid-rotating.png"
-                    alt=""
-                    class="mb-2"
-                  />
-                  <p class="text-midGreyOnNavy">Avoid rotating our logo</p>
-                </div>
+            <div class="gap-4 md:gap-6 flex-col grid grid-cols-2 mt-4 md:mt-10">
+              <div class="flex flex-col items-center">
+                <img
+                  src="~/assets/images/brand-avoid-rotating.png"
+                  alt=""
+                  class="mb-2"
+                />
+                <p class="text-midGreyOnNavy text-center">
+                  Avoid rotating our logo
+                </p>
               </div>
-              <div class="flex justify-center">
+              <!-- <div class="flex justify-center">
                 <div>
                   <img
                     src="~/assets/images/brand-avoid-squashing.png"
@@ -126,20 +109,18 @@
                   />
                   <p class="text-midGreyOnNavy">Avoid squashing our logo</p>
                 </div>
+              </div> -->
+              <div class="flex flex-col items-center">
+                <img
+                  src="~/assets/images/brand-avoid-color-changing.png"
+                  class="mb-2"
+                  alt=""
+                />
+                <p class="text-midGreyOnNavy text-center">
+                  Avoid changing the color of our logo
+                </p>
               </div>
-              <div class="flex justify-center">
-                <div>
-                  <img
-                    src="~/assets/images/brand-avoid-color-changing.png"
-                    class="mb-2"
-                    alt=""
-                  />
-                  <p class="text-midGreyOnNavy">
-                    Avoid changing the color of our logo
-                  </p>
-                </div>
-              </div>
-              <div class="flex justify-center">
+              <!-- <div class="flex justify-center">
                 <div>
                   <img
                     src="~/assets/images/brand-avoid-standalone.png"
@@ -150,30 +131,26 @@
                     Avoid using the logotype as a standalone element
                   </p>
                 </div>
+              </div> -->
+              <div class="flex flex-col items-center">
+                <img
+                  src="~/assets/images/brand-avoid-logo-sentence.png"
+                  class="mb-2"
+                  alt=""
+                />
+                <p class="text-midGreyOnNavy text-center">
+                  Avoid using the logo within a sentence
+                </p>
               </div>
-              <div class="flex justify-center">
-                <div>
-                  <img
-                    src="~/assets/images/brand-avoid-logo-sentence.png"
-                    class="mb-2"
-                    alt=""
-                  />
-                  <p class="text-midGreyOnNavy">
-                    Avoid using the logo within a sentence
-                  </p>
-                </div>
-              </div>
-              <div class="flex justify-center">
-                <div>
-                  <img
-                    src="~/assets/images/brand-avoid-colored-backgrounds.png"
-                    class="mb-2"
-                    alt=""
-                  />
-                  <p class="text-midGreyOnNavy">
-                    Avoid placing the logo on unapproved background colors
-                  </p>
-                </div>
+              <div class="flex flex-col items-center">
+                <img
+                  src="~/assets/images/brand-avoid-colored-backgrounds.png"
+                  class="mb-2"
+                  alt=""
+                />
+                <p class="text-midGreyOnNavy text-center">
+                  Avoid placing the logo on unapproved background colors
+                </p>
               </div>
             </div>
           </div>

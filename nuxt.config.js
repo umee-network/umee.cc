@@ -46,7 +46,7 @@ export default {
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: `${process.env.BASE_URL || 'localhost:3000'}/umee-card.jpg`,
+        content: `${process.env.BASE_URL || 'localhost:3000'}/Ux-card.png`,
       },
       {
         hid: 'twitter:image:alt',
@@ -67,7 +67,7 @@ export default {
       {
         hid: 'og:image',
         name: 'og:image',
-        content: `${process.env.BASE_URL || 'localhost:3000'}/umee.png`,
+        content: `${process.env.BASE_URL || 'localhost:3000'}/main.png`,
       },
       {
         hid: 'description',

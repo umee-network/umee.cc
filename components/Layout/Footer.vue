@@ -22,7 +22,8 @@
       <div class="container pb-8 lg:pb-16">
         <div class="grid grid-cols-12 gap-x-8 mb-12">
           <div class="col-span-12 md:col-span-6 mb-6 md:mb-0">
-            <SVGUmeeLogo color="light" class="mb-3 max-w-[162px]"></SVGUmeeLogo>
+            <img src="~/assets/images/ux.png" class="mb-3 w-[120px]" alt="UX" />
+            <!-- <SVGUX color="light" class="mb-3 max-w-[162px]"></SVGUX> -->
             <p class="text-midGreyOnNavy">
               Join us in building the future of cross chain DeFi!
             </p>

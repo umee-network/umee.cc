@@ -20,7 +20,7 @@ $ yarn dev
 
 Create a new markdown file in `~/content/pages`. The filename you choose will become the URL. For example:
 
-`~/content/pages/umeeverse.md => https://umee.cc/umeeverse`
+`~/content/pages/umeeverse.md => https://ux.xyz/umeeverse`
 
 Before getting started, you should checkout a new branch and create a pull request. This will allow you to use Netlify's Deploy Preview feature to preview and test the page. When the page is ready, you can close the PR, merging the changes to the main branch effectively setting the page live.
 

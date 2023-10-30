@@ -7,10 +7,8 @@
         class="container mx-auto h-[95px] py-3 flex justify-between items-center"
       >
         <NuxtLink @click.native="closeMobileMenu" to="/" class="relative z-10">
-          <SVGUmeeLogo
-            color="light"
-            class="w-[130px] md:w-[162px]"
-          ></SVGUmeeLogo>
+          <!-- <SVGUX color="light" class="w-[130px] md:w-[162px]"></SVGUX> -->
+          <img src="~/assets/images/ux.png" class="w-[80px]" alt="UX" />
         </NuxtLink>
         <a class="text-xl cursor-pointer" @click="closeMobileMenu">
           Close
