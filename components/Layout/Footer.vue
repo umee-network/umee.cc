@@ -87,9 +87,6 @@
                 <UIFooterLink to="https://github.com/PineStreetLabs/nebula"
                   >Nebula Wallet CLI</UIFooterLink
                 >
-                <UIFooterLink to="https://github.com/umee-network/peggo"
-                  >UX Peggo Implementation</UIFooterLink
-                >
                 <UIFooterLink to="https://github.com/umee-network/liquidator"
                   >UX Liquidator Toolkit</UIFooterLink
                 >
@@ -132,7 +129,7 @@
               <UIFooterTitle>Testnets</UIFooterTitle>
               <ul>
                 <UIFooterLink to="https://canon.umee.cc/"
-                  >Canon-2 Website</UIFooterLink
+                  >Canon Testnet Website</UIFooterLink
                 >
               </ul>
             </div>
