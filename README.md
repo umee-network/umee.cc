@@ -1,4 +1,4 @@
-# Umee Website 🐙
+# UX Website 🐙
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/423df50c-2801-4926-83b7-8415e4d450cf/deploy-status)](https://app.netlify.com/sites/vibrant-bassi-5dde1e/deploys)
 
@@ -93,10 +93,10 @@ The website features an announcement pop-up panel useful for alerting visitors t
 Content for the panel is specified in [`~/content/pages/home.yml`](https://github.com/umee-network/umee.cc/blob/main/content/pages/home.yml) using the following fields:
 
 ```
-announcement_title: Umeemania now live!
+announcement_title: UXmania now live!
 announcement_text: Our incentivized Testnet is now available
 announcement_link_text: Find out more
-announcement_link: /umeemania
+announcement_link: /uxmania
 ```
 
 If the fields are empty then the banner does not display. If a user closes the banner, their preference is stored in a cookie that expires in 7 days.

@@ -12,9 +12,9 @@
             >About UX</UINavigationMainItem
           >
           <UINavigationMainItem
-            link="https://astrolabe.umee.cc/"
+            link="https://app.umee.cc/analytics"
             description="Check the platform statistics"
-            >Astrolabe</UINavigationMainItem
+            >Analytics</UINavigationMainItem
           >
           <UINavigationMainItem
             link="https://umeeversity.umee.cc/learn-the-basics/"
@@ -46,7 +46,7 @@
               description="Learn how to create an interchain wallet"
               >Creating a Wallet</UINavigationMainItem
             >
-             <UINavigationMainItem
+            <UINavigationMainItem
               link="https://umeeversity.umee.cc/users/using-the-web-app/supply-withdraw.html"
               description="Lend cross chain tokens with UX"
               >Lending with UX</UINavigationMainItem
@@ -58,7 +58,7 @@
             >
           </ul>
           <ul>
-          <UINavigationMainItem
+            <UINavigationMainItem
               link="https://umeeversity.umee.cc/users/getting-started/funding-wallet.html"
               description="Fund your wallet with tokens to use on UX"
               >Funding a Wallet</UINavigationMainItem
@@ -73,7 +73,6 @@
               description="Propose a new asset to be listed on UX"
               >New Asset Listings</UINavigationMainItem
             >
-       
           </ul>
         </div>
       </div>
