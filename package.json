@@ -12,8 +12,7 @@
     "lint": "yarn lint:js && yarn lint:style"
   },
   "engines": {
-    "npm": ">=8.0.0 <9.0.0",
-    "node": ">=16.0.0 <17.0.0"
+    "node": "18.x"
   },
   "lint-staged": {
     "*.{js,vue}": "eslint",
