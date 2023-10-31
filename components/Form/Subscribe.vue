@@ -60,7 +60,7 @@ export default {
         })
         .then(
           (_response) => {
-            this.message = "You have been added to Umee's mailing list"
+            this.message = "You have been added to UX's mailing list"
             // if (response.data.subscription_status === 'pending') {
             //   this.message =
             //     'Please check your email to confirm your subscription'

@@ -110,7 +110,7 @@ Still want to participate but don’t think of yourself as a creative? Not to wo
 **Resources**
 
 - [Branding assets](https://drive.google.com/drive/folders/1A9G2HM5RAka4FLGyVvRC4NeazpAYBh7Z?usp=sharing)
-- [Website](https://umee.cc/)
+- [Website](https://ux.xyz/)
 - [Web App](https://app.umee.cc/#/)
 
 **Rewards**

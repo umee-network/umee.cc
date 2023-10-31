@@ -99,7 +99,7 @@ If you have any suggestions to improve the web app, please share them in the [#s
 
 ## Terms and Conditions
 
-_The UX team will take into account all network events and activities that occurred during Umeemania. Umee reserves the right to change its reward structure and policy during or after the event and reward participants according to its own terms._
+_The UX team will take into account all network events and activities that occurred during UXmania. UX reserves the right to change its reward structure and policy during or after the event and reward participants according to its own terms._
 
 ## About UX
 

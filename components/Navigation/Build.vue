@@ -12,11 +12,6 @@
             >Nebula Wallet CLI</UINavigationMainItem
           >
           <UINavigationMainItem
-            link="https://github.com/umee-network/peggo"
-            description="UX's Gravity Bridge orchestrator"
-            >UX Peggo Implementation</UINavigationMainItem
-          >
-          <UINavigationMainItem
             link="https://github.com/umee-network/liquidator"
             description="A liquidator tool for UX's native leverage protocol"
             >UX Liquidator Toolkit</UINavigationMainItem

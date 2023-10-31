@@ -25,9 +25,8 @@
           >Testnets</UINavigationMainSectionHeading
         >
         <ul>
-          
           <UINavigationMainItem link="https://canon.umee.cc"
-            >Canon-2 website</UINavigationMainItem
+            >Canon Testnet Website</UINavigationMainItem
           >
         </ul>
       </div>

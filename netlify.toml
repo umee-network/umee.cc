@@ -4,7 +4,7 @@
   functions = "./functions"
 
 [context.production.environment]
-  BASE_URL = "https://umee.cc"
+  BASE_URL = "https://ux.xyz"
 
 [[plugins]]
 package = "@netlify/plugin-sitemap"

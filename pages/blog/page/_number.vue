@@ -42,12 +42,12 @@ export default {
   },
   head() {
     return {
-      title: `Blog - Page ${this.page} - Umee - Cross the Defi Waves`,
+      title: `Blog - Page ${this.page} - UX - Cross the Defi Waves`,
       meta: [
         {
           hid: 'og:title',
           name: 'og:title',
-          content: 'Blog - Umee - Cross the Defi Waves',
+          content: 'Blog - UX - Cross the Defi Waves',
         },
       ],
     }

@@ -20,7 +20,7 @@
         <span class="pr-3"> Share: </span>
         <BlogShareIcon
           network="twitter"
-          :url="'https://umee.cc/blog/' + article.slug"
+          :url="'https://ux.xyz/blog/' + article.slug"
           :title="article.title"
           :description="article.excerpt"
         >
@@ -29,7 +29,7 @@
 
         <BlogShareIcon
           network="facebook"
-          :url="'https://umee.cc/blog/' + article.slug"
+          :url="'https://ux.xyz/blog/' + article.slug"
           :title="article.title"
           :description="article.excerpt"
           ><SVGSocialIcon name="facebook" />
@@ -37,7 +37,7 @@
 
         <BlogShareIcon
           network="linkedin"
-          :url="'https://umee.cc/blog/' + article.slug"
+          :url="'https://ux.xyz/blog/' + article.slug"
           :title="article.title"
           :description="article.excerpt"
           ><SVGSocialIcon name="linkedin" />
@@ -65,7 +65,7 @@
         <span class="pr-3"> Share: </span>
         <BlogShareIcon
           network="twitter"
-          :url="'https://umee.cc/blog/' + article.slug"
+          :url="'https://ux.xyz/blog/' + article.slug"
           :title="article.title"
           :description="article.excerpt"
         >
@@ -74,7 +74,7 @@
 
         <BlogShareIcon
           network="facebook"
-          :url="'https://umee.cc/blog/' + article.slug"
+          :url="'https://ux.xyz/blog/' + article.slug"
           :title="article.title"
           :description="article.excerpt"
           ><SVGSocialIcon name="facebook" />
@@ -82,7 +82,7 @@
 
         <BlogShareIcon
           network="linkedin"
-          :url="'https://umee.cc/blog/' + article.slug"
+          :url="'https://ux.xyz/blog/' + article.slug"
           :title="article.title"
           :description="article.excerpt"
           ><SVGSocialIcon name="linkedin" />

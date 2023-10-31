@@ -22,7 +22,8 @@
       <div class="container pb-8 lg:pb-16">
         <div class="grid grid-cols-12 gap-x-8 mb-12">
           <div class="col-span-12 md:col-span-6 mb-6 md:mb-0">
-            <SVGUmeeLogo color="light" class="mb-3 max-w-[162px]"></SVGUmeeLogo>
+            <img src="~/assets/images/ux.png" class="mb-3 w-[120px]" alt="UX" />
+            <!-- <SVGUX color="light" class="mb-3 max-w-[162px]"></SVGUX> -->
             <p class="text-midGreyOnNavy">
               Join us in building the future of cross chain DeFi!
             </p>
@@ -86,9 +87,6 @@
                 <UIFooterLink to="https://github.com/PineStreetLabs/nebula"
                   >Nebula Wallet CLI</UIFooterLink
                 >
-                <UIFooterLink to="https://github.com/umee-network/peggo"
-                  >UX Peggo Implementation</UIFooterLink
-                >
                 <UIFooterLink to="https://github.com/umee-network/liquidator"
                   >UX Liquidator Toolkit</UIFooterLink
                 >
@@ -131,7 +129,7 @@
               <UIFooterTitle>Testnets</UIFooterTitle>
               <ul>
                 <UIFooterLink to="https://canon.umee.cc/"
-                  >Canon-2 Website</UIFooterLink
+                  >Canon Testnet Website</UIFooterLink
                 >
               </ul>
             </div>
@@ -183,18 +181,10 @@
               <UIBlockTitle class="mb-6 md:mb-8">Ecosystem</UIBlockTitle>
               <UIFooterTitle>APPS</UIFooterTitle>
               <ul class="mb-6 md:mb-8">
+                <UIFooterLink to="https://app.umee.cc/">UX App</UIFooterLink>
                 <UIFooterLink
                   to="https://github.com/umee-network/cosmos-multisig-ui"
                   >Cosmos Multisig App</UIFooterLink
-                >
-                <UIFooterLink to="https://app.umee.cc/#/markets"
-                  >UX&lt;&gt;Ethereum Bridge</UIFooterLink
-                >
-                <UIFooterLink to="https://peggo.info/"
-                  >Peggo Health Stats</UIFooterLink
-                >
-                <UIFooterLink to="http://peggo-monitor.kingsuper.services:3001/"
-                  >Peggo Status Checker</UIFooterLink
                 >
               </ul>
               <UIBlockTitle class="mb-6 md:mb-8">Support</UIBlockTitle>
