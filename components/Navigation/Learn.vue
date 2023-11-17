@@ -7,17 +7,17 @@
         >
         <ul>
           <UINavigationMainItem
-            link="https://umeeversity.umee.cc/overview/"
+            link="https://learning.ux.xyz/overview/"
             description="Learn about UX and our mission"
             >About UX</UINavigationMainItem
           >
           <UINavigationMainItem
-            link="https://app.umee.cc/analytics"
+            link="https://app.ux.xyz/analytics"
             description="Check the platform statistics"
             >Analytics</UINavigationMainItem
           >
           <UINavigationMainItem
-            link="https://umeeversity.umee.cc/learn-the-basics/"
+            link="https://learning.ux.xyz/learn-the-basics/"
             description="Essential information every crypto user should
               know"
             >Blockchain Basics</UINavigationMainItem
@@ -42,34 +42,34 @@
         <div class="grid lg:grid-cols-2 md:gap-6">
           <ul>
             <UINavigationMainItem
-              link="https://umeeversity.umee.cc/users/getting-started/creating-wallet.html"
+              link="https://learning.ux.xyz/users/getting-started/creating-wallet.html"
               description="Learn how to create an interchain wallet"
               >Creating a Wallet</UINavigationMainItem
             >
             <UINavigationMainItem
-              link="https://umeeversity.umee.cc/users/using-the-web-app/supply-withdraw.html"
+              link="https://learning.ux.xyz/users/using-the-web-app/supply-withdraw.html"
               description="Lend cross chain tokens with UX"
               >Lending with UX</UINavigationMainItem
             >
             <UINavigationMainItem
-              link="https://umeeversity.umee.cc/users/staking-umee/"
+              link="https://learning.ux.xyz/users/staking-umee/"
               description="Secure the blockchain and earn staking yield"
               >Staking UX</UINavigationMainItem
             >
           </ul>
           <ul>
             <UINavigationMainItem
-              link="https://umeeversity.umee.cc/users/getting-started/funding-wallet.html"
+              link="https://learning.ux.xyz/users/getting-started/funding-wallet.html"
               description="Fund your wallet with tokens to use on UX"
               >Funding a Wallet</UINavigationMainItem
             >
             <UINavigationMainItem
-              link="https://umeeversity.umee.cc/users/using-the-web-app/borrow-repay.html"
+              link="https://learning.ux.xyz/users/using-the-web-app/borrow-repay.html"
               description="Borrow cross chain tokens with UX"
               >Borrowing with UX</UINavigationMainItem
             >
             <UINavigationMainItem
-              link="https://umeeversity.umee.cc/governance/asset-listing/asset-listing-guide.html"
+              link="https://learning.ux.xyz/governance/asset-listing/asset-listing-guide.html"
               description="Propose a new asset to be listed on UX"
               >New Asset Listings</UINavigationMainItem
             >

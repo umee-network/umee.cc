@@ -78,7 +78,7 @@
         /></a>
 
         <UIButtonGradient
-          to="https://app.umee.cc/"
+          to="https://app.ux.xyz/"
           class="ml-3 xl:ml-6 hidden md:inline-block"
           >Launch App</UIButtonGradient
         >

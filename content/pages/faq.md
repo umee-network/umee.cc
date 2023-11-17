@@ -58,34 +58,34 @@ The UX token has been issued. The token was issued to Coinlist buyers during the
 <details>
 <summary>What is the UX token used for?</summary>
 
-UX tokens are used to pay for network fees on the UX blockchain, to provide Proof of Stake consensus to the UX network, and for protocol governance. You can read more about UX token uses in UX's [documentation](https://umeeversity.umee.cc/overview/UX-token/token-utility.html)
+UX tokens are used to pay for network fees on the UX blockchain, to provide Proof of Stake consensus to the UX network, and for protocol governance. You can read more about UX token uses in UX's [documentation](https://learning.ux.xyz/overview/UX-token/token-utility.html)
 
 </details>
 
 <details>
 <summary>What is the total UX token supply?</summary>
 
-10 billion. You can learn more about the inflation and deflation mechanisms in place [here](https://umeeversity.umee.cc/overview/UX-token/tokenomics.html#supply)
+10 billion. You can learn more about the inflation and deflation mechanisms in place [here](https://learning.ux.xyz/overview/UX-token/tokenomics.html#supply)
 
 </details>
 
 <details>
 <summary>What is the initial distribution and release schedule of the UX token?</summary>
 
-Details about UX’s token distribution and release schedule can be found [here](https://umeeversity.umee.cc/overview/UX-token/tokenomics.html#supply)
+Details about UX’s token distribution and release schedule can be found [here](https://learning.ux.xyz/overview/UX-token/tokenomics.html#supply)
 
 </details>
 
 <details>
 <summary>What is the blockchain configuration of the UX token?</summary>
 
-The UX token will exist in both ERC20 and Cosmos SDK format. Find more details [here](https://umeeversity.umee.cc/overview/UX-token/token-format.html)
+The UX token will exist in both ERC20 and Cosmos SDK format. Find more details [here](https://learning.ux.xyz/overview/UX-token/token-format.html)
 
 </details>
 
 <details>
 <summary>I have another question that’s not answered here.</summary>
 
-Take a look at the [official documentation](https://umeeversity.umee.cc/) - if you can’t find the answer to your question here, share it with us in the [#support-chat on Discord](https://discord.com/invite/uxchain) or in the UX [Telegram](https://t.me/umeecrosschain).
+Take a look at the [official documentation](https://learning.ux.xyz/) - if you can’t find the answer to your question here, share it with us in the [#support-chat on Discord](https://discord.com/invite/uxchain) or in the UX [Telegram](https://t.me/umeecrosschain).
 
 </details>

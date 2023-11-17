@@ -25,12 +25,12 @@
         <div class="grid grid-cols-2 md:gap-6">
           <ul>
             <UINavigationMainItem
-              link="https://umeeversity.umee.cc/developers/"
+              link="https://learning.ux.xyz/developers/"
               description="Build in the UX ecosystem"
               >Developer Docs</UINavigationMainItem
             >
             <UINavigationMainItem
-              link="https://umeeversity.umee.cc/validators/"
+              link="https://learning.ux.xyz/validators/"
               description="Learn how to run a validator on UX"
               >Validator Docs</UINavigationMainItem
             >

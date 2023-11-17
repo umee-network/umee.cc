@@ -23,7 +23,7 @@
           </p>
           <ButtonLink
             target="_blank"
-            to="https://umeeversity.umee.cc/overview/umee-overview/security-audits.html"
+            to="https://learning.ux.xyz/overview/umee-overview/security-audits.html"
             >Protocol security</ButtonLink
           >
         </div>

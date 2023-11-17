@@ -37,7 +37,7 @@
         >
         <ul>
           <UINavigationMainItem
-            link="https://umeeversity.umee.cc/governance/"
+            link="https://learning.ux.xyz/governance/"
             description="Learn how UX's governance processes work"
             >Community Governance</UINavigationMainItem
           >
@@ -47,7 +47,7 @@
             >Governance Forum</UINavigationMainItem
           >
           <UINavigationMainItem
-            link="https://app.umee.cc/#/governance"
+            link="https://app.ux.xyz/#/governance"
             description="Vote on live governance proposals here"
             >Voting Dashboard</UINavigationMainItem
           >
@@ -59,7 +59,7 @@
         <UINavigationMainSectionHeading>DAOs</UINavigationMainSectionHeading>
         <ul>
           <UINavigationMainItem
-            link="https://umeeversity.umee.cc/governance/validator-dao/overview.html"
+            link="https://learning.ux.xyz/governance/validator-dao/overview.html"
             description="The DAO that governs UX's delegation decisions"
             >Validator DAO</UINavigationMainItem
           >

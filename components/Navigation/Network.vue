@@ -41,7 +41,7 @@
             >Validator Community</UINavigationMainItem
           >
           <UINavigationMainItem
-            link="https://umeeversity.umee.cc/validators/"
+            link="https://learning.ux.xyz/validators/"
             description="Learn how to run a validator on UX"
             >Validator Documentation</UINavigationMainItem
           >

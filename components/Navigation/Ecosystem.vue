@@ -9,7 +9,7 @@
         </div>
         <ul>
           <UINavigationMainItem
-            link="https://app.umee.cc"
+            link="https://app.ux.xyz"
             description="The most programmable, safety-first, autonomous lending algorithm built as a blockchain"
             >UX App</UINavigationMainItem
           >

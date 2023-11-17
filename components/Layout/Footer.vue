@@ -29,7 +29,7 @@
             </p>
           </div>
           <div class="col-span-12 md:col-span-6 flex items-center justify-end">
-            <UIButtonGradient class="w-full md:w-auto" to="https://app.umee.cc/"
+            <UIButtonGradient class="w-full md:w-auto" to="https://app.ux.xyz/"
               >Launch App</UIButtonGradient
             >
           </div>
@@ -42,11 +42,11 @@
               <UIBlockTitle class="mb-6 md:mb-8">Learn</UIBlockTitle>
               <UIFooterTitle>Discover</UIFooterTitle>
               <ul class="mb-6 md:mb-8">
-                <UIFooterLink to="https://umeeversity.umee.cc/overview/"
+                <UIFooterLink to="https://learning.ux.xyz/overview/"
                   >About UX</UIFooterLink
                 >
                 <UIFooterLink
-                  to="https://umeeversity.umee.cc/learn-the-basics/blockchain-basics/"
+                  to="https://learning.ux.xyz/learn-the-basics/blockchain-basics/"
                   >Blockchain Basics</UIFooterLink
                 >
                 <UIFooterLink to="/careers">Careers</UIFooterLink>
@@ -55,27 +55,27 @@
               <UIFooterTitle>Guides</UIFooterTitle>
               <ul>
                 <UIFooterLink
-                  to="https://umeeversity.umee.cc/users/getting-started/creating-wallet.html"
+                  to="https://learning.ux.xyz/users/getting-started/creating-wallet.html"
                   >Creating a Wallet</UIFooterLink
                 >
                 <UIFooterLink
-                  to="https://umeeversity.umee.cc/users/getting-started/funding-wallet.html"
+                  to="https://learning.ux.xyz/users/getting-started/funding-wallet.html"
                   >Funding a Wallet</UIFooterLink
                 >
                 <UIFooterLink
-                  to="https://umeeversity.umee.cc/users/staking-UX/staking-UX.html"
+                  to="https://learning.ux.xyz/users/staking-UX/staking-UX.html"
                   >Staking UX</UIFooterLink
                 >
                 <UIFooterLink
-                  to="https://umeeversity.umee.cc/users/using-the-web-app/transferring-tokens.html"
+                  to="https://learning.ux.xyz/users/using-the-web-app/transferring-tokens.html"
                   >Transferring to UX</UIFooterLink
                 >
                 <UIFooterLink
-                  to="https://umeeversity.umee.cc/users/using-the-web-app/supply-withdraw.html"
+                  to="https://learning.ux.xyz/users/using-the-web-app/supply-withdraw.html"
                   >Lending with UX</UIFooterLink
                 >
                 <UIFooterLink
-                  to="https://umeeversity.umee.cc/users/using-the-web-app/borrow-repay.html"
+                  to="https://learning.ux.xyz/users/using-the-web-app/borrow-repay.html"
                   >Borrowing with UX</UIFooterLink
                 >
               </ul>
@@ -93,10 +93,10 @@
               </ul>
               <UIFooterTitle>Tutorials</UIFooterTitle>
               <ul>
-                <UIFooterLink to="https://umeeversity.umee.cc/developers/"
+                <UIFooterLink to="https://learning.ux.xyz/developers/"
                   >Developer Docs</UIFooterLink
                 >
-                <UIFooterLink to="https://umeeversity.umee.cc/validators/"
+                <UIFooterLink to="https://learning.ux.xyz/validators/"
                   >Validator Docs</UIFooterLink
                 >
               </ul>
@@ -121,7 +121,7 @@
                 <UIFooterLink to="https://discord.com/invite/uxchain"
                   >Validator Community</UIFooterLink
                 >
-                <UIFooterLink to="https://umeeversity.umee.cc/validators/"
+                <UIFooterLink to="https://learning.ux.xyz/validators/"
                   >Validator Documentation</UIFooterLink
                 >
                 <br />
@@ -159,7 +159,7 @@
               </ul>
               <UIFooterTitle>Governance</UIFooterTitle>
               <ul class="mb-6 md:mb-8">
-                <UIFooterLink to="https://umeeversity.umee.cc/governance/"
+                <UIFooterLink to="https://learning.ux.xyz/governance/"
                   >Community Governance</UIFooterLink
                 >
                 <UIFooterLink to="https://gov.umee.cc/"
@@ -172,7 +172,7 @@
               <UIFooterTitle>DAOS</UIFooterTitle>
               <ul>
                 <UIFooterLink
-                  to="https://umeeversity.umee.cc/governance/validator-dao/"
+                  to="https://learning.ux.xyz/governance/validator-dao/"
                   >Validator DAO</UIFooterLink
                 >
               </ul>
@@ -181,7 +181,7 @@
               <UIBlockTitle class="mb-6 md:mb-8">Ecosystem</UIBlockTitle>
               <UIFooterTitle>APPS</UIFooterTitle>
               <ul class="mb-6 md:mb-8">
-                <UIFooterLink to="https://app.umee.cc/">UX App</UIFooterLink>
+                <UIFooterLink to="https://app.ux.xyz/">UX App</UIFooterLink>
                 <UIFooterLink
                   to="https://github.com/umee-network/cosmos-multisig-ui"
                   >Cosmos Multisig App</UIFooterLink

@@ -15,7 +15,7 @@
           </p>
 
           <UIButtonGradient
-            to="https://app.umee.cc/"
+            to="https://app.ux.xyz/"
             target="_blank"
             class="md:hidden"
             >Launch App</UIButtonGradient
