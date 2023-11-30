@@ -65,7 +65,7 @@ export default {
             //   this.message =
             //     'Please check your email to confirm your subscription'
             // } else {
-            //   this.message = "You have been added to Umee's mailing list"
+            //   this.message = "You have been added to UX's mailing list"
             // }
             this.loading = false
           },

@@ -56,7 +56,7 @@ export default {
       {
         hid: 'twitter:site',
         name: 'twitter:site',
-        content: '@Umee_CrossChain',
+        content: '@ux_xyz',
       },
       {
         hid: 'twitter:description',

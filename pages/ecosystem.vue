@@ -5,7 +5,7 @@
     >
       <div class="flex justify-center">
         <h1
-          class="leading-none font-serif lg:text-[400px] md:text-[375px] text-[200px]"
+          class="leading-none font-serif lg:text-[400pxume] md:text-[375px] text-[200px]"
         >
           {{ apps.length }}
         </h1>

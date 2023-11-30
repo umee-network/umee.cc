@@ -12,9 +12,9 @@ Share your UX designs and swag mock ups for a chance to win UX tokens! If you ha
 
 **Submitting Your Entry**
 
-To enter, share your design on Twitter using **#MyUXMerch** and tagging **[@Umee_CrossChain](https://twitter.com/Umee_CrossChain)** by **May 12th at 15:00 UTC.**
+To enter, share your design on Twitter using **#MyUXMerch** and tagging **[@ux_xyz](https://x.com/ux_xyz)** by **May 12th at 15:00 UTC.**
 
-_Participants can also retweet [this post](https://twitter.com/Umee_CrossChain/status/1522272506924748802?s=20&t=P8asuh_ysfeiWr01hG00ow) (optional) for an additional chance to win._
+_Participants can also retweet [this post](https://x.com/ux_xyz/status/1522272506924748802?s=20&t=P8asuh_ysfeiWr01hG00ow) (optional) for an additional chance to win._
 
 **Rewards Structure**
 
@@ -53,7 +53,7 @@ _Participants can also retweet [this post](https://twitter.com/Umee_CrossChain/s
 **Rules**
 
 - By submitting your work, you grant UX permission to use your design on future marketing campaigns;
-- Must be following **[@Umee_CrossChain](https://twitter.com/Umee_CrossChain)** to be eligible to win;
+- Must be following **[@ux_xyz](https://x.com/ux_xyz)** to be eligible to win;
 - Participants can enter as many times as they’d like, but can only win once;
 - All submissions must be your own original work;
 - All submissions must be shared by **May 12th at 15:00 UTC.**
@@ -76,7 +76,7 @@ In honor of UX’s rebranding, we invite you to participate in UX’s Creative L
 
 **TL; DR**
 
-Recreate the new UX logo in your own style and share it on Twitter using **#MyUXLogo** and tagging **[@Umee_CrossChain](https://twitter.com/Umee_CrossChain)** by March 11, 2022 @ 15:00 UTC for a chance to win UX tokens!
+Recreate the new UX logo in your own style and share it on Twitter using **#MyUXLogo** and tagging **[@ux_xyz](https://x.com/ux_xyz)** by March 11, 2022 @ 15:00 UTC for a chance to win UX tokens!
 
 **Details**
 
@@ -100,12 +100,12 @@ Creativity is key! The more out of the box, the better! As long as your submissi
 
 _Hint: to get more exposure on your submission you can share it in the [#designers](https://discord.gg/uxchain) channel on the UX Discord server._
 
-Still want to participate but don’t think of yourself as a creative? Not to worry! You’re still eligible to win UX rewards by retweeting this [tweet](https://twitter.com/Umee_CrossChain/status/1499067194340167680?s=20&t=xldgypQozqj2BKcDgE61lw).
+Still want to participate but don’t think of yourself as a creative? Not to worry! You’re still eligible to win UX rewards by retweeting this [tweet](https://x.com/ux_xyz/status/1499067194340167680?s=20&t=xldgypQozqj2BKcDgE61lw).
 
 **How To Enter**
 
 - Recreate the UX logo in your own style
-- Share an image/gif/video of your creation on Twitter and tag **[@Umee_CrossChain](https://twitter.com/Umee_CrossChain)** in the post with **#MyUXLogo** by March 11 @ 15:00 UTC
+- Share an image/gif/video of your creation on Twitter and tag **[@ux_xyz](https://x.com/ux_xyz)** in the post with **#MyUXLogo** by March 11 @ 15:00 UTC
 
 **Resources**
 
@@ -124,8 +124,8 @@ _Winners will be announced on Twitter, and given instructions on how to receive 
 
 **Rules**
 
-- Participants must be following **[@Umee_CrossChain](https://twitter.com/Umee_CrossChain)** to win
-- Entries must tag **[@Umee_CrossChain](https://twitter.com/Umee_CrossChain)** and use **#MyUXLogo** and be shared before March 11 @ 15:00 UTC in order to be considered valid
+- Participants must be following **[@ux_xyz](https://x.com/ux_xyz)** to win
+- Entries must tag **[@ux_xyz](https://x.com/ux_xyz)** and use **#MyUXLogo** and be shared before March 11 @ 15:00 UTC in order to be considered valid
 - Participants are welcome to submit as many entries as they’d like, as long as they are all original
 - The level of engagement (likes, comments, retweets) a submission has will be taken into consideration by judges, so be sure to share your post with friends
 - Winners will be selected by March 16th, 2022 at the UX team’s discretion

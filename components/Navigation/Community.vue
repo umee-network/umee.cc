@@ -42,12 +42,16 @@
             >Community Governance</UINavigationMainItem
           >
           <UINavigationMainItem
-            link="https://gov.umee.cc/"
+            link="https://https://commonwealth.im/ux/"
             description="Join the conversation to help determine UX's future"
             >Governance Forum</UINavigationMainItem
           >
           <UINavigationMainItem
+<<<<<<< HEAD
+            link="app.umee.cc/#/governance"
+=======
             link="https://app.ux.xyz/#/governance"
+>>>>>>> 947ac3a33727875811628cc2d784ebc0bbc4ec3d
             description="Vote on live governance proposals here"
             >Voting Dashboard</UINavigationMainItem
           >
