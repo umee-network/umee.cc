@@ -174,9 +174,7 @@ export default {
     '@nuxtjs/color-mode',
     '@nuxtjs/moment',
     'nuxt-graphql-request',
-    '@nuxtjs/robots',
   ],
-
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/content
@@ -187,7 +185,17 @@ export default {
     'vue-social-sharing/nuxt',
     '@nuxtjs/axios',
     '@nuxtjs/dotenv',
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots',
   ],
+  robots: {
+    UserAgent: '*',
+    Allow: '/',
+    Disallow: undefined,
+  },
+  sitemap: {
+    hostname: 'https://ux.xyz',
+  },
   gtm: {
     enabled: true /* see below */,
     debug: false,
