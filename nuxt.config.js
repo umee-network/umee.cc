@@ -192,9 +192,24 @@ export default {
     UserAgent: '*',
     Allow: '/',
     Disallow: undefined,
+    Sitemap: 'https://www.ux.xyz/sitemap.xml',
   },
   sitemap: {
     hostname: 'https://ux.xyz',
+    filter({ routes }) {
+      return routes.map((route) => {
+        // object containing [routeName]: [priority] pairs
+        const priorities = {
+          index: 1,
+        }
+        // assign priority by route name or default (0.8)
+        return {
+          ...route,
+          priority: priorities[route.name] || 0.8,
+          changefreq: 'weekly',
+        }
+      })
+    },
   },
   gtm: {
     enabled: true /* see below */,
