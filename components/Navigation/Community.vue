@@ -42,12 +42,12 @@
             >Community Governance</UINavigationMainItem
           >
           <UINavigationMainItem
-            link="https://https://commonwealth.im/ux/"
+            link="https://commonwealth.im/ux/"
             description="Join the conversation to help determine UX's future"
             >Governance Forum</UINavigationMainItem
           >
           <UINavigationMainItem
-            link="https://app.ux.xyz/governance"
+            link="https://wallet.keplr.app/#/umee/governance"
             description="Vote on live governance proposals here"
             >Voting Dashboard</UINavigationMainItem
           >

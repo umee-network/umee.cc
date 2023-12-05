@@ -162,7 +162,7 @@
                 <UIFooterLink to="https://learning.ux.xyz/governance/"
                   >Community Governance</UIFooterLink
                 >
-                <UIFooterLink to="https://https://commonwealth.im/ux/"
+                <UIFooterLink to="https://commonwealth.im/ux/"
                   >Governance Forum</UIFooterLink
                 >
                 <UIFooterLink to="https://wallet.keplr.app/#/umee/governance"
