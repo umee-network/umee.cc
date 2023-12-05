@@ -47,7 +47,7 @@
             >Governance Forum</UINavigationMainItem
           >
           <UINavigationMainItem
-            link="https://app.ux.xyz/#/governance"
+            link="https://app.ux.xyz/governance"
             description="Vote on live governance proposals here"
             >Voting Dashboard</UINavigationMainItem
           >
