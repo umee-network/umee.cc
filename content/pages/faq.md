@@ -86,6 +86,6 @@ The UX token will exist in both ERC20 and Cosmos SDK format. Find more details [
 <details>
 <summary>I have another question that’s not answered here.</summary>
 
-Take a look at the [official documentation](https://learning.ux.xyz/) - if you can’t find the answer to your question here, share it with us in the [#support-chat on Discord](https://discord.com/invite/uxchain) or in the UX [Telegram](https://t.me/umeecrosschain).
+Take a look at the [official documentation](https://learning.ux.xyz/) - if you can’t find the answer to your question here, share it with us in the [#support-chat on Discord](https://discord.com/invite/uxchain) or in the UX [Telegram](https://t.me/uxuxchain).
 
 </details>
