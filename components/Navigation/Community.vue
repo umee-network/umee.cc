@@ -42,7 +42,7 @@
             >Community Governance</UINavigationMainItem
           >
           <UINavigationMainItem
-            link="https://commonwealth.im/ux/"
+            link="https://https://gov.ux.xyz/"
             description="Join the conversation to help determine UX's future"
             >Governance Forum</UINavigationMainItem
           >
