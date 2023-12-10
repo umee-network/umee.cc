@@ -6,13 +6,13 @@
 
         <div class="grid lg:grid-cols-2 gap-x-12">
           <ul>
-            <UINavigationMainItem link="https://x.com/Umee_CrossChain"
+            <UINavigationMainItem link="https://x.com/ux_xyz"
               >X</UINavigationMainItem
             >
             <UINavigationMainItem link="https://discord.com/invite/uxchain"
               >Discord</UINavigationMainItem
             >
-            <UINavigationMainItem link="https://t.me/umeecrosschain"
+            <UINavigationMainItem link="https://t.me/uxuxchain"
               >Telegram</UINavigationMainItem
             >
           </ul>
