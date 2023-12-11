@@ -4,9 +4,7 @@
     <Security />
     <HomeAbout :page="page" />
     <HomeBlog :posts="postsResults" />
-    <HomeExperience :page="page" />
     <SVGSwoosh />
-    <HomeBackers :page="page" />
     <SVGAdoraWink />
   </div>
 </template>
