@@ -146,9 +146,7 @@
                 <UIFooterLink to="https://t.me/uxuxchain"
                   >Telegram</UIFooterLink
                 >
-                <UIFooterLink to="https://medium.com/umeeblog"
-                  >Medium</UIFooterLink
-                >
+            
                 <UIFooterLink
                   to="https://www.youtube.com/channel/UCNNeflvj43QylhjvssqdIHQ"
                   >YouTube</UIFooterLink
