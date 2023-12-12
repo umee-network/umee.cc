@@ -16,10 +16,7 @@
               >Telegram</UINavigationMainItem
             >
           </ul>
-          <ul class="text-xl">
-            <UINavigationMainItem link="https://medium.com/umeeblog"
-              >Medium</UINavigationMainItem
-            >
+      
             <UINavigationMainItem
               link="https://www.youtube.com/channel/UCNNeflvj43QylhjvssqdIHQ/videos"
               >YouTube</UINavigationMainItem
