@@ -8,7 +8,7 @@ export default {
   target: 'static',
   ssr: true,
   head: {
-    title: 'UX - Building The Decentralized Lending Markets',
+    title: 'UX Chain - Building The Decentralized Lending Markets',
     htmlAttrs: {
       lang: 'en',
     },
@@ -30,13 +30,13 @@ export default {
       {
         hid: 'og:title',
         name: 'og:title',
-        content: 'UX - Building The Decentralized Lending Markets',
+        content: 'UX Chain - Building The Decentralized Lending Markets',
       },
       {
         hid: 'og:description',
         name: 'og:description',
         content:
-          'UX is a cross chain borrowing and lending Cosmos DeFi hub built on the Cosmos SDK that interconnects between blockchains, Supports Bridge Technology, Interoperable Base Layer Blockchain And Facilitate Defi Lending & Borrowing. UX is powered by the UX native token.',
+          'UX Chain is a cross chain borrowing and lending Cosmos DeFi hub built on the Cosmos SDK that interconnects between blockchains, Supports Bridge Technology, Interoperable Base Layer Blockchain And Facilitate Defi Lending & Borrowing. UX Chain is powered by the UX native token.',
       },
       {
         hid: 'twitter:card',
@@ -62,7 +62,7 @@ export default {
         hid: 'twitter:description',
         name: 'twitter:description',
         content:
-          'UX is a cross chain borrowing and lending DeFi hub built on the Cosmos SDK that interconnects between blockchains, Supports Bridge Technology, Interoperable Base Layer Blockchain And Facilitate Defi Lending & Borrowing. UX is powered by the UX native token.',
+          'UX Chain is a cross chain borrowing and lending DeFi hub built on the Cosmos SDK that interconnects between blockchains, Supports Bridge Technology, Interoperable Base Layer Blockchain And Facilitate Defi Lending & Borrowing. UX Chain is powered by the UX native token.',
       },
       {
         hid: 'og:image',
@@ -73,7 +73,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'UX is a cross chain borrowing and lending Cosmos DeFi hub built on the Cosmos SDK that interconnects between blockchains, Supports Bridge Technology, Interoperable Base Layer Blockchain And Facilitate Defi Lending & Borrowing. UX is powered by the UX native token.',
+          'UX Chain is a cross chain borrowing and lending Cosmos DeFi hub built on the Cosmos SDK that interconnects between blockchains, Supports Bridge Technology, Interoperable Base Layer Blockchain And Facilitate Defi Lending & Borrowing. UX Chain is powered by the UX native token.',
       },
 
       { name: 'format-detection', content: 'telephone=no' },
