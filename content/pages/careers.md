@@ -1,6 +1,6 @@
 ---
 head:
-  title: 'UX: Careers'
+  title: 'UX Chain: Careers'
   description: 'Join our team and make a difference! We are a dynamic and fast-growing company with a range of exciting career opportunities. Explore our open positions and apply today to take part in building decentralized lending markets for Web3.'
 ---
 

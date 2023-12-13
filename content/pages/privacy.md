@@ -3,7 +3,7 @@ title: 'PRIVACY POLICY'
 date:
 header_image:
 head:
-  title: 'UX: Privacy'
+  title: 'UX Chain: Privacy'
   description: 'This Privacy Policy describes our collection, use, disclosure, and retention of information that UX may collect from or about you.'
 ---
 

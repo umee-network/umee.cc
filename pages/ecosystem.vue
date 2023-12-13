@@ -76,7 +76,7 @@ export default {
     return await $content('pages/ecosystem').fetch()
   },
   head() {
-    const title = 'UX: Ecosystem'
+    const title = 'UX Chain: Ecosystem'
     const description =
       'Discover a wide variety of apps, blockchains, wallets and explorers, built in the UX ecosystem by developers and contributors from across the globe.'
     return {

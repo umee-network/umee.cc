@@ -3,7 +3,7 @@ title: 'LEGAL DISCLAIMER'
 date:
 header_image:
 head:
-  title: 'UX: Disclaimer'
+  title: 'UX Chain: Disclaimer'
   description: 'Any content provided by UX has been created solely for educational and informational purposes, and should not be construed as investment advice.'
 ---
 

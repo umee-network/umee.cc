@@ -132,7 +132,7 @@ export default {
     this.observer.disconnect()
   },
   head() {
-    const title = 'UX: Brand Guidelines'
+    const title = 'UX Chain: Brand Guidelines'
     const description =
       "Stay true to our brand guidelines. Our brand is more than just a logo or a color scheme - it's a promise to our community and a reflection of our values. We've created this handy guide for anyone to find our brand assets and feel confident using them. Go explore!"
     return {
