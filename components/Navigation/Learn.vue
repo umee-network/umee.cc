@@ -52,7 +52,7 @@
               >Lending with UX</UINavigationMainItem
             >
             <UINavigationMainItem
-              link="https://learning.ux.xyz/users/staking-umee/"
+              link="https://learning.ux.xyz/users/staking-ux/"
               description="Secure the blockchain and earn staking yield"
               >Staking UX</UINavigationMainItem
             >
