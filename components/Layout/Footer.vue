@@ -2,18 +2,7 @@
   <!-- zIndex and backfaceVisibility style addresses safari bug where flipping logos temporarily appear on top of the announcements panel-->
   <div :style="{ zIndex: '1', backfaceVisibility: 'hidden' }">
     <div class="bg-lightNavy py-12 text-midGreyOnNavy text-center relative">
-      <div class="container">
-        <UITitle
-          level="4"
-          text="Receive the latest from UX, direct to your inbox"
-          class="text-white mb-2"
-          fontSizeClass="text-[2rem]"
-        ></UITitle>
-        <p class="text-lg mb-6">
-          One monthly digest, and nothing else - promise!
-        </p>
-        <FormSubscribe />
-      </div>
+      <div class="container"></div>
     </div>
     <div
       :style="{ zIndex: '1', backfaceVisibility: 'hidden' }"
@@ -137,16 +126,14 @@
               <UIBlockTitle class="mb-6 md:mb-8">Community</UIBlockTitle>
               <UIFooterTitle>Socials</UIFooterTitle>
               <ul class="mb-6 md:mb-8">
-                <UIFooterLink to="https://x.com/ux_xyz"
-                  >X</UIFooterLink
-                >
+                <UIFooterLink to="https://x.com/ux_xyz">X</UIFooterLink>
                 <UIFooterLink to="https://discord.com/invite/uxchain"
                   >Discord</UIFooterLink
                 >
                 <UIFooterLink to="https://t.me/uxuxchain"
                   >Telegram</UIFooterLink
                 >
-            
+
                 <UIFooterLink
                   to="https://www.youtube.com/channel/UCNNeflvj43QylhjvssqdIHQ"
                   >YouTube</UIFooterLink
