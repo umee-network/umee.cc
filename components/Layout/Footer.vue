@@ -117,8 +117,8 @@
               </ul>
               <UIFooterTitle>Testnets</UIFooterTitle>
               <ul>
-                <UIFooterLink to="https://canon.umee.cc/"
-                  >Canon Testnet Website</UIFooterLink
+                <UIFooterLink to="https://explorer.network.umee.cc/"
+                  >Canon-4 Testnet Website</UIFooterLink
                 >
               </ul>
             </div>
