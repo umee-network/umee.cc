@@ -116,7 +116,6 @@ As a Blockchain Engineer, you will be instrumental in shaping the architecture a
 **How to Apply:**
 
 To apply, please email hr@umee.cc and include a resume with a link to your github account.
-
 </details>
 
 <details>
